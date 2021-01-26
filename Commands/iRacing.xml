@@ -1,0 +1,355 @@
+﻿<commands version="1">
+	<command>
+		<name>Is iRacing VR only</name>
+		<maxWords>15</maxWords>
+		<requiredwords>
+			<group>
+				<word wholeword="true">bot</word>
+				<word>botimuz</word>
+				<word wholeword="true">is</word>
+				<word>does</word>
+			</group>
+			<group>
+				<word wholeword="true">vr</word>
+			</group>
+			<group>
+				<word>only</word>
+				<word>require</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response>iRacing is not VR-only. You can play/race with monitors and either mouse + keyboard, gamepad or wheel (but you should probably use a wheel).</response>
+		</responses>
+	</command>
+<!-- 	<command>
+		<name>referral link</name>
+		<maxWords>15</maxWords>
+		<requiredwords>
+			<group>
+				<word wholeword="true">bot</word>
+				<word>botimuz</word>
+				<word>is there</word>
+			</group>
+			<group>
+				<word>refer</word>
+				<word>link</word>
+				<word>code</word>
+				<word>offer</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response>Want to give iRacing a try? Join with Josh's referral code: https://members.iracing.com/membersite/SubscriptionChoices.do?refid=278582 (also find an active discount code on the iRacing subreddit)</response>
+		</responses>
+	</command> -->
+	<command>
+		<name>AI or person</name>
+		<maxWords>15</maxWords>
+		<requiredwords>
+			<group>
+				<word wholeword="true">bot</word>
+				<word>botimuz</word>
+				<word>is this</word>
+				<word>is that</word>
+			</group>
+			<group>
+				<word>speaking</word>
+				<word>talking</word>
+			</group>
+			<group>
+				<word>who</word>
+				<word>what</word>
+				<word wholeword="true">ai</word>
+				<word>voice</word>
+				<word>person</word>
+				<word wholeword="true">npc</word>
+				<word>spotter</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response>The voice you're hearing alongside Josh is an AI from Crew Chief, a spotter app that simulates a race engineer. He gives info about lap times, gaps and cars.</response>
+		</responses>
+	</command>
+	<command>
+		<name>Wheel and VR</name>
+		<maxWords>15</maxWords>
+		<requiredwords>
+			<group>
+				<word>what</word>
+				<word>which</word>
+				<word wholeword="true">why</word>
+				<word wholeword="true">bot</word>
+				<word>botimuz</word>
+				<word>using</word>
+				<word>is this</word>
+				<word>play</word>
+				<word>driv</word>
+				<word>does he</word>
+				<word>does josh</word>
+			</group>
+			<group>
+				<word wholeword="true">wheel</word>
+				<word wholeword="true">vr</word>
+				<word>headset</word>
+				<word>of gear</word>
+				<word>setup</word>
+			</group>
+		</requiredwords>
+		<unwantedwords>
+			<group>
+				<word>i have</word>
+			</group>
+		</unwantedwords>
+		<responses>
+			<response>Josh is wearing a HTC Vive and driving with a Logitech G29 (pedals n' all), while being sat in a X Rocker XR Racing Circuit Chair.</response>
+		</responses>
+	</command>
+	<command>
+		<name>Wheel and VR</name>
+		<maxWords>15</maxWords>
+		<requiredwords>
+			<group>
+				<word>what</word>
+				<word>which</word>
+				<word wholeword="true">why</word>
+				<word wholeword="true">bot</word>
+				<word>botimuz</word>
+			</group>
+			<group>
+				<word wholeword="true">flag</word>
+			</group>
+		</requiredwords>
+		<unwantedwords>
+			<group>
+				<word>i have</word>
+			</group>
+		</unwantedwords>
+		<responses>
+			<response>Meaning of flags that apply to iRacing: iracing.fandom.com/wiki/IRacing_Flags</response>
+		</responses>
+	</command>
+	<command>
+		<name>VR chat</name>
+		<maxWords>15</maxWords>
+		<requiredwords>
+			<group>
+				<word wholeword="true">bot</word>
+				<word>botimuz</word>
+				<word>how</word>
+				<word>can</word>
+				<word wholeword="true">is</word>
+			</group>
+			<group>
+				<word>josh</word>
+				<word wholeword="true">he</word>
+				<word wholeword="true">they</word>
+				<word wholeword="true">you</word>
+			</group>
+			<group>
+				<word>see</word>
+				<word>read</word>
+				<word>reading</word>
+			</group>
+			<group>
+				<word>chat</word>
+				<word>twitch</word>
+				<word>messages</word>
+				<word wholeword="true">vr</word>
+				<word>headset</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response>Josh has a floating chat window high in the sky which doesn't show up on stream.</response>
+		</responses>
+	</command>
+<!-- 	<command>
+		<name>y no cam</name>
+		<maxWords>15</maxWords>
+		<requiredwords>
+			<group>
+				<word>what</word>
+				<word>why</word>
+				<word>when</word>
+				<word wholeword="true">bot</word>
+				<word>botimuz</word>
+				<word wholeword="true">y</word>
+			</group>
+			<group>
+				<word wholeword="true">no</word>
+				<word wholeword="true">not</word>
+			</group>
+			<group>
+				<word wholeword="true">cam</word>
+				<word>facecam</word>
+				<word>camera</word>
+			</group>
+		</requiredwords>
+		<unwantedwords>
+			<group>
+				<word>move</word>
+			</group>
+		</unwantedwords>
+		<responses>
+			<response>Josh isn't using a facecam because he's sat no where near his monitors which have the camera attached to them (because he's playing in VR and doesn't need screens in front of him)</response>
+		</responses>
+	</command> -->
+<!-- 	<command>
+		<cooldown>0</cooldown>
+		<name>When Josh Drive?</name>
+		<maxWords>15</maxWords>
+		<requiredwords>
+			<group>
+				<word>what</word>
+				<word>which</word>
+				<word>why</word>
+				<word>when</word>
+				<word>how long</word>
+				<word wholeword="true">bot</word>
+				<word>botimuz</word>
+				<word>is</word>
+			</group>
+			<group>
+				<word>josh</word>
+				<word wholeword="true">schedule</word>
+				<word wholeword="true">switch</word>
+				<word wholeword="true">change</word>
+				<word wholeword="true">you</word>
+			</group>
+			<group>
+				<word>driv</word>
+				<word wholeword="true">turn</word>
+				<word wholeword="true">stint</word>
+				<word wholeword="true">schedule</word>
+				<word>rac</word>
+			</group>
+		</requiredwords>
+		<unwantedwords>
+			<group>
+				<word>move</word>
+			</group>
+		</unwantedwords>
+		<responses>
+			<response>Josh's stints are: EDIT: Due to iRacing delaying the start of the race Josh is now driving 8:00-10:00 and 14:00-16:00 GMT Sunday https://i.imgur.com/ASOScjF.png</response>
+		</responses>
+	</command> -->
+<!--	<command>
+		<cooldown>0</cooldown>
+		<name>Charity</name>
+		<maxWords>1</maxWords>
+		<requiredwords>
+			<group>
+				<word>!charity</word>
+				<word>!donate</word>
+				<word>!mind</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response>Remember that this race is a Charity race raising money for Mind! https://www.justgiving.com/fundraising/race-for-mental-health-2 Donate and you could win some awesome prizes like fancy Pedals and Wheels and stuff!</response>
+		</responses>
+	</command>
+	<command>
+		<cooldown>0</cooldown>
+		<name>Charity2</name>
+		<requiredwords>
+			<group>
+				<word>what</word>
+				<word>why</word>
+				<word>when</word>
+				<word wholeword="true">bot</word>
+				<word>botimuz</word>
+			</group>
+			<group>
+				<word>charity</word>
+				<word>donate</word>
+				<word>mind</word>
+				<word>link</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response>Remember that this race is a Charity race raising money for Mind! https://www.justgiving.com/fundraising/race-for-mental-health-2 Donate and you could win some awesome prizes like fancy Pedals and Wheels and stuff!</response>
+		</responses>
+	</command>
+	<command>
+		<name>CharityTimed</name>
+		<responses>
+			<response>Remember that this race is a Charity race raising money for Mind! https://www.justgiving.com/fundraising/race-for-mental-health-2 Donate and you could win some awesome prizes like fancy Pedals and Wheels and stuff! Also there is an official broadcast: https://multi.raredrop.co/tJoshimuz/tBroughy1322/y-eRyXBiTD-Y#</response>
+		</responses>
+		<dataTrigger type="timer">600-2000</dataTrigger>
+	</command>
+	<command>
+		<cooldown>0</cooldown>
+		<name>Who Team</name>
+		<requiredwords>
+			<group>
+				<word>what</word>
+				<word>why</word>
+				<word>when</word>
+				<word wholeword="true">bot</word>
+				<word>botimuz</word>
+			</group>
+			<group>
+				<word>team</word>
+				<word>driving</word>
+			</group>
+		</requiredwords>	
+		<responses>
+			<response>Josh is driving for PROLaps Motorsports, who aside from himself includes: Broughy, PhilipWithAnF (Filip), Razor1 (Kevin), Vandango (Karl) and ZagoWills (Zack). https://i.imgur.com/7dX1mbr.png</response>
+		</responses>
+	</command> -->
+<!-- 	<command>
+		<cooldown>0</cooldown>
+		<name>What car</name>
+		<requiredwords>
+			<group>
+				<word>what</word>
+				<word wholeword="true">bot</word>
+				<word>botimuz</word>
+				<word>which</word>
+			</group>
+			<group>
+				<word>car</word>
+				<word>class</word>
+			</group>
+		</requiredwords>	
+		<responses>
+			<response>PROLaps is driving the Lamborghini Huracán GT3 EVO, in the GT3 class (red in the UI, which is the slowest class). There is also GTE (blue, 2nd fastest) and LMP2 (Yellow, fastest) in the race as well.</response>
+		</responses>
+	</command>
+	<command>
+		<name>Who driving</name>
+		<requiredwords>
+			<group>
+				<word>what</word>
+				<word wholeword="true">bot</word>
+				<word>botimuz</word>
+				<word>which</word>
+				<word>who</word>
+			</group>
+			<group>
+				<word>driv</word>
+			</group>
+		</requiredwords>	
+		<responses>
+			<response>Joshua "Joshimuz" Edwards, Karl "Vandango" Townsend, Filip "PhillipWithAnF" Uroic-Toncina, Jon-Luc "Johners" Holmes, Christopher "MLSTRM" Wall, Kevin "Razor1" Manning https://i.imgur.com/ASOScjF.png</response>
+		</responses>
+	</command> -->
+<!--	<command>
+		<cooldown>0</cooldown>
+		<name>Why hear twice</name>
+		<requiredwords>
+			<group>
+				<word>what</word>
+				<word>why</word>
+				<word wholeword="true">bot</word>
+				<word>botimuz</word>
+			</group>
+			<group>
+				<word>hear twice</word>
+				<word>hearable twice</word>
+				<word>echo</word>
+			</group>
+		</requiredwords>	
+		<responses>
+			<response>If someone in the PROLaps discord talks AND uses the Voice Chat in game you will hear it twice. Nothing I can do (don't suggest things).</response>
+		</responses>
+	</command> -->
+</commands>

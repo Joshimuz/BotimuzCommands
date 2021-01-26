@@ -1,0 +1,27 @@
+﻿<commands version="1">
+<!-- 	<command>
+		<name>TEST</name>
+		<responses usename="false">
+			<response data0="textFile" filePath0="P:\home\pi\Botimuz\test.txt">[0]</response>
+		</responses>
+		<dataTrigger type="timer">500</dataTrigger>
+	</command> -->
+	<command>
+		<name>TEST</name>
+		<requiredwords>
+			<group>
+				<word>bot test</word>
+			</group>
+		</requiredwords>
+		<responses usename="false">
+			<response data0="weather" string0="Portsmouth, gb">[0]</response>
+		</responses>
+	</command>
+<!-- 	<command>
+		<name>on load test</name>
+		<responses forward="false" usename="false">
+			<response>TESTING ON LOAD HI</response>
+		</responses>
+		<dataTrigger type="onLoad"></dataTrigger>
+	</command> -->
+</commands>

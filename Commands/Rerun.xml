@@ -1,0 +1,58 @@
+﻿<commands version="1">
+	<command>
+		<name>Not live2</name>
+		<maxWords>15</maxWords>
+		<requiredwords>
+			<group>
+				<word>is this</word>
+				<word>bot</word>
+				<word>why</word>
+				<word>?</word>
+			</group>
+			<group>
+				<word>live</word>
+				<word>rerun</word>
+				<word>replay</word>
+				<word>recorded</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response>This isn't live, this is a rerun of a previously recorded stream/video.</response>
+		</responses>
+		<cooldown>10</cooldown>
+		<nonmodonly>true</nonmodonly>
+	</command>
+
+	<command>
+		<name>at Josh</name>
+		<requiredwords>
+			<group>
+				<word>hey</word>
+				<word>hello</word>
+				<word wholeword="true">hi</word>
+			</group>
+			<group>
+				<word>joshimuz</word>
+				<word wholeword="true">josh</word>
+				<word wholeword="true">joshi</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response>Hey, Josh probably isn't here since this is a rerun!</response>
+		</responses>
+		<cooldown>10</cooldown>
+		<nonmodonly>true</nonmodonly>
+	</command>
+
+	<command>
+		<name>Not Live Spam</name>
+		<responses usename="false">
+			<response>Reminder: THIS IS A RERUN</response>
+			<response>Reminder: THIS IS A RERUN</response>
+			<response>Reminder: THIS IS A RERUN</response>
+			<response>Reminder: THIS IS A RERUN</response>
+			<response>Reminder: THIS IS A RERUN and yes this has to be posted every 10 minutes because people can't read Twitch titles or see the "RERUN" icon on the stream.</response>
+		</responses>
+		<dataTrigger type="timer">600</dataTrigger>
+	</command>
+</commands>

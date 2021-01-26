@@ -1,0 +1,19 @@
+﻿<commands version="1">
+	<command>
+		<name>Who ahead</name>
+		<requiredwords>
+			<group>
+				<word>who</word>
+			</group>
+			<group>
+				<word>winning</word>
+				<word>ahead</word>
+				<word>leading</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response>We (probably) don't know who's winning, it's impossible to tell due to runners doing different things in different orders until we're close to the end.</response>
+		</responses>
+		<cooldown>10</cooldown>
+	</command>
+</commands>

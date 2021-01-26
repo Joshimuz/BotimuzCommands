@@ -1,0 +1,245 @@
+﻿<commands version="1">
+	<command>
+		<name>Why no Radio</name>
+		<requiredwords>
+			<group>
+				<word>why</word>
+				<word>where</word>
+				<word>?</word>
+				<word>botimuz</word>
+				<word wholeword="true">bot</word>
+			</group>
+			<group>
+				<word>no</word>
+				<word>don't</word>
+				<word>dont</word>
+				<word>disable</word>
+				<word>where</word>
+			</group>
+			<group>
+				<word>radio</word>
+				<word>music</word>
+				<word>tunes</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response>Josh wants to avoid all copyright issues for all time, here and Youtube, so the radio is turned off.</response>
+		</responses>
+	</command>
+	<command>
+		<name>Console</name>
+		<maxWords>15</maxWords>
+		<requiredwords>
+			<group>
+				<word>what</word>
+				<word>which</word>
+				<word>this</word>
+				<word>is that</word>
+				<word>or the</word>
+				<word>why</word>
+				<word>botimuz</word>
+				<word wholeword="true">bot</word>
+				<word>using</word>
+				<word>playing</word>
+				<word wholeword="true">use</word>
+				<word>only on</word>
+				<word>you on</word>
+				<word>capture</word>
+				<word>psp or emu</word>
+				<word>play on</word>
+				<word>played on</word>
+				<word>or original</word>
+			</group>
+			<group>
+				<word>console</word>
+				<word>version</word>
+				<word>system</word>
+				<word>emulator</word>
+				<word>emulated</word>
+				<word>device</word>
+				<word wholeword="true">mobile</word>
+				<word wholeword="true">psp</word>
+				<word wholeword="true">ps2</word>
+				<word wholeword="true">ps3</word>
+				<word wholeword="true">ps4</word>
+				<word wholeword="true">ps5</word>
+				<word wholeword="true">pstv</word>
+				<word wholeword="true">ppsspp</word>
+				<word wholeword="true">pc</word>
+				<word>real hardware</word>
+				<word>playing this on</word>
+				<word>playing it on</word>
+			</group>
+		</requiredwords>
+		<unwantedwords>
+			<group>
+				<word>faq.joshimuz</word>
+				<word>im</word>
+				<word>i'm</word>
+			</group>
+		</unwantedwords>
+		<responses>
+			<response>Josh is playing the PSP version of the game, on a PSTV (a PS Vita that plugs into a TV) with a DS4 controller. The PS2 version is slower so speedruns don't use it, and emulators are bad. There is no PC version. More info: https://faq.joshimuz.com/#what-are-you-playing-this-on</response>
+		</responses>
+	</command>
+		<command>
+		<name>Console2</name>
+		<requiredwords>
+			<group>
+				<word>console?</word>
+				<word>version?</word>
+				<word>system?</word>
+				<word>emulator?</word>
+				<word>emulated?</word>
+				<word>device?</word>
+				<word>mobile?</word>
+				<word>psp?</word>
+				<word>ps2?</word>
+				<word>ps3?</word>
+				<word>ps4?</word>
+				<word>ps5?</word>
+				<word>pstv?</word>
+				<word>ppsspp?</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response>Josh is playing the PSP version of the game, on a PSTV (a PS Vita that plugs into a TV) with a DS4 controller. The PS2 version is slower so speedruns don't use it, and emulators are bad. There is no PC version. More info: https://faq.joshimuz.com/#what-are-you-playing-this-on</response>
+		</responses>
+		<maxWords>1</maxWords>
+	</command>
+	<command>
+		<name>Resolution</name>
+		<requiredwords>
+			<group>
+				<word>what</word>
+				<word>why</word>
+				<word>botimuz</word>
+				<word wholeword="true">bot</word>
+			</group>
+			<group>
+				<word>resolution</word>
+				<word>graphics</word>
+				<word>pixels</word>
+				<word>blurr</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response>Josh spent a lot of time (and a bit of money) trying to make this PSP game look as good as possible. Keep in mind that the resolution of a PSP is 480x272, and that's what you're looking at.</response>
+		</responses>
+	</command>
+	<command>
+		<name>Controller display</name>
+		<requiredwords>
+			<group>
+				<word>what</word>
+				<word>how</word>
+				<word>botimuz</word>
+				<word wholeword="true">bot</word>
+			</group>
+			<group>
+				<word>controller</word>
+				<word>graphics</word>
+				<word>pixels</word>
+			</group>
+			<group>
+				<word>display</word>
+				<word>input</word>
+				<word>visual</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response>By connecting the DS4 controller to the PSTV, and then plugging it into his PC, the controller will output to both the console and the PC at the same time!</response>
+		</responses>
+	</command>
+	<command>
+		<name>PC Mod</name>
+		<requiredwords>
+			<group>
+				<word>what</word>
+				<word>why</word>
+				<word>botimuz</word>
+				<word wholeword="true">bot</word>
+			</group>
+			<group>
+				<word>pc</word>
+			</group>
+			<group>
+				<word>version</word>
+				<word>mod</word>
+				<word>available</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response>There is no PC version of VCS. There is an unfinished mod that has ~5 missions and half the map from 2013. Josh has tried it though and it's quite promising, but very unfinished.</response>
+		</responses>
+	</command>
+	<command>
+		<name>SPHERES</name>
+		<requiredwords>
+			<group>
+				<word>botimuz</word>
+				<word wholeword="true">bot</word>
+			</group>
+			<group>
+				<word>sphere</word>
+				<word>circle</word>
+				<word>police bike</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response>https://twitter.com/Joshimuz/status/1083462908728750080</response>
+		</responses>
+	</command>
+	<command>
+		<name>LCS</name>
+		<requiredwords>
+			<group>
+				<word>botimuz</word>
+				<word wholeword="true">bot</word>
+				<word>josh</word>
+				<word>you</word>
+				<word>when</word>
+			</group>
+			<group>
+				<word>play</word>
+				<word>run</word>
+				<word>when</word>
+			</group>
+			<group>
+				<word wholeword="true">lcs</word>
+				<word>liberty city st</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response>Josh never played LCS on PSP when it released, he only ever played it when it came on out Mobile, and thought it was "alright". He's never done runs, and doesn't plan to because he can run this instead.</response>
+		</responses>
+	</command>
+	<command>
+		<name>NEW GLITCH</name>
+		<requiredwords>
+			<group>
+				<word>botimuz</word>
+				<word wholeword="true">bot</word>
+				<word>what</word>
+				<word>explain</word>
+				<word>faq</word>
+				<word>how</word>
+				<word>why</word>
+			</group>
+			<group>
+				<word>glitch</word>
+				<word>skip</word>
+				<word>trick</word>
+				<word>timesave</word>
+				<word>time save</word>
+				<word>strat</word>
+				<word>route</word>
+				<word>pacb</word>
+				<word>punching</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response>EVERYTHING ABOUT THE NEW SKIP HERE: https://gist.github.com/Joshimuz/86122078b21416f4195a85013e7b38e2</response>
+		</responses>
+	</command>
+</commands>

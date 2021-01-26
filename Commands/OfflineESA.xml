@@ -1,0 +1,17 @@
+<commands>
+	<command>
+		<name>Josh is offline</name>
+		<maxlength>10</maxlength>
+		<requiredwords>
+			<group>
+				<word> </word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response>Hey! Josh is offline as he's at ESA Winter 2020 https://esamarathon.com/schedule (He's running SA twice!). While he's gone he probably won't stream, in the meantime you can watch Emma do her first SA playthrough! https://www.twitch.tv/kitteamuz Josh will be back Tuesday 25th</response>
+		</responses>
+		<forwardresponse>false</forwardresponse>
+		<cooldown>1800</cooldown>
+		<nonmodonly>true</nonmodonly>
+	</command>
+</commands>

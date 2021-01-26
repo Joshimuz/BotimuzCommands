@@ -1,0 +1,525 @@
+﻿<commands version="1">
+	<command>
+		<name>Why no Radio</name>
+		<maxWords>10</maxWords>
+		<requiredwords>
+			<group>
+				<word>why</word>
+				<word>where</word>
+				<word>?</word>
+				<word>botimuz</word>
+				<word wholeword="true">bot</word>
+			</group>
+			<group>
+				<word>no</word>
+				<word>don't</word>
+				<word>dont</word>
+				<word>disable</word>
+				<word>where</word>
+			</group>
+			<group>
+				<word>radio</word>
+				<word>music</word>
+				<word>tune</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response>Josh wants to avoid all copyright issues for all time, here and Youtube, so he mutes the game when there is music. Also https://twitter.com/Joshimuz/status/1270988855508959232</response>
+		</responses>
+	</command>
+	<command>
+		<name>Date Katie</name>
+		<maxWords>15</maxWords>
+		<requiredwords>
+			<group>
+				<word>why</word>
+				<word>what</word>
+				<word>wtf</word>
+				<word>botimuz</word>
+				<word wholeword="true">bot</word>
+			</group>
+			<group>
+				<word>girlfriend</word>
+				<word wholeword="true">katie</word>
+				<word wholeword="true">kate</word>
+			</group>
+		</requiredwords>
+		<unwantedwords>
+			<group>
+				<word>emma</word>
+				<word>kitt</word>
+			</group>
+		</unwantedwords>
+		<responses>
+			<response>Katie is used to un-stick a duped cutscene, thereby skipping the mission "Jizzy". Without it the cutscene runs forever in the background and crashes the game</response>
+		</responses>
+	</command>
+	<command>
+		<name>Stadium Event</name>
+		<maxWords>15</maxWords>
+		<requiredwords>
+			<group>
+				<word>why</word>
+				<word>what</word>
+				<word>botimuz</word>
+				<word wholeword="true">bot</word>
+			</group>
+			<group>
+				<word>stadium</word>
+				<word>bloodbowl</word>
+				<word>blood bowl</word>
+			</group>
+		</requiredwords>
+		<unwantedwords>
+			<group>
+				<word>uses</word>
+			</group>
+		</unwantedwords>
+		<responses>
+			<response>If you get a phonecall when entering a Stadium marker (and others) you can get a "glitched" (om0) phonecall. Josh uses this to dupe missions</response>
+		</responses>
+	</command>
+	<command>
+		<name>Sultan</name>
+		<maxWords>15</maxWords>
+		<requiredwords>
+			<group>
+				<word>why</word>
+				<word>what</word>
+				<word>botimuz</word>
+				<word wholeword="true">bot</word>
+			</group>
+			<group>
+				<word>sultan</word>
+			</group>
+			<group>
+				<word>need</word>
+				<word>want</word>
+				<word>require</word>
+				<word wholeword="true">bot</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response>Josh doesn't "need" a Sultan, he needs a 4-door car for Don Peyote and a Sultan is the fastest one (he also has a replay of it to make the game load it)</response>
+		</responses>
+	</command>
+	<command>
+		<name>Zero</name>
+		<maxWords>15</maxWords>
+		<requiredwords>
+			<group>
+				<word>why</word>
+				<word>what</word>
+				<word>botimuz</word>
+				<word wholeword="true">bot</word>
+			</group>
+			<group>
+				<word>buy</word>
+				<word>get</word>
+				<word wholeword="true">do</word>
+			</group>
+			<group>
+				<word>zero</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response>Josh buys Zero to get an extra phonecall for dupes and such, he doesn't actually do Zero's missions</response>
+		</responses>
+	</command>
+	<command>
+		<name>Driving School</name>
+		<maxWords>15</maxWords>
+		<requiredwords>
+			<group>
+				<word>why</word>
+				<word>botimuz</word>
+				<word wholeword="true">bot</word>
+			</group>
+			<group>
+				<word>driv</word>
+				<word>gold</word>
+			</group>
+			<group>
+				<word>school</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response>Josh needs 2-3 Golds in driving school to get enough Driving Skill to unlock the Stadium in LS, for dupes and such later</response>
+		</responses>
+	</command>
+	<command>
+		<name>Camera Flick</name>
+		<maxWords>15</maxWords>
+		<requiredwords>
+			<group>
+				<word>why</word>
+				<word>what</word>
+				<word>wtf</word>
+				<word>botimuz</word>
+				<word>on purpose</word>
+				<word wholeword="true">bot</word>
+			</group>
+			<group>
+				<word>camera</word>
+				<word>look</word>
+				<word>view</word>
+			</group>
+			<group>
+				<word>flick</word>
+				<word>move</word>
+				<word>moving</word>
+				<word>down</word>
+				<word>pan</word>
+				<word>shake</word>
+				<word>shaking</word>
+				<word>up</word>
+				<word>flinch</word>
+			</group>
+		</requiredwords>
+		<unwantedwords>
+			<group>
+				<word>me</word>
+				<word>looked</word>
+				<word>look it</word>
+			</group>
+		</unwantedwords>
+		<responses>
+			<response>Josh flicks the camera to re-roll the traffic RNG. This normally just despawns traffic however it can also do the opposite so it's kinda risky; Josh looks up and down while looking at far away traffic to try to despawn them</response>
+		</responses>
+	</command>
+	<command>
+		<name>Heli LV</name>
+		<maxWords>15</maxWords>
+		<requiredwords>
+			<group>
+				<word>why</word>
+				<word>what</word>
+				<word>botimuz</word>
+				<word wholeword="true">bot</word>
+			</group>
+			<group>
+				<word>no</word>
+				<word>dont</word>
+				<word>don't</word>
+			</group>
+			<group>
+				<word>heli</word>
+				<word>chopper</word>
+				<word>maverick</word>
+			</group>
+		</requiredwords>
+		<unwantedwords>
+			<group>
+				<word>toreno</word>
+			</group>
+		</unwantedwords>
+		<responses>
+			<response>You don't use the Helicopter during LV because it's actually slower (getting it, taking off/landing all the time). Instead Josh uses a Sultan for Don Peyote</response>
+		</responses>
+	</command>
+	<command>
+		<name>No Wanted</name>
+		<maxWords>15</maxWords>
+		<requiredwords>
+			<group>
+				<word>why</word>
+				<word>wtf</word>
+				<word>botimuz</word>
+				<word wholeword="true">bot</word>
+			</group>
+			<group>
+				<word>no</word>
+				<word>flash</word>
+			</group>
+			<group>
+				<word>wanted</word>
+				<word>stars</word>
+			</group>
+		</requiredwords>
+		<unwantedwords>
+			<group>
+				<word>0*</word>
+				<word>glitch</word>
+			</group>
+		</unwantedwords>
+		<responses>
+			<response>Josh doesn't get wanted level during LV because he has done a glitch to clear his wanted level every frame. They do sometimes flash and cops can spawn though</response>
+		</responses>
+	</command>
+	<command>
+		<name>Replays</name>
+		<maxWords>15</maxWords>
+		<requiredwords>
+			<group>
+				<word>why</word>
+				<word>what</word>
+				<word wholeword="true">bot</word>
+				<word>botimuz</word>
+			</group>
+			<group>
+				<word>replay</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response>Josh uses the replays for two reasons, for making fade out shorter (only saves time with short replays) and for loading the vehicles in the replay (PCJ in Los Santos, Sultan/ZR/Elegy after Badlands)</response>
+		</responses>
+	</command>
+	<command>
+		<name>Shoot Emmet</name>
+		<maxWords>15</maxWords>
+		<requiredwords>
+			<group>
+				<word>why</word>
+				<word>what</word>
+				<word wholeword="true">bot</word>
+				<word>botimuz</word>
+			</group>
+			<group>
+				<word>shoot</word>
+			</group>
+			<group>
+				<word>emmet</word>
+				<word>emet</word>
+				<word>smoke</word>
+				<word wholeword="true">nines</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response>Josh shoots Emmet and Smoke during Nines and AKs because it increases handgun skill and there is nothing better to do while waiting</response>
+		</responses>
+	</command>
+	<command>
+		<name>No Major Glitches</name>
+		<requiredwords>
+			<group>
+				<word>where</word>
+				<word>what</word>
+				<word wholeword="true">bot</word>
+				<word>mean</word>
+				<word>botimuz</word>
+				<word wholeword="true">stands</word>
+			</group>
+			<group>
+				<word wholeword="true">nmg</word>
+				<word>major glitch</word>
+			</group>
+		</requiredwords>
+		<unwantedwords>
+			<group>
+				<word>like</word>
+				<word>prefer</word>
+				<word>wr</word>
+				<word>world</word>
+				<word>record</word>
+			</group>
+		</unwantedwords>
+		<responses>
+			<response>NMG (No Major Glitches) is a version of Any% that forbids OnMission flag manipulation (Duping, 0 Star) and any other "big" glitches that get found in the future</response>
+		</responses>
+	</command>
+	<command>
+		<name>Version</name>
+		<maxWords>15</maxWords>
+		<requiredwords>
+			<group>
+				<word>what</word>
+				<word>which</word>
+				<word>botimuz</word>
+				<word wholeword="true">bot</word>
+			</group>
+			<group>
+				<word>version</word>
+				<word>playing</word>
+			</group>
+			<group>
+				<word>games launcher</word>
+				<word>rockstar launcher</word>
+				<word wholeword="true">rgl</word>
+				<word wholeword="true">steam</word>
+				<word wholeword="true">v1</word>
+				<word wholeword="true">v2</word>
+				<word wholeword="true">1.0</word>
+				<word wholeword="true">1.1</word>
+				<word wholeword="true">1.01</word>
+				<word wholeword="true">2.0</word>
+				<word wholeword="true">sa</word>
+				<word wholeword="true">gta:sa</word>
+			</group>
+		</requiredwords>
+		<unwantedwords>
+			<group>
+				<word>epic</word>
+				<word wholeword="true">egs</word>
+			</group>
+		</unwantedwords>
+		<responses>
+			<response>Josh plays on retail v1.01, which is a physical box copy of the game. Not Steam, not RGL.</response>
+		</responses>
+	</command>
+	<command>
+		<name>Swimming</name>
+		<maxWords>15</maxWords>
+		<requiredwords>
+			<group>
+				<word>why</word>
+				<word>what</word>
+				<word>botimuz</word>
+				<word wholeword="true">bot</word>
+			</group>
+			<group>
+				<word>swim</word>
+				<word>drown</word>
+				<word>lung</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response>When not doing Woozie skip, Josh needs to upgrade his lung capacity twice in order to start the mission "Amphibious Assault" so he drowns himself sometimes</response>
+		</responses>
+	</command>
+	<command>
+		<name>No AJS</name>
+		<requiredwords>
+			<group>
+				<word>what</word>
+				<word wholeword="true">bot</word>
+				<word>where</word>
+				<word>mean</word>
+				<word>botimuz</word>
+				<word>translate</word>
+			</group>
+			<group>
+				<word>ajs</word>
+				<word>asj</word>
+				<word>jump in script</word>
+			</group>
+		</requiredwords>
+		<unwantedwords>
+			<group>
+				<word>like</word>
+				<word>prefer</word>
+				<word wholeword="true">wr</word>
+				<word>world</word>
+				<word>record</word>
+			</group>
+		</unwantedwords>
+		<responses>
+			<response>No AJS (No Arbitrary Jump in Script) forbids manipulating mission script jumping, which is used in normal Any% to skip the whole game. (Not called ASJ, which sounds like All Stunt Jumps.)</response>
+		</responses>
+	</command>
+	<command>
+		<name>Shoot own car</name>
+		<maxWords>15</maxWords>
+		<requiredwords>
+			<group>
+				<word>what</word>
+				<word>why</word>
+				<word wholeword="true">bot</word>
+				<word>wtf</word>
+				<word>botimuz</word>
+			</group>
+			<group>
+				<word>shoot</word>
+			</group>
+			<group>
+				<word>own</word>
+				<word>his</word>
+			</group>
+			<group>
+				<word>car</word>
+				<word>vehicle</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response>Josh is shooting his car during Reuniting the Families to train his AK-47 skill for later in the run</response>
+		</responses>
+	</command>
+	<command>
+		<name>Livesplit Colours</name>
+		<maxWords>15</maxWords>
+		<requiredwords>
+			<group>
+				<word>why</word>
+				<word wholeword="true">what</word>
+				<word wholeword="true">bot</word>
+			</group>
+			<group>
+				<word>split</word>
+				<word>time</word>
+				<word>+</word>
+				<word>:</word>
+			</group>
+			<group>
+				<word wholeword="true">red</word>
+				<word wholeword="true">green</word>
+				<word>colour</word>
+				<word>color</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response>Josh is using a new LiveSplit colour scheme. Green = Gained time on that mission, Red = Lost time on that mission.</response>
+		</responses>
+	</command>
+	<command>
+		<name>How many hours</name>
+		<maxWords>15</maxWords>
+		<requiredwords>
+			<group>
+				<word wholeword="true">how</word>
+			</group>
+			<group>
+				<word wholeword="true">long</word>
+				<word wholeword="true">many</word>
+				<word wholeword="true">much</word>
+			</group>
+			<group>
+				<word wholeword="true">played</word>
+				<word wholeword="true">hours</word>
+			</group>
+		</requiredwords>
+		<responses data0="randomNumber" range0="5000-19999">
+			<response>Josh has played GTA:SA for [0] hours.</response>
+		</responses>
+	</command>
+	<command>
+		<name>I left why reset</name>
+		<maxWords>20</maxWords>
+		<requiredWords>
+			<group>
+				<word>gone</word>
+				<word>afk</word>
+				<word>left</word>
+				<word>away</word>
+				<word>looking</word>
+				<word>went to</word>
+				<word>head out</word>
+				<word>i was</word>
+			</group>
+			<group>
+				<word>why</word>
+				<word>what</word>
+				<word>how</word>
+			</group>
+			<group>
+				<word>reset</word>
+				<word>restart</word>
+				<word>end</word>
+				<word>die</word>
+				<word>happened</word>
+				<word>over</word>
+			</group>
+		</requiredWords>
+		<responses>
+			<response>While you were eating for 2 minutes Josh reset because a plane crashed.</response>
+			<response>While you were walking your dog for 10 minutes Josh reset because he got busted.</response>
+			<response>While you were on the toilet for 3 minutes Josh reset because he failed a mission.</response>
+			<response>While you were looking away for 2 seconds Josh reset because the game crashed.</response>
+			<response>While you weren't enjoying Josh's content for too long Josh reset because he needed the clip for highlights.</response>
+			<response>While you were petting a cat for 4 minutes Josh reset because he fell into water.</response>
+			<response>While you were answering your door for 5 seconds Josh reset because Sweet died.</response>
+			<response>While you were getting food for 30 seconds Josh reset because he killed Ryder.</response>
+			<response>While you were getting a drink for 20 seconds Josh reset because he wanted to.</response>
+			<response>While you were having a shower for 15 minutes Josh reset because coco threw up.</response>
+			<response>While you were checking social media for 3 seconds Josh reset because his parachute failed.</response>
+		</responses>
+	</command>
+</commands>

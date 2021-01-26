@@ -1,0 +1,622 @@
+﻿<commands version="1">
+	<command>
+		<name>What is WR</name>
+		<requiredwords>
+			<group>
+				<word>what</word>
+				<word wholeword="true">bot</word>
+				<word>botimuz</word>
+				<word>are there</word>
+			</group>
+			<group>
+				<word wholeword="true">wr</word>
+				<word>world record</word>
+				<word>fastest run</word>
+				<word>fastest speedrun</word>
+				<word>the record</word>
+			</group>
+		</requiredwords>
+		<unwantedwords>
+			<group>
+				<word wholeword="true">pb</word>
+				<word>personal best</word>
+				<word>you</word>
+			</group>
+		</unwantedwords>
+		<responses>
+			<response data0="speedrunwr">[0]</response>
+		</responses>
+		<cooldown>150</cooldown>
+	</command>
+	<command>
+		<name>How many WRs</name>
+		<requiredwords>
+			<group>
+				<word>josh</word>
+				<word>you</word>
+				<word wholeword="true">u</word>
+			</group>
+			<group>
+				<word>how many</word>
+				<word>have any</word>
+				<word>hold any</word>
+				<word>have a</word>
+			</group>
+			<group>
+				<word wholeword="true">wr</word>
+				<word wholeword="true">wrs</word>
+				<word>world record</word>
+			</group>
+		</requiredwords>
+		<unwantedwords>
+			<group>
+				<word wholeword="true">pb</word>
+				<word>personal best</word>
+				<word>any%</word>
+			</group>
+		</unwantedwords>
+		<responses>
+			<response data0="speedrunrunnerwrs">Josh currently has [0] WR(s): https://www.speedrun.com/user/Joshimuz</response>
+		</responses>
+		<cooldown>150</cooldown>
+	</command>
+<!-- 	<command>
+		<name>Decimal Time</name>
+		<requiredwords>
+			<group>
+				<word>what</word>
+				<word>why</word>
+				<word wholeword="true">bot</word>
+				<word>botimuz</word>
+			</group>
+			<group>
+				<word>metric</word>
+				<word>time</word>
+				<word>split</word>
+				<word>seconds</word>
+				<word>minutes</word>
+				<word>hours</word>
+			</group>
+		</requiredwords>
+		<unwantedwords>
+			<group>
+				<word wholeword="true">it's</word>
+				<word>it is</word>
+				<word>using</word>
+			</group>
+		</unwantedwords>
+		<responses>
+			<response>Josh is using Decimal time instead of "Imperial" time in the timer. https://en.wikipedia.org/wiki/Decimal_time</response>
+		</responses>
+		<cooldown>100</cooldown>
+		<fixedCooldown>true</fixedCooldown>
+	</command> -->
+	<command>
+		<name>What time</name>
+		<requiredwords>
+			<group>
+				<word>what</word>
+				<word wholeword="true">bot</word>
+				<word>botimuz</word>
+			</group>
+			<group>
+				<word wholeword="true">time</word>
+				<word wholeword="true">timezone</word>
+				<word>time zone</word>
+			</group>
+			<group>
+				<word wholeword="true">uk</word>
+				<word>josh</word>
+				<word>england</word>
+				<word>britian</word>
+				<word>for you</word>
+				<word>where you are</word>
+				<word>you live</word>
+			</group>
+		</requiredwords>
+		<unwantedwords>
+			<group>
+				<word wholeword="true">it's</word>
+				<word>does</word>
+				<word>it is</word>
+			</group>
+		</unwantedwords>
+		<responses>
+			<response data0="currenttime">It's currently [0] in the UK</response>
+		</responses>
+	</command>
+	<command>
+		<name>Good Bot</name>
+		<maxWords>5</maxWords>
+		<requiredwords>
+			<group>
+				<word wholeword="true">bot</word>
+				<word>botimuz</word>
+			</group>
+			<group>
+				<word wholeword="true">good</word>
+				<word>thank</word>
+				<word>thx</word>
+				<word>gj</word>
+				<word>nice</word>
+			</group>
+		</requiredwords>
+		<unwantedwords>
+			<group>
+				<word>bad</word>
+				<word>evening</word>
+			</group>
+		</unwantedwords>
+		<responses forward="false">
+			<response>:3</response>
+			<response>Yay &lt;3</response>
+			<response>beep boop</response>
+			<response>Affirmative</response>
+			<response>Your compliments have been registered within my systems</response>
+			<response usename="false" data0="chattername">No problem @[0]</response>
+			<response>You're welcome</response>
+			<response>gg ez</response>
+			<response>botimu2Bot NO PROBLEM FELLOW HUMAN botimu2Bot</response>
+			<response>ayyy lmao</response>
+			<response>botimuz yay 1</response>
+		</responses>
+	</command>
+	<command>
+		<name>Bad Bot</name>
+		<maxWords>5</maxWords>
+		<requiredwords>
+			<group>
+				<word wholeword="true">bot</word>
+				<word>botimuz</word>
+			</group>
+			<group>
+				<word wholeword="true">bad</word>
+				<word>wrong</word>
+				<word>damn</word>
+				<word>stupid</word>
+			</group>
+		</requiredwords>
+		<unwantedwords>
+			<group>
+				<word>good</word>
+			</group>
+		</unwantedwords>
+		<responses forward="false">
+			<response>:(</response>
+			<response>Aww &lt;/3</response>
+			<response>beeeep boooop...</response>
+			<response>Affirmative :(</response>
+			<response>Your complaints have been registered within my systems</response>
+			<response usename="false" data0="chattername">Yes problem @[0]</response>
+			<response>I did my best</response>
+			<response>bg report teemo</response>
+			<response>botimu2Bot ERROR botimu2Bot</response>
+			<response>ayyy?</response>
+			<response>botimuz sad 1</response>
+		</responses>
+	</command>
+	<command>
+		<name>Hi Bot</name>
+		<maxWords>5</maxWords>
+		<requiredwords>
+			<group>
+				<word wholeword="true">bot</word>
+				<word>botimuz</word>
+			</group>
+			<group>
+				<word wholeword="true">hi</word>
+				<word wholeword="true">hello</word>
+				<word wholeword="true">hey</word>
+				<word wholeword="true">good evening</word>
+				<word wholeword="true">good morning</word>
+			</group>
+		</requiredwords>
+		<responses usename="false" data0="chattername">
+			<response weighting="2">Hey @[0]</response>
+			<response weighting="2">Hi @[0]</response>
+			<response weighting="2">Hello @[0]</response>
+			<response weighting="2">Howdy @[0]</response>
+			<response weighting="2">How's it goin' @[0]</response>
+			<response>WAZAAAA @[0]</response>
+		</responses>
+	</command>
+	<command>
+		<name>True 100%+ when</name>
+		<maxWords>15</maxWords>
+		<requiredwords>
+			<group>
+				<word>100</word>
+			</group>
+			<group>
+				<word>true</word>
+				<word>+</word>
+			</group>
+			<group>
+				<word>still working on</word>
+				<word>continuing</word>
+				<word wholeword="true">when</word>
+				<word>quit</word>
+				<word wholeword="true">bot</word>
+				<word>botimuz</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response>https://faq.joshimuz.com/#where-is-true-100</response>
+		</responses>
+	</command>
+	<command>
+		<name>!title</name>
+		<requiredwords>
+			<group>
+				<word>what</word>
+				<word>copy</word>
+				<word>paste</word>
+				<word>link</word>
+				<word wholeword="true">bot</word>
+				<word>botimuz</word>
+			</group>
+			<group>
+				<word>title</word>
+			</group>
+		</requiredwords>
+		<responses data0="twitchtitle">
+			<response>"[0]"</response>
+		</responses>
+	</command>
+	<command>
+		<name>!followage</name>
+		<maxWords>1</maxWords>
+		<requiredwords>
+			<group>
+				<word>!followage</word>
+				<word>!age</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response>just click your name lol</response>
+		</responses>
+	</command>
+	<command>
+		<name>beep boop</name>
+		<maxWords>1</maxWords>
+		<requiredwords>
+			<group>
+				<word wholeword="true">beep</word>
+			</group>
+		</requiredwords>
+		<responses usename="false">
+			<response weighting="25">boop</response>
+			<response usename="true">botimu2Bot</response>
+		</responses>
+	</command>
+	<command>
+		<name>FAQ</name>
+		<requiredwords>
+			<group>
+				<word>what</word>
+				<word>where</word>
+				<word>link</word>
+				<word wholeword="true">bot</word>
+				<word>botimuz</word>
+				<word>!faq</word>
+			</group>
+			<group>
+				<word wholeword="true">faq</word>
+			</group>
+		</requiredwords>
+		<unwantedwords>
+			<group>
+				<word>nmg</word>
+				<word>any%</word>
+				<word>ajs</word>
+				<word>faq.joshimuz</word>
+			</group>
+		</unwantedwords>
+		<responses>
+			<response>Josh's FAQ can be found here: https://faq.joshimuz.com (if something is out of date shout at him until he fixes it)</response>
+		</responses>
+	</command>
+	<command>
+		<name>ESA when</name>
+		<maxWords>15</maxWords>
+		<requiredwords>
+			<group>
+				<word>what</word>
+				<word>where</word>
+				<word>link</word>
+				<word wholeword="true">bot</word>
+				<word>botimuz</word>
+				<word>when</word>
+			</group>
+			<group>
+				<word wholeword="true">esa</word>
+			</group>
+		</requiredwords>
+		<unwantedwords>
+			<group>
+				<word>watch</word>
+				<word>saw</word>
+				<word>run</word>
+			</group>
+		</unwantedwords>
+		<responses>
+			<response>ESA Winter starts 12 February 2021 https://esamarathon.com</response>
+		</responses>
+	</command>
+	<command>
+		<name>Choking Hazard</name>
+		<maxWords>15</maxWords>
+		<requiredwords>
+			<group>
+				<word>what</word>
+				<word>where</word>
+				<word>link</word>
+				<word wholeword="true">bot</word>
+				<word>botimuz</word>
+				<word>when</word>
+			</group>
+			<group>
+				<word wholeword="true">choking hazard</word>
+				<word wholeword="true">podcast</word>
+			</group>
+		</requiredwords>
+		<unwantedwords>
+			<group>
+				<word>watch</word>
+				<word>saw</word>
+			</group>
+		</unwantedwords>
+		<responses>
+			<response>Josh is a co-host of The Choking Hazard Podcast which is live every 4th Saturday at 7pm UK time at: https://www.twitch.tv/broughy1322 RSS feed: https://thechokinghazardpodcast.simplecast.com/</response>
+		</responses>
+	</command>
+<!-- 	<command>
+		<name>WHEN THING</name>
+		<maxWords>15</maxWords>
+		<requiredwords>
+			<group>
+				<word>plan</word>
+				<word wholeword="true">when</word>
+				<word wholeword="true">will</word>
+				<word>are you</word>
+			</group>
+			<group>
+				<word>plan of </word>
+				<word>plan on </word>
+				<word>plan to </word>
+				<word>planning to </word>
+				<word>planning on </word>
+				<word>planing to </word>
+				<word>planing on </word>
+				<word wholeword="true">next</word>
+				<word wholeword="true">going</word>
+				<word wholeword="true">gonna</word>
+				<word>you do </word>
+				<word>do you </word>
+				<word>ever do </word>
+				<word>start</word>
+				<word wholeword="true">bot</word>
+				<word>botimuz</word>
+			</group>
+			<group>
+				<word>play</word>
+				<word wholeword="true">doing</word>
+				<word>record</word>
+				<word>run</word>
+				<word>speedrun</word>
+				<word>speed run</word>
+				<word wholeword="true">stream</word>
+				<word wholeword="true">streaming</word>
+				<word wholeword="true">bot</word>
+				<word>botimuz</word>
+			</group>
+		</requiredwords>
+		<unwantedwords>
+			<group>
+				<word>watch</word>
+				<word>saw</word>
+				<word>version</word>
+				<word>wants</word>
+				<word>played</word>
+				<word>playing</word>
+				<word wholeword="true">esa</word>
+			</group>
+		</unwantedwords>
+		<responses>
+			<response>Here is a list of everything Josh plans to stream: https://pastebin.com/raw/xHbgw74n</response>
+		</responses>
+	</command> -->
+	<command>
+		<name>!</name>
+		<maxWords>1</maxWords>
+		<minCharacters>2</minCharacters>
+		<requiredwords>
+			<group>
+				<word startsWith="true">!</word>
+			</group>
+		</requiredwords>
+		<unwantedwords>
+			<group>
+				<word>highlight</word>
+				<word>bet</word>
+				<word>faq</word>
+				<word>!!</word>
+			</group>
+		</unwantedwords>
+		<responses>
+			<response>There (normally) aren't any bots that respond to ! commands, try asking your question normally</response>
+		</responses>
+	</command>
+	<command>
+		<name>Message Deleted</name>
+		<maxWords>2</maxWords>
+		<requiredwords>
+			<group>
+				<word wholeword="true">&lt;message</word>
+			</group>
+			<group>
+				<word wholeword="true">deleted&gt;</word>
+			</group>
+		</requiredwords>
+		<responses data0="messageid" usename="false">
+			<response>/delete [0]</response>
+		</responses>
+		<cooldown>0</cooldown>
+		<allowRepeatUsers>true</allowRepeatUsers>
+	</command>
+	<command>
+		<name>Ban Ascii</name>
+		<requiredwords>
+			<group>
+				<word>⣿</word>
+				<word>░</word>
+				<word>⠙</word>
+				<word>⢳</word>
+				<word>⠁</word>
+			</group>
+		</requiredwords>
+		<responses data0="chattername" usename="false">
+			<response>/ban [0] Posting Ascii</response>
+		</responses>
+		<cooldown>0</cooldown>
+	</command>
+	<command>
+		<name>bot refresh</name>
+		<maxWords>2</maxWords>
+		<requiredwords>
+			<group>
+				<word>bot refresh</word>
+			</group>
+		</requiredwords>
+		<responses forward="false" usename="false" data0="currentCommandCollection">
+			<response>Commands refreshed and loaded for [0]. (this is a mod only command)</response>
+		</responses>
+		<modonly>true</modonly>
+		<dataAction>refreshCommandCollections</dataAction>
+	</command>
+	<command>
+		<name>bot what cc</name>
+		<maxWords>3</maxWords>
+		<requiredwords>
+			<group>
+				<word>bot what cc</word>
+			</group>
+		</requiredwords>
+		<responses forward="false" usename="false" data0="currentCommandCollection">
+			<response>The current Command Collection loaded is: [0]. (this is a mod only command)</response>
+		</responses>
+		<modonly>true</modonly>
+	</command>
+	<command>
+		<name>Alive time</name>
+		<requiredwords>
+			<group>
+				<word wholeword="true">how</word>
+				<word wholeword="true">bot</word>
+			</group>
+			<group>
+				<word wholeword="true">long</word>
+				<word wholeword="true">many</word>
+			</group>
+			<group>
+				<word>a live</word>
+				<word>alive</word>
+				<word>liveing</word>
+				<word>living</word>
+			</group>
+		</requiredwords>
+		<responses forward="false" usename="false" data0="timeSince" range0="714235200">
+			<response>Josh has been alive for [0]</response>
+		</responses>
+	</command>
+	<command>
+		<name>When SA</name>
+		<maxWords>15</maxWords>
+		<requiredwords>
+			<group>
+				<word wholeword="true">where</word>
+				<word wholeword="true">when</word>
+				<word>why no</word>
+				<word wholeword="true">bot</word>
+				<word>plan</word>
+				<word>any</word>
+				<word>stream</word>
+				<word>run</word>
+			</group>
+			<group>
+				<word wholeword="true">gtasa</word>
+				<word>gta:sa</word>
+				<word wholeword="true">sa</word>
+				<word>san andreas</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response>Josh got sick of doing SA, right now he's taking a break from it (because he has been running it for like 18 months straight) so he doesn't want to do it right now.</response>
+		</responses>
+	</command>
+	<command>
+		<name>How's the weather</name>
+		<requiredwords>
+			<group>
+				<word>how</word>
+				<word>what</word>
+				<word wholeword="true">bot</word>
+			</group>
+			<group>
+				<word wholeword="true">weather</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response usename="false" data0="weather" string0="Portsmouth, gb">[0]</response>
+		</responses>
+		<cooldown>1800</cooldown>
+	</command>
+	<command>
+		<name>Sub 4 Joke</name>
+		<responses forward="false" data0="joke">
+			<response>[0]</response>
+		</responses>
+		<dataTrigger type="OnSubOrResub"></dataTrigger>
+	</command>
+	<command>
+		<name>Bot Dead</name>
+		<maxWords>4</maxWords>
+		<requiredwords>
+			<group>
+				<word>bot</word>
+			</group>
+			<group>
+				<word>dead</word>
+			</group>
+		</requiredwords>
+		<responses data0="messageid" usename="false">
+			<response>/delete [0]</response>
+		</responses>
+		<cooldown>0</cooldown>
+		<allowRepeatUsers>true</allowRepeatUsers>
+	</command>
+	<command>
+		<name>Cam Delay</name>
+		<maxWords>15</maxWords>
+		<requiredwords>
+			<group>
+				<word wholeword="true">why</word>
+				<word wholeword="true">bot</word>
+				<word>botimuz</word>
+				<word>delay</word>
+				<word>sync</word>
+				<word>run</word>
+			</group>
+			<group>
+				<word wholeword="true">mic</word>
+				<word>microphone</word>
+				<word wholeword="true">cam</word>
+				<word>camera</word>
+				<word>webcam</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response>The camera is slightly delayed yes. No I'm not fixing it, it's barely perceivable. (Would require just delayed absolutely everything else so it's in sync, I cannot remove the delay)</response>
+		</responses>
+	</command>
+</commands>

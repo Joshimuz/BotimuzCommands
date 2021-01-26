@@ -1,0 +1,31 @@
+﻿<commands version="1">
+<!-- 	<command>
+		<name>Josh is HOLIDAY</name>
+		<maxWords>10</maxWords>
+		<requiredwords>
+			<group>
+				<word></word>
+			</group>
+		</requiredwords>
+		<responses forward="false" usename="false" data0="chattername">
+			<response>Hey @[0]! Josh is currently on Holiday! He'll be back on the 10th. He'll be posting pictures of dog walks regularly on his twitter though! https://www.twitter.com/joshimuz</response>
+		</responses>
+		<cooldown>1800</cooldown>
+	</command> -->
+
+	<command>
+		<name>Josh is offline</name>
+		<maxWords>10</maxWords>
+		<requiredwords>
+			<group>
+				<word></word>
+			</group>
+		</requiredwords>
+		<responses forward="false" usename="false" data0="chattername">
+			<response>Hey @[0]! Josh is offline, check out his Schedule page on Twitch to find out when the next stream is: https://www.twitch.tv/joshimuz/schedule</response>
+		</responses>
+		<cooldown>1800</cooldown>
+		<nonmodonly>true</nonmodonly>
+		<dataAction>refreshChannelInfo</dataAction>
+	</command>
+</commands>

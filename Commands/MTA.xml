@@ -1,0 +1,208 @@
+<commands>
+	<command>
+		<name>Why no Radio</name>
+		<maxlength>10</maxlength>
+		<requiredwords>
+			<group>
+				<word>why</word>
+				<word>where</word>
+				<word>?</word>
+				<word>botimuz</word>
+				<word wholeword="true">bot</word>
+			</group>
+			<group>
+				<word>no</word>
+				<word>don't</word>
+				<word>dont</word>
+				<word>disable</word>
+			</group>
+			<group>
+				<word>radio</word>
+				<word>music</word>
+				<word>tune</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response>Josh wants to avoid all copyright issues for all time, here and Youtube, so he mutes the game when there is music.</response>
+		</responses>
+	</command>
+	
+	<command>
+		<name>Version</name>
+		<maxlength>15</maxlength>
+		<requiredwords>
+			<group>
+				<word>what</word>
+				<word>which</word>
+				<word>play</word>
+				<word>botimuz</word>
+				<word wholeword="true">bot</word>
+			</group>
+			<group>
+				<word>version</word>
+				<word>playing</word>
+			</group>
+			<group>
+				<word>games launcher</word>
+				<word>rockstar launcher</word>
+				<word wholeword="true">rgl</word>
+				<word wholeword="true">steam</word>
+				<word wholeword="true">v1</word>
+				<word wholeword="true">v2</word>
+				<word>need</word>
+				<word>mta</word>
+			</group>
+		</requiredwords>
+		<unwantedwords>
+			<group>
+				<word>epic</word>
+				<word wholeword="true">egs</word>
+			</group>
+		</unwantedwords>
+		<responses>
+			<response>You need v1 in order to install MTA. You can downgrade any version to v1 though (insert helpful link here)</response>
+		</responses>
+	</command>
+	
+	<command>
+		<name>MTA Server</name>
+		<maxlength>15</maxlength>
+		<requiredwords>
+			<group>
+				<word>what</word>
+				<word>which</word>
+				<word>where</word>
+				<word>name</word>
+				<word>botimuz</word>
+				<word wholeword="true">bot</word>
+				<word wholeword="true">mta</word>
+			</group>
+			<group>
+				<word>server</word>
+				<word wholeword="true">ip</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response>Josh is playing on 123Robot's server, which is a revival of Joshimuz's old server. It's a Derby/Race/Minigame server using the Race gamemode. The address is: mtasa://mta.123robot.me</response>
+		</responses>
+		<cooldown>5</cooldown>
+	</command>
+	
+	<command>
+		<name>What MTA</name>
+		<maxlength>15</maxlength>
+		<requiredwords>
+			<group>
+				<word>what</word>
+				<word>is this</word>
+				<word>means</word>
+				<word>name</word>
+				<word>botimuz</word>
+				<word wholeword="true">bot</word>
+			</group>
+			<group>
+				<word wholeword="true">mta</word>
+				<word wholeword="true">mod</word>
+				<word>multi theft auto</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response>MTA stands for Multi Theft Auto. It's a Multiplayer mod for San Andreas.</response>
+		</responses>
+		<cooldown>5</cooldown>
+	</command>
+	
+	<command>
+		<name>What working on</name>
+		<maxlength>20</maxlength>
+		<requiredwords>
+			<group>
+				<word>what</word>
+				<word>is he</word>
+				<word>botimuz</word>
+				<word wholeword="true">bot</word>
+			</group>
+			<group>
+				<word wholeword="true">map</word>
+				<word>making</word>
+				<word>working on</word>
+				<word>doing</word>
+				<word>creating</word>
+				<word>to do</word>
+				<word>mapping</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response>Josh is making a nice simple race map</response>
+		</responses>
+		<cooldown>5</cooldown>
+	</command>
+	
+	<command>
+		<name>What language</name>
+		<maxlength>15</maxlength>
+		<requiredwords>
+			<group>
+				<word>what</word>
+				<word>this</word>
+				<word>is that</word>
+			</group>
+			<group>
+				<word>language</word>
+				<word>python</word>
+				<word>javaScript</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response>It's either LUA/XML or GTA:SA decompiled mission script</response>
+		</responses>
+		<cooldown>5</cooldown>
+	</command>
+
+	<command>
+		<name>Why yes Radio</name>
+		<maxlength>10</maxlength>
+		<requiredwords>
+			<group>
+				<word>why</word>
+				<word>what</word>
+				<word>where</word>
+				<word>?</word>
+				<word>botimuz</word>
+				<word wholeword="true">bot</word>
+			</group>
+			<group>
+				<word>radio</word>
+				<word>music</word>
+				<word>tune</word>
+				<word>song</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response>Josh is probably listening to an OCRemix radio station, coz that doesn't have copyright issues (hopefully) https://rainwave.cc/ocremix/#!/</response>
+		</responses>
+	</command>
+
+	<command>
+		<name>no runs</name>
+		<maxlength>10</maxlength>
+		<requiredwords>
+			<group>
+				<word>why</word>
+				<word>what</word>
+				<word>where</word>
+				<word>botimuz</word>
+				<word wholeword="true">bot</word>
+				<word>y no</word>
+			</group>
+			<group>
+				<word>speedrun</word>
+				<word>run</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response>Josh's PC is having stability issues, and he doesn't trust to go 4+ hours without something crashing, so can't complete a run (plz no tech supportorino). He's also sleepy af coz he can't sleep for some reason D:</response>
+		</responses>
+		<cooldown>5</cooldown>
+	</command>
+</commands>

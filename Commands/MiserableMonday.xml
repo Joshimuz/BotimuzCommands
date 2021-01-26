@@ -1,0 +1,23 @@
+﻿<commands version="1">
+	<command>
+		<name>Miserable Mondays</name>
+		<maxWords>15</maxWords>
+		<requiredwords>
+			<group>
+				<word>where</word>
+				<word>what</word>
+				<word wholeword="true">bot</word>
+				<word>mean</word>
+				<word>botimuz</word>
+			</group>
+			<group>
+				<word>miserable</word>
+				<word>monday</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response>since Josh doesn't stream on Mondays (normally) he instead does a rerun of a random past stream. We call them "Miserable Mondays"</response>
+		</responses>
+		<cooldown>10</cooldown>
+	</command>
+</commands>

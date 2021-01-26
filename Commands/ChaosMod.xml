@@ -1,0 +1,43 @@
+﻿<commands version="1">
+	<!-- 	<command>
+		<name>Incorrect vote</name>
+		<maxWords>1</maxWords>
+		<requiredwords>
+			<group>
+				<word wholeword="true">1</word>
+				<word wholeword="true">2</word>
+				<word wholeword="true">3</word>
+				<word wholeword="true">#1</word>
+				<word wholeword="true">#2</word>
+				<word wholeword="true">#3</word>
+			</group>
+		</requiredwords>
+		<responses data0="chattername" usename="false">
+			<response>/timeout [0] 120 Don't vote incorrectly</response>
+		</responses>
+		<cooldown>0</cooldown>
+		<allowRepeatUsers>true</allowRepeatUsers>
+		<nonmodonly>true</nonmodonly>
+	</command>
+
+	<command>
+		<name>Vote Explain</name>
+		<maxWords>15</maxWords>
+		<requiredwords>
+			<group>
+				<word>how</word>
+				<word>what</word>
+				<word>botimuz</word>
+				<word wholeword="true">bot</word>
+			</group>
+			<group>
+				<word>vote</word>
+				<word>choose</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response>Vote by using Twitch's Poll feature! If you're on a compatible device just click on the option in the poll to vote, otherwise use "/vote" with the option you want EG: "/vote 2"</response>
+		</responses>
+		<dataTrigger type="timer">300-600</dataTrigger>
+	</command> -->
+</commands>

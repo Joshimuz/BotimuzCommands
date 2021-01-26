@@ -1,0 +1,62 @@
+<commands>
+	<command>
+		<name>Are you speedrun</name>
+		<maxlength>10</maxlength>
+		<requiredwords>
+			<group>
+				<word>will</word>
+				<word>are</word>
+				<word>when</word>
+				<word>could</word>
+			</group>
+			<group>
+				<word>run</word>
+			</group>
+			<group>
+				<word>this</word>
+				<word>rdr2</word>
+				<word>red dead redemption 2</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response>Josh will most likely not speedrun RDR2 as the game is very long and very slow paced.</response>
+		</responses>
+	</command>
+	
+	<command>
+		<name>Version</name>
+		<maxlength>7</maxlength>
+		<requiredwords>
+			<group>
+				<word>what</word>
+				<word>bot</word>
+			</group>
+			<group>
+				<word>version</word>
+				<word>edition</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response>Josh is playing the Rockstar Games Launcher version, with whatever the cheapest edition is</response>
+		</responses>
+	</command>
+	
+	<command>
+		<name>Settings</name>
+		<maxlength>7</maxlength>
+		<requiredwords>
+			<group>
+				<word>what</word>
+				<word>bot</word>
+			</group>
+			<group>
+				<word>settings</word>
+				<word>graphics</word>
+				<word>gpu</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response>Josh's poor 970 has to use these settings https://imgur.com/a/KXPgLan . His specs are in his FAQ https://faq.joshimuz.com</response>
+		</responses>
+	</command>
+</commands>

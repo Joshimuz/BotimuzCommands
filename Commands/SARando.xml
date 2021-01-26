@@ -1,0 +1,184 @@
+<commands>
+	<command>
+		<name>Why no Radio</name>
+		<maxlength>10</maxlength>
+		<requiredwords>
+			<group>
+				<word>why</word>
+				<word>where</word>
+				<word>?</word>
+				<word>botimuz</word>
+				<word wholeword="true">bot</word>
+			</group>
+			<group>
+				<word>no</word>
+				<word>don't</word>
+				<word>dont</word>
+				<word>disable</word>
+				<word>where</word>
+			</group>
+			<group>
+				<word>radio</word>
+				<word>music</word>
+				<word>tune</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response>Josh wants to avoid all copyright issues for all time, here and Youtube, so he mutes the game when there is music.</response>
+		</responses>
+	</command>
+	
+	<command>
+		<name>Camera Flick</name>
+		<maxlength>15</maxlength>
+		<requiredwords>
+			<group>
+				<word>why</word>
+				<word>what</word>
+				<word>wtf</word>
+				<word>botimuz</word>
+				<word wholeword="true">bot</word>
+			</group>
+			<group>
+				<word>camera</word>
+				<word>look</word>
+				<word>view</word>
+			</group>
+			<group>
+				<word>flick</word>
+				<word>move</word>
+				<word>moving</word>
+				<word>down</word>
+				<word>pan</word>
+				<word>shake</word>
+				<word>shaking</word>
+				<word>up</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response>Josh flicks the camera to re-roll the traffic RNG. This normally just despawns traffic however it can also do the opposite so it's kinda risky; Josh looks up and down while looking at far away traffic to try to despawn them</response>
+		</responses>
+	</command>
+	
+	<command>
+		<name>Replays</name>
+		<maxlength>15</maxlength>
+		<requiredwords>
+			<group>
+				<word>why</word>
+				<word>what</word>
+				<word wholeword="true">bot</word>
+				<word>botimuz</word>
+			</group>
+			<group>
+				<word>replay</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response>Josh uses the replays for two reasons, for making fade out shorter (only saves time with short replays) and for loading the vehicles in the replay (PCJ in Los Santos, Sultan/ZR/Elegy after Badlands)</response>
+		</responses>
+	</command>
+	
+	<command>
+		<name>No Major Glitches</name>
+		<maxlength>15</maxlength>
+		<requiredwords>
+			<group>
+				<word>where</word>
+				<word>what</word>
+				<word wholeword="true">bot</word>
+				<word>mean</word>
+				<word>botimuz</word>
+			</group>
+			<group>
+				<word wholeword="true">nmg</word>
+				<word>major glitch</word>
+			</group>
+		</requiredwords>
+		<unwantedwords>
+			<group>
+				<word>run</word>
+				<word>like</word>
+				<word>prefer</word>
+				<word>wr</word>
+				<word>world</word>
+				<word>record</word>
+			</group>
+		</unwantedwords>
+		<responses>
+			<response>NMG (No Major Glitches) is a version of Any% that forbids OnMission flag manipulation (Duping, 0 Star) and any other "big" glitches that get found in the future</response>
+		</responses>
+	</command>
+	
+	<command>
+		<name>No AJS</name>
+		<maxlength>15</maxlength>
+		<requiredwords>
+			<group>
+				<word>what</word>
+				<word wholeword="true">bot</word>
+				<word>where</word>
+				<word>mean</word>
+				<word>botimuz</word>
+				<word>translate</word>
+			</group>
+			<group>
+				<word>ajs</word>
+				<word>asj</word>
+				<word>jump in script</word>
+			</group>
+		</requiredwords>
+		<unwantedwords>
+			<group>
+				<word>run</word>
+				<word>like</word>
+				<word>prefer</word>
+				<word wholeword="true">wr</word>
+				<word>world</word>
+				<word>record</word>
+			</group>
+		</unwantedwords>
+		<responses>
+			<response>No AJS (No Arbitrary Jump in Script) forbids manipulating mission script jumping, which is used in normal Any% to skip the whole game. (Not called ASJ, which sounds like All Stunt Jumps.)</response>
+		</responses>
+	</command>
+	
+	<command>
+		<name>What mod</name>
+		<maxlength>15</maxlength>
+		<requiredwords>
+			<group>
+				<word>what</word>
+				<word>where</word>
+				<word wholeword="true">bot</word>
+				<word>botimuz</word>
+			</group>
+			<group>
+				<word>mod</word>
+				<word>randomi</word>
+				<word>rainbowi</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response>Josh is playing the Rainbomizer Mod: https://github.com/Parik27/Rainbomizer to randomise a lot of the game's content, such as what mission he has to do, what weapons he has, voice lines, etc etc.</response>
+		</responses>
+	</command>
+	
+	<command>
+		<name>What blip</name>
+		<maxlength>15</maxlength>
+		<requiredwords>
+			<group>
+				<word>what</word>
+				<word wholeword="true">bot</word>
+				<word>botimuz</word>
+			</group>
+			<group>
+				<word>blip</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response>A blip is the little icons on the map, like save points and locations</response>
+		</responses>
+	</command>
+</commands>

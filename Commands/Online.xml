@@ -1,0 +1,110 @@
+﻿<commands version="1">
+	<command>
+		<name>Timed Emote Spam</name>
+		<responses usename="false">
+			<response>joshPrpl</response>
+			<response>joshPaw</response>
+			<response>joshWut</response>
+			<response>joshSleeper</response>
+			<response>joshChair</response>
+			<response>joshO</response>
+			<response>josh55</response>
+			<response>joshCoco</response>
+			<response>joshWithIt</response>
+			<response>joshTyrePop</response>
+			<response>joshLuL</response>
+			<response>joshIsFine</response>
+			<response>joshCoolStory</response>
+			<response>joshGlod</response>
+			<response>joshREE</response>
+			<response>joshEEE</response>
+			<response weighting="2">joshDosh</response>
+			<response>joshFinking</response>
+			<response>joshBarksAtKitty</response>
+			<response>joshKittylina</response>
+			<response>joshCJPlz</response>
+			<response>botimu2Bot</response>
+		</responses>
+		<dataTrigger type="timer">1800-3600</dataTrigger>
+	</command>
+
+	<command>
+		<name>Uptime Metric</name>
+		<requiredwords>
+			<group>
+				<word wholeword="true">how</word>
+				<word wholeword="true">bot</word>
+			</group>
+			<group>
+				<word wholeword="true">long</word>
+				<word wholeword="true">many</word>
+			</group>
+			<group>
+				<word wholeword="true">stream</word>
+				<word wholeword="true">streaming</word>
+				<word wholeword="true">live</word>
+			</group>
+		</requiredwords>
+		<unwantedWords>
+			<group>
+				<word>imperial</word>
+				<word>hour</word>
+				<word>minute</word>
+			</group>
+		</unwantedWords>
+		<responses>
+			<response data0="uptimeMetric">Josh has been streaming for [0] seconds</response>
+			<response data0="uptimeMetric">Josh has been live for [0] seconds</response>
+		</responses>
+	</command>
+
+	<command>
+		<name>Uptime Imperial</name>
+		<requiredwords>
+			<group>
+				<word wholeword="true">how</word>
+				<word wholeword="true">bot</word>
+			</group>
+			<group>
+				<word wholeword="true">long</word>
+				<word wholeword="true">many</word>
+			</group>
+			<group>
+				<word wholeword="true">stream</word>
+				<word wholeword="true">streaming</word>
+				<word wholeword="true">live</word>
+			</group>
+			<group>
+				<word>imperial</word>
+				<word>hour</word>
+				<word>minute</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response data0="uptime">Josh has been streaming for [0]</response>
+			<response data0="uptime">Josh has been live for [0]</response>
+		</responses>
+	</command>
+
+<!-- 	<command>
+		<name>No Voting today</name>
+		<requiredwords>
+			<group>
+				<word>how</word>
+				<word wholeword="true">bot</word>
+				<word>botimuz</word>
+				<word>weather</word>
+				<word>teleport</word>
+			</group>
+			<group>
+				<word wholeword="true">vote</word>
+				<word wholeword="true">voting</word>
+				<word wholeword="true">gang</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response>Josh is not using Chat Voted Chaos Mod today, just regular RNG Chaos Mod. It's complicated but the basic reason is: It's more fun this way.</response>
+		</responses>
+		<dataTrigger type="timer">300-600</dataTrigger>
+	</command> -->
+</commands>
