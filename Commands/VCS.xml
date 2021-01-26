@@ -214,32 +214,4 @@
 			<response>Josh never played LCS on PSP when it released, he only ever played it when it came on out Mobile, and thought it was "alright". He's never done runs, and doesn't plan to because he can run this instead.</response>
 		</responses>
 	</command>
-	<command>
-		<name>NEW GLITCH</name>
-		<requiredwords>
-			<group>
-				<word>botimuz</word>
-				<word wholeword="true">bot</word>
-				<word>what</word>
-				<word>explain</word>
-				<word>faq</word>
-				<word>how</word>
-				<word>why</word>
-			</group>
-			<group>
-				<word>glitch</word>
-				<word>skip</word>
-				<word>trick</word>
-				<word>timesave</word>
-				<word>time save</word>
-				<word>strat</word>
-				<word>route</word>
-				<word>pacb</word>
-				<word>punching</word>
-			</group>
-		</requiredwords>
-		<responses>
-			<response>EVERYTHING ABOUT THE NEW SKIP HERE: https://gist.github.com/Joshimuz/86122078b21416f4195a85013e7b38e2</response>
-		</responses>
-	</command>
 </commands>
