@@ -24,27 +24,4 @@
 		</responses>
 		<dataTrigger type="onLoad"></dataTrigger>
 	</command> -->
-    <command>
-        <name>WhySideMissions</name>
-        <requiredwords>
-            <group>
-                <word>botimuz</word>
-                <word wholeword="true">bot</word>
-                <word>why</word>
-            </group>
-            <group>
-                <word>start</word>
-                <word>do</word>
-            </group>
-            <group>
-                <word>rampage</word>
-                <word>vigilante</word>
-                <word>side</word>
-            </group>
-        </requiredwords>
-	<maxWords>15</maxWords>
-        <responses>
-            <response>Josh starts side missions for "OnMission"-variable manipulation, the basis behind duping. For more info about duping, please read: https://faq.joshimuz.com/#what-is-duping-1</response>
-        </responses>
-    </command>
 </commands>
