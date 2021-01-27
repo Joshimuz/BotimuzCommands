@@ -287,26 +287,3 @@
     </commandlists>
     <streamstatus>any</streamstatus>
   </commandcollection>
-
-  <commandcollection>
-    <name>GenericSAFF</name>
-    <channelname>gtasa_is_the_best_ff</channelname>
-    <commandlists>
-      <name>Generic</name>
-      <name>Online</name>
-      <name>Test</name>
-    </commandlists>
-    <streamstatus>online</streamstatus>
-  </commandcollection>
-
-  <commandcollection>
-    <name>OfflineSAFFF</name>
-    <channelname>gtasa_is_the_best_ff</channelname>
-    <commandlists>
-      <name>Generic</name>
-      <name>Offline</name>
-      <name>Test</name>
-    </commandlists>
-    <streamstatus>offline</streamstatus>
-  </commandcollection>
-</commandCollections>
