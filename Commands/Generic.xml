@@ -145,6 +145,7 @@
 			<group>
 				<word>bad</word>
 				<word>evening</word>
+				<word>morning</word>
 			</group>
 		</unwantedwords>
 		<responses forward="false">
