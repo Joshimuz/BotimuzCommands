@@ -1,0 +1,250 @@
+<commands version="1">
+<!-- Everything in the file should be enclosed by <commands> 
+Attribute "version": Used internally, should not be edited
+Required -->
+
+	<!-- This command will show you all the possible elements a command can have -->
+
+	<command>
+	<!-- The start of a single command 
+	Required -->
+
+		<name>Example Command</name>
+		<!-- The name of the command
+		Required: Must be a UNIQUE name -->
+		
+		<maxWords>15</maxWords>
+		<!-- The max WORDS the message can have and trigger the command.
+		Optional: Default = 255
+		Values: 0-255 -->
+
+    <minWords>5</minWords>
+		<!-- The min WORDS the message can have and trigger the command. 
+		Optional: Default = 0 
+		Values: 0-255 -->
+
+    <maxCharacters>50</maxCharacters>
+    <!-- The max CHARACTERS the message can have and trigger the command.
+		Optional: Default = 65535
+		Values: 0-65535 -->
+
+    <minCharacters>5</minCharacters>
+    <!-- The min CHARACTERS the message can have and trigger the command. 
+		Optional: Default = 0 
+		Values: 0-65535 -->
+
+		<requiredWords>
+		<!-- The required groups of words a message must have to trigger the command
+		Optional: The command is not triggerable via a message without -->
+
+			<group>
+			<!-- A group of words, one word from each group is required
+			Required: At least one group is required within requiredWords -->
+
+				<word>test</word>
+				<!-- A NON-case-sensitive word within a group
+				Required: At least one word is required per group -->
+
+			</group>
+			<!-- End of the group of words -->
+
+			<group>
+
+				<word wholeWord="true" startsWith="true">me</word>
+				<!-- Attribute "wholeWord": If true then it must be the whole word in the message
+				Optional: Default = false
+				Values: true or false
+				Example: "Me" will work, but "Meet" will not
+
+				Attribute "startsWith": If true then the message must start with this word
+				Optional: Default = false
+				Values: true or false
+				Example: "me test" will work but "test me" will not -->
+
+			</group>
+			
+		</requiredWords>
+		<!-- End of the required groups of words -->
+
+		<unwantedWords>
+		<!-- The unwanted groups of words a message CANNOT have to trigger the command
+		Optional: Default = none -->
+
+			<group>
+				<word>unwanted word</word>
+			</group>
+
+		</unwantedWords>
+		<!-- End of the unwanted groups of words -->
+		
+		<responses random="true"> 
+		<!-- The list of possible responses the command can return
+		Required: Command needs to be able to post something to chat
+
+	 	Attribute "random": If true then a random response from the list is sent, otherwise it will send one in sequential order top to bottom
+		Optional: Default = true
+		Values: true or false -->
+
+			<response>Example Response</response>
+			<!-- A response that the bot will post upon triggering the command
+			Required: Responses needs at least one to be able to post something to chat-->
+
+			<response useName="false" forward="false" weighting="5">Example Response 2</response>
+			<!-- Attribute "useName": If true then the response will be prefixed with the chatter's name 
+			Optional: Default = true
+			Values: true or false
+			Example: "@Botimuz Example Response 2" when true and "Example Response 2" when false
+
+			Attribute "forward": If true then the response will be prefixed with any chatter who is @-ed in the message 
+			Optional: Default = true
+			Values: true or false
+			Example: User "Botimuz" triggers the command with "Test @Joshimuz", the response will be "@Joshimuz Example Response" instead of "@Botimuz Example Response" 
+
+			Attribute "weighting": Defines the chance of response being used when using random responses 
+			Optional: Default = 1
+			Values: 0-255
+			Example: If there are 3 responses all with default weighting they have a 1/3 chance off being picked. If one response has a weighting of 3 then it instead has a 3/6 chance-->
+
+			<response data0="currentTime" data1="twitchTitle">The time is: [0] and the title is [1]</response>
+			<!-- Attribute "data0": Defines a variety of possible data responses for the [0] text
+			Optional: Responses do not require a data response
+			Values: 
+				"currentTime": The current system time in a "HH:MM" format
+				"twitchTitle": The current twitch title (requires Twitch API)
+				"chatterName": The chatter who triggered the command
+				"messageID": The IRC ID of the message that triggered the command
+				"followAgeDays": The chatter's following age in days in a "DD" format (requires Twitch API)
+				"speedrunWR": The current speedrun WR for the game/category (as defined in CommandCollections.xml) from speedrun.com (requires Speedrun API)
+					Example: "@Joshimuz WR for Grand Theft Auto: Vice City Stories Any% is 03:25:39 by Fryterp23: https://www.speedrun.com/gtavcs/run/z01rvq4y"
+        "speedrunRunnerWRs": The number of WRs the API Key holder has on speedrun.com (requires Speedrun API)
+				"randomNumber": A random number from a defined range (Default: 1-100)
+        "uptime": How long the stream has been live (in a HH:MM format)
+        "uptimeMetric": Total seconds the stream has been live
+			Example: If data0="currentTime" then the "[0]" text will become the time in a HH:MM format
+
+			Attribute "data1": Defines a variety of possible data responses for the [1] text
+			Example: If data1="twitchTitle" then the "[1]" text will become the twitch title-->
+
+			<response data2="randomNumber" range2="69-9001">RNG: [2]</response>
+			<!-- Attribute "range2": Defines the range for the data2 attribute
+			Optional: data responses do not require a range
+			Example: This would post "RNG: " followed by a number between 69 and 9001-->
+
+      <response data3="textFile" string0="P:\home\pi\Botimuz\test.txt">[3]</response>
+      <!-- Attribute "text0": Defines the file path for the text file
+			Optional: only text file data responses require a file path
+			Example: This would post the contents of the test.txt file-->
+
+		</responses>
+		<!-- End of the list of responses -->
+
+		<cooldown>15</cooldown>
+		<!-- The cooldown in seconds for the command
+		Optional: Default = As defined by the "commandCooldown" setting in Settings.xml
+		Values: 0-65535 -->
+
+		<ignoreEmotes>true</ignoreEmotes>
+		<!-- Whether or not to remove emotes from the chatter's message before checking it
+		Optional: Default = false
+		Values: true or false -->
+
+		<modOnly>false</modOnly>
+		<!-- Whether or not only moderators/broadcasters can trigger the command
+		Optional: Default = false
+		Values: true or false -->
+
+		<nonModOnly>false</nonModOnly>
+		<!-- Whether or not only non moderators/broadcasters can trigger the command
+		Optional: Default = false
+		Values: true or false -->
+
+		<allowRepeatUsers>false</allowRepeatUsers>
+		<!-- Whether or not the same non-moderator can use this command multiple times in a row
+		Optional: Default = false
+		Values: true or false -->
+
+		<timer>60</timer>
+		<!-- Time in seconds that the command should be trigger automatically
+		Optional: Commands do not require a timer and by default will only post when trigger via chat
+		Values: 0-4294967295
+		Example: This would trigger this command once every 60 seconds -->
+
+		<timerRange>30-60</timerRange>
+		<!-- A range of time in seconds that the command should be trigger automatically
+		Optional: Commands do not require a timer and by default will only post when trigger via chat
+		Values: 0-2147483647
+		Example: "15-60" would trigger this command randomly between 15 and 60 seconds -->
+
+		<fixedCooldown>false</fixedCooldown>
+		<!-- Whether or not to use a fixed cooldown that doesn't increase when the command is triggered
+		Optional: Default = false
+		Values: true or false -->
+
+		<dataTrigger type="timer">15-60</dataTrigger>
+		<!-- A trigger for the command that is based on data rather than a chat message
+		Optional: Commands do not require a data Trigger and by default will only post when trigger via chat
+		Values: Depends on the "type" attribute
+	    
+		Attribute "type": Defines the type of data Trigger to use
+		Required: A data trigger must have a type
+		Values:
+		"timer": Time in seconds the command should trigger automatically repeatedly, can also be a range
+			Values: 0-2147483647
+			Example: "25" would trigger the command every 25 seconds, while "15-60" would trigger the command randomly between 15 and 60 seconds
+		"onSubOnly": When sub only chat is turned on, trigger the command
+			Values: None
+		"onSubOnlyTimer": Time in seconds the command should trigger, starting when sub only chat is turned on, can also be a range. Will stop when not sub only chat
+			Values: 0-2147483647
+			Example: "25" would trigger the command every 25 seconds after sub only chat has been enabled, and then stop when it is no longer sub only chat
+		-->
+
+    <dataAction>refreshChannelInfo</dataAction>
+    <!-- An aditional action that the command can perform as well as (or instead of) a chat response 
+    Optional: Commands do not require a data Action
+    Values:
+			refreshChannelInfo: Refreshes the currently loaded Twitch channel's API info, if command list changes cancles sending response in chat.
+      -->
+			
+	<!-- End of the single command -->
+	</command>
+		
+	<!-- An example of a command; when a chatter sends a message that only contains "beep" the bot will respond with "boop" -->
+	<command>
+		<name>beep boop</name>
+		<maxWords>1</maxWords>
+		<requiredWords>
+			<group>
+				<word wholeWord="true">beep</word>
+			</group>
+		</requiredWords>
+		<responses>
+			<response useName="false">boop</response>
+		</responses>
+	</command>
+
+  	<!-- Another example; when asked what time it is the bot will respond with local time -->
+  	<command>
+    	<name>What time</name>
+    	<requiredWords>
+      		<group>
+        		<word>what</word>
+        		<word wholeWord="true">bot</word>
+      		</group>
+      		<group>
+        		<word wholeWord="true">time</word>
+      		</group>
+    	</requiredWords>
+    	<unwantedWords>
+      		<group>
+        		<word wholeWord="true">it's</word>
+        		<word>does</word>
+        		<word>it is</word>
+      		</group>
+    	</unwantedWords>
+    	<responses>
+      		<response data0="currentTime">It's currently [0]</response>
+    	</responses>
+  	</command>
+	
+<!-- End of the file -->
+</commands>

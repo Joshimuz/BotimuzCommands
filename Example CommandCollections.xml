@@ -1,0 +1,105 @@
+<commandCollections version="1">
+<!-- Everything in the file should be enclosed by <commandCollections> 
+Attribute "version": Used internally, should not be edited
+Required -->
+
+	<!-- The command collections determines what command files the bot will load 
+	From top to bottom the bot will check the conditions of each command collection
+	If it finds one, it will load all the commandLists inside that collection!
+
+	This command collection will show you all the possible elements a command collection can have-->
+
+	<commandCollection>
+	<!-- The start of a single command collection
+	Required -->	
+
+		<name>Example</name>
+		<!-- The name of the command collection
+		Required: Must be a UNIQUE name -->
+
+		<channelName>exampleChannelName</channelName>
+		<!-- The name channel this command collection will be loaded in
+		Required: Must be a UNIQUE name -->
+
+		<streamStatus>any</streamStatus>
+		<!-- The status of the stream must have to load this command Collection
+		Optional: Default = any 
+		Values: online/live (stream must be online), offline (stream must be offline), vod/rerun/playlist (stream is doing a rerun), any (anything) -->
+
+		<gameName>Pong</gameName>
+		<!-- The game the channel has to be playing on Twitch, as defined by Twitch's lists
+		Optional: Not having a gameName means no check for a game -->
+
+		<requiredTitleWords>
+		<!-- The required groups of words the twitch title must have
+		Optional: Not having any means no check for title text  -->
+
+			<group>
+			<!-- A group of words, one word from each group is required
+			Required: At least one group is required within requiredWords -->
+
+				<word>test</word>
+				<!-- A NON-case-sensitive word within a group
+				Required: At least one word is required per group -->
+
+			</group>
+			<!-- End of the group of words -->
+
+		</requiredTitleWords>
+		<!-- End of the required groups of words -->
+
+		<unwantedTitleWords>
+		<!-- The unwanted groups of words a twitch title CANNOT have
+		Optional: Not having any means no check for title text -->
+
+			<group>
+				<word>unwanted word</word>
+			</group>
+
+		</unwantedTitleWords>
+		<!-- End of the unwanted groups of words -->
+
+		<commandLists>
+		<!-- The list of Command Files to load if all conditions are met
+		Required: Without this the command Collection will not have any purpose -->
+
+			<name>Example</name>
+			<!-- The name of a single Command file to load
+			Required: At least one command file name is required within commandLists
+			Example: This will load the command file "Example.xml" within the commands folder -->
+
+		</commandLists>
+		<!-- End of the list of command files -->
+
+		<speedrunCategory>Any%</speedrunCategory>
+		<!-- The speedrun.com game category this command collection is for
+		Optional: Default = none
+		Example: If the dataResponse "speedrunWR" is triggered, it will look for the "Any%" WR
+		for the game that is currently being played (in this case Pong) -->
+
+	<!-- End of the single command Collection -->
+	</commandCollection>
+
+
+	<!-- A full example of a command collection; when "Joshimuz" is streaming GTA:SA Any% No AJS speedruns, the bot will load the command lists "Generic.xml", "Online.xml" and "SA.xml" from the command folder, and will load the speedrun category Any% (No AJS) -->
+	<commandCollection>
+		<name>GTA:SA Any% No AJS</name>
+		<channelName>Joshimuz</channelName>
+		<streamStatus>online</streamStatus>
+		<requiredTitleWords>
+			<group>
+				<word>any% no ajs</word>
+				<word>any% (no ajs)</word>
+			</group>
+		</requiredTitleWords>
+		<gameName>Grand Theft Auto: San Andreas</gameName>
+		<commandLists>
+			<name>Generic</name>
+			<name>Online</name>
+			<name>SA</name>
+		</commandLists>
+		<speedrunCategory>Any% (No AJS)</speedrunCategory>
+	</commandCollection>
+
+<!-- End of the file -->
+</commandCollections>
