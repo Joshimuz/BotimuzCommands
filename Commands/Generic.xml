@@ -209,8 +209,8 @@
 				<word wholeword="true">hi</word>
 				<word wholeword="true">hello</word>
 				<word wholeword="true">hey</word>
-				<word wholeword="true">good evening</word>
-				<word wholeword="true">good morning</word>
+				<word>good evening</word>
+				<word>good morning</word>
 			</group>
 		</requiredwords>
 		<responses usename="false" data0="chattername">
