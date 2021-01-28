@@ -28,12 +28,12 @@
 	</command>
 	<command>
 		<name>Console</name>
-		<maxWords>15</maxWords>
+		<maxWords>10</maxWords>
 		<requiredwords>
 			<group>
 				<word>what</word>
 				<word>which</word>
-				<word>this</word>
+				<word>is this</word>
 				<word>is that</word>
 				<word>or the</word>
 				<word>why</word>
