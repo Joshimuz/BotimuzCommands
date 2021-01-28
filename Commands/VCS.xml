@@ -52,6 +52,7 @@
 			</group>
 			<group>
 				<word>console</word>
+				<word>platform</word>
 				<word>version</word>
 				<word>system</word>
 				<word>emulator</word>
@@ -77,6 +78,7 @@
 				<word>im</word>
 				<word>i'm</word>
 				<word>to stream</word>
+				<word>setting</word>
 			</group>
 		</unwantedwords>
 		<responses>
