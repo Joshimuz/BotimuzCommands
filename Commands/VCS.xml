@@ -1,4 +1,4 @@
-﻿<commands version="1">
+<commands version="1">
 	<command>
 		<name>Why no Radio</name>
 		<requiredwords>
@@ -85,7 +85,7 @@
 			<response>Josh is playing the PSP version of the game, on a PSTV (a PS Vita that plugs into a TV) with a DS4 controller. The PS2 version is slower so speedruns don't use it, and emulators are bad. There is no PC version. More info: https://faq.joshimuz.com/#what-are-you-playing-this-on</response>
 		</responses>
 	</command>
-		<command>
+	<command>
 		<name>Console2</name>
 		<requiredwords>
 			<group>
@@ -217,27 +217,48 @@
 			<response>Josh never played LCS on PSP when it released, he only ever played it when it came on out Mobile, and thought it was "alright". He's never done runs, and doesn't plan to because he can run this instead.</response>
 		</responses>
 	</command>
-    	<command>
-      	  	<name>WhySideMissions</name>
-        	<requiredwords>
-            		<group>
-                		<word>botimuz</word>
-                		<word wholeword="true">bot</word>
-                		<word>why</word>
-            		</group>
-            		<group>
-                		<word>start</word>
-                		<word>do</word>
-            		</group>
-            		<group>
-                		<word>rampage</word>
-                		<word>vigilante</word>
-                		<word>side</word>
-            		</group>
-        	</requiredwords>
+	<command>
+		<name>WhySideMissions</name>
+		<requiredwords>
+			<group>
+				<word>botimuz</word>
+				<word wholeword="true">bot</word>
+				<word>why</word>
+			</group>
+			<group>
+				<word>start</word>
+				<word>do</word>
+			</group>
+			<group>
+				<word>rampage</word>
+				<word>vigilante</word>
+				<word>side</word>
+			</group>
+		</requiredwords>
 		<maxWords>15</maxWords>
-        	<responses>
-            		<response>Josh starts side missions for "OnMission"-variable manipulation, the basis behind duping. For more info about duping, please read: https://faq.joshimuz.com/#what-is-duping-1</response>
-        	</responses>
-	 </command>
+		<responses>
+			<response>Josh starts side missions for "OnMission"-variable manipulation, the basis behind duping. For more info about duping, please read: https://faq.joshimuz.com/#what-is-duping-1</response>
+		</responses>
+	</command>
+    <command>
+		<name>newRoute</name>
+		<requiredwords>
+			<group>
+				<word>botimuz</word>
+				<word wholeword="true">bot</word>
+				<word>what</word>
+				<word>there</word>
+			</group>
+			<group>
+				<word>new route</word>
+				<word>new thing</word>
+			</group>
+		</requiredwords>
+		<maxWords>10</maxWords>
+		<responses>
+			<response>The new route just changes the mission order in chapter 3. It'll save about 2 min.</response>
+			<response>The new route is.. keep watching to find about! (It's honestly not that interesting.)</response>
+			<response>It's not that interesting, Josh will explain it when he gets there.</response>
+		</responses>
+	</command>
 </commands>
