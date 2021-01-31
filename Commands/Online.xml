@@ -23,6 +23,8 @@
 			<response>joshBarksAtKitty</response>
 			<response>joshKittylina</response>
 			<response>joshCJPlz</response>
+			<response>joshOMG</response>
+			<response>joshS</response>
 			<response>botimu2Bot</response>
 		</responses>
 		<dataTrigger type="timer">1800-3600</dataTrigger>
