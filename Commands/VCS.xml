@@ -1,4 +1,4 @@
-<commands version="1">
+﻿<commands version="1">
 	<command>
 		<name>Why no Radio</name>
 		<requiredwords>
@@ -252,13 +252,12 @@
 			<group>
 				<word>new route</word>
 				<word>new thing</word>
+				<word>new skip</word>
 			</group>
 		</requiredwords>
 		<maxWords>10</maxWords>
 		<responses>
-			<response>The new route just changes the mission order in chapter 3. It'll save about 2 min.</response>
-			<response>The new route is.. keep watching to find about! (It's honestly not that interesting.)</response>
-			<response>It's not that interesting, Josh will explain it when he gets there.</response>
+			<response>The new route skips 'Leap and Bound' (and prays the game doesn't crash), by doing an extra 'Caught as an Act' and starting Leap and Bound exactly as it finishes .</response>
 		</responses>
 	</command>
 </commands>
