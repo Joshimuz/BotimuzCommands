@@ -257,7 +257,7 @@
 		</requiredwords>
 		<maxWords>10</maxWords>
 		<responses>
-			<response>The new route skips 'Leap and Bound' (and prays the game doesn't crash), by doing an extra 'Caught as an Act' and starting Leap and Bound exactly as it finishes .</response>
+			<response>The new route skips 'Leap and Bound' (and prays the game doesn't crash), by doing an extra 'Caught as an Act' and starting 'Leap and Bound' exactly as it finishes.</response>
 		</responses>
 	</command>
 </commands>
