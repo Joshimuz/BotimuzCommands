@@ -587,6 +587,32 @@
 		</responses>
 	</command>
 	<command>
+		<name>When MCBingo</name>
+		<maxWords>15</maxWords>
+		<requiredwords>
+			<group>
+				<word wholeword="true">where</word>
+				<word wholeword="true">when</word>
+				<word wholeword="true">bot</word>
+				<word>plan</word>
+				<word>any</word>
+				<word>stream</word>
+				<word>do</word>
+				<word>about</word>
+			</group>
+			<group>
+				<word wholeword="true">mc</word>
+				<word>minecraft</word>
+			</group>
+			<group>
+				<word>bingo</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response>Josh hasn't updated Minecraft Bingo for ages and doesn't want to spend the time and effort, as he doesn't feel like playing at the moment. </response>
+		</responses>
+	</command>
+	<command>
 		<name>How's the weather</name>
 		<requiredwords>
 			<group>
