@@ -22,7 +22,7 @@
 		</responses>
 		<unwantedwords>
 			<group>
-				<word>im</word>
+				<word wholeword="true">im</word>
 				<word>i'm</word>
 			</group>
 		</unwantedwords>

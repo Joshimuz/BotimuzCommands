@@ -75,7 +75,7 @@
 		<unwantedwords>
 			<group>
 				<word>faq.joshimuz</word>
-				<word>im</word>
+				<word wholeword="true">im</word>
 				<word>i'm</word>
 				<word>to stream</word>
 				<word>setting</word>
