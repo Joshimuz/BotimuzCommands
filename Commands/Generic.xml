@@ -372,7 +372,7 @@
 			</group>
 		</unwantedwords>
 		<responses>
-			<response>ESA Winter is live right now at https://www.twitch.tv/esamarathon. Schedule: https://esamarathon.com/schedule</response>
+			<response>ESA Winter is live right now at https://www.twitch.tv/esamarathon | Schedule: https://esamarathon.com/schedule</response>
 		</responses>
 	</command>
 	<command>
