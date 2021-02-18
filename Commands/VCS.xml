@@ -68,6 +68,7 @@
 				<word wholeword="true">pstv</word>
 				<word wholeword="true">ppsspp</word>
 				<word wholeword="true">pc</word>
+				<word wholeword="true">hw</word>
 				<word>real hardware</word>
 				<word>playing this on</word>
 				<word>playing it on</word>
@@ -104,6 +105,8 @@
 				<word>ps5?</word>
 				<word>pstv?</word>
 				<word>ppsspp?</word>
+				<word>real hw?</word>
+				<word>real hardware?</word>
 			</group>
 		</requiredwords>
 		<responses>
