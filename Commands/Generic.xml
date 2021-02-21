@@ -349,33 +349,6 @@
 		</responses>
 	</command>
 	<command>
-		<name>ESA when</name>
-		<maxWords>15</maxWords>
-		<requiredwords>
-			<group>
-				<word>what</word>
-				<word>where</word>
-				<word>link</word>
-				<word wholeword="true">bot</word>
-				<word>botimuz</word>
-				<word>when</word>
-			</group>
-			<group>
-				<word wholeword="true">esa</word>
-			</group>
-		</requiredwords>
-		<unwantedwords>
-			<group>
-				<word>watch</word>
-				<word>saw</word>
-				<word>run</word>
-			</group>
-		</unwantedwords>
-		<responses>
-			<response>ESA Winter is live right now at https://www.twitch.tv/esamarathon | Schedule: https://esamarathon.com/schedule</response>
-		</responses>
-	</command>
-	<command>
 		<name>Choking Hazard</name>
 		<maxWords>15</maxWords>
 		<requiredwords>
