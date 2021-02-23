@@ -529,8 +529,15 @@
 				<word>alive</word>
 				<word>liveing</word>
 				<word>living</word>
+				<word>is josh</word>
 			</group>
 		</requiredwords>
+		<unwantedwords>
+			<group>
+				<word>strat</word>
+				<word>do</word>
+			</group>
+		</unwantedwords>
 		<responses forward="false" usename="false" data0="timeSince" range0="714235200">
 			<response>Josh has been alive for [0]</response>
 		</responses>
