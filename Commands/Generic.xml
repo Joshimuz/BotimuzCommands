@@ -645,6 +645,7 @@
 				<word wholeword="true">cam</word>
 				<word>camera</word>
 				<word>webcam</word>
+				<word>facecam</word>
 			</group>
 		</requiredwords>
 		<responses>
