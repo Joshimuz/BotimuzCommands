@@ -220,6 +220,7 @@
 			<response weighting="2">Hello @[0]</response>
 			<response weighting="2">Howdy @[0]</response>
 			<response weighting="2">How's it goin' @[0]</response>
+			<response weighting="2">joshPaw @[0]</response>
 			<response>WAZAAAA @[0]</response>
 		</responses>
 	</command>
