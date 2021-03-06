@@ -1,0 +1,84 @@
+<commands version="1">
+    <command>
+		<name>Can I Play?</name>
+		<requiredwords>
+			<group>
+				<word>what</word>
+				<word>how</word>
+				<word wholeword="true">can</word>
+				<word>botimuz</word>
+				<word wholeword="true">bot</word>
+			</group>
+			<group>
+				<word>join</word>
+				<word>play</word>
+                <word>link</word>
+                <word>is this?</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response>Josh is playing https://minecraftbingo.com ! The goal is to complete one row, coloum or diagonal line of tasks.</response>
+		</responses>
+    </command>
+    <command>
+        <name>Colours meaning</name>
+        <requiredwords>
+            <group>
+                <word wholeword="true">bot</word>
+                <word>botimuz</word>
+                <word>what</word>
+            </group>
+            <group>
+                <word>color</word>
+                <word>colour</word>
+            </group>
+            <group>
+                <word>sheet</word>
+            </group>
+        </requiredwords>
+        <unwantedwords>
+            <group>
+                <word>wool</word>
+            </group>
+        </unwantedwords>
+        <responses>
+            <response>The sheet colours can mean what ever you want it to. Joshs system is as follows: blue=easy enough; yellow=if I find the thing first; pink=I rather not/unlikely; green=completed!; red=failed</response>
+        </responses>
+    </command>
+    <command>
+        <name>Texturepack?</name>
+        <requiredwords>
+            <group>
+                <word wholeword="true">bot</word>
+                <word>botimuz</word>
+                <word>what</word>
+                <word>where</word>
+            </group>
+            <group>
+                <word>texture</word>
+                <word>resource</word>
+                <word>datapack</word>
+            </group>
+        </requiredwords>
+        <responses>
+            <response>Josh is using a https://vanillatweaks.net/ pack. If you want one like his, you have to put it together yourself.</response>
+        </responses>
+    </command>
+    <command>
+        <name>speedrun?</name>
+        <requiredwords>
+            <group>
+                <word wholeword="true">bot</word>
+                <word>botimuz</word>
+                <word>is this</word>
+                <word>trying</word>
+            </group>
+            <group>
+                <word>speedrun</word>
+            </group>
+        </requiredwords>
+        <responses>
+            <response>This is not an ordinary speedrun! Josh is playing https://minecraftbingo.com ! The goal is to complete one row, coloum or diagonal line of tasks.</response>
+        </responses>
+    </command>
+</commands>

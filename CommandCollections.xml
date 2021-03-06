@@ -228,10 +228,33 @@
   <commandcollection>
     <name>Minecraft</name>
     <channelname>Joshimuz</channelname>
+    <unwantedtitlewords>
+      <group>
+        <word>bingo</word>
+      </group>
+    </unwantedtitlewords>
     <gamename>Minecraft</gamename>
     <commandlists>
       <name>Generic</name>
       <name>Online</name>
+      <name>Minecraft</name>
+    </commandlists>
+    <streamstatus>online</streamstatus>
+  </commandcollection>
+
+  <commandcollection>
+    <name>MinecraftBingo</name>
+    <channelname>Joshimuz</channelname>
+    <requiredtitlewords>
+      <group>
+        <word>bingo</word>
+      </group>
+    </requiredtitlewords>
+    <gamename>Minecraft</gamename>
+    <commandlists>
+      <name>Generic</name>
+      <name>Online</name>
+      <name>MinecraftBingo</name>
       <name>Minecraft</name>
     </commandlists>
     <streamstatus>online</streamstatus>
