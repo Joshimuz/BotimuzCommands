@@ -1,24 +1,24 @@
 <commands version="1">
     <command>
-		<name>Can I Play?</name>
-		<requiredwords>
-			<group>
-				<word>what</word>
-				<word>how</word>
-				<word wholeword="true">can</word>
-				<word>botimuz</word>
-				<word wholeword="true">bot</word>
-			</group>
-			<group>
-				<word>join</word>
-				<word>play</word>
+        <name>Can I Play?</name>
+        <requiredwords>
+            <group>
+                <word>what</word>
+                <word>how</word>
+                <word wholeword="true">can</word>
+                <word>botimuz</word>
+                <word wholeword="true">bot</word>
+            </group>
+            <group>
+                <word>join</word>
+                <word>play</word>
                 <word>link</word>
                 <word>is this?</word>
-			</group>
-		</requiredwords>
-		<responses>
-			<response>Josh is playing https://minecraftbingo.com ! The goal is to complete one row, coloum or diagonal line of tasks.</response>
-		</responses>
+            </group>
+        </requiredwords>
+        <responses>
+            <response>Josh is playing https://minecraftbingo.com ! The goal is to complete one row, coloum or diagonal line of tasks.</response>
+        </responses>
     </command>
     <command>
         <name>Colours meaning</name>
