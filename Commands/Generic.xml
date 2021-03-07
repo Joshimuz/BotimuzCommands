@@ -592,7 +592,7 @@
 			</group>
 		</requiredwords>
 		<responses>
-			<response>Josh is working on a new Minecraft Bingo version. He will probably playtest it from time to time. You can play MCBingo yourself on https://minecraftbingo.com (Scroll to the bottom of the page to play the dev version)</response>
+			<response>Josh is working on a new Minecraft Bingo version. He will probably playtest it from time to time. You can play MCBingo yourself on https://minecraftbingo.com (click v3 the button to change to the dev version)</response>
 		</responses>
 	</command>
 	<command>
