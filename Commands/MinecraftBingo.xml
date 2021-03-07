@@ -82,6 +82,7 @@
                 <word>botimuz</word>
                 <word>is this</word>
                 <word>trying</word>
+                <word>are you</word>
             </group>
             <group>
                 <word>speedrun</word>
@@ -91,6 +92,9 @@
             <group>
                 <word wholeword="true">im</word>
                 <word>i'm</word>
+                <word wholeword="true">sa</word>
+                <word>gta</word>
+                <word>vc</word>
             </group>
         </unwantedwords>
         <responses>
