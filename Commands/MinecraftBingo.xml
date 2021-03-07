@@ -17,7 +17,7 @@
 			</group>
 		</requiredwords>
 		<responses>
-			<response>Josh is playing https://minecraftbingo.com! The goal is to complete one row, column or diagonal line of tasks.</response>
+			<response>Josh is playing https://minecraftbingo.com The goal is to complete one row, column or diagonal line of tasks.</response>
 		</responses>
     </command>
     <command>
@@ -43,7 +43,7 @@
             </group>
         </unwantedwords>
         <responses>
-            <response>The sheet colours can mean anything. Josh's system is mostly: Blue = To be done; Yellow = Considered but difficult; Pink = Won't do; Red = Failed; Green = Completed!</response>
+            <response>Players have different ways of marking their sheet. Josh's system is mostly: Blue = To be done; Yellow = Considered but difficult; Pink = Won't do; Red = Failed; Green = Completed!</response>
         </responses>
     </command>
     <command>
@@ -85,7 +85,7 @@
             </group>
         </unwantedwords>
         <responses>
-            <response>This is not an ordinary speedrun! Josh is playing https://minecraftbingo.com. The goal is to complete one row, column or diagonal line of tasks.</response>
+            <response>This is not an ordinary speedrun! Josh is playing https://minecraftbingo.com The goal is to complete one row, column or diagonal line of tasks.</response>
         </responses>
     </command>
 </commands>
