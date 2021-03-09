@@ -255,7 +255,7 @@
       <name>Generic</name>
       <name>Online</name>
       <name>MinecraftBingo</name>
-      <name>Minecraft</name>
+      <!--<name>Minecraft</name>-->
     </commandlists>
     <streamstatus>online</streamstatus>
   </commandcollection>
