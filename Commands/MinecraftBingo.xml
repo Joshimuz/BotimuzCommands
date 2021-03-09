@@ -31,6 +31,12 @@
             <group>
                 <word>color</word>
                 <word>colour</word>
+                <word>blue</word>
+                <word>yellow</word>
+                <word>brown</word>
+                <word>red</word>
+                <word>pink</word>
+                <word>green</word>
             </group>
             <group>
                 <word>sheet</word>
