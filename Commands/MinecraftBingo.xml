@@ -83,6 +83,16 @@
         <unwantedwords>
             <group>
                 <word>wool</word>
+                <word>flower</word>
+                <word>dye</word>
+                <word>terracotta</word>
+                <word>concrete</word>
+                <word>bed</word>
+                <word>banner</word>
+                <word>glass</word>
+                <word>armor</word>
+                <word>armour</word>
+                <word>sheep</word>
             </group>
         </unwantedwords>
         <responses>
