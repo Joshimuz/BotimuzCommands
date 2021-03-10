@@ -1,0 +1,47 @@
+<commands version="1">
+    <command>
+		<name>Can I Join?</name>
+		<requiredwords>
+			<group>
+				<word>what</word>
+				<word>which</word>
+				<word>!server</word>
+				<word>is this</word>
+				<word wholeword="true">can</word>
+				<word>botimuz</word>
+				<word wholeword="true">bot</word>
+			</group>
+			<group>
+				<word>join</word>
+				<word wholeword="true">server</word>
+				<word>play with</word>
+				<word>connect</word>
+				<word>realms</word>
+				<word>!server</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response>Josh is playing on a Java server with his speedfriends. He was considering making a subs only server at one point, however he can't be bothered to maintain/moderate such a server.</response>
+		</responses>
+	</command>
+	<command>
+		<name>Modded?</name>
+		<requiredwords>
+			<group>
+				<word>what</word>
+				<word>any</word>
+				<word>which</word>
+				<word>botimuz</word>
+				<word wholeword="true">bot</word>
+			</group>
+			<group>
+				<word>modded</word>
+				<word>mods</word>
+				<word>vanilla</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response>Josh is playing Vanilla 1.16 on his server. He is however using his datapack (Vanilla with Flake) to make Vanilla a little less dumb.</response>
+		</responses>
+	</command>
+</commands>
