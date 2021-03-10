@@ -1,33 +1,5 @@
 <commands version="1">
     <command>
-		<name>Left Handed</name>
-		<requiredwords>
-			<group>
-				<word>why</word>
-				<word>are you</word>
-				<word>are u</word>
-				<word>?</word>
-				<word>botimuz</word>
-				<word wholeword="true">bot</word>
-			</group>
-			<group>
-				<word>left</word>
-			</group>
-			<group>
-				<word>hand</word>
-			</group>
-		</requiredwords>
-		<responses>
-			<response>Josh is ambidextrous, however he plays Minecraft Left Handed because it makes Left Click; Left Hand and Right Click; Right Hand (how can anyone play otherwise, baffles him)</response>
-		</responses>
-		<unwantedwords>
-			<group>
-				<word wholeword="true">im</word>
-				<word>i'm</word>
-			</group>
-		</unwantedwords>
-	</command>
-    <command>
         <name>Can I Play?</name>
         <requiredwords>
             <group>
