@@ -226,7 +226,7 @@
   </commandcollection>
 
   <commandcollection>
-    <name>Minecraft</name>
+    <name>MinecraftServer</name>
     <channelname>Joshimuz</channelname>
     <unwantedtitlewords>
       <group>
@@ -238,6 +238,7 @@
       <name>Generic</name>
       <name>Online</name>
       <name>Minecraft</name>
+      <name>MinecraftServer</name>
     </commandlists>
     <streamstatus>online</streamstatus>
   </commandcollection>
@@ -254,8 +255,8 @@
     <commandlists>
       <name>Generic</name>
       <name>Online</name>
+      <name>Minecraft</name>
       <name>MinecraftBingo</name>
-      <!--<name>Minecraft</name>-->
     </commandlists>
     <streamstatus>online</streamstatus>
   </commandcollection>
