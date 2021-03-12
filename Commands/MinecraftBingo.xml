@@ -1,27 +1,5 @@
 <commands version="1">
     <command>
-        <name>Can I Play?</name>
-        <requiredwords>
-            <group>
-                <word>what</word>
-                <word>how</word>
-                <word wholeword="true">can</word>
-                <word>botimuz</word>
-                <word wholeword="true">bot</word>
-            </group>
-            <group>
-                <word>join</word>
-                <word>play</word>
-                <word>link</word>
-                <word>is this?</word>
-                <word>bingo</word>
-			</group>
-		</requiredwords>
-		<responses>
-			<response>Josh is playing https://minecraftbingo.com The goal is to complete one row, column or diagonal line of tasks.</response>
-		</responses>
-    </command>
-    <command>
         <name>Colours meaning</name>
         <requiredwords>
             <group>
@@ -117,5 +95,27 @@
         <responses>
             <response>This is not an ordinary speedrun! Josh is playing https://minecraftbingo.com The goal is to complete one row, column or diagonal line of tasks.</response>
         </responses>
+    </command>
+    <command>
+        <name>Can I Play?</name>
+        <requiredwords>
+            <group>
+                <word>what</word>
+                <word>how</word>
+                <word wholeword="true">can</word>
+                <word>botimuz</word>
+                <word wholeword="true">bot</word>
+            </group>
+            <group>
+                <word>join</word>
+                <word>play</word>
+                <word>link</word>
+                <word>is this?</word>
+                <word>bingo</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response>Josh is playing https://minecraftbingo.com The goal is to complete one row, column or diagonal line of tasks.</response>
+		</responses>
     </command>
 </commands>
