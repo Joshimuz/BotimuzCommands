@@ -51,6 +51,32 @@
         </responses>
     </command>
     <command>
+        <name>Blackout?</name>
+        <requiredwords>
+            <group>
+                <word wholeword="true">bot</word>
+                <word>botimuz</word>
+                <word>what</word>
+                <word>why</word>
+                <word>mean</word>
+            </group>
+            <group>
+                <word>blackout</word>
+                <word>black out</word>
+            </group>
+        </requiredwords>
+        <unwantedwords>
+            <group>
+                <word wholeword="true">do</word>
+                <word wholeword="true">done</word>
+                <word wholeword="true">did</word>
+            </group>
+        </unwantedwords>
+        <responses>
+            <response>Blackout is a challenge in Bingo where the goal is to complete every square on the sheet instead of a single line.</response>
+        </responses>
+    </command>
+    <command>
         <name>Texturepack?</name>
         <requiredwords>
             <group>
