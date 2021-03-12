@@ -1,27 +1,5 @@
 <commands version="1">
     <command>
-        <name>Can I Play?</name>
-        <requiredwords>
-            <group>
-                <word>what</word>
-                <word>how</word>
-                <word wholeword="true">can</word>
-                <word>botimuz</word>
-                <word wholeword="true">bot</word>
-            </group>
-            <group>
-                <word>join</word>
-                <word>play</word>
-                <word>link</word>
-                <word>is this?</word>
-                <word>bingo</word>
-			</group>
-		</requiredwords>
-		<responses>
-			<response>Josh is playing https://minecraftbingo.com The goal is to complete one row, column or diagonal line of tasks.</response>
-		</responses>
-    </command>
-    <command>
         <name>Colours meaning</name>
         <requiredwords>
             <group>
@@ -73,6 +51,32 @@
         </responses>
     </command>
     <command>
+        <name>Blackout?</name>
+        <requiredwords>
+            <group>
+                <word wholeword="true">bot</word>
+                <word>botimuz</word>
+                <word>what</word>
+                <word>why</word>
+                <word>mean</word>
+            </group>
+            <group>
+                <word>blackout</word>
+                <word>black out</word>
+            </group>
+        </requiredwords>
+        <unwantedwords>
+            <group>
+                <word wholeword="true">do</word>
+                <word wholeword="true">done</word>
+                <word wholeword="true">did</word>
+            </group>
+        </unwantedwords>
+        <responses>
+            <response>Blackout is a challenge in Bingo where the goal is to complete every square on the sheet instead of a single line.</response>
+        </responses>
+    </command>
+    <command>
         <name>Texturepack?</name>
         <requiredwords>
             <group>
@@ -117,5 +121,27 @@
         <responses>
             <response>This is not an ordinary speedrun! Josh is playing https://minecraftbingo.com The goal is to complete one row, column or diagonal line of tasks.</response>
         </responses>
+    </command>
+    <command>
+        <name>Can I Play?</name>
+        <requiredwords>
+            <group>
+                <word>what</word>
+                <word>how</word>
+                <word wholeword="true">can</word>
+                <word>botimuz</word>
+                <word wholeword="true">bot</word>
+            </group>
+            <group>
+                <word>join</word>
+                <word>play</word>
+                <word>link</word>
+                <word>is this?</word>
+                <word>bingo</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response>Josh is playing https://minecraftbingo.com The goal is to complete one row, column or diagonal line of tasks.</response>
+		</responses>
     </command>
 </commands>
