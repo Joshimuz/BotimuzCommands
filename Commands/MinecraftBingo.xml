@@ -134,12 +134,20 @@
             </group>
             <group>
                 <word>join</word>
-                <word>play</word>
+                <word>to play</word>
+                <word>i play</word>
                 <word>link</word>
                 <word>is this?</word>
                 <word>bingo</word>
 			</group>
 		</requiredwords>
+        <unwantedwords>
+            <group>
+                <word>your</word>
+                <word>i'm</word>
+                <word wholeword="true">im</word>
+            </group>
+        </unwantedwords>
 		<responses>
 			<response>Josh is playing https://minecraftbingo.com The goal is to complete one row, column or diagonal line of tasks.</response>
 		</responses>
