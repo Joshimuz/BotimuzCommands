@@ -6,7 +6,7 @@
                 <word wholeword="true">bot</word>
                 <word>botimuz</word>
                 <word>what</word>
-                <word>why</word>
+                <word wholeword="true">why</word>
             </group>
             <group>
                 <word>color</word>
@@ -19,6 +19,7 @@
                 <word>green</word>
             </group>
             <group>
+                <word wholeword="true">why</word>
                 <word>sheet</word>
                 <word>mean</word>
                 <word>card</word>
@@ -48,7 +49,7 @@
             </group>
         </unwantedwords>
         <responses>
-            <response>Players have different ways of marking their sheet. Josh's system is mostly: Grey = Unmarked; Blue = To be done; Red = Failed; Green = Completed! The other colors are situational.</response>
+            <response>Players have different ways of marking their sheet. Josh's system is mostly: Grey = Unmarked; Blue = To be done; Red = Failed; Green = Completed! The other colours are situational.</response>
         </responses>
     </command>
     <command>
