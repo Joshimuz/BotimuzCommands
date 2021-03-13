@@ -13,7 +13,7 @@
                 <word>blue</word>
                 <word>yellow</word>
                 <word>brown</word>
-                <word>red</word>
+                <word wholeword="true">red</word>
                 <word>pink</word>
                 <word>green</word>
             </group>
@@ -47,7 +47,7 @@
             </group>
         </unwantedwords>
         <responses>
-            <response>Players have different ways of marking their sheet. Josh's system is mostly: Blue = To be done; Yellow = Considered but difficult; Pink = Won't do; Red = Failed; Green = Completed!</response>
+            <response>Players have different ways of marking their sheet. Josh's system is mostly: Grey = Unmarked; Blue = To be done; Red = Failed; Green = Completed! The other colors are situational.</response>
         </responses>
     </command>
     <command>
