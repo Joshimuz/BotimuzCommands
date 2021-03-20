@@ -231,6 +231,7 @@
 			</group>
 			<group>
 				<word>start</word>
+				<word>grab</word>
 				<word wholeword="true">do</word>
 				<word wholeword="true">doing</word>
 			</group>
