@@ -228,10 +228,13 @@
 				<word>botimuz</word>
 				<word wholeword="true">bot</word>
 				<word>why</word>
+				<word>what</word>
 			</group>
 			<group>
 				<word>start</word>
 				<word>grab</word>
+				<word>take</word>
+				<word>pick up</word>
 				<word wholeword="true">do</word>
 				<word wholeword="true">doing</word>
 			</group>
