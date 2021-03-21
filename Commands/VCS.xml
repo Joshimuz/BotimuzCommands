@@ -241,7 +241,9 @@
 			<group>
 				<word>rampage</word>
 				<word>vigilante</word>
-				<word>side</word>
+				<word>sidemission</word>
+				<word>side-</word>
+				<word>side mission</word>
 			</group>
 		</requiredwords>
 		<maxWords>15</maxWords>
