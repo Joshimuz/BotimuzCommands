@@ -132,7 +132,7 @@
   </commandcollection>
 
   <commandcollection>
-    <name>VCS</name>
+    <name>VCS Any%</name>
     <channelname>Joshimuz</channelname>
     <requiredtitlewords>
       <group>
@@ -141,10 +141,8 @@
     </requiredtitlewords>
     <unwantedtitlewords>
       <group>
-        <word>any%</word>
-      </group>
-      <group>
         <word>nmg</word>
+        <word>no major glitches</word>
       </group>
     </unwantedtitlewords>
     <gamename>Grand Theft Auto: Vice City Stories</gamename>
@@ -154,6 +152,26 @@
       <name>VCS</name>
     </commandlists>
     <speedruncategory>Any%</speedruncategory>
+    <speedrunallowemulators>false</speedrunallowemulators>
+    <streamstatus>online</streamstatus>
+  </commandcollection>
+
+  <commandcollection>
+    <name>VCS NMG</name>
+    <channelname>Joshimuz</channelname>
+    <requiredtitlewords>
+      <group>
+        <word>nmg</word>
+        <word>no major glitches</word>
+      </group>
+    </requiredtitlewords>
+    <gamename>Grand Theft Auto: Vice City Stories</gamename>
+    <commandlists>
+      <name>Generic</name>
+      <name>Online</name>
+      <name>VCS</name>
+    </commandlists>
+    <speedruncategory>No Major Glitches</speedruncategory>
     <speedrunallowemulators>false</speedrunallowemulators>
     <streamstatus>online</streamstatus>
   </commandcollection>
