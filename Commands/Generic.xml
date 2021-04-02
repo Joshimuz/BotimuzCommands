@@ -597,7 +597,7 @@
 			</group>
 		</unwantedwords>
 		<responses>
-			<response>Josh is working on a new Minecraft Bingo version. He will probably playtest it from time to time. You can play MCBingo yourself on https://minecraftbingo.com (click the v3 button for the dev version)</response>
+			<response>Josh has released a new Minecraft Bingo version for 1.16.5. He will continue once 1.17 is released. You can play it yourself on https://minecraftbingo.com</response>
 		</responses>
 	</command>
 	<command>
@@ -641,6 +641,7 @@
 		<cooldown>0</cooldown>
 		<allowRepeatUsers>true</allowRepeatUsers>
 	</command>
+	<!--
 	<command>
 		<name>Cam Delay</name>
 		<maxWords>15</maxWords>
@@ -666,4 +667,5 @@
 			<response>The camera is slightly delayed yes. No I'm not fixing it, it's barely perceivable. (Would require just delayed absolutely everything else so it's in sync, I cannot remove the delay)</response>
 		</responses>
 	</command>
+	-->
 </commands>
