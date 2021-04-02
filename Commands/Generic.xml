@@ -641,6 +641,7 @@
 		<cooldown>0</cooldown>
 		<allowRepeatUsers>true</allowRepeatUsers>
 	</command>
+	<!--
 	<command>
 		<name>Cam Delay</name>
 		<maxWords>15</maxWords>
@@ -666,4 +667,5 @@
 			<response>The camera is slightly delayed yes. No I'm not fixing it, it's barely perceivable. (Would require just delayed absolutely everything else so it's in sync, I cannot remove the delay)</response>
 		</responses>
 	</command>
+	-->
 </commands>
