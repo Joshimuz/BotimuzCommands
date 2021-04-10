@@ -33,6 +33,7 @@
 			<group>
 				<word>what</word>
 				<word>which</word>
+				<word>how</word>
 				<word>is this</word>
 				<word>is that</word>
 				<word>or the</word>
@@ -48,6 +49,8 @@
 				<word>capture</word>
 				<word>psp or emu</word>
 				<word>play on</word>
+				<word>play this on</word>
+				<word>play it on</word>
 				<word>played on</word>
 				<word>or original</word>
 			</group>
@@ -109,6 +112,12 @@
 				<word>real hardware?</word>
 			</group>
 		</requiredwords>
+		<unwantedwords>
+			<group>
+				<word>PAL</word>
+				<word>NTSC</word>
+			</group>
+		</unwantedwords>
 		<responses>
 			<response>Josh is playing the PSP version of the game, on a PSTV (a PS Vita that plugs into a TV) with a DS4 controller. The PS2 version is slower so speedruns don't use it, and emulators are bad. There is no PC version. More info: https://faq.joshimuz.com/#what-are-you-playing-this-on</response>
 		</responses>
