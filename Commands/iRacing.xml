@@ -143,7 +143,9 @@
 				<word wholeword="true">you</word>
 			</group>
 			<group>
-				<word>see</word>
+				<word wholeword="true">see</word>
+				<word wholeword="true">sees</word>
+				<word>seeing</word>
 				<word>read</word>
 				<word>reading</word>
 			</group>
