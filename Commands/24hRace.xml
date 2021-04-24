@@ -24,16 +24,19 @@
 				<word>botimuz</word>
 				<word wholeword="true">what</word>
 				<word wholeword="true">when</word>
+				<word wholeword="true">how</word>
 			</group>
 			<group>
 				<word>josh</word>
 				<word>he</word>
 				<word>stint</word>
+				<word>plan</word>
 			</group>
 			<group>
 				<word>driv</word>
 				<word>turn</word>
 				<word>stint</word>
+				<word>doing</word>
 			</group>
 		</requiredwords>
 		<responses>
@@ -56,6 +59,25 @@
 		</requiredwords>
 		<responses>
 			<response>Yellow is GT3 (fastest), Pink is GT4 and Purple is TCR (slowest)</response>
+		</responses>
+	</command>
+
+	<command>
+		<name>When race</name>
+		<requiredwords>
+			<group>
+				<word wholeword="true">bot</word>
+				<word>botimuz</word>
+				<word wholeword="true">what</word>
+				<word wholeword="true">when</word>
+			</group>
+			<group>
+				<word>start</word>
+				<word>end</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response>Race starts at 13:45 BST, ends at, believe it or not, 13:45 BST</response>
 		</responses>
 	</command>
 </commands>
