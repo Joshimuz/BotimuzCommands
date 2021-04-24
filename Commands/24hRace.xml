@@ -15,4 +15,47 @@
 			<response>PROLaps is driving the Porsche 718 Cayman GT4</response>
 		</responses>
 	</command>
+
+	<command>
+		<name>When Josh Drive?</name>
+		<requiredwords>
+			<group>
+				<word wholeword="true">bot</word>
+				<word>botimuz</word>
+				<word wholeword="true">what</word>
+				<word wholeword="true">when</word>
+			</group>
+			<group>
+				<word>josh</word>
+				<word>he</word>
+				<word>stint</word>
+			</group>
+			<group>
+				<word>driv</word>
+				<word>turn</word>
+				<word>stint</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response>https://cdn.discordapp.com/attachments/755316609903493161/835488907587747890/unknown.png</response>
+		</responses>
+	</command>
+
+	<command>
+		<name>What classes</name>
+		<requiredwords>
+			<group>
+				<word wholeword="true">bot</word>
+				<word>botimuz</word>
+				<word wholeword="true">what</word>
+			</group>
+			<group>
+				<word>class</word>
+				<word>colour</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response>Yellow is GT3 (fastest), Pink is GT4 and Purple is TCR (slowest)</response>
+		</responses>
+	</command>
 </commands>
