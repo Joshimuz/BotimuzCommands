@@ -245,6 +245,7 @@
       <name>Generic</name>
       <name>Online</name>
       <name>iRacing</name>
+      <name>24hRace</name>
     </commandlists>
     <streamstatus>online</streamstatus>
   </commandcollection>
