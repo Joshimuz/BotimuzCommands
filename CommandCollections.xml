@@ -232,6 +232,23 @@
   </commandcollection>
 
   <commandcollection>
+    <name>24h iRacing</name>
+    <channelname>Joshimuz</channelname>
+    <gamename>iRacing</gamename>
+    <requiredtitlewords>
+      <group>
+        <word>24 hours</word>
+      </group>
+    </requiredtitlewords>
+    <commandlists>
+      <name>Generic</name>
+      <name>Online</name>
+      <name>iRacing</name>
+    </commandlists>
+    <streamstatus>online</streamstatus>
+  </commandcollection>
+
+  <commandcollection>
     <name>iRacing</name>
     <channelname>Joshimuz</channelname>
     <gamename>iRacing</gamename>
