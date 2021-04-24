@@ -79,4 +79,26 @@
 			<response>Race starts at 13:45 BST, ends at, believe it or not, 13:45 BST</response>
 		</responses>
 	</command>
+
+	<command>
+		<name>How many teams</name>
+		<requiredwords>
+			<group>
+				<word wholeword="true">bot</word>
+				<word>botimuz</word>
+				<word wholeword="true">how</word>
+			</group>
+			<group>
+				<word>many</word>
+			</group>
+			<group>
+				<word>teams</word>
+				<word>cars</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response>There are 55 teams per split (per race), with about 800 teams signed up in total. As the race goes on people might crash and retire from the race so there will be less cars.</response>
+		</responses>
+	</command>
+
 </commands>
