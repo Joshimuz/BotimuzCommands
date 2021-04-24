@@ -71,6 +71,9 @@
 				<word wholeword="true">when</word>
 			</group>
 			<group>
+				<word>race</word>
+			</group>
+			<group>
 				<word>start</word>
 				<word>end</word>
 			</group>
