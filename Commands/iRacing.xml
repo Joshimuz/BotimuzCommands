@@ -137,15 +137,15 @@
 				<word>how</word>
 				<word>can</word>
 				<word wholeword="true">is</word>
-			</group>
-			<group>
 				<word>josh</word>
 				<word wholeword="true">he</word>
 				<word wholeword="true">they</word>
 				<word wholeword="true">you</word>
 			</group>
 			<group>
-				<word>see</word>
+				<word wholeword="true">see</word>
+				<word wholeword="true">sees</word>
+				<word>seeing</word>
 				<word>read</word>
 				<word>reading</word>
 			</group>
@@ -352,4 +352,30 @@
 			<response>If someone in the PROLaps discord talks AND uses the Voice Chat in game you will hear it twice. Nothing I can do (don't suggest things).</response>
 		</responses>
 	</command> -->
+	<command>
+		<name>iRating/SafetyRating</name>
+		<requiredwords>
+			<group>
+				<word>what</word>
+				<word wholeword="true">bot</word>
+				<word>botimuz</word>
+			</group>
+			<group>
+				<word wholeword="true">sr</word>
+				<word wholeword="true">ir</word>
+				<word>safety rating</word>
+				<word>irating</word>
+			</group>
+		</requiredwords>
+		<unwantedwords>
+			<group>
+				<word>happen</word>
+				<word>is your</word>
+				<word>is josh</word>
+			</group>
+		</unwantedwords>
+		<responses>
+			<response>iRating measures how fast you are compared to other drivers. You are matched up with drivers of similar iR. Safety Rating measures how safe you drive. Having good SR is prerequisite for getting higher class licenses.</response>
+		</responses>
+	</command>
 </commands>
