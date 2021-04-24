@@ -1,0 +1,18 @@
+﻿<commands version="1">
+	<command>
+		<name>What car</name>
+		<requiredwords>
+			<group>
+				<word wholeword="true">bot</word>
+				<word>botimuz</word>
+				<word wholeword="true">what</word>
+			</group>
+			<group>
+				<word wholeword="true">car</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response>PROLaps is driving the Porsche 718 Cayman GT4</response>
+		</responses>
+	</command>
+</commands>

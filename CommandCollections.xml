@@ -237,7 +237,8 @@
     <gamename>iRacing</gamename>
     <requiredtitlewords>
       <group>
-        <word>24 hours</word>
+        <word>24</word>
+        <word>hours</word>
       </group>
     </requiredtitlewords>
     <commandlists>
