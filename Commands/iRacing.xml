@@ -71,7 +71,6 @@
 	</command>
 	<command>
 		<name>Wheel and VR</name>
-		<maxWords>15</maxWords>
 		<requiredwords>
 			<group>
 				<word>what</word>
