@@ -121,7 +121,7 @@
             </group>
         </unwantedwords>
         <responses>
-            <response>This is not an ordinary speedrun! Josh is playing https://minecraftbingo.com The goal is to complete one row, column or diagonal line of tasks.</response>
+            <response>This is not an ordinary speedrun! Josh is playing https://minecraftbingo.com — the goal is to complete one row, column or diagonal line of tasks.</response>
         </responses>
     </command>
     <command>
@@ -151,7 +151,7 @@
             </group>
         </unwantedwords>
 		<responses>
-			<response>Josh is playing https://minecraftbingo.com The goal is to complete one row, column or diagonal line of tasks.</response>
+			<response>Josh is playing https://minecraftbingo.com — the goal is to complete one row, column or diagonal line of tasks.</response>
 		</responses>
     </command>
 </commands>
