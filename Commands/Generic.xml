@@ -630,10 +630,11 @@
 		<maxWords>4</maxWords>
 		<requiredwords>
 			<group>
-				<word>bot</word>
+				<word wholeword="true">bot</word>
 			</group>
 			<group>
-				<word>dead</word>
+				<word wholeword="true">dead</word>
+				<word wholeword="true">ded</word>
 			</group>
 		</requiredwords>
 		<responses data0="messageid" usename="false">
