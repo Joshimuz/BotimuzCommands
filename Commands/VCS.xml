@@ -57,7 +57,7 @@
 			<group>
 				<word>console</word>
 				<word>platform</word>
-				<word>version</word>
+				<word wholeword="true">version</word>
 				<word>system</word>
 				<word>emulator</word>
 				<word>emulated</word>
