@@ -138,6 +138,7 @@
 				<word>pixels</word>
 				<word>pixelated</word>
 				<word>blurr</word>
+				<word wholeword="true">res</word>
 			</group>
 		</requiredwords>
 		<responses>
