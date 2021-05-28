@@ -75,6 +75,11 @@
 				<word>real hardware</word>
 				<word>playing this on</word>
 				<word>playing it on</word>
+				<word>controller</word>
+				<word>gamepad</word>
+				<word>joystick</word>
+				<word>keyboard</word>
+				<word>mouse</word>
 			</group>
 		</requiredwords>
 		<unwantedwords>
@@ -110,6 +115,11 @@
 				<word>ppsspp?</word>
 				<word>real hw?</word>
 				<word>real hardware?</word>
+				<word>controller?</word>
+				<word>gamepad?</word>
+				<word>joystick?</word>
+				<word>keyboard?</word>
+				<word>mouse?</word>
 			</group>
 		</requiredwords>
 		<unwantedwords>
