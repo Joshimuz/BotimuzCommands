@@ -545,7 +545,7 @@
 			<response>Josh has been alive for [0]</response>
 		</responses>
 	</command>
-	<command>
+	<!-- <command>
 		<name>When SA</name>
 		<maxWords>15</maxWords>
 		<requiredwords>
@@ -570,7 +570,7 @@
 		<responses>
 			<response>Josh got sick of doing SA, right now he's taking a break from it (because he has been running it for like 18 months straight) so he doesn't want to do it right now.</response>
 		</responses>
-	</command>
+	</command> -->
 	<command>
 		<name>When MCBingo</name>
 		<maxWords>15</maxWords>
