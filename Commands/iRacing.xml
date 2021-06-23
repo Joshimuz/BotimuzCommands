@@ -99,11 +99,11 @@
 			</group>
 		</unwantedwords>
 		<responses>
-			<response>Josh is wearing a HTC Vive and driving with a Logitech G29 (pedals n' all), while being sat in a X Rocker XR Racing Circuit Chair.</response>
+			<response>Josh is wearing a HTC Vive and driving with a very customised Logitech G29 which has a 3D printed wheel rim, while being sat in a X Rocker XR Racing Circuit Chair.</response>
 		</responses>
 	</command>
 	<command>
-		<name>Wheel and VR</name>
+		<name>Flags</name>
 		<maxWords>15</maxWords>
 		<requiredwords>
 			<group>
