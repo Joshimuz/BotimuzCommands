@@ -28,126 +28,6 @@
 		</responses>
 	</command>
 	<command>
-		<name>Date Katie</name>
-		<maxWords>15</maxWords>
-		<requiredwords>
-			<group>
-				<word>why</word>
-				<word>what</word>
-				<word>wtf</word>
-				<word>botimuz</word>
-				<word wholeword="true">bot</word>
-			</group>
-			<group>
-				<word>girlfriend</word>
-				<word wholeword="true">katie</word>
-				<word wholeword="true">kate</word>
-			</group>
-		</requiredwords>
-		<unwantedwords>
-			<group>
-				<word>emma</word>
-				<word>kitt</word>
-			</group>
-		</unwantedwords>
-		<responses>
-			<response>Katie is used to un-stick a duped cutscene, thereby skipping the mission "Jizzy". Without it the cutscene runs forever in the background and crashes the game</response>
-		</responses>
-	</command>
-	<command>
-		<name>Stadium Event</name>
-		<maxWords>15</maxWords>
-		<requiredwords>
-			<group>
-				<word>why</word>
-				<word>what</word>
-				<word>botimuz</word>
-				<word wholeword="true">bot</word>
-			</group>
-			<group>
-				<word>stadium</word>
-				<word>bloodbowl</word>
-				<word>blood bowl</word>
-			</group>
-		</requiredwords>
-		<unwantedwords>
-			<group>
-				<word>uses</word>
-			</group>
-		</unwantedwords>
-		<responses>
-			<response>If you get a phonecall when entering a Stadium marker (and others) you can get a "glitched" (om0) phonecall. Josh uses this to dupe missions</response>
-		</responses>
-	</command>
-	<command>
-		<name>Sultan</name>
-		<maxWords>15</maxWords>
-		<requiredwords>
-			<group>
-				<word>why</word>
-				<word>what</word>
-				<word>botimuz</word>
-				<word wholeword="true">bot</word>
-			</group>
-			<group>
-				<word>sultan</word>
-			</group>
-			<group>
-				<word>need</word>
-				<word>want</word>
-				<word>require</word>
-				<word wholeword="true">bot</word>
-			</group>
-		</requiredwords>
-		<responses>
-			<response>Josh doesn't "need" a Sultan, he needs a 4-door car for Don Peyote and a Sultan is the fastest one (he also has a replay of it to make the game load it)</response>
-		</responses>
-	</command>
-	<command>
-		<name>Zero</name>
-		<maxWords>15</maxWords>
-		<requiredwords>
-			<group>
-				<word>why</word>
-				<word>what</word>
-				<word>botimuz</word>
-				<word wholeword="true">bot</word>
-			</group>
-			<group>
-				<word>buy</word>
-				<word>get</word>
-				<word wholeword="true">do</word>
-			</group>
-			<group>
-				<word>zero</word>
-			</group>
-		</requiredwords>
-		<responses>
-			<response>Josh buys Zero to get an extra phonecall for dupes and such, he doesn't actually do Zero's missions</response>
-		</responses>
-	</command>
-	<command>
-		<name>Driving School</name>
-		<maxWords>15</maxWords>
-		<requiredwords>
-			<group>
-				<word>why</word>
-				<word>botimuz</word>
-				<word wholeword="true">bot</word>
-			</group>
-			<group>
-				<word>driv</word>
-				<word>gold</word>
-			</group>
-			<group>
-				<word>school</word>
-			</group>
-		</requiredwords>
-		<responses>
-			<response>Josh needs 2-3 Golds in driving school to get enough Driving Skill to unlock the Stadium in LS, for dupes and such later</response>
-		</responses>
-	</command>
-	<command>
 		<name>Camera Flick</name>
 		<maxWords>15</maxWords>
 		<requiredwords>
@@ -188,6 +68,30 @@
 		</responses>
 	</command>
 	<command>
+		<name>Sultan</name>
+		<maxWords>15</maxWords>
+		<requiredwords>
+			<group>
+				<word>why</word>
+				<word>what</word>
+				<word>botimuz</word>
+				<word wholeword="true">bot</word>
+			</group>
+			<group>
+				<word>sultan</word>
+			</group>
+			<group>
+				<word>need</word>
+				<word>want</word>
+				<word>require</word>
+				<word wholeword="true">bot</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response>Josh doesn't "need" a Sultan, he needs a 4-door car for Don Peyote and a Sultan is the fastest one (he also has a replay of it to make the game load it)</response>
+		</responses>
+	</command>
+	<command>
 		<name>Heli LV</name>
 		<maxWords>15</maxWords>
 		<requiredwords>
@@ -215,35 +119,6 @@
 		</unwantedwords>
 		<responses>
 			<response>You don't use the Helicopter during LV because it's actually slower (getting it, taking off/landing all the time). Instead Josh uses a Sultan for Don Peyote</response>
-		</responses>
-	</command>
-	<command>
-		<name>No Wanted</name>
-		<maxWords>15</maxWords>
-		<requiredwords>
-			<group>
-				<word>why</word>
-				<word>wtf</word>
-				<word>botimuz</word>
-				<word wholeword="true">bot</word>
-			</group>
-			<group>
-				<word>no</word>
-				<word>flash</word>
-			</group>
-			<group>
-				<word>wanted</word>
-				<word>stars</word>
-			</group>
-		</requiredwords>
-		<unwantedwords>
-			<group>
-				<word>0*</word>
-				<word>glitch</word>
-			</group>
-		</unwantedwords>
-		<responses>
-			<response>Josh doesn't get wanted level during LV because he has done a glitch to clear his wanted level every frame. They do sometimes flash and cops can spawn though</response>
 		</responses>
 	</command>
 	<command>
@@ -289,35 +164,6 @@
 		</responses>
 	</command>
 	<command>
-		<name>No Major Glitches</name>
-		<requiredwords>
-			<group>
-				<word>where</word>
-				<word>what</word>
-				<word wholeword="true">bot</word>
-				<word>mean</word>
-				<word>botimuz</word>
-				<word wholeword="true">stands</word>
-			</group>
-			<group>
-				<word wholeword="true">nmg</word>
-				<word>major glitch</word>
-			</group>
-		</requiredwords>
-		<unwantedwords>
-			<group>
-				<word>like</word>
-				<word>prefer</word>
-				<word>wr</word>
-				<word>world</word>
-				<word>record</word>
-			</group>
-		</unwantedwords>
-		<responses>
-			<response>NMG (No Major Glitches) is a version of Any% that forbids OnMission flag manipulation (Duping, 0 Star) and any other "big" glitches that get found in the future</response>
-		</responses>
-	</command>
-	<command>
 		<name>Version</name>
 		<maxWords>15</maxWords>
 		<requiredwords>
@@ -354,56 +200,6 @@
 		</unwantedwords>
 		<responses>
 			<response>Josh plays on retail v1.01, which is a physical box copy of the game. Not Steam, not RGL.</response>
-		</responses>
-	</command>
-	<command>
-		<name>Swimming</name>
-		<maxWords>15</maxWords>
-		<requiredwords>
-			<group>
-				<word>why</word>
-				<word>what</word>
-				<word>botimuz</word>
-				<word wholeword="true">bot</word>
-			</group>
-			<group>
-				<word>swim</word>
-				<word>drown</word>
-				<word>lung</word>
-			</group>
-		</requiredwords>
-		<responses>
-			<response>When not doing Woozie skip, Josh needs to upgrade his lung capacity twice in order to start the mission "Amphibious Assault" so he drowns himself sometimes</response>
-		</responses>
-	</command>
-	<command>
-		<name>No AJS</name>
-		<requiredwords>
-			<group>
-				<word>what</word>
-				<word wholeword="true">bot</word>
-				<word>where</word>
-				<word>mean</word>
-				<word>botimuz</word>
-				<word>translate</word>
-			</group>
-			<group>
-				<word>ajs</word>
-				<word>asj</word>
-				<word>jump in script</word>
-			</group>
-		</requiredwords>
-		<unwantedwords>
-			<group>
-				<word>like</word>
-				<word>prefer</word>
-				<word wholeword="true">wr</word>
-				<word>world</word>
-				<word>record</word>
-			</group>
-		</unwantedwords>
-		<responses>
-			<response>No AJS (No Arbitrary Jump in Script) forbids manipulating mission script jumping, which is used in normal Any% to skip the whole game. (Not called ASJ, which sounds like All Stunt Jumps.)</response>
 		</responses>
 	</command>
 	<command>

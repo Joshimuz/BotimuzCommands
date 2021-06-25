@@ -80,6 +80,7 @@
       <name>Generic</name>
       <name>Online</name>
       <name>SA</name>
+      <name>SANoAJS</name>
     </commandlists>
     <speedruncategory>Any% (No AJS)</speedruncategory>
     <streamstatus>online</streamstatus>
@@ -99,6 +100,7 @@
       <name>Generic</name>
       <name>Online</name>
       <name>SA</name>
+      <name>SANMG</name>
     </commandlists>
     <speedruncategory>No Major Glitches</speedruncategory>
     <streamstatus>online</streamstatus>
