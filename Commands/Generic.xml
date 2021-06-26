@@ -452,7 +452,7 @@
 			</group>
 		</unwantedwords>
 		<responses>
-			<response>There (normally) aren't any bots that respond to ! commands, try asking your question normally</response>
+			<response>There (normally) aren't any bots that respond to ! commands, try asking your question normally I should respond automatically</response>
 		</responses>
 	</command>
 	<command>
