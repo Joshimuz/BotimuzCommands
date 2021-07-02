@@ -1,34 +1,5 @@
 <commands version="1">
 	<command>
-		<name>No Major Glitches</name>
-		<requiredwords>
-			<group>
-				<word>where</word>
-				<word>what</word>
-				<word wholeword="true">bot</word>
-				<word>mean</word>
-				<word>botimuz</word>
-				<word wholeword="true">stands</word>
-			</group>
-			<group>
-				<word wholeword="true">nmg</word>
-				<word>major glitch</word>
-			</group>
-		</requiredwords>
-		<unwantedwords>
-			<group>
-				<word>like</word>
-				<word>prefer</word>
-				<word>wr</word>
-				<word>world</word>
-				<word>record</word>
-			</group>
-		</unwantedwords>
-		<responses>
-			<response>NMG (No Major Glitches) is a version of Any% that forbids OnMission flag manipulation (Duping, 0 Star) and any other "big" glitches that get found in the future</response>
-		</responses>
-	</command>
-	<command>
 		<name>Swimming</name>
 		<maxWords>15</maxWords>
 		<requiredwords>

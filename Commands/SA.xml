@@ -230,6 +230,65 @@
 		</responses>
 	</command>
 	<command>
+		<name>No Major Glitches</name>
+		<requiredwords>
+			<group>
+				<word>where</word>
+				<word>what</word>
+				<word wholeword="true">bot</word>
+				<word>mean</word>
+				<word>botimuz</word>
+				<word wholeword="true">stands</word>
+			</group>
+			<group>
+				<word wholeword="true">nmg</word>
+				<word>major glitch</word>
+			</group>
+		</requiredwords>
+		<unwantedwords>
+			<group>
+				<word>like</word>
+				<word>prefer</word>
+				<word>wr</word>
+				<word>world</word>
+				<word>record</word>
+			</group>
+		</unwantedwords>
+		<responses>
+			<response>NMG (No Major Glitches) is a version of Any% that forbids OnMission flag manipulation (Duping, 0 Star) and any other "big" glitches that get found in the future</response>
+		</responses>
+	</command>
+	<command>
+		<name>No AJS</name>
+		<requiredwords>
+			<group>
+				<word>what</word>
+				<word wholeword="true">bot</word>
+				<word>where</word>
+				<word>mean</word>
+				<word>botimuz</word>
+				<word>translate</word>
+			</group>
+			<group>
+				<word>ajs</word>
+				<word>asj</word>
+				<word>jump in script</word>
+			</group>
+		</requiredwords>
+		<unwantedwords>
+			<group>
+				<word>like</word>
+				<word>prefer</word>
+				<word wholeword="true">wr</word>
+				<word>world</word>
+				<word>record</word>
+			</group>
+		</unwantedwords>
+		<responses>
+			<response>No AJS (No Arbitrary Jump in Script) forbids manipulating mission script jumping, which is used in normal Any% to skip the whole game. (Not called ASJ, which sounds like All Stunt Jumps.)</response>
+		</responses>
+	</command>
+	<command>
 		<name>How many hours</name>
 		<maxWords>15</maxWords>
 		<requiredwords>
