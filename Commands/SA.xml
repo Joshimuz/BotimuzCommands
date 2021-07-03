@@ -257,4 +257,11 @@
 		</responses>
 		<dataTrigger type="onLoad"></dataTrigger>
 	</command>
+	<command>
+		<name>SubsOnlyOff</name>
+		<responses forward="false" usename="false">
+			<response>/subscribersoff</response>
+		</responses>
+		<dataTrigger type="onUnload"></dataTrigger>
+	</command>
 </commands>

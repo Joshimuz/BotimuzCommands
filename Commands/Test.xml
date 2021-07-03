@@ -10,11 +10,18 @@
 			<response data0="textFile" string0="C:\Users\Joshimuz\Desktop\TEXT.txt">[0]</response>
 		</responses>
 	</command>
-<!-- 	<command>
+	<command>
 		<name>on load test</name>
 		<responses forward="false" usename="false">
 			<response>TESTING ON LOAD HI</response>
 		</responses>
 		<dataTrigger type="onLoad"></dataTrigger>
-	</command> -->
+	</command>
+	<command>
+		<name>on load test</name>
+		<responses forward="false" usename="false">
+			<response>TESTING ON UNLOAD BYE</response>
+		</responses>
+		<dataTrigger type="onUnload"></dataTrigger>
+	</command>
 </commands>
