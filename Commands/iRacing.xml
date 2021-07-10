@@ -120,6 +120,7 @@
 		<unwantedwords>
 			<group>
 				<word>i have</word>
+				<word>class</word>
 			</group>
 		</unwantedwords>
 		<responses>
