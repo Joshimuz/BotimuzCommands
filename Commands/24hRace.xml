@@ -12,7 +12,7 @@
 			</group>
 		</requiredwords>
 		<responses>
-			<response>PROLaps is driving the Porsche 718 Cayman GT4</response>
+			<response>PROLaps is the Dallara P217, LMP2 class car</response>
 		</responses>
 	</command>
 
@@ -24,6 +24,7 @@
 				<word>botimuz</word>
 				<word>when</word>
 				<word wholeword="true">how</word>
+				<word wholeword="true">who</word>
 			</group>
 			<group>
 				<word>josh</word>
@@ -40,7 +41,7 @@
 			</group>
 		</requiredwords>
 		<responses>
-			<response>https://cdn.discordapp.com/attachments/755316609903493161/835488907587747890/unknown.png</response>
+			<response>https://cdn.discordapp.com/attachments/755316609903493161/863434000474177536/unknown.png (Time in GMT/UCT)</response>
 		</responses>
 	</command>
 
@@ -58,11 +59,11 @@
 			</group>
 		</requiredwords>
 		<responses>
-			<response>Yellow is GT3 (fastest), Pink is GT4 and Purple is TCR (slowest)</response>
+			<response>From Fastest to Slowest the classes are: Yellow - LMP1, Blue - LMP2, Pink - GTE</response>
 		</responses>
 	</command>
 
-	<command>
+<!-- 	<command>
 		<name>When race</name>
 		<requiredwords>
 			<group>
@@ -82,9 +83,9 @@
 		<responses>
 			<response>Race starts at 13:45 BST, ends at, believe it or not, 13:45 BST</response>
 		</responses>
-	</command>
+	</command> -->
 
-	<command>
+<!-- 	<command>
 		<name>How many teams</name>
 		<requiredwords>
 			<group>
@@ -103,6 +104,6 @@
 		<responses>
 			<response>There are 55 teams per split (per race), with about 800 teams signed up in total. As the race goes on people might crash and retire from the race so there will be less cars.</response>
 		</responses>
-	</command>
+	</command> -->
 
 </commands>

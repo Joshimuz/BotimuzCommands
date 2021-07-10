@@ -233,7 +233,7 @@
     <streamstatus>online</streamstatus>
   </commandcollection>
 
-<!--   <commandcollection>
+  <commandcollection>
     <name>24h iRacing</name>
     <channelname>Joshimuz</channelname>
     <gamename>iRacing</gamename>
@@ -250,7 +250,7 @@
       <name>24hRace</name>
     </commandlists>
     <streamstatus>online</streamstatus>
-  </commandcollection> -->
+  </commandcollection>
 
   <commandcollection>
     <name>iRacing</name>
