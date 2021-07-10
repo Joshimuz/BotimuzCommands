@@ -32,6 +32,7 @@
 				<word>stint</word>
 				<word>plan</word>
 				<word>hour</word>
+				<word>schedule</word>
 			</group>
 			<group>
 				<word>driv</word>
@@ -40,10 +41,11 @@
 				<word>doing</word>
 				<word>race</word>
 				<word>racing</word>
+				<word>schedule</word>
 			</group>
 		</requiredwords>
 		<responses>
-			<response>Stints are kind of fucked up so who knows who is driving when lol</response>
+			<response>https://cdn.discordapp.com/attachments/755316609903493161/863529376862961674/unknown.png</response>
 		</responses>
 	</command>
 
