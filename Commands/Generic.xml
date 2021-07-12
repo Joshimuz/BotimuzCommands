@@ -292,6 +292,7 @@
 			</group>
 			<group>
 				<word>title</word>
+				<word>sitrep</word>
 			</group>
 		</requiredwords>
 		<responses data0="twitchtitle">
