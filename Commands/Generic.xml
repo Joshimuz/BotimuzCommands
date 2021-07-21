@@ -716,6 +716,8 @@
 				<word>why</word>
 				<word>what</word>
 				<word>how</word>
+				<word wholeword="true">bot</word>
+				<word>botimuz</word>
 			</group>
 			<group>
 				<word>reset</word>
@@ -738,6 +740,56 @@
 			<response>While you were getting a drink for 20 seconds Josh reset because he wanted to.</response>
 			<response>While you were having a shower for 15 minutes Josh reset because coco threw up.</response>
 			<response>While you were checking social media for 3 seconds Josh reset because his parachute failed.</response>
+		</responses>
+	</command>
+	<command>
+		<name>WHEN JDQ</name>
+		<maxWords>15</maxWords>
+		<requiredwords>
+			<group>
+				<word>plan</word>
+				<word wholeword="true">when</word>
+				<word wholeword="true">will</word>
+				<word>are you</word>
+			</group>
+			<group>
+				<word>plan of </word>
+				<word>plan on </word>
+				<word>plan to </word>
+				<word>planning to </word>
+				<word>planning on </word>
+				<word>planing to </word>
+				<word>planing on </word>
+				<word wholeword="true">next</word>
+				<word wholeword="true">going</word>
+				<word wholeword="true">gonna</word>
+				<word>you do </word>
+				<word>do you </word>
+				<word>ever do </word>
+				<word>start</word>
+				<word wholeword="true">bot</word>
+				<word>botimuz</word>
+			</group>
+			<group>
+				<word>joshdonequick</word>
+				<word wholeword="true">jdq</word>
+				<word wholeword="true">bot</word>
+				<word>botimuz</word>
+			</group>
+		</requiredwords>
+		<unwantedwords>
+			<group>
+				<word>watch</word>
+				<word>saw</word>
+				<word>version</word>
+				<word>wants</word>
+				<word>played</word>
+				<word>playing</word>
+				<word wholeword="true">esa</word>
+			</group>
+		</unwantedwords>
+		<responses>
+			<response>JDQ is planned for "some time in August". The dates aren't scheduled yet.</response>
 		</responses>
 	</command>
 </commands>
