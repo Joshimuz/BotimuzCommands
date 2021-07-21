@@ -753,24 +753,6 @@
 				<word>are you</word>
 			</group>
 			<group>
-				<word>plan of </word>
-				<word>plan on </word>
-				<word>plan to </word>
-				<word>planning to </word>
-				<word>planning on </word>
-				<word>planing to </word>
-				<word>planing on </word>
-				<word wholeword="true">next</word>
-				<word wholeword="true">going</word>
-				<word wholeword="true">gonna</word>
-				<word>you do </word>
-				<word>do you </word>
-				<word>ever do </word>
-				<word>start</word>
-				<word wholeword="true">bot</word>
-				<word>botimuz</word>
-			</group>
-			<group>
 				<word>joshdonequick</word>
 				<word wholeword="true">jdq</word>
 				<word wholeword="true">bot</word>
