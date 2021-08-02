@@ -751,12 +751,13 @@
 				<word wholeword="true">when</word>
 				<word wholeword="true">will</word>
 				<word>are you</word>
+				<word wholeword="true">bot</word>
+				<word>botimuz</word>
 			</group>
 			<group>
 				<word>joshdonequick</word>
+				<word>josh done quick</word>
 				<word wholeword="true">jdq</word>
-				<word wholeword="true">bot</word>
-				<word>botimuz</word>
 			</group>
 		</requiredwords>
 		<unwantedwords>
