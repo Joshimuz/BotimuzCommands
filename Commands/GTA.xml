@@ -6,16 +6,19 @@
 			<group>
 				<word>why</word>
 				<word>where</word>
-				<word>?</word>
 				<word>botimuz</word>
 				<word wholeword="true">bot</word>
 			</group>
 			<group>
-				<word>no</word>
+				<word wholeword="true">no</word>
 				<word>don't</word>
 				<word>dont</word>
+				<word wholeword="true">is</word>
+				<word>isn't</word>
+				<word>isnt</word>
+				<word>doesn't</word>
+				<word>doesnt</word>
 				<word>disable</word>
-				<word>where</word>
 			</group>
 			<group>
 				<word>radio</word>
@@ -24,7 +27,7 @@
 			</group>
 		</requiredwords>
 		<responses>
-			<response>Josh wants to avoid all copyright issues for all time, here and Youtube, so he mutes the game when there is music. Also https://twitter.com/Joshimuz/status/1270988855508959232</response>
+			<response>Josh wants to avoid all copyright issues for all time, here and Youtube, so radio is turned off and he mutes the game when there is music. Also https://twitter.com/Joshimuz/status/1270988855508959232</response>
 		</responses>
 	</command>
 </commands>
