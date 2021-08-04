@@ -1,34 +1,5 @@
 <commands>
 	<command>
-		<name>Why no Radio</name>
-		<maxlength>10</maxlength>
-		<requiredwords>
-			<group>
-				<word>why</word>
-				<word>where</word>
-				<word>?</word>
-				<word>botimuz</word>
-				<word wholeword="true">bot</word>
-			</group>
-			<group>
-				<word>no</word>
-				<word>don't</word>
-				<word>dont</word>
-				<word>disable</word>
-				<word>where</word>
-			</group>
-			<group>
-				<word>radio</word>
-				<word>music</word>
-				<word>tune</word>
-			</group>
-		</requiredwords>
-		<responses>
-			<response>Josh wants to avoid all copyright issues for all time, here and Youtube, so he mutes the game when there is music.</response>
-		</responses>
-	</command>
-	
-	<command>
 		<name>Camera Flick</name>
 		<maxlength>15</maxlength>
 		<requiredwords>
