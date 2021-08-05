@@ -119,9 +119,6 @@
     </requiredtitlewords>
     <unwantedtitlewords>
       <group>
-        <word>any%</word>
-      </group>
-      <group>
         <word>nmg</word>
         <word>no ajs</word>
       </group>
