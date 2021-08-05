@@ -59,6 +59,7 @@
     <commandlists>
       <name>Generic</name>
       <name>Online</name>
+      <name>GTA</name>
       <name>SA</name>
       <name>ChaosMod</name>
     </commandlists>
@@ -79,6 +80,7 @@
     <commandlists>
       <name>Generic</name>
       <name>Online</name>
+      <name>GTA</name>
       <name>SA</name>
       <name>SANoAJS</name>
     </commandlists>
@@ -99,6 +101,7 @@
     <commandlists>
       <name>Generic</name>
       <name>Online</name>
+      <name>GTA</name>
       <name>SA</name>
       <name>SANMG</name>
     </commandlists>
@@ -127,6 +130,7 @@
     <commandlists>
       <name>Generic</name>
       <name>Online</name>
+      <name>GTA</name>
       <name>SAAny</name>
     </commandlists>
     <speedruncategory>Any%</speedruncategory>
@@ -151,6 +155,7 @@
     <commandlists>
       <name>Generic</name>
       <name>Online</name>
+      <name>GTA</name>
       <name>VCS</name>
     </commandlists>
     <speedruncategory>Any%</speedruncategory>
@@ -171,6 +176,7 @@
     <commandlists>
       <name>Generic</name>
       <name>Online</name>
+      <name>GTA</name>
       <name>VCS</name>
     </commandlists>
     <speedruncategory>No Major Glitches</speedruncategory>
@@ -195,6 +201,7 @@
     <commandlists>
       <name>Generic</name>
       <name>Online</name>
+      <name>GTA</name>
       <name>MTA</name>
     </commandlists>
     <streamstatus>online</streamstatus>

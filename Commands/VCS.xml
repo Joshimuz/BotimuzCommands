@@ -1,32 +1,5 @@
 ﻿<commands version="1">
 	<command>
-		<name>Why no Radio</name>
-		<requiredwords>
-			<group>
-				<word>why</word>
-				<word>where</word>
-				<word>?</word>
-				<word>botimuz</word>
-				<word wholeword="true">bot</word>
-			</group>
-			<group>
-				<word>no</word>
-				<word>don't</word>
-				<word>dont</word>
-				<word>disable</word>
-				<word>where</word>
-			</group>
-			<group>
-				<word>radio</word>
-				<word>music</word>
-				<word>tunes</word>
-			</group>
-		</requiredwords>
-		<responses>
-			<response>Josh wants to avoid all copyright issues for all time, here and Youtube, so the radio is turned off.</response>
-		</responses>
-	</command>
-	<command>
 		<name>Console</name>
 		<maxWords>10</maxWords>
 		<requiredwords>

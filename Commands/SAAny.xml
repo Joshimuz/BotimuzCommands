@@ -1,31 +1,5 @@
 ﻿<commands version="1">
 	<command>
-		<name>Why no Radio</name>
-		<maxWords>10</maxWords>
-		<requiredwords>
-			<group>
-				<word>why</word>
-				<word>where</word>
-				<word>?</word>
-			</group>
-			<group>
-				<word>no</word>
-				<word>don't</word>
-				<word>dont</word>
-				<word>disable</word>
-				<word>where</word>
-			</group>
-			<group>
-				<word>radio</word>
-				<word>music</word>
-				<word>tunes</word>
-			</group>
-		</requiredwords>
-		<responses>
-			<response>Josh wants to avoid all copyright issues for all time, here and Youtube, so he mutes the game when there is music.</response>
-		</responses>
-	</command>
-	<command>
 		<name>Version</name>
 		<maxWords>15</maxWords>
 		<requiredwords>
