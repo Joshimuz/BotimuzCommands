@@ -24,6 +24,8 @@
 			<response>joshOMG</response>
 			<response>joshS</response>
 			<response>botimu2Bot</response>
+			<response>botimu2Red</response>
+			<response>botimu2Yellow</response>
 		</responses>
 		<dataTrigger type="timer">1800-3600</dataTrigger>
 	</command>
