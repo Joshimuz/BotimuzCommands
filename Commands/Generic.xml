@@ -775,4 +775,36 @@
 			<response>Josh Done Quick III starts on August 18th. Schedule: https://horaro.org/jdq/21 Details: https://pastebin.com/eywfvCiT</response>
 		</responses>
 	</command>
+	<command>
+		<name>GTA trilogy remaster/remake</name>
+		<maxWords>15</maxWords>
+		<requiredwords>
+			<group>
+				<word wholeword="true">bot</word>
+				<word>botimuz</word>
+				<word>plan</word>
+				<word wholeword="true">when</word>
+				<word wholeword="true">will</word>
+				<word>are you</word>
+				<word>onion</word>
+				<word>opinion</word>
+				<word>think</word>
+				<word>rockstar</word>
+				<word>trilogy</word>
+				<word>rumor</word>
+				<word>rumour</word>
+			</group>
+			<group>
+				<word>remaster</word>
+				<word>remake</word>
+				<word>remade</word>
+				<word>re-master</word>
+				<word>re-make</word>
+				<word>re-made</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response>Josh's thoughts on GTA trilogy remaster/remake: https://gist.github.com/Joshimuz/f271c925e0c2cdc095a62a4474f30957#what-are-your-thoughts-on-the-rumoured-gta-3d-trilogy-remasterremake</response>
+		</responses>
+	</command>
 </commands>
