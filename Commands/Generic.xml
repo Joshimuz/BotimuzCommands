@@ -782,13 +782,12 @@
 			<group>
 				<word wholeword="true">bot</word>
 				<word>botimuz</word>
-				<word>plan</word>
-				<word wholeword="true">when</word>
-				<word wholeword="true">will</word>
+				<word>you plan</word>
+				<word>will you</word>
 				<word>are you</word>
+				<word>you think</word>
 				<word>onion</word>
 				<word>opinion</word>
-				<word>think</word>
 				<word>rockstar</word>
 				<word>trilogy</word>
 				<word>rumor</word>
@@ -803,8 +802,18 @@
 				<word>re-made</word>
 			</group>
 		</requiredwords>
+		<unwantedwords>
+			<group>
+				<word>watch</word>
+				<word>prefer</word>
+				<word>wish</word>
+				<word>saw</word>
+				<word>wants</word>
+				<word>played</word>
+			</group>
+		</unwantedwords>
 		<responses>
-			<response>Josh's thoughts on GTA trilogy remaster/remake: https://gist.github.com/Joshimuz/f271c925e0c2cdc095a62a4474f30957#what-are-your-thoughts-on-the-rumoured-gta-3d-trilogy-remasterremake</response>
+			<response>Josh's thoughts on GTA trilogy remaster/remake: https://faq.joshimuz.com#what-are-your-thoughts-on-the-rumoured-gta-3d-trilogy-remasterremake</response>
 		</responses>
 	</command>
 </commands>
