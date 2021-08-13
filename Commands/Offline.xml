@@ -22,7 +22,8 @@
 			</group>
 		</requiredwords>
 		<responses forward="false" usename="false" data0="chattername">
-			<response>Hey @[0]! Josh is offline, check out his Schedule page on Twitch to find out when the next stream is: https://www.twitch.tv/joshimuz/schedule</response>
+			<!-- <response>Hey @[0]! Josh is offline, check out his Schedule page on Twitch to find out when the next stream is: https://www.twitch.tv/joshimuz/schedule</response> -->
+			<response>Hey @[0]! Josh is offline. Josh Done Quick III starts on August 18th. Schedule: https://horaro.org/jdq/21 Details: https://pastebin.com/eywfvCiT</response>
 		</responses>
 		<cooldown>1800</cooldown>
 		<nonmodonly>true</nonmodonly>
