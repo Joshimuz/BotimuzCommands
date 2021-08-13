@@ -802,6 +802,16 @@
 				<word>re-made</word>
 			</group>
 		</requiredwords>
+		<unwantedwords>
+			<group>
+				<word>watch</word>
+				<word>prefer</word>
+				<word>wish</word>
+				<word>saw</word>
+				<word>wants</word>
+				<word>played</word>
+			</group>
+		</unwantedwords>
 		<responses>
 			<response>Josh's thoughts on GTA trilogy remaster/remake: https://faq.joshimuz.com#what-are-your-thoughts-on-the-rumoured-gta-3d-trilogy-remasterremake</response>
 		</responses>
