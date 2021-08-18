@@ -728,6 +728,11 @@
 				<word>over</word>
 			</group>
 		</requiredWords>
+		<unwantedwords>
+			<group>
+				<word>leftover</word>
+			</group>
+		</unwantedwords>
 		<responses>
 			<response>While you were eating for 2 minutes Josh reset because a plane crashed.</response>
 			<response>While you were walking your dog for 10 minutes Josh reset because he got busted.</response>
@@ -747,6 +752,7 @@
 		<maxWords>15</maxWords>
 		<requiredwords>
 			<group>
+				<word wholeword="true">!schedule</word>
 				<word>plan</word>
 				<word wholeword="true">when</word>
 				<word wholeword="true">will</word>
@@ -757,6 +763,7 @@
 				<word>link</word>
 			</group>
 			<group>
+				<word wholeword="true">!schedule</word>
 				<word>joshdonequick</word>
 				<word>josh done quick</word>
 				<word wholeword="true">jdq</word>
