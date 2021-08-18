@@ -222,7 +222,7 @@
 			<response>Josh has played GTA:SA for [0] hours.</response>
 		</responses>
 	</command>
-	<command>
+	<!--<command>
 		<name>SubsOnly</name>
 		<responses forward="false" usename="false">
 			<response>/subscribers</response>
@@ -235,7 +235,7 @@
 			<response>/subscribersoff</response>
 		</responses>
 		<dataTrigger type="onUnload"></dataTrigger>
-	</command>
+	</command>-->
 	<command>
 		<name>What is OUYA</name>
 		<maxWords>15</maxWords>
