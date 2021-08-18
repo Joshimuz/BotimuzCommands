@@ -778,6 +778,33 @@
 		</responses>
 	</command>
 	<command>
+		<name>JDQ schedule</name>
+		<maxWords>15</maxWords>
+		<requiredwords>
+			<group>
+				<word wholeword="true">bot</word>
+				<word>botimuz</word>
+			</group>
+			<group>
+				<word>schedule</word>
+			</group>
+		</requiredwords>
+		<unwantedwords>
+			<group>
+				<word>watch</word>
+				<word>saw</word>
+				<word>version</word>
+				<word>wants</word>
+				<word>played</word>
+				<word>playing</word>
+				<word wholeword="true">esa</word>
+			</group>
+		</unwantedwords>
+		<responses>
+			<response>Josh Done Quick III schedule: https://horaro.org/jdq/21 Details: https://pastebin.com/eywfvCiT</response>
+		</responses>
+	</command>
+	<command>
 		<name>GTA trilogy remaster/remake</name>
 		<maxWords>15</maxWords>
 		<requiredwords>
