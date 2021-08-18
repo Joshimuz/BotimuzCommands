@@ -755,6 +755,7 @@
 				<word>botimuz</word>
 				<word>schedule</word>
 				<word>link</word>
+				<word>pastebin</word>
 			</group>
 			<group>
 				<word>joshdonequick</word>
@@ -784,9 +785,12 @@
 			<group>
 				<word wholeword="true">bot</word>
 				<word>botimuz</word>
+				<word>link</word>
+				<word>URL</word>
 			</group>
 			<group>
 				<word>schedule</word>
+				<word>pastebin</word>
 			</group>
 		</requiredwords>
 		<unwantedwords>
