@@ -809,6 +809,19 @@
 		</responses>
 	</command>
 	<command>
+		<name>JDQ !schedule</name>
+		<maxWords>3</maxWords>
+		<requiredwords>
+			<group>
+				<word>!schedule</word>
+				<word>!pastebin</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response>Josh Done Quick III schedule: https://horaro.org/jdq/21 Details: https://pastebin.com/eywfvCiT</response>
+		</responses>
+	</command>
+	<command>
 		<name>GTA trilogy remaster/remake</name>
 		<maxWords>15</maxWords>
 		<requiredwords>
