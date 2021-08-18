@@ -313,6 +313,19 @@
 		</responses>
 	</command>
 	<command>
+		<name>JDQ !schedule</name>
+		<maxWords>1</maxWords>
+		<requiredwords>
+			<group>
+				<word>!schedule</word>
+				<word>!pastebin</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response>Josh Done Quick III schedule: https://horaro.org/jdq/21 Details: https://pastebin.com/eywfvCiT</response>
+		</responses>
+	</command>
+	<command>
 		<name>beep boop</name>
 		<maxWords>1</maxWords>
 		<requiredwords>
@@ -804,19 +817,6 @@
 				<word wholeword="true">esa</word>
 			</group>
 		</unwantedwords>
-		<responses>
-			<response>Josh Done Quick III schedule: https://horaro.org/jdq/21 Details: https://pastebin.com/eywfvCiT</response>
-		</responses>
-	</command>
-	<command>
-		<name>JDQ !schedule</name>
-		<maxWords>3</maxWords>
-		<requiredwords>
-			<group>
-				<word>!schedule</word>
-				<word>!pastebin</word>
-			</group>
-		</requiredwords>
 		<responses>
 			<response>Josh Done Quick III schedule: https://horaro.org/jdq/21 Details: https://pastebin.com/eywfvCiT</response>
 		</responses>
