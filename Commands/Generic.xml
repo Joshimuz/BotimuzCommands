@@ -761,6 +761,7 @@
 				<word>botimuz</word>
 				<word>schedule</word>
 				<word>link</word>
+				<word>pastebin</word>
 			</group>
 			<group>
 				<word>joshdonequick</word>
@@ -779,6 +780,49 @@
 				<word wholeword="true">esa</word>
 			</group>
 		</unwantedwords>
+		<responses>
+			<response>Josh Done Quick III schedule: https://horaro.org/jdq/21 Details: https://pastebin.com/eywfvCiT</response>
+		</responses>
+	</command>
+	<command>
+		<name>JDQ schedule</name>
+		<maxWords>15</maxWords>
+		<requiredwords>
+			<group>
+				<word wholeword="true">bot</word>
+				<word>botimuz</word>
+				<word>link</word>
+				<word>URL</word>
+			</group>
+			<group>
+				<word>schedule</word>
+				<word>pastebin</word>
+			</group>
+		</requiredwords>
+		<unwantedwords>
+			<group>
+				<word>watch</word>
+				<word>saw</word>
+				<word>version</word>
+				<word>wants</word>
+				<word>played</word>
+				<word>playing</word>
+				<word wholeword="true">esa</word>
+			</group>
+		</unwantedwords>
+		<responses>
+			<response>Josh Done Quick III schedule: https://horaro.org/jdq/21 Details: https://pastebin.com/eywfvCiT</response>
+		</responses>
+	</command>
+	<command>
+		<name>JDQ !schedule</name>
+		<maxWords>3</maxWords>
+		<requiredwords>
+			<group>
+				<word>!schedule</word>
+				<word>!pastebin</word>
+			</group>
+		</requiredwords>
 		<responses>
 			<response>Josh Done Quick III schedule: https://horaro.org/jdq/21 Details: https://pastebin.com/eywfvCiT</response>
 		</responses>
