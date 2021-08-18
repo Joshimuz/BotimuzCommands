@@ -222,7 +222,7 @@
 			<response>Josh has played GTA:SA for [0] hours.</response>
 		</responses>
 	</command>
-	<command>
+	<!--<command>
 		<name>SubsOnly</name>
 		<responses forward="false" usename="false">
 			<response>/subscribers</response>
@@ -235,5 +235,23 @@
 			<response>/subscribersoff</response>
 		</responses>
 		<dataTrigger type="onUnload"></dataTrigger>
+	</command>-->
+	<command>
+		<name>What is OUYA</name>
+		<maxWords>15</maxWords>
+		<requiredwords>
+			<group>
+				<word>why</word>
+				<word>what</word>
+				<word>botimuz</word>
+				<word wholeword="true">bot</word>
+			</group>
+			<group>
+				<word>ouya</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response>OUYA is an Android-based microconsole funded by a Kickstarter campaign in 2013. Josh basically runs the GTA:SA Mobile version with an Xbox 360 controller. Watch Josh explaining OUYA: https://twitch.tv/videos/1121877008?t=00h22m55s</response>
+		</responses>
 	</command>
 </commands>
