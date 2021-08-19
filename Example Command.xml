@@ -163,18 +163,6 @@ Required -->
 		Optional: Default = false
 		Values: true or false -->
 
-		<timer>60</timer>
-		<!-- Time in seconds that the command should be trigger automatically
-		Optional: Commands do not require a timer and by default will only post when trigger via chat
-		Values: 0-4294967295
-		Example: This would trigger this command once every 60 seconds -->
-
-		<timerRange>30-60</timerRange>
-		<!-- A range of time in seconds that the command should be trigger automatically
-		Optional: Commands do not require a timer and by default will only post when trigger via chat
-		Values: 0-2147483647
-		Example: "15-60" would trigger this command randomly between 15 and 60 seconds -->
-
 		<fixedCooldown>false</fixedCooldown>
 		<!-- Whether or not to use a fixed cooldown that doesn't increase when the command is triggered
 		Optional: Default = false
