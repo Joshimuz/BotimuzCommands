@@ -27,7 +27,7 @@
       <name>Rerun</name>
       <name>MiserableMonday</name>
     </commandlists>
-    <streamstatus>online</streamstatus>
+    <streamstatus>any</streamstatus>
   </commandcollection>
 
   <commandcollection>
@@ -44,7 +44,7 @@
       <name>Online</name>
       <name>Rerun</name>
     </commandlists>
-    <streamstatus>online</streamstatus>
+    <streamstatus>any</streamstatus>
   </commandcollection>
 
   <commandcollection>
