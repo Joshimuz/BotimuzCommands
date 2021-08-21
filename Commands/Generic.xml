@@ -827,7 +827,7 @@
 			<response>Josh Done Quick III schedule: https://horaro.org/jdq/21 Details: https://pastebin.com/eywfvCiT</response>
 		</responses>
 	</command>
-	<command>
+	<!--<command>
 		<name>JDQ III goals</name>
 		<maxWords>15</maxWords>
 		<requiredwords>
@@ -845,7 +845,7 @@
 		<responses>
 			<response>Josh will be doing Chaos Mod on Sunday to finish JDQ III, but he'll do extra randomisers if we reach goals! £3000 = Experimental. joshOOO Details: https://pastebin.com/eywfvCiT</response>
 		</responses>
-	</command>
+	</command>-->
 	<command>
 		<name>GTA trilogy remaster/remake</name>
 		<maxWords>15</maxWords>
