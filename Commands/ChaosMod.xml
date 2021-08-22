@@ -37,4 +37,22 @@
 			<response>A list of everything that is randomised can be found here (all but experimental ones): https://github.com/Parik27/SA.Rainbomizer#features-</response>
 		</responses>
 	</command>
+
+	<command>
+		<name>What chaos mod</name>
+		<maxWords>15</maxWords>
+		<requiredwords>
+			<group>
+				<word>what</word>
+				<word>botimuz</word>
+				<word wholeword="true">bot</word>
+			</group>
+			<group>
+				<word>chaos mod</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response>Chaos Mod triggers random effects every minute, read more here: https://github.com/gta-chaos-mod/Trilogy-ASI-Script</response>
+		</responses>
+	</command>
 </commands>
