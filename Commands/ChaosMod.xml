@@ -19,25 +19,22 @@
 		<allowRepeatUsers>true</allowRepeatUsers>
 		<nonmodonly>true</nonmodonly>
 	</command>
-
+ -->
 	<command>
-		<name>Vote Explain</name>
+		<name>What random</name>
 		<maxWords>15</maxWords>
 		<requiredwords>
 			<group>
-				<word>how</word>
 				<word>what</word>
 				<word>botimuz</word>
 				<word wholeword="true">bot</word>
 			</group>
 			<group>
-				<word>vote</word>
-				<word>choose</word>
+				<word>random</word>
 			</group>
 		</requiredwords>
 		<responses>
-			<response>Vote by using Twitch's Poll feature! If you're on a compatible device just click on the option in the poll to vote, otherwise use "/vote" with the option you want EG: "/vote 2"</response>
+			<response>A list of everything that is randomised can be found here (all but experimental ones): https://github.com/Parik27/SA.Rainbomizer#features-</response>
 		</responses>
-		<dataTrigger type="timer">300-600</dataTrigger>
-	</command> -->
+	</command>
 </commands>
