@@ -296,7 +296,7 @@
 			</group>
 		</requiredwords>
 		<responses data0="twitchtitle">
-			<response>"[0]"</response>
+			<response>[0]</response>
 		</responses>
 	</command>
 	<command>
