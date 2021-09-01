@@ -761,7 +761,7 @@
 			<response>While you were checking social media for 3 seconds Josh reset because his parachute failed.</response>
 		</responses>
 	</command>
-	<command>
+	<!--<command>
 		<name>WHEN JDQ</name>
 		<maxWords>15</maxWords>
 		<requiredwords>
@@ -826,7 +826,7 @@
 		<responses>
 			<response>Josh Done Quick III schedule: https://horaro.org/jdq/21 Details: https://pastebin.com/eywfvCiT</response>
 		</responses>
-	</command>
+	</command>-->
 	<!--<command>
 		<name>JDQ III goals</name>
 		<maxWords>15</maxWords>
