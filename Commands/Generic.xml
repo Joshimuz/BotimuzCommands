@@ -295,7 +295,7 @@
 				<word>sitrep</word>
 			</group>
 		</requiredwords>
-		<responses data0="twitchtitle">
+		<responses data0="twitchtitle" usename="false">
 			<response>[0]</response>
 		</responses>
 	</command>
