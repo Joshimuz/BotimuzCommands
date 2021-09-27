@@ -36,6 +36,7 @@
 
 	<command>
 		<name>Uptime Metric</name>
+		<maxWords>15</maxWords>
 		<requiredwords>
 			<group>
 				<word wholeword="true">how</word>
@@ -56,6 +57,8 @@
 				<word>imperial</word>
 				<word>hour</word>
 				<word>minute</word>
+				<word>click</word>
+				<word>watch</word>
 			</group>
 		</unwantedWords>
 		<responses>
