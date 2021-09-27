@@ -648,10 +648,12 @@
 		<requiredwords>
 			<group>
 				<word wholeword="true">bot</word>
+				<word>botimuz</word>
 			</group>
 			<group>
 				<word wholeword="true">dead</word>
 				<word wholeword="true">ded</word>
+				<word wholeword="true">died</word>
 			</group>
 		</requiredwords>
 		<responses data0="messageid" usename="false">
