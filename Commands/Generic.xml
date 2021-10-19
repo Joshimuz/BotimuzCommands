@@ -185,6 +185,7 @@
 		<unwantedwords>
 			<group>
 				<word>good</word>
+				<word>not bad</word>
 			</group>
 		</unwantedwords>
 		<responses forward="false">
