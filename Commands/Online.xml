@@ -34,7 +34,7 @@
 		<dataTrigger type="timer">1800-3600</dataTrigger>
 	</command>
 
-<!-- 	<command>
+	<command>
 		<name>Merch Spam</name>
 		<maxWords>15</maxWords>
 		<requiredwords>
@@ -51,8 +51,8 @@
 		<responses>
 			<response>Show love for your favourite 6328th streamer with my first ever merch! Get your T-Shirt, Mug, Poster, Sticker etc, today! https://merch.joshimuz.com</response>
 		</responses>
-		<dataTrigger type="timer">900-1800</dataTrigger>
-	</command> -->
+		<!-- <dataTrigger type="timer">900-1800</dataTrigger> -->
+	</command>
 
 	<command>
 		<name>Uptime Metric</name>
