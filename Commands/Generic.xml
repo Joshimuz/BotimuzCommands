@@ -892,4 +892,22 @@
 			<response>Josh's thoughts on GTA trilogy remaster/remake: https://faq.joshimuz.com/#what-are-your-thoughts-on-the-rumoured-gta-3d-trilogy-remasterremake</response>
 		</responses>
 	</command>
+	<command>
+		<name>Merch</name>
+		<maxWords>15</maxWords>
+		<requiredwords>
+			<group>
+				<word wholeword="true">bot</word>
+				<word wholeword="true">link</word>
+				<word wholeword="true">where</word>
+			</group>
+			<group>
+				<word>merch</word>
+				<word>shirt</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response>Show love for your favourite 6328th streamer with my first ever merch! Get your T-Shirt, Mug, Poster, Sticker etc, today! https://merch.joshimuz.com</response>
+		</responses>
+	</command>
 </commands>
