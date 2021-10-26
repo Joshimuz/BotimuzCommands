@@ -910,4 +910,25 @@
 			<response>Show love for your favourite 6328th streamer with my first ever merch! Get your T-Shirt, Mug, Poster, Sticker etc, today! https://merch.joshimuz.com</response>
 		</responses>
 	</command>
+	<command>
+		<name>Meaning of life</name>
+		<maxWords>10</maxWords>
+		<requiredwords>
+			<group>
+				<word wholeword="true">bot</word>
+				<word>botimuz</word>
+			</group>
+			<group>
+				<word>meaning</word>
+			</group>
+		</requiredwords>
+		<unwantedwords>
+			<group>
+				<word>life</word>
+			</group>
+		</unwantedwords>
+		<responses>
+			<response>life: noun, plural: lives. the condition that distinguishes organisms from inorganic objects and dead organisms, being manifested by growth through metabolism, reproduction, and the power of adaptation to environment through changes originating internally.</response>
+		</responses>
+	</command>
 </commands>
