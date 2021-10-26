@@ -921,12 +921,10 @@
 			<group>
 				<word>meaning</word>
 			</group>
-		</requiredwords>
-		<unwantedwords>
 			<group>
 				<word>life</word>
 			</group>
-		</unwantedwords>
+		</requiredwords>
 		<responses>
 			<response>life: noun, plural: lives. the condition that distinguishes organisms from inorganic objects and dead organisms, being manifested by growth through metabolism, reproduction, and the power of adaptation to environment through changes originating internally.</response>
 		</responses>
