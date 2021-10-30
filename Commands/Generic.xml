@@ -293,7 +293,7 @@
 				<word>botimuz</word>
 			</group>
 			<group>
-				<word>title</word>
+				<word wholeword="true">title</word>
 				<word>sitrep</word>
 			</group>
 		</requiredwords>
