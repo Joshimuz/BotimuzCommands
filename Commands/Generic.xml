@@ -929,4 +929,31 @@
 			<response>life: noun, plural: lives. the condition that distinguishes organisms from inorganic objects and dead organisms, being manifested by growth through metabolism, reproduction, and the power of adaptation to environment through changes originating internally.</response>
 		</responses>
 	</command>
+	<command>
+		<name>ESA when</name>
+		<maxWords>15</maxWords>
+		<requiredwords>
+			<group>
+				<word>what</word>
+				<word>where</word>
+				<word>link</word>
+				<word wholeword="true">bot</word>
+				<word>botimuz</word>
+				<word>when</word>
+			</group>
+			<group>
+				<word wholeword="true">esa</word>
+			</group>
+		</requiredwords>
+		<unwantedwords>
+			<group>
+				<word>watch</word>
+				<word>saw</word>
+				<word>run</word>
+			</group>
+		</unwantedwords>
+		<responses>
+			<response>ESA Winter 22 is happening 12th – 19th of February. It's happening IRL at Malmö once again! Get your tickets now: https://esamarathon.com/ettevent/esa-winter-2022/</response>
+		</responses>
+	</command>
 </commands>
