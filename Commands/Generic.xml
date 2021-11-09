@@ -283,6 +283,7 @@
 	</command>
 	<command>
 		<name>!title</name>
+		<maxWords>15</maxWords>
 		<requiredwords>
 			<group>
 				<word>what</word>
