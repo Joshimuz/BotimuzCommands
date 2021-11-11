@@ -852,7 +852,7 @@
 			<response>Josh will be doing Chaos Mod on Sunday to finish JDQ III, but he'll do extra randomisers if we reach goals! £3000 = Experimental. joshOOO Details: https://pastebin.com/eywfvCiT</response>
 		</responses>
 	</command>-->
-	<command>
+	<!--<command>
 		<name>GTA trilogy remaster/remake</name>
 		<maxWords>15</maxWords>
 		<requiredwords>
@@ -892,7 +892,7 @@
 		<responses>
 			<response>Josh's thoughts on GTA trilogy remaster/remake: https://faq.joshimuz.com/#what-are-your-thoughts-on-the-rumoured-gta-3d-trilogy-remasterremake</response>
 		</responses>
-	</command>
+	</command>-->
 	<command>
 		<name>Merch</name>
 		<maxWords>15</maxWords>
