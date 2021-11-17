@@ -360,7 +360,7 @@
     <channelname>Joshimuz</channelname>
     <requiredtitlewords>
       <group>
-        <word wholeword="true">DE</word>
+        <word>DE</word>
         <word>definitive</word>
       </group>
       <group>
