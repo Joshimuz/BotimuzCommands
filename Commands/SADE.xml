@@ -1,0 +1,37 @@
+<commands version="1">
+    <command>
+        <name>Why play DE</name>
+        <maxWords>15</maxWords>
+        <requiredWords>
+            <group>
+                <word wholeWord="true">why</word>
+                <word>reason</word>
+                <word>are you</word>
+            </group>
+            <group>
+                <word wholeWord="true">DE</word>
+                <word>definitive</word>
+                <word>this version</word>
+                <word>not the OG</word>
+                <word>not the original</word>
+            </group>
+        </requiredWords>
+        <responses random="true">
+            <response>Josh is playing DE, to practice it for ESA Winter. </response>
+        </responses>
+    </command>
+    <!-- Unfinished needs work
+    <command>
+        <name>Does AJS work?</name>
+        <maxWords>15</maxWords>
+        <requiredWords>
+            <group>
+                <word>ryder glitch</word>
+                <word wholeWord="true">ajs</word>
+            </group>
+        </requiredWords>
+        <responses random="true">
+            <response>Example Response</response>
+        </responses>
+    </command> -->
+</commands>
