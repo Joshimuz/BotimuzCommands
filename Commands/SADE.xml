@@ -17,7 +17,7 @@
             </group>
         </requiredWords>
         <responses random="true">
-            <response>Josh is playing DE, to practice it for ESA Winter. </response>
+            <response>Josh is playing DE because it's possible that he has to run it for speedrun marathons.</response>
         </responses>
     </command>
     <!-- Unfinished needs work
@@ -34,4 +34,11 @@
             <response>Example Response</response>
         </responses>
     </command> -->
+
+    <!--
+        Command ideas:
+        What do you think?/Is it worth it/game is shit explanation
+
+        
+    -->
 </commands>

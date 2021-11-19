@@ -135,6 +135,32 @@
   </commandcollection>
 
   <commandcollection>
+    <name>SA DE Any% NMG</name>
+    <channelname>Joshimuz</channelname>
+    <requiredtitlewords>
+      <group>
+        <word>DE</word>
+        <word>definitive</word>
+      </group>
+      <group>
+        <word>any% nmg</word>
+        <word>no major glitches</word>
+      </group>
+    </requiredtitlewords>
+    <gamename>Grand Theft Auto: San Andreas – The Definitive Edition</gamename>
+    <commandlists>
+      <name>Generic</name>
+      <name>Online</name>
+      <name>GTA</name>
+      <name>SA</name>
+      <name>SANMG</name>
+      <name>SADE</name>
+    </commandlists>
+    <speedruncategory>No Major Glitches</speedruncategory>
+    <streamstatus>online</streamstatus>
+  </commandcollection>
+
+  <commandcollection>
     <name>VCS Any%</name>
     <channelname>Joshimuz</channelname>
     <requiredtitlewords>
@@ -353,31 +379,5 @@
       <name>Emma</name>
     </commandlists>
     <streamstatus>any</streamstatus>
-  </commandcollection>
-
-  <commandcollection>
-    <name>SA DE Any% NMG</name>
-    <channelname>Joshimuz</channelname>
-    <requiredtitlewords>
-      <group>
-        <word>DE</word>
-        <word>definitive</word>
-      </group>
-      <group>
-        <word>any% nmg</word>
-        <word>no major glitches</word>
-      </group>
-    </requiredtitlewords>
-    <gamename>Grand Theft Auto: San Andreas – The Definitive Edition</gamename>
-    <commandlists>
-      <name>Generic</name>
-      <name>Online</name>
-      <name>GTA</name>
-      <name>SA</name>
-      <name>SANMG</name>
-      <name>SADE</name>
-    </commandlists>
-    <speedruncategory>No Major Glitches</speedruncategory>
-    <streamstatus>online</streamstatus>
   </commandcollection>
 </commandCollections>
