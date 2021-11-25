@@ -58,6 +58,7 @@
 				<word>minute</word>
 				<word>click</word>
 				<word>watch</word>
+				<word>sleep</word>
 			</group>
 		</unwantedWords>
 		<responses>
@@ -88,6 +89,11 @@
 				<word>minute</word>
 			</group>
 		</requiredwords>
+		<unwantedWords>
+			<group>
+				<word>sleep</word>
+			</group>
+		</unwantedWords>
 		<responses>
 			<response data0="uptime">Josh has been streaming for [0]</response>
 			<response data0="uptime">Josh has been live for [0]</response>
