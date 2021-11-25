@@ -277,6 +277,11 @@
 				<word wholeword="true">hours</word>
 			</group>
 		</requiredwords>
+		<unwantedWords>
+			<group>
+				<word>sleep</word>
+			</group>
+		</unwantedWords>
 		<responses data0="randomNumber" range0="5000-19999">
 			<response>Josh has played GTA:SA for [0] hours.</response>
 		</responses>
