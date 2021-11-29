@@ -11,13 +11,15 @@
 				<word>new</word>
 				<word>have</word>
 			</group>
-			<group><!-- i can get use to the new layout, i cant really stand the ping noise that comes from this red switch keyboard -->
+			<group>
 				<word wholeword="true">r</word>
 				<word>are you</word>
 				<word>move</word>
 				<word>flat</word>
 				<word>house</word>
 				<word>room</word>
+				<word>spot</word>
+				<word>apartment</word>
 			</group>
 		</requiredWords>
 		<responses>
