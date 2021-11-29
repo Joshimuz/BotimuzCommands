@@ -9,14 +9,15 @@
 				<word>where</word>
 				<word>is this</word>
 				<word>new</word>
+				<word>have</word>
 			</group>
-			<group>
+			<group><!-- i can get use to the new layout, i cant really stand the ping noise that comes from this red switch keyboard -->
 				<word wholeword="true">r</word>
-				<word>are</word>
+				<word>are you</word>
 				<word>move</word>
-				<word>is</word>
 				<word>flat</word>
 				<word>house</word>
+				<word>room</word>
 			</group>
 		</requiredWords>
 		<responses>
