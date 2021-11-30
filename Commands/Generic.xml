@@ -13,7 +13,6 @@
 				<word>have</word>
 			</group>
 			<group>
-				<word wholeword="true">r</word>
 				<word>are you</word>
 				<word>move</word>
 				<word>flat</word>
@@ -1018,7 +1017,7 @@
 			</group>
 		</unwantedwords>
 		<responses>
-			<response>GTU is a small GTA marathon for Save The Children's Gaming Tuesday imitative hosted by https://twitch.tv/english_ben I'm doing a SA run on Monday. Schedule: https://horaro.org/gtu/2021</response>
+			<response>GTU is a small GTA marathon for Save The Children's Gaming Tuesday imitative hosted by https://twitch.tv/english_ben Schedule: https://horaro.org/gtu/2021</response>
 		</responses>
 	</command>
 </commands>
