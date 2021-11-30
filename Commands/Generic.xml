@@ -26,7 +26,7 @@
 		<responses>
 			<response>Josh had to move out of his flat on short notice, so for now he is at his parents house. The room is echoey, the internet is crap and there will be many loud noises. This is not ideal and he did not want this, but this is hopefully only temporary, please don't leave :)</response>
 		</responses>
-		<cooldown>150</cooldown>
+		<cooldown>0</cooldown>
 	</command>
 	<command>
 		<name>What is WR</name>
