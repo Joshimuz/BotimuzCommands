@@ -13,7 +13,8 @@
 				<word>have</word>
 			</group>
 			<group>
-				<word>move</word>
+				<word wholeword="true">move</word>
+				<word wholeword="true">moved</word>
 				<word>flat</word>
 				<word>house</word>
 				<word>room</word>
