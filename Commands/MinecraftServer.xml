@@ -21,7 +21,7 @@
 			</group>
 		</requiredwords>
 		<responses>
-			<response>Josh is playing on a Java server with his speedfriends. He was considering making a subs only server at one point, however he can't be bothered to maintain/moderate such a server.</response>
+			<response>Info on if and how you can join can be found in the announcements channel of Joshs' discord. Needless to say if you don't know how to access the discord, it is unlikely you qualify. :)</response>
 		</responses>
 	</command>
 	<command>
@@ -41,7 +41,7 @@
 			</group>
 		</requiredwords>
 		<responses>
-			<response>Josh is playing Vanilla 1.16 on his server. He is however using his datapack (Vanilla with Flake) to make Vanilla a little less dumb.</response>
+			<response>Josh is playing Vanilla 1.18 on his server. He is however using his datapack (Vanilla with Flake) to make Vanilla a little less dumb.</response>
 		</responses>
 	</command>
 </commands>
