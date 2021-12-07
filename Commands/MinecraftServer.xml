@@ -5,11 +5,11 @@
 			<group>
 				<word>what</word>
 				<word>which</word>
-				<word>!server</word>
 				<word>is this</word>
 				<word wholeword="true">can</word>
 				<word>botimuz</word>
 				<word wholeword="true">bot</word>
+				<word>open</word>
 			</group>
 			<group>
 				<word>join</word>
@@ -17,7 +17,6 @@
 				<word>play with</word>
 				<word>connect</word>
 				<word>realms</word>
-				<word>!server</word>
 			</group>
 		</requiredwords>
 		<responses>
