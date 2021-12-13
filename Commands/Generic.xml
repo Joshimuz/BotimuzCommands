@@ -1,5 +1,57 @@
 ﻿<commands version="1">
 	<command>
+		<name>Where are you?</name>
+		<maxWords>10</maxWords>
+		<requiredWords>
+			<group>
+				<word>why</word>
+				<word wholeword="true">bot</word>
+				<word>botimuz</word>
+				<word>where</word>
+				<word>is this</word>
+				<word>new</word>
+				<word>have</word>
+			</group>
+			<group>
+				<word wholeword="true">move</word>
+				<word wholeword="true">moved</word>
+				<word>flat</word>
+				<word>house</word>
+				<word>room</word>
+				<word>spot</word>
+				<word>apartment</word>
+				<word>background</word>
+			</group>
+		</requiredWords>
+		<unwantedwords>
+			<group>
+				<word>old</word>
+				<word>chatroom</word>
+				<word>stuff</word>
+				<word>remove</word>
+			</group>
+		</unwantedwords>
+		<responses>
+			<response>Josh had to move out of his flat on short notice, so for now he is at his parents house. The room is echoey, the internet is crap and there will be many loud noises. This is not ideal and he did not want this, but this is hopefully only temporary, please don't leave :)</response>
+		</responses>
+		<cooldown>60</cooldown>
+	</command>
+	<command>
+		<name>!room</name>
+		<maxWords>3</maxWords>
+		<requiredWords>
+			<group>
+				<word>where are you</word>
+				<word>!room</word>
+				<word>where r u</word>
+			</group>
+		</requiredWords>
+		<responses>
+			<response>Josh had to move out of his flat on short notice, so for now he is at his parents house. The room is echoey, the internet is crap and there will be many loud noises. This is not ideal and he did not want this, but this is hopefully only temporary, please don't leave :)</response>
+		</responses>
+		<cooldown>60</cooldown>
+	</command>
+	<command>
 		<name>What is WR</name>
 		<requiredwords>
 			<group>
@@ -981,7 +1033,7 @@
 			</group>
 		</unwantedwords>
 		<responses>
-			<response>GTU is a small GTA marathon for Save The Children's Gaming Tuesday imitative hosted by https://twitch.tv/english_ben I'm doing a SA run on Monday. Schedule: https://horaro.org/gtu/2021</response>
+			<response>GTU is a small GTA marathon for Save The Children's Gaming Tuesday imitative hosted by https://twitch.tv/english_ben Schedule: https://horaro.org/gtu/2021</response>
 		</responses>
 	</command>
 </commands>
