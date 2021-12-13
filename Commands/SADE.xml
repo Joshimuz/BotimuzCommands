@@ -48,4 +48,22 @@
 
         
     -->
+    <command>
+        <name>Is DE good</name>
+        <maxWords>15</maxWords>
+        <requiredWords>
+            <group>
+                <word wholeWord="true">did</word>
+                <word wholeWord="true">is</word>
+                <word>they</word>
+            </group>
+            <group>
+                <word>fix</word>
+                <word>patch</word>
+            </group>
+        </requiredWords>
+        <responses random="true">
+            <response>Patch 1.0.3 fixed: Shitty rain, settings not saving and that one bridge in Badlands that disappears. That's it. Josh thinks that the remasters are so fundamentally flawed in the way it's designed that it isn't really "fixable" with patches.</response>
+        </responses>
+    </command>
 </commands>
