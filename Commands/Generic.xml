@@ -367,7 +367,7 @@
 			<response>just click your name lol</response>
 		</responses>
 	</command>
-	<command>
+<!-- 	<command>
 		<name>JDQ !schedule</name>
 		<maxWords>1</maxWords>
 		<requiredwords>
@@ -379,7 +379,7 @@
 		<responses>
 			<response>Josh Done Quick III schedule: https://horaro.org/jdq/21 Details: https://pastebin.com/eywfvCiT</response>
 		</responses>
-	</command>
+	</command> -->
 	<command>
 		<name>beep boop</name>
 		<maxWords>1</maxWords>
