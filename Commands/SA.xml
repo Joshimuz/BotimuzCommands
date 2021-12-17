@@ -300,6 +300,56 @@
 		</responses>
 		<dataTrigger type="onUnload"></dataTrigger>
 	</command>
+	<command>
+		<name>I left why reset</name>
+		<maxWords>20</maxWords>
+		<requiredWords>
+			<group>
+				<word>gone</word>
+				<word>afk</word>
+				<word>left</word>
+				<word>away</word>
+				<word>looking</word>
+				<word>went to</word>
+				<word>head out</word>
+				<word>i was</word>
+				<word>been out</word>
+			</group>
+			<group>
+				<word>why</word>
+				<word>what</word>
+				<word>how</word>
+				<word wholeword="true">bot</word>
+				<word>botimuz</word>
+			</group>
+			<group>
+				<word>reset</word>
+				<word>restart</word>
+				<word>end</word>
+				<word>die</word>
+				<word>happen</word>
+				<word>over</word>
+			</group>
+		</requiredWords>
+		<unwantedwords>
+			<group>
+				<word>leftover</word>
+			</group>
+		</unwantedwords>
+		<responses>
+			<response>While you were eating for 2 minutes Josh reset because a plane crashed.</response>
+			<response>While you were walking your dog for 10 minutes Josh reset because he got busted.</response>
+			<response>While you were on the toilet for 3 minutes Josh reset because he failed a mission.</response>
+			<response>While you were looking away for 2 seconds Josh reset because the game crashed.</response>
+			<response>While you weren't enjoying Josh's content for too long Josh reset because he needed the clip for highlights.</response>
+			<response>While you were petting a cat for 4 minutes Josh reset because he fell into water.</response>
+			<response>While you were answering your door for 5 seconds Josh reset because Sweet died.</response>
+			<response>While you were getting food for 30 seconds Josh reset because he killed Ryder.</response>
+			<response>While you were getting a drink for 20 seconds Josh reset because he wanted to.</response>
+			<response>While you were having a shower for 15 minutes Josh reset because coco threw up.</response>
+			<response>While you were checking social media for 3 seconds Josh reset because his parachute failed.</response>
+		</responses>
+	</command>
 	<!--<command>
 		<name>What is OUYA</name>
 		<maxWords>15</maxWords>

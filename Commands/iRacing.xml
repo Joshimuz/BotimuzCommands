@@ -88,9 +88,13 @@
 			<group>
 				<word wholeword="true">wheel</word>
 				<word wholeword="true">vr</word>
+				<word>goggles</word>
+				<word wholeword="true">HMD</word>
+				<word>device</word>
 				<word>headset</word>
 				<word>of gear</word>
 				<word>setup</word>
+				<word>pedals</word>
 			</group>
 		</requiredwords>
 		<unwantedwords>
@@ -157,6 +161,12 @@
 				<word>headset</word>
 			</group>
 		</requiredwords>
+		<unwantedwords>
+			<group>
+				<word>english</word>
+				<word>rule</word>
+			</group>
+		</unwantedwords>
 		<responses>
 			<response>Josh has a floating chat window high in the sky which doesn't show up on stream.</response>
 		</responses>
