@@ -15,10 +15,10 @@
 			<group>
 				<word wholeword="true">move</word>
 				<word wholeword="true">moved</word>
-				<word>flat</word>
-				<word>house</word>
-				<word>room</word>
-				<word>spot</word>
+				<word wholeword="true">flat</word>
+				<word wholeword="true">house</word>
+				<word wholeword="true">room</word>
+				<word wholeword="true">spot</word>
 				<word>apartment</word>
 				<word>background</word>
 			</group>
@@ -957,33 +957,6 @@
 		</unwantedwords>
 		<responses>
 			<response>ESA Winter 22 is 12th – 19th of February. It's happening IRL at Malmö once again! Get your tickets now: https://esamarathon.com/ettevent/esa-winter-2022/</response>
-		</responses>
-	</command>
-	<command>
-		<name>GTU when</name>
-		<maxWords>15</maxWords>
-		<requiredwords>
-			<group>
-				<word>what</word>
-				<word>where</word>
-				<word>link</word>
-				<word wholeword="true">bot</word>
-				<word>botimuz</word>
-				<word>when</word>
-			</group>
-			<group>
-				<word wholeword="true">gtu</word>
-			</group>
-		</requiredwords>
-		<unwantedwords>
-			<group>
-				<word>watch</word>
-				<word>saw</word>
-				<word>run</word>
-			</group>
-		</unwantedwords>
-		<responses>
-			<response>GTU is a small GTA marathon for Save The Children's Gaming Tuesday imitative hosted by https://twitch.tv/english_ben Schedule: https://horaro.org/gtu/2021</response>
 		</responses>
 	</command>
 </commands>
