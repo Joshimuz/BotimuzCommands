@@ -80,8 +80,8 @@
 				<word>botimuz</word>
 				<word>using</word>
 				<word>is this</word>
-				<word>play</word>
-				<word>driv</word>
+				<word wholeword="true">play</word>
+				<word wholeword="true">driv</word>
 				<word>does he</word>
 				<word>does josh</word>
 			</group>
