@@ -70,6 +70,46 @@
 		</responses>
 	</command>
 	<command>
+		<name>VR chat</name>
+		<maxWords>15</maxWords>
+		<requiredwords>
+			<group>
+				<word wholeword="true">bot</word>
+				<word>botimuz</word>
+				<word>how</word>
+				<word>can</word>
+				<word wholeword="true">is</word>
+				<word>josh</word>
+				<word wholeword="true">he</word>
+				<word wholeword="true">they</word>
+				<word wholeword="true">you</word>
+			</group>
+			<group>
+				<word wholeword="true">see</word>
+				<word wholeword="true">sees</word>
+				<word>seeing</word>
+				<word>read</word>
+				<word>reading</word>
+			</group>
+			<group>
+				<word>chat</word>
+				<word>twitch</word>
+				<word>messages</word>
+				<word wholeword="true">vr</word>
+				<word>headset</word>
+			</group>
+		</requiredwords>
+		<unwantedwords>
+			<group>
+				<word>english</word>
+				<word>rule</word>
+			</group>
+		</unwantedwords>
+		<responses>
+			<response>Josh has a floating chat window high in the sky which doesn't show up on stream.</response>
+		</responses>
+	</command>
+	<command>
 		<name>Wheel and VR</name>
 		<requiredwords>
 			<group>
@@ -129,46 +169,6 @@
 		</unwantedwords>
 		<responses>
 			<response>Meaning of flags that apply to iRacing: iracing.fandom.com/wiki/IRacing_Flags</response>
-		</responses>
-	</command>
-	<command>
-		<name>VR chat</name>
-		<maxWords>15</maxWords>
-		<requiredwords>
-			<group>
-				<word wholeword="true">bot</word>
-				<word>botimuz</word>
-				<word>how</word>
-				<word>can</word>
-				<word wholeword="true">is</word>
-				<word>josh</word>
-				<word wholeword="true">he</word>
-				<word wholeword="true">they</word>
-				<word wholeword="true">you</word>
-			</group>
-			<group>
-				<word wholeword="true">see</word>
-				<word wholeword="true">sees</word>
-				<word>seeing</word>
-				<word>read</word>
-				<word>reading</word>
-			</group>
-			<group>
-				<word>chat</word>
-				<word>twitch</word>
-				<word>messages</word>
-				<word wholeword="true">vr</word>
-				<word>headset</word>
-			</group>
-		</requiredwords>
-		<unwantedwords>
-			<group>
-				<word>english</word>
-				<word>rule</word>
-			</group>
-		</unwantedwords>
-		<responses>
-			<response>Josh has a floating chat window high in the sky which doesn't show up on stream.</response>
 		</responses>
 	</command>
 <!-- 	<command>
