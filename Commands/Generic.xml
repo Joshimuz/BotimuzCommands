@@ -960,4 +960,18 @@
 			<response>Josh is going to ESA Winter to do a GTA:SA run! ESA Winter is 12 to 19 Feb. esamarathon.com/schedule</response>
 		</responses>
 	</command>
+	<command>
+		<name>Buy viewers ban</name>
+		<maxWords>10</maxWords>
+		<requiredwords>
+			<group>
+				<word>Buy followers and viewers on vk.cc</word>
+			</group>
+		</requiredwords>
+		<responses data0="messageid" usename="false">
+			<response>/ban [0]</response>
+		</responses>
+		<cooldown>0</cooldown>
+		<allowRepeatUsers>true</allowRepeatUsers>
+	</command>
 </commands>
