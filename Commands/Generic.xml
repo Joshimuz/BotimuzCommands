@@ -969,7 +969,7 @@
 			</group>
 		</requiredwords>
 		<responses data0="messageid" usename="false">
-			<response>/ban [0]</response>
+			<response>/timeout [0] 24h</response>
 		</responses>
 		<cooldown>0</cooldown>
 		<allowRepeatUsers>true</allowRepeatUsers>
