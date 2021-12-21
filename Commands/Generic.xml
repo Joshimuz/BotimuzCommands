@@ -10,7 +10,7 @@
 				<word>where</word>
 				<word>is this</word>
 				<word>new</word>
-				<word>have</word>
+				<word wholeword="true">have</word>
 			</group>
 			<group>
 				<word wholeword="true">move</word>
