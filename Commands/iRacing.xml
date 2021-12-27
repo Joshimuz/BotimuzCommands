@@ -379,7 +379,7 @@
 			</group>
 		</requiredwords>
 		<unwantedwords>
-			<group></group>
+			<group>
 				<word>happen</word>
 				<word>is your</word>
 				<word>whats your</word>
