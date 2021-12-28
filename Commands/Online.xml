@@ -2,34 +2,33 @@
 	<command>
 		<name>Timed Emote Spam</name>
 		<responses usename="false">
-			<response>joshPrpl</response>
-			<response>joshPaw</response>
-			<response>joshWut</response>
-			<response>joshSleeper</response>
-			<response>joshChair</response>
-			<response>joshO</response>
-			<response>joshFanks</response>
-			<response>joshCoco</response>
-			<response>joshWithIt</response>
-			<response>joshTyrePop</response>
-			<response>joshLuL</response>
-			<response>joshIsFine</response>
-			<response>joshCoolStory</response>
-			<response>joshGlod</response>
 			<response weighting="2">joshDosh</response>
-			<response>joshFinking</response>
+			<response>botimu2Bot</response>
 			<response>joshBarksAtKitty</response>
-			<response>joshKittylina</response>
+			<response>joshChair</response>
 			<response>joshCJPlz</response>
+			<response>joshCoolStory</response>
+			<response>joshFanks</response>
+			<response>joshFinking</response>
+			<response>joshGlod</response>
+			<response>joshGloder</response>
+			<response>joshIsFine</response>
+			<response>joshLuL</response>
+			<response>joshO</response>
 			<response>joshOMG</response>
+			<response>joshOOO</response>
+			<response>joshPaw</response>
+			<response>joshPrpl</response>
+			<response>joshRomek</response>
 			<response>joshS</response>
 			<response>joshSA</response>
-			<response>joshOOO</response>
-			<response>joshGloder</response>
+			<response>joshSleeper</response>
 			<response>joshSss</response>
-			<response>joshNomNoms</response>
-			<response>joshWave</response>
-			<response>botimu2Bot</response>
+			<response>joshTyrePop</response>
+			<response>joshVegetation</response>
+			<response>joshWalkies</response>
+			<response>joshWithIt</response>
+			<response>joshWut</response>
 		</responses>
 		<dataTrigger type="timer">1800-3600</dataTrigger>
 	</command>
