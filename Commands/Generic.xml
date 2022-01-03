@@ -51,6 +51,7 @@
 		</responses>
 		<cooldown>60</cooldown>
 	</command>
+	<!-- DISABLED because speedrun.com api issues
 	<command>
 		<name>What is WR</name>
 		<requiredwords>
@@ -112,7 +113,7 @@
 			<response data0="speedrunrunnerwrs">Josh currently has [0] WR(s): https://www.speedrun.com/user/Joshimuz</response>
 		</responses>
 		<cooldown>150</cooldown>
-	</command>
+	</command> -->
 <!-- 	<command>
 		<name>Decimal Time</name>
 		<requiredwords>
