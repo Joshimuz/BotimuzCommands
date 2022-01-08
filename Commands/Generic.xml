@@ -114,7 +114,7 @@
 		</responses>
 		<cooldown>150</cooldown>
 	</command> -->
-<!-- 	<command>
+	<!-- 	<command>
 		<name>Decimal Time</name>
 		<requiredwords>
 			<group>
@@ -369,7 +369,7 @@
 			<response>just click your name lol</response>
 		</responses>
 	</command>
-<!-- 	<command>
+	<!-- 	<command>
 		<name>JDQ !schedule</name>
 		<maxWords>1</maxWords>
 		<requiredwords>
@@ -449,7 +449,7 @@
 			<response>Josh is a co-host of The Choking Hazard Podcast which is live every 4th Saturday at 5pm UK time at: https://www.twitch.tv/broughy1322 RSS feed: https://thechokinghazardpodcast.simplecast.com/</response>
 		</responses>
 	</command>
-<!-- 	<command>
+	<!-- 	<command>
 		<name>WHEN THING</name>
 		<maxWords>15</maxWords>
 		<requiredwords>
@@ -976,5 +976,29 @@
 		</responses>
 		<cooldown>0</cooldown>
 		<allowRepeatUsers>true</allowRepeatUsers>
+	</command>
+	<command>
+		<name>stream lags</name>
+		<requiredWords>
+			<group>
+				<word>anyone else</word>
+				<word>why</word>
+				<word>bot</word>
+				<word wholeword="true">is it</word>
+			</group>
+			<group>
+				<word>stream</word>
+				<word>video</word>
+			</group>
+			<group>
+				<word>pause</word>
+				<word>stutter</word>
+				<word>lag</word>
+				<word>jump</word>
+			</group>
+		</requiredWords>
+		<responses>
+			<response>Yes, josh is dropping frames. He's sorry, but he can't fix his internet, short of moving (which he is working towards). </response>
+		</responses>
 	</command>
 </commands>
