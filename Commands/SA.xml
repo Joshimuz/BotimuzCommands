@@ -104,7 +104,7 @@
 				<word>botimuz</word>
 			</group>
 			<group>
-				<word>replay</word>
+				<word wholeword="true">replay</word>
 			</group>
 		</requiredwords>
 		<responses>
