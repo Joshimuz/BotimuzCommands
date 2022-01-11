@@ -31,8 +31,8 @@
 		</requiredwords>
 		<unwantedwords>
 			<group>
-				<word>me</word>
-				<word>looked</word>
+				<word wholeword="true">me</word>
+				<word wholeword="true">looked</word>
 				<word>look it</word>
 			</group>
 		</unwantedwords>
