@@ -992,6 +992,7 @@
 				<word>stream</word>
 				<word>video</word>
 				<word>game</word>
+				<word>frame</word>
 			</group>
 			<group>
 				<word>pause</word>
@@ -999,7 +1000,7 @@
 				<word>lag</word>
 				<word>jump</word>
 				<word>freezing</word>
-				<word>frames</word>
+				<word>drop</word>
 			</group>
 		</requiredWords>
 		<unwantedWords>
