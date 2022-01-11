@@ -990,14 +990,22 @@
 			<group>
 				<word>stream</word>
 				<word>video</word>
+				<word>game</word>
 			</group>
 			<group>
 				<word>pause</word>
 				<word>stutter</word>
 				<word>lag</word>
 				<word>jump</word>
+				<word>freezing</word>
+				<word>frames</word>
 			</group>
 		</requiredWords>
+		<unwantedWords>
+			<group>
+				<word>limit</word>
+			</group>
+		</unwantedWords>
 		<responses>
 			<response>Yes, josh is dropping frames. He's sorry, but he can't fix his internet, short of moving (which he is working towards). </response>
 		</responses>
