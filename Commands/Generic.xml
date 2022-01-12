@@ -969,8 +969,8 @@
 		<maxWords>10</maxWords>
 		<requiredwords>
 			<group>
-				<word>Buy followers and viewers on vk.cc</word>
-				<word>Buy followers, primes and viewers on u.to</word>
+				<word>Buy followers and viewers on</word>
+				<word>Buy followers, primes and viewers on</word>
 			</group>
 		</requiredwords>
 		<responses data0="messageid" usename="false">
