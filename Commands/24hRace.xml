@@ -72,14 +72,17 @@
 		</responses>
 	</command>
 
-<!-- 	<command>
+ 	<command>
 		<name>When race</name>
+		<maxWords>15</maxWords>
 		<requiredwords>
 			<group>
 				<word wholeword="true">bot</word>
 				<word>botimuz</word>
 				<word wholeword="true">what</word>
 				<word wholeword="true">when</word>
+				<word>how soon</word>
+				<word>how long</word>
 			</group>
 			<group>
 				<word>race</word>
@@ -89,10 +92,17 @@
 				<word>end</word>
 			</group>
 		</requiredwords>
+		<unwantedwords>
+			<group>
+				<word>watch</word>
+				<word>saw</word>
+				<word>run</word>
+			</group>
+		</unwantedwords>
 		<responses>
-			<response>Race starts at 13:45 BST, ends at, believe it or not, 13:45 BST</response>
+			<response>Daytona 24h race starts on Saturday 22nd at 11:45 BT, ends at, believe it or not, 11:45 BT</response>
 		</responses>
-	</command> -->
+	</command>
 
 <!-- 	<command>
 		<name>How many teams</name>
