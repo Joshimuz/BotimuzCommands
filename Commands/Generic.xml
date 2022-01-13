@@ -969,10 +969,22 @@
 		<maxWords>10</maxWords>
 		<requiredwords>
 			<group>
-				<word>Buy followers and viewers on</word>
-				<word>Buy followers, primes and viewers on</word>
+				<word wholeword="true">Buy</word>
+			</group>
+			<group>
+				<word wholeword="true">followers</word>
+				<word wholeword="true">viewers</word>
+				<word wholeword="true">primes</word>
+			</group>
+			<group>
+				<word>u.to</word>
 			</group>
 		</requiredwords>
+		<unwantedWords>
+			<group>
+				<word>bot</word>
+			</group>
+		</unwantedWords>
 		<responses data0="messageid" usename="false">
 			<response>/timeout [0] 24h</response>
 		</responses>
