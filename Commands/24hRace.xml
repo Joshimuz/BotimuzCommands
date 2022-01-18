@@ -28,7 +28,7 @@
 			</group>
 			<group>
 				<word>josh</word>
-				<word>he</word>
+				<word wholeword="true">he</word>
 				<word>stint</word>
 				<word>plan</word>
 				<word>hour</word>
