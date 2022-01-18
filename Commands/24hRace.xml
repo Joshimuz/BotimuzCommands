@@ -16,7 +16,7 @@
 		</responses>
 	</command>
 
-	<command>
+	<!--command>
 		<name>When Josh Drive?</name>
 		<requiredwords>
 			<group>
@@ -47,7 +47,7 @@
 		<responses>
 			<response>TIMES ARE IN UTC/GMT AND ARE PROBABLY WRONG OK? https://cdn.discordapp.com/attachments/755316609903493161/863531173976211486/unknown.png</response>
 		</responses>
-	</command>
+	</command-->
 
 	<command>
 		<name>What classes</name>
@@ -68,7 +68,7 @@
 			</group>
 		</unwantedwords>
 		<responses>
-			<response>From Fastest to Slowest the classes are: Yellow - LMP2, Blue - GT3</response>
+			<response>From Fastest to Slowest the classes are: Mustard - LMP2, Dodger Blue - GT3/GTD</response>
 		</responses>
 	</command>
 
