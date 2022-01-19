@@ -985,7 +985,7 @@
 				<word>bot</word>
 			</group>
 		</unwantedWords>
-		<responses data0="messageid" usename="false">
+		<responses data0="chattername" usename="false">
 			<response>/timeout [0] 24h</response>
 		</responses>
 		<cooldown>0</cooldown>
