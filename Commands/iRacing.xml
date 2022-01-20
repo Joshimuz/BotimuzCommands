@@ -160,6 +160,7 @@
 			</group>
 			<group>
 				<word wholeword="true">flag</word>
+				<word wholeword="true">flags</word>
 			</group>
 		</requiredwords>
 		<unwantedwords>
