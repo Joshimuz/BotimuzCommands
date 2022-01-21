@@ -16,7 +16,7 @@
 		</responses>
 	</command>
 
-	<!--command>
+	<command>
 		<name>When Josh Drive?</name>
 		<requiredwords>
 			<group>
@@ -45,9 +45,9 @@
 			</group>
 		</requiredwords>
 		<responses>
-			<response>TIMES ARE IN UTC/GMT AND ARE PROBABLY WRONG OK? https://cdn.discordapp.com/attachments/755316609903493161/863531173976211486/unknown.png</response>
+			<response>TIMES ARE IN UTC/GMT AND ARE PROBABLY WRONG OK? https://i.imgur.com/dxy7KEu.png</response>
 		</responses>
-	</command-->
+	</command>
 
 	<command>
 		<name>What classes</name>
