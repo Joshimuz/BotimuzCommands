@@ -46,7 +46,7 @@
 			</group>
 		</requiredwords>
 		<responses>
-			<response>TIMES ARE IN UTC/GMT AND ARE PROBABLY WRONG OK? https://docs.google.com/spreadsheets/d/1dC4SMzz9JgoM08Ud3OSKnhIWAFfhsNiEBFI0BDrwCsk</response>
+			<response>TIMES ARE IN UTC/GMT AND ARE PROBABLY WRONG OK? http://daytona.joshimuz.com</response>
 		</responses>
 	</command>
 
