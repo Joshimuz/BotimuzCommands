@@ -73,7 +73,7 @@
 		</responses>
 	</command>
 
- 	<command>
+ 	<!--command>
 		<name>When race</name>
 		<maxWords>15</maxWords>
 		<requiredwords>
@@ -103,7 +103,7 @@
 		<responses>
 			<response>Daytona 24h race starts on Saturday 22nd at 11:45 BT, ends at, believe it or not, 11:45 BT</response>
 		</responses>
-	</command>
+	</command-->
 
 <!-- 	<command>
 		<name>How many teams</name>
