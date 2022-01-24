@@ -612,6 +612,7 @@
 			<group>
 				<word>strat</word>
 				<word>do</word>
+				<word wholeword="true">live</word>
 			</group>
 		</unwantedwords>
 		<responses forward="false" usename="false" data0="timeSince" range0="714235200">
