@@ -59,6 +59,7 @@
 				<word>click</word>
 				<word>watch</word>
 				<word>sleep</word>
+				<word wholeword="true">alive</word>
 			</group>
 		</unwantedWords>
 		<responses>
@@ -92,6 +93,7 @@
 		<unwantedWords>
 			<group>
 				<word>sleep</word>
+				<word wholeword="true">alive</word>
 			</group>
 		</unwantedWords>
 		<responses>
