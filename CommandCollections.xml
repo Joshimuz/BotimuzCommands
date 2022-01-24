@@ -135,7 +135,7 @@
   </commandcollection>
 
   <commandcollection>
-    <name>SA DE Any% NMG</name>
+    <name>SA DE Any%</name>
     <channelname>Joshimuz</channelname>
     <requiredtitlewords>
       <group>
@@ -143,7 +143,7 @@
         <word>definitive</word>
       </group>
       <group>
-        <word>any% nmg</word>
+        <word>any%</word>
         <word>no major glitches</word>
       </group>
     </requiredtitlewords>
