@@ -187,6 +187,7 @@
 			<group>
 				<word wholeword="true">bot</word>
 				<word>botimuz</word>
+				<word wholeword="true">botimu2Pet</word>
 			</group>
 			<group>
 				<word wholeword="true">good</word>
@@ -195,6 +196,7 @@
 				<word>gj</word>
 				<word>nice</word>
 				<word>joshFanks</word>
+				<word wholeword="true">botimu2Pet</word>
 			</group>
 		</requiredwords>
 		<unwantedwords>
