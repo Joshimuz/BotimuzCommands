@@ -63,14 +63,13 @@
             </group>
             <group>
                 <word>this</word>
-                <word>de</word>
+                <word wholeWord="true">de</word>
                 <word>definitive</word>
                 <word>edition</word>
             </group>
         </requiredWords>
         <responses random="true">
-            <response>The last patch (1.0.3) fixed: Shitty rain, settings not saving and the Badlands Bridge that disappeared. Josh thinks DE is so fundamentally flawed in the way it's designed that it isn't really "fixable" with patches.
-            </response>
+            <response>The last patch (1.0.3) fixed: Shitty rain, settings not saving and the Badlands Bridge that disappeared. Josh thinks DE is so fundamentally flawed in the way it's designed that it isn't really "fixable" with patches.</response>
         </responses>
     </command>
 </commands>
