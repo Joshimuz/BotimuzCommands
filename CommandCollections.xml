@@ -68,6 +68,26 @@
   </commandcollection>
 
   <commandcollection>
+    <name>Winter Mod</name>
+    <channelname>Joshimuz</channelname>
+    <requiredtitlewords>
+      <group>
+        <word>winter mod</word>
+      </group>
+    </requiredtitlewords>
+    <gamename>Grand Theft Auto: San Andreas</gamename>
+    <commandlists>
+      <name>Generic</name>
+      <name>Online</name>
+      <name>GTA</name>
+      <name>SA</name>
+      <name>WinterMod</name>
+    </commandlists>
+    <speedruncategory>No Major Glitches</speedruncategory>
+    <streamstatus>online</streamstatus>
+  </commandcollection>
+
+  <commandcollection>
     <name>SA Any% No AJS</name>
     <channelname>Joshimuz</channelname>
     <requiredtitlewords>

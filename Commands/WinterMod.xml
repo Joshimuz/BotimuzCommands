@@ -1,0 +1,43 @@
+<commands version="1">
+	<command>
+		<name>tow truck</name>
+		<maxWords>15</maxWords>
+		<requiredwords>
+			<group>
+				<word>what</word>
+				<word>botimuz</word>
+				<word wholeword="true">bot</word>
+                <word>try</word>
+                <word>tried</word>
+                <word>how</word>
+			</group>
+			<group>
+                <word>tow truck</word>
+                <word>tractor</word>
+                <word>helicopter</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response>That doesn't work! You can't tow mission vehicles!</response>
+		</responses>
+	</command>
+
+    <command>
+		<name>What winter mod</name>
+		<maxWords>15</maxWords>
+		<requiredwords>
+			<group>
+				<word>what</word>
+				<word>botimuz</word>
+				<word wholeword="true">bot</word>
+			</group>
+			<group>
+				<word>winter mod</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response>Winter mod makes roads slippery and adds snow textures. </response>
+	        <!-- You can find it here: link -->
+		</responses>
+	</command>
+</commands>
