@@ -28,11 +28,14 @@
 		<requiredwords>
 			<group>
 				<word>what</word>
+                <word>where</word>
 				<word>botimuz</word>
 				<word wholeword="true">bot</word>
 			</group>
 			<group>
 				<word>winter mod</word>
+                <word>this mod</word>
+                <word>download</word>
 			</group>
 		</requiredwords>
 		<responses>
