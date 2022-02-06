@@ -10,9 +10,10 @@
                 <word>try</word>
                 <word>tried</word>
                 <word>how</word>
+                <word>can't you</word>
 			</group>
 			<group>
-                <word>tow truck</word>
+                <word>tow</word>
                 <word>tractor</word>
                 <word>helicopter</word>
 			</group>
@@ -31,6 +32,7 @@
                 <word>where</word>
 				<word>botimuz</word>
 				<word wholeword="true">bot</word>
+                <word>give me</word>
 			</group>
 			<group>
 				<word>winter mod</word>
