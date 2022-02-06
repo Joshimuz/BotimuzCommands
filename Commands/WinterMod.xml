@@ -36,8 +36,7 @@
 			</group>
 		</requiredwords>
 		<responses>
-			<response>Winter mod makes roads slippery and adds snow textures. </response>
-	        <!-- You can find it here: link -->
+			<response>Winter mod makes roads slippery and adds snow textures. You can find it here: https://www.gtainside.com/sanandreas/mods/173756-official-winter-2022</response>
 		</responses>
 	</command>
 </commands>
