@@ -968,7 +968,6 @@
 	</command>
 	<command>
 		<name>Buy viewers ban</name>
-		<maxWords>10</maxWords>
 		<requiredwords>
 			<group>
 				<word wholeword="true">Buy</word>
