@@ -317,11 +317,10 @@
 		<maxWords>15</maxWords>
 		<requiredwords>
 			<group>
-				<word>100</word>
+				<word>100%+</word>
 			</group>
 			<group>
 				<word>true</word>
-				<word>+</word>
 			</group>
 			<group>
 				<word>bring back</word>
@@ -335,6 +334,35 @@
 		</requiredwords>
 		<responses>
 			<response>https://faq.joshimuz.com/#where-is-true-100</response>
+		</responses>
+	</command>
+	<command>
+		<name>Plusless true 100% when</name>
+		<maxWords>15</maxWords>
+		<requiredwords>
+			<group>
+				<word>100%</word>
+			</group>
+			<group>
+				<word>true</word>
+			</group>
+			<group>
+				<word>bring back</word>
+				<word>still working on</word>
+				<word>continuing</word>
+				<word wholeword="true">when</word>
+				<word>quit</word>
+				<word wholeword="true">bot</word>
+				<word>botimuz</word>
+			</group>
+		</requiredwords>
+		<unwantedWords>
+			<group>
+				<word>+</word>
+			</group>
+		</unwantedWords>
+		<responses>
+			<response data0="randomNumber" range0="100-400">You did not include the +. True 100%+ has been delayed by [0] days.</response>
 		</responses>
 	</command>
 	<command>
