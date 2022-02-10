@@ -357,7 +357,7 @@
     <channelname>Joshimuz</channelname>
     <commandlists>
       <name>Generic</name>
-      <name>Offline</name>
+      <name>OfflineESA</name>
     </commandlists>
     <streamstatus>offline</streamstatus>
   </commandcollection>
