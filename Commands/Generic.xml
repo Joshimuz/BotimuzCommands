@@ -967,6 +967,29 @@
 			<response>life: noun, plural: lives. the condition that distinguishes organisms from inorganic objects and dead organisms, being manifested by growth through metabolism, reproduction, and the power of adaptation to environment through changes originating internally.</response>
 		</responses>
 	</command>
+	<command>
+		<name>ESA how did it go?</name>
+		<maxWords>15</maxWords>
+		<requiredwords>
+			<group>
+				<word>tell</word>
+				<word>told</word>
+				<word>watch</word>
+				<word wholeword="true">see</word>
+				<word wholeword="true">go</word>
+				<word wholeword="true">bot</word>
+				<word>botimuz</word>
+			</group>
+			<group>
+				<word wholeword="true">esa</word>
+			</group>
+		</requiredwords>
+		<unwantedwords>
+		</unwantedwords>
+		<responses>
+			<response>You can watch Joshimuz ESA content here: post-ESA catchup: twitch.tv/videos/1306314141 | joshCoolStory of travel disasters: twitch.tv/videos/1306335184?t=1h15m0s | GTA:SA run: twitch.tv/videos/1300715392 | GTA:VC DE run (comment): twitch.tv/videos/1296861816 | GTA:TBoGT run (comment): twitch.tv/videos/1303124232 | Board games streams: twitch.tv/videos/1296887509 & twitch.tv/videos/1298665510 botimu2Bot</response>
+		</responses>
+	</command>
 	<!--<command>
 		<name>ESA when</name>
 		<maxWords>15</maxWords>
