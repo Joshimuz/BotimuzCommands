@@ -967,7 +967,7 @@
 			<response>life: noun, plural: lives. the condition that distinguishes organisms from inorganic objects and dead organisms, being manifested by growth through metabolism, reproduction, and the power of adaptation to environment through changes originating internally.</response>
 		</responses>
 	</command>
-	<command>
+	<!--<command>
 		<name>ESA when</name>
 		<maxWords>15</maxWords>
 		<requiredwords>
@@ -995,7 +995,7 @@
 		<responses>
 			<response>Josh is going to ESA Winter to do a GTA:SA run! ESA Winter is 12 to 19 Feb. esamarathon.com/schedule</response>
 		</responses>
-	</command>
+	</command>-->
 	<command>
 		<name>Buy viewers ban</name>
 		<requiredwords>
