@@ -1080,4 +1080,26 @@
 			<response>Yes, josh is dropping frames. He's sorry, but he can't fix his internet, short of moving (which he is working towards). </response>
 		</responses>
 	</command>
+	<command>
+		<name>why ireland</name>
+		<requiredWords>
+			<group>
+				<word>why</word>
+				<word>bot</word>
+			</group>
+			<group>
+				<word>move</word>
+				<word>leave</word>
+			</group>
+			<group>
+				<word>ireland</word>
+				<word>uk</word>
+				<word>england</word>
+				<word>sweden</word>
+			</group>
+		</requiredWords>
+		<responses>
+			<response>Josh is moving to Ireland on Saturday. He's moving because he wants to eventually get into the EU/Sweden, Ireland is easy to immigrate to from the UK, and @Wayno717 needed a housemate in Ireland. More info here: https://twitter.com/Joshimuz/status/1500168355168370689</response>
+		</responses>
+	</command>
 </commands>
