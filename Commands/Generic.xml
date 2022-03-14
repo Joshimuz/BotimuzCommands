@@ -720,9 +720,9 @@
 			</group>
 		</requiredwords>
 		<responses>
-			<response usename="false" data0="weather" string0="Portsmouth, gb">[0]</response>
+			<response usename="false" data0="weather" string0="Dublin, IE">[0]</response>
 		</responses>
-		<cooldown>1800</cooldown>
+		<cooldown>900</cooldown>
 	</command>
 	<command>
 		<name>Sub 4 Joke</name>
@@ -1046,39 +1046,6 @@
 		</responses>
 		<cooldown>0</cooldown>
 		<allowRepeatUsers>true</allowRepeatUsers>
-	</command>
-	<command>
-		<name>stream lags</name>
-		<requiredWords>
-			<group>
-				<word>anyone else</word>
-				<word>why</word>
-				<word>bot</word>
-				<word wholeword="true">is it</word>
-			</group>
-			<group>
-				<word>stream</word>
-				<word>video</word>
-				<word>game</word>
-				<word>frame</word>
-			</group>
-			<group>
-				<word>pause</word>
-				<word>stutter</word>
-				<word>lag</word>
-				<word>jump</word>
-				<word>freezing</word>
-				<word>drop</word>
-			</group>
-		</requiredWords>
-		<unwantedWords>
-			<group>
-				<word>limit</word>
-			</group>
-		</unwantedWords>
-		<responses>
-			<response>Yes, josh is dropping frames. He's sorry, but he can't fix his internet, short of moving (which he is working towards). </response>
-		</responses>
 	</command>
 	<command>
 		<name>why ireland</name>
