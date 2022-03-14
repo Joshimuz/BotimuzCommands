@@ -159,10 +159,8 @@
 				<word>time zone</word>
 			</group>
 			<group>
-				<word wholeword="true">uk</word>
 				<word>josh</word>
-				<word>england</word>
-				<word>britain</word>
+				<word>ireland</word>
 				<word>for you</word>
 				<word>where you are</word>
 				<word>you live</word>
@@ -177,7 +175,7 @@
 			</group>
 		</unwantedwords>
 		<responses>
-			<response data0="currenttime">It's currently [0] in the UK</response>
+			<response data0="currenttime">It's currently [0] in Ireland</response>
 		</responses>
 	</command>
 	<command>
