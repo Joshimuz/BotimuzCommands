@@ -1,7 +1,7 @@
-<commands>
+﻿<commands version="1">
 	<command>
 		<name>Version</name>
-		<maxlength>15</maxlength>
+		<maxWords>15</maxWords>
 		<requiredwords>
 			<group>
 				<word>what</word>
@@ -35,10 +35,9 @@
 			<response>You need v1 in order to install MTA. You can downgrade any version to v1 though (insert helpful link here)</response>
 		</responses>
 	</command>
-	
 	<command>
 		<name>MTA Server</name>
-		<maxlength>15</maxlength>
+		<maxWords>15</maxWords>
 		<requiredwords>
 			<group>
 				<word>what</word>
@@ -59,10 +58,9 @@
 		</responses>
 		<cooldown>5</cooldown>
 	</command>
-	
 	<command>
 		<name>What MTA</name>
-		<maxlength>15</maxlength>
+		<maxWords>15</maxWords>
 		<requiredwords>
 			<group>
 				<word>what</word>
@@ -83,10 +81,9 @@
 		</responses>
 		<cooldown>5</cooldown>
 	</command>
-	
-<!-- 	<command>
+	<!-- 	<command>
 		<name>What working on</name>
-		<maxlength>20</maxlength>
+		<maxWords>20</maxWords>
 		<requiredwords>
 			<group>
 				<word>what</word>
@@ -109,10 +106,9 @@
 		</responses>
 		<cooldown>5</cooldown>
 	</command> -->
-	
-<!-- 	<command>
+	<!-- 	<command>
 		<name>What language</name>
-		<maxlength>15</maxlength>
+		<maxWords>15</maxWords>
 		<requiredwords>
 			<group>
 				<word>what</word>
@@ -130,10 +126,9 @@
 		</responses>
 		<cooldown>5</cooldown>
 	</command> -->
-
-<!-- 	<command>
+	<!-- 	<command>
 		<name>Why yes Radio</name>
-		<maxlength>10</maxlength>
+		<maxWords>10</maxWords>
 		<requiredwords>
 			<group>
 				<word>why</word>
