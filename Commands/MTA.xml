@@ -84,7 +84,7 @@
 		<cooldown>5</cooldown>
 	</command>
 	
-	<command>
+<!-- 	<command>
 		<name>What working on</name>
 		<maxlength>20</maxlength>
 		<requiredwords>
@@ -108,9 +108,9 @@
 			<response>Josh is making a nice simple race map</response>
 		</responses>
 		<cooldown>5</cooldown>
-	</command>
+	</command> -->
 	
-	<command>
+<!-- 	<command>
 		<name>What language</name>
 		<maxlength>15</maxlength>
 		<requiredwords>
@@ -129,9 +129,9 @@
 			<response>It's either LUA/XML or GTA:SA decompiled mission script</response>
 		</responses>
 		<cooldown>5</cooldown>
-	</command>
+	</command> -->
 
-	<command>
+<!-- 	<command>
 		<name>Why yes Radio</name>
 		<maxlength>10</maxlength>
 		<requiredwords>
@@ -153,28 +153,5 @@
 		<responses>
 			<response>Josh is probably listening to an OCRemix radio station, coz that doesn't have copyright issues (hopefully) https://rainwave.cc/ocremix/#!/</response>
 		</responses>
-	</command>
-
-	<command>
-		<name>no runs</name>
-		<maxlength>10</maxlength>
-		<requiredwords>
-			<group>
-				<word>why</word>
-				<word>what</word>
-				<word>where</word>
-				<word>botimuz</word>
-				<word wholeword="true">bot</word>
-				<word>y no</word>
-			</group>
-			<group>
-				<word>speedrun</word>
-				<word>run</word>
-			</group>
-		</requiredwords>
-		<responses>
-			<response>Josh's PC is having stability issues, and he doesn't trust to go 4+ hours without something crashing, so can't complete a run (plz no tech supportorino). He's also sleepy af coz he can't sleep for some reason D:</response>
-		</responses>
-		<cooldown>5</cooldown>
-	</command>
+	</command> -->
 </commands>
