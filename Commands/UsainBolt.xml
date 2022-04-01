@@ -1,4 +1,4 @@
-<commands>
+<commands version="1">
     <command>
         <name>Who is</name>
         <requiredwords>
