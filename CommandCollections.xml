@@ -1,5 +1,22 @@
 <commandCollections version="1">
   <commandcollection>
+    <name>MEMES</name>
+    <channelname>Joshimuz</channelname>
+    <requiredtitlewords>
+      <group>
+        <word>MEME RUN!</word>
+      </group>
+    </requiredtitlewords>
+    <commandlists>
+      <name>Generic</name>
+      <name>Online</name>
+      <name>UsainBolt</name>
+      <name>SANMG</name>
+    </commandlists>
+    <streamstatus>online</streamstatus>
+  </commandcollection>
+  
+  <commandcollection>
     <name>GTAVC100</name>
     <channelname>gtamarathon</channelname>
     <commandlists>
