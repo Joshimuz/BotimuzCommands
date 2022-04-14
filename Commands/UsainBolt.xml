@@ -1,0 +1,51 @@
+<commands version="1">
+    <command>
+        <name>Who is</name>
+        <requiredwords>
+			<group>
+				<word>botimuz</word>
+				<word wholeword="true">bot</word>
+				<word>who</word>
+			</group>
+			<group>
+				<word>usain bolt</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response>This MEME RUN is named after the WR holder in the 100 metres sprint, 200 metres sprint, and 4 x 100 metres relay. https://wikipedia.org/wiki/Usain_Bolt</response>
+		</responses>
+    </command>
+
+    <command>
+        <name>mod link</name>
+        <requiredwords>
+            <group>
+				<word>botimuz</word>
+				<word wholeword="true">bot</word>
+                <word>where</word>
+                <word>link</word>
+            </group>
+			<group>
+				<word>mod</word>
+			</group>
+        </requiredwords>
+        <responses>
+            <response>This is a custom modification of Chaos Mod made by Lordmau5. There is no link for this, but you can find Chaos Mod here: https://github.com/gta-chaos-mod/Trilogy-ASI-Script</response>
+        </responses>
+    </command>
+    <!--<command>
+        <name></name>
+        <requiredwords>
+            <group>
+				<word>botimuz</word>
+				<word wholeword="true">bot</word>
+            </group>
+			<group>
+				<word></word>
+			</group>
+        </requiredwords>
+        <responses>
+            <response></response>
+        </responses>
+    </command>-->
+</commands>
