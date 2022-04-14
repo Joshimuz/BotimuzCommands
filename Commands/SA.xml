@@ -246,6 +246,7 @@
 				<word>ajs</word>
 				<word>asj</word>
 				<word>jump in script</word>
+				<word>any%</word>
 			</group>
 		</requiredwords>
 		<unwantedwords>
@@ -258,7 +259,7 @@
 			</group>
 		</unwantedwords>
 		<responses>
-			<response>No AJS (No Arbitrary Jump in Script) forbids manipulating mission script jumping, which is used in normal Any% to skip the whole game. (Not called ASJ, which sounds like All Stunt Jumps.)</response>
+			<response>No AJS (No Arbitrary Jump in Script) is the old name for the new Any% category. It changed name back because the Remastered versions and Original versions of the 3D Era GTA games got split on the speedrun leaderboards, so we don't need the name anymore.</response>
 		</responses>
 	</command>
 	<command>

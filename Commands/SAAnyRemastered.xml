@@ -1,0 +1,150 @@
+﻿<commands version="1">
+	<command>
+		<name>Version</name>
+		<maxWords>15</maxWords>
+		<requiredwords>
+			<group>
+				<word>what</word>
+				<word>which</word>
+				<word>playing</word>
+				<word>is this</word>
+				<word>why</word>
+			</group>
+			<group>
+				<word>version</word>
+				<word>games launcher</word>
+				<word>rockstar launcher</word>
+				<word>rgl</word>
+				<word>steam</word>
+				<word>v1</word>
+				<word>v2</word>
+				<word>different</word>
+				<word>mobile</word>
+				<word>port</word>
+			</group>
+		</requiredwords>
+		<unwantedwords>
+			<group>
+				<word>epic</word>
+				<word>egs</word>
+			</group>
+		</unwantedwords>
+		<responses>
+			<response>To do the glitch Josh needs to use the Windows Store version because of the exact offset/variables layout/assignment in the mission script. For more read the FAQ https://faq.joshimuz.com</response>
+		</responses>
+	</command>
+	<command>
+		<name>Wtf are you doing</name>
+		<maxWords>15</maxWords>
+		<requiredwords>
+			<group>
+				<word>what</word>
+				<word>why</word>
+				<word>wtf</word>
+			</group>
+			<group>
+				<word>doing</word>
+				<word>trying</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response>Josh is trying to do a new skip found by Powdinet. Short explanation: it skips the whole game. Long explanation: https://faq.joshimuz.com</response>
+		</responses>
+	</command>
+	<command>
+		<name>Vending Machines</name>
+		<maxWords>15</maxWords>
+		<requiredwords>
+			<group>
+				<word>why</word>
+				<word>what</word>
+				<word>wtf</word>
+			</group>
+			<group>
+				<word>vending</word>
+				<word>machine</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response>The Vending Machine situation got real complicated real fast just read the FAQ plz https://faq.joshimuz.com</response>
+		</responses>
+	</command>
+	<command>
+		<name>No Major Glitches</name>
+		<maxWords>15</maxWords>
+		<requiredwords>
+			<group>
+				<word>where</word>
+				<word>what</word>
+				<word>bot</word>
+				<word>means</word>
+			</group>
+			<group>
+				<word>nmg</word>
+				<word>major glitch</word>
+			</group>
+		</requiredwords>
+		<unwantedwords>
+			<group>
+				<word>run</word>
+				<word>like</word>
+				<word>prefer</word>
+				<word>wr</word>
+				<word>world</word>
+				<word>record</word>
+			</group>
+		</unwantedwords>
+		<responses>
+			<response>NMG (No Major Glitches) is a version of Any% that forbids OnMission flag manipulation (Duping, 0 Star) and any other "big" glitches that get found in the future</response>
+		</responses>
+	</command>
+	<command>
+		<name>No AJS</name>
+		<maxWords>15</maxWords>
+		<requiredwords>
+			<group>
+				<word>what</word>
+				<word>bot</word>
+				<word>where</word>
+				<word>means</word>
+			</group>
+			<group>
+				<word>ajs</word>
+				<word>asj</word>
+				<word>jump in script</word>
+			</group>
+		</requiredwords>
+		<unwantedwords>
+			<group>
+				<word>run</word>
+				<word>like</word>
+				<word>prefer</word>
+				<word>wr</word>
+				<word>world</word>
+				<word>record</word>
+			</group>
+		</unwantedwords>
+		<responses>
+			<response>No AJS (No Arbitrary Jump in Script) forbids manipulating mission script jumping, which is used in normal Any% to skip the whole game. (Not called ASJ, which sounds like All Stunt Jumps.)</response>
+		</responses>
+	</command>
+	<command>
+		<name>FAQ</name>
+		<maxWords>15</maxWords>
+		<requiredwords>
+			<group>
+				<word>what</word>
+				<word>where</word>
+				<word>link</word>
+				<word>bot</word>
+				<word>!faq</word>
+			</group>
+			<group>
+				<word>faq</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response>The direct link to the Any% FAQ is: https://gist.github.com/Joshimuz/f271c925e0c2cdc095a62a4474f30957#gtasa-any-faq</response>
+		</responses>
+	</command>
+</commands>

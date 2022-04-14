@@ -1,36 +1,5 @@
 <commandCollections version="1">
   <commandcollection>
-    <name>GTAVC100</name>
-    <channelname>gtamarathon</channelname>
-    <commandlists>
-      <name>GTAM</name>
-    </commandlists>
-    <streamstatus>online</streamstatus>
-  </commandcollection>
-
-  <commandcollection>
-    <name>Miserable Mondays</name>
-    <channelname>Joshimuz</channelname>
-    <requiredtitlewords>
-      <group>
-        <word>rerun</word>
-        <word>not live</word>
-      </group>
-      <group>
-        <word>miserable</word>
-        <word>monday</word>
-      </group>
-    </requiredtitlewords>
-    <commandlists>
-      <name>Generic</name>
-      <name>Online</name>
-      <name>Rerun</name>
-      <name>MiserableMonday</name>
-    </commandlists>
-    <streamstatus>any</streamstatus>
-  </commandcollection>
-
-  <commandcollection>
     <name>Rerun</name>
     <channelname>Joshimuz</channelname>
     <requiredtitlewords>
@@ -88,24 +57,28 @@
   </commandcollection>
 
   <commandcollection>
-    <name>SA Any% No AJS</name>
+    <name>SA Any%</name>
     <channelname>Joshimuz</channelname>
     <requiredtitlewords>
       <group>
-        <word>any% no ajs</word>
-        <word>any% (no ajs)</word>
+        <word>any%</word>
       </group>
     </requiredtitlewords>
+    <unwantedtitlewords>
+      <group>
+        <word>nmg</word>
+      </group>
+    </unwantedtitlewords>
     <gamename>Grand Theft Auto: San Andreas</gamename>
     <commandlists>
       <name>Generic</name>
       <name>Online</name>
       <name>GTA</name>
       <name>SA</name>
-      <name>SANoAJS</name>
+      <name>SAAny</name>
     </commandlists>
-    <speedruncategory>Any% (No AJS)</speedruncategory>
-    <streamstatus>online</streamstatus>
+    <speedruncategory>Any%</speedruncategory>
+    <streamstatus>any</streamstatus>
   </commandcollection>
 
   <commandcollection>
@@ -130,17 +103,20 @@
   </commandcollection>
 
   <commandcollection>
-    <name>SA Any%</name>
+    <name>SA Remastered Any%</name>
     <channelname>Joshimuz</channelname>
     <requiredtitlewords>
       <group>
         <word>any%</word>
       </group>
+      <group>
+        <word>remaster</word>
+        <word>mobile</word>
+      </group>
     </requiredtitlewords>
     <unwantedtitlewords>
       <group>
         <word>nmg</word>
-        <word>no ajs</word>
       </group>
     </unwantedtitlewords>
     <gamename>Grand Theft Auto: San Andreas</gamename>
@@ -148,7 +124,7 @@
       <name>Generic</name>
       <name>Online</name>
       <name>GTA</name>
-      <name>SANoAJS</name>
+      <name>SAAnyRemastered</name>
     </commandlists>
     <speedruncategory>Any%</speedruncategory>
     <streamstatus>online</streamstatus>
