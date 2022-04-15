@@ -744,11 +744,11 @@
 				<word wholeword="true">died</word>
 			</group>
 		</requiredwords>
-	    <unwantedtitlewords>
+	    <unwantedwords>
       		<group>
         		<word>run</word>
       		</group>
-    	</unwantedtitlewords>
+    	</unwantedwords>
 		<responses data0="messageid" usename="false">
 			<response>/delete [0]</response>
 		</responses>
