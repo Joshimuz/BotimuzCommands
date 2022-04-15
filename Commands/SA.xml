@@ -113,6 +113,27 @@
 		</responses>
 	</command>
 	<command>
+		<name>3rd party limiter</name>
+		<maxWords>15</maxWords>
+		<requiredwords>
+			<group>
+				<word>why</word>
+				<word>what</word>
+				<word wholeword="true">bot</word>
+				<word>botimuz</word>
+			</group>
+			<group>
+				<word>frame</word>
+			</group>
+			<group>
+				<word>limit</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response>Josh isn't using a 3rd party/external frame limiter, because he doesn't want to.</response>
+		</responses>
+	</command>
+	<command>
 		<name>Shoot Emmet</name>
 		<maxWords>15</maxWords>
 		<requiredwords>
