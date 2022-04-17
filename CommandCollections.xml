@@ -4,16 +4,21 @@
     <channelname>Joshimuz</channelname>
     <requiredtitlewords>
       <group>
-        <word>MEME RUN!</word>
+        <word>meme</word>
+      </group>
+      <group>
+        <word>run</word>
       </group>
     </requiredtitlewords>
     <commandlists>
       <name>Generic</name>
       <name>Online</name>
-      <name>UsainBolt</name>
+      <name>MemeRun</name>
       <name>SANMG</name>
     </commandlists>
     <streamstatus>online</streamstatus>
+    <gamename>Grand Theft Auto: San Andreas</gamename>
+    <speedruncategory>No Major Glitches</speedruncategory>
   </commandcollection>
 
   <commandcollection>

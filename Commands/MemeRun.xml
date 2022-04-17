@@ -1,5 +1,5 @@
 <commands version="1">
-    <command>
+<!--     <command>
         <name>Who is</name>
         <requiredwords>
 			<group>
@@ -14,7 +14,7 @@
 		<responses>
 			<response>This MEME RUN is named after the WR holder in the 100 metres sprint, 200 metres sprint, and 4 x 100 metres relay. https://wikipedia.org/wiki/Usain_Bolt</response>
 		</responses>
-    </command>
+    </command> -->
 
     <command>
         <name>mod link</name>
@@ -30,7 +30,7 @@
 			</group>
         </requiredwords>
         <responses>
-            <response>This is a custom modification of Chaos Mod made by Lordmau5. There is no link for this, but you can find Chaos Mod here: https://github.com/gta-chaos-mod/Trilogy-ASI-Script</response>
+            <response>Get the First Person Mod by BOPOH here: https://www.gtainside.com/en/sanandreas/mods/73304-first-person-v3/</response>
         </responses>
     </command>
     <!--<command>
