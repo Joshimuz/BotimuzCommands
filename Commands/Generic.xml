@@ -435,10 +435,12 @@
 				<word>link</word>
 				<word wholeword="true">bot</word>
 				<word>botimuz</word>
-				<word>!faq</word>
+				<word wholeword="true">!faq</word>
+				<word wholeword="true">!rules</word>
 			</group>
 			<group>
 				<word wholeword="true">faq</word>
+				<word wholeword="true">!rules</word>
 			</group>
 		</requiredwords>
 		<unwantedwords>
