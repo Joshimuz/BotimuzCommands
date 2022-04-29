@@ -1102,7 +1102,5 @@
 		<responses>
 			<response>Josh is using the MSI Katana GF66, specs are at https://www.amazon.co.uk/JoshLaptop/dp/B097R4XGF3</response>
 		</responses>
-		<cooldown>0</cooldown>
-		<allowRepeatUsers>true</allowRepeatUsers>
 	</command>
 </commands>
