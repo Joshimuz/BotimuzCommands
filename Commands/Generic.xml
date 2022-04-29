@@ -179,140 +179,7 @@
 			<response data0="currenttime">It's currently [0] in Ireland</response>
 		</responses>
 	</command>
-	<command>
-		<name>Good Bot</name>
-		<maxWords>5</maxWords>
-		<requiredwords>
-			<group>
-				<word wholeword="true">bot</word>
-				<word>botimuz</word>
-			</group>
-			<group>
-				<word wholeword="true">good</word>
-				<word>thank</word>
-				<word>thx</word>
-				<word wholeword="true">gj</word>
-				<word>nice</word>
-				<word wholeword="true">joshFanks</word>
-				<word wholeword="true">botimu2Pet</word>
-				<word>wow</word>
-				<word>sentient</word>
-			</group>
-		</requiredwords>
-		<unwantedwords>
-			<group>
-				<word>bad</word>
-				<word>evening</word>
-				<word>morning</word>
-				<word>afternoon</word>
-				<word>bye</word>
-			</group>
-		</unwantedwords>
-		<responses forward="false">
-			<response>:3</response>
-			<response>Yay &lt;3</response>
-			<response>beep boop</response>
-			<response>Affirmative</response>
-			<response>Your compliments have been registered within my systems</response>
-			<response usename="false" data0="chattername">No problem @[0]</response>
-			<response>You're welcome</response>
-			<response>gg ez</response>
-			<response>botimu2Bot NO PROBLEM FELLOW HUMAN botimu2Bot</response>
-			<response>ayyy lmao</response>
-			<response>botimuz yay 1</response>
-			<response>I'm the man for the job joshWithIt</response>
-		</responses>
-	</command>
-	<command>
-		<name>Bad Bot</name>
-		<maxWords>5</maxWords>
-		<requiredwords>
-			<group>
-				<word wholeword="true">bot</word>
-				<word>botimuz</word>
-			</group>
-			<group>
-				<word wholeword="true">bad</word>
-				<word>wrong</word>
-				<word>damn</word>
-				<word>stupid</word>
-			</group>
-		</requiredwords>
-		<unwantedwords>
-			<group>
-				<word>good</word>
-				<word>not bad</word>
-			</group>
-		</unwantedwords>
-		<responses forward="false">
-			<response>:(</response>
-			<response>Aww &lt;/3</response>
-			<response>beeeep boooop...</response>
-			<response>Affirmative :(</response>
-			<response>Your complaints have been registered within my systems</response>
-			<response usename="false" data0="chattername">Yes problem @[0]</response>
-			<response>I did my best</response>
-			<response>bg report teemo</response>
-			<response>botimu2Bot ERROR botimu2Bot</response>
-			<response>ayyy?</response>
-			<response>botimuz sad 1</response>
-		</responses>
-	</command>
-	<command>
-		<name>Hi Bot</name>
-		<maxWords>5</maxWords>
-		<requiredwords>
-			<group>
-				<word wholeword="true">bot</word>
-				<word>botimuz</word>
-			</group>
-			<group>
-				<word wholeword="true">hi</word>
-				<word wholeword="true">hello</word>
-				<word wholeword="true">hey</word>
-				<word>good evening</word>
-				<word>good morning</word>
-			</group>
-		</requiredwords>
-		<responses usename="false" data0="chattername">
-			<response weighting="2">Hey @[0]</response>
-			<response weighting="2">Hi @[0]</response>
-			<response weighting="2">Hello @[0]</response>
-			<response weighting="2">Howdy @[0]</response>
-			<response weighting="2">How's it goin' @[0]</response>
-			<response weighting="2">joshPaw @[0]</response>
-			<response>WAZAAAA @[0]</response>
-		</responses>
-	</command>
-	<command>
-		<name>Bye Bot</name>
-		<maxWords>5</maxWords>
-		<requiredwords>
-			<group>
-				<word wholeword="true">bot</word>
-				<word>botimuz</word>
-			</group>
-			<group>
-				<word wholeword="true">bye</word>
-				<word wholeword="true">goodbye</word>
-				<word wholeword="true">farewell</word>
-				<word wholeword="true">cya</word>
-				<word>good bye</word>
-				<word>see you later</word>
-				<word>see ya</word>
-			</group>
-		</requiredwords>
-		<responses usename="false" data0="chattername">
-			<response>Goodbye @[0]</response>
-			<response>Bye @[0]</response>
-			<response>Bye-bye @[0]</response>
-			<response>Buh-bye @[0]</response>
-			<response>See you soon @[0]</response>
-			<response>See you later @[0]</response>
-			<response>So long @[0]</response>
-			<response usename="true">see you later alligator</response>
-		</responses>
-	</command>
+	
 	<command>
 		<name>True 100%+ when</name>
 		<maxWords>15</maxWords>
@@ -1101,6 +968,142 @@
 		</unwantedWords>
 		<responses>
 			<response>Josh is using the MSI Katana GF66, specs are at https://www.amazon.co.uk/JoshLaptop/dp/B097R4XGF3</response>
+		</responses>
+	</command>
+
+	<!-- Keep this at the bottom. -->
+	<command>
+		<name>Good Bot</name>
+		<maxWords>5</maxWords>
+		<requiredwords>
+			<group>
+				<word wholeword="true">bot</word>
+				<word>botimuz</word>
+			</group>
+			<group>
+				<word wholeword="true">good</word>
+				<word>thank</word>
+				<word>thx</word>
+				<word wholeword="true">gj</word>
+				<word>nice</word>
+				<word wholeword="true">joshFanks</word>
+				<word wholeword="true">botimu2Pet</word>
+				<word>wow</word>
+				<word>sentient</word>
+			</group>
+		</requiredwords>
+		<unwantedwords>
+			<group>
+				<word>bad</word>
+				<word>evening</word>
+				<word>morning</word>
+				<word>afternoon</word>
+				<word>bye</word>
+			</group>
+		</unwantedwords>
+		<responses forward="false">
+			<response>:3</response>
+			<response>Yay &lt;3</response>
+			<response>beep boop</response>
+			<response>Affirmative</response>
+			<response>Your compliments have been registered within my systems</response>
+			<response usename="false" data0="chattername">No problem @[0]</response>
+			<response>You're welcome</response>
+			<response>gg ez</response>
+			<response>botimu2Bot NO PROBLEM FELLOW HUMAN botimu2Bot</response>
+			<response>ayyy lmao</response>
+			<response>botimuz yay 1</response>
+			<response>I'm the man for the job joshWithIt</response>
+		</responses>
+	</command>
+	<command>
+		<name>Bad Bot</name>
+		<maxWords>5</maxWords>
+		<requiredwords>
+			<group>
+				<word wholeword="true">bot</word>
+				<word>botimuz</word>
+			</group>
+			<group>
+				<word wholeword="true">bad</word>
+				<word>wrong</word>
+				<word>damn</word>
+				<word>stupid</word>
+			</group>
+		</requiredwords>
+		<unwantedwords>
+			<group>
+				<word>good</word>
+				<word>not bad</word>
+			</group>
+		</unwantedwords>
+		<responses forward="false">
+			<response>:(</response>
+			<response>Aww &lt;/3</response>
+			<response>beeeep boooop...</response>
+			<response>Affirmative :(</response>
+			<response>Your complaints have been registered within my systems</response>
+			<response usename="false" data0="chattername">Yes problem @[0]</response>
+			<response>I did my best</response>
+			<response>bg report teemo</response>
+			<response>botimu2Bot ERROR botimu2Bot</response>
+			<response>ayyy?</response>
+			<response>botimuz sad 1</response>
+		</responses>
+	</command>
+	<command>
+		<name>Hi Bot</name>
+		<maxWords>5</maxWords>
+		<requiredwords>
+			<group>
+				<word wholeword="true">bot</word>
+				<word>botimuz</word>
+			</group>
+			<group>
+				<word wholeword="true">hi</word>
+				<word wholeword="true">hello</word>
+				<word wholeword="true">hey</word>
+				<word>good evening</word>
+				<word>good morning</word>
+			</group>
+		</requiredwords>
+		<responses usename="false" data0="chattername">
+			<response weighting="2">Hey @[0]</response>
+			<response weighting="2">Hi @[0]</response>
+			<response weighting="2">Hello @[0]</response>
+			<response weighting="2">Howdy @[0]</response>
+			<response weighting="2">How's it goin' @[0]</response>
+			<response weighting="2">joshPaw @[0]</response>
+			<response>WAZAAAA @[0]</response>
+		</responses>
+	</command>
+	<command>
+		<name>Bye Bot</name>
+		<maxWords>5</maxWords>
+		<requiredwords>
+			<group>
+				<word wholeword="true">bot</word>
+				<word>botimuz</word>
+			</group>
+			<group>
+				<word wholeword="true">bye</word>
+				<word wholeword="true">goodbye</word>
+				<word wholeword="true">farewell</word>
+				<word wholeword="true">cya</word>
+				<word>good bye</word>
+				<word>see you later</word>
+				<word>see ya</word>
+			</group>
+		</requiredwords>
+		<responses usename="false" data0="chattername">
+			<response>Goodbye @[0]</response>
+			<response>Bye @[0]</response>
+			<response>Bye-bye @[0]</response>
+			<response>Buh-bye @[0]</response>
+			<response>See you soon @[0]</response>
+			<response>See you later @[0]</response>
+			<response>So long @[0]</response>
+			<response usename="true">see you later alligator</response>
 		</responses>
 	</command>
 </commands>
