@@ -8,7 +8,7 @@
 			</group>
 		</requiredwords>
 		<responses forward="false" usename="false" data0="chattername">
-			<response>Hey @[0]! Josh is offline as he's at ESA Winter 2022 https://esamarathon.com/schedule (He's running SA! Maybe even SA DE!). He might stream from ESA, see Twitter for updates: https://twitter.com/Joshimuz</response>
+			<response>Hey @[0]! Josh is offline as he's at ESA Summer 2022 https://esamarathon.com/schedule (He's participateing in the GTA:SA Chaos relay race!). He might stream from ESA, see Twitter for updates: https://twitter.com/Joshimuz</response>
 		</responses>
 		<cooldown>1800</cooldown>
 		<nonmodonly>true</nonmodonly>
