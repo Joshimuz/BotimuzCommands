@@ -141,7 +141,7 @@
 				<word>he trying</word>
 				<word>josh doing</word>
 				<word>josh trying</word>
-				<word>loading</word>
+				<word wholeword="true">loading</word>
 			</group>
 		</requiredwords>
 		<responses>
