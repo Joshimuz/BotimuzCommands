@@ -1,4 +1,4 @@
-<commands version="1">
+﻿mmands version="1">
 	<command>
 		<name>Is iRacing VR only</name>
 		<maxWords>15</maxWords>
@@ -325,6 +325,11 @@
 				<word>link</word>
 			</group>
 		</requiredwords>
+		<unwantedwords>
+			<group>
+				<word wholeword="true">cc</word>
+			</group>
+		</unwantedwords>
 		<responses>
 			<response>iRacing CREVENTIC Endurance Race (1:00PM - 1:00AM BST) - iracing.com/iracing-creventic-endurance-series-returns-for-four-race-2022-season/</response>
 		</responses>
