@@ -1,4 +1,4 @@
-﻿mmands version="1">
+﻿<commands version="1">
 	<command>
 		<name>Is iRacing VR only</name>
 		<maxWords>15</maxWords>
