@@ -366,7 +366,7 @@
 			<response>Joshua "Joshimuz" Edwards, Karl "Vandango" Townsend, Evgeniy "ca7nip" Pimenov, Sven "Sventor" Boxberg, Toni Fiebiger</response>
 		</responses>
 	</command>
-<!--	<command>
+	<command>
 		<cooldown>0</cooldown>
 		<name>Why hear twice</name>
 		<requiredwords>
@@ -385,7 +385,7 @@
 		<responses>
 			<response>If someone in the PROLaps discord talks AND uses the Voice Chat in game you will hear it twice. Nothing I can do (don't suggest things).</response>
 		</responses>
-	</command> -->
+	</command>
 	<command>
 		<name>iRating/SafetyRating</name>
 		<requiredwords>
