@@ -326,7 +326,7 @@
 			</group>
 		</requiredwords>
 		<responses>
-			<response>iRacing CREVENTIC Endurance Race - iracing.com/iracing-creventic-endurance-series-returns-for-four-race-2022-season/</response>
+			<response>iRacing CREVENTIC Endurance Race (1:00PM - 1:00AM BT) - iracing.com/iracing-creventic-endurance-series-returns-for-four-race-2022-season/</response>
 		</responses>
 	</command>
  	<command>
@@ -345,7 +345,7 @@
 			</group>
 		</requiredwords>	
 		<responses>
-			<response>PROLaps is driving the Porsche 718 Cayman GT4, in the GT4 class (blue in the UI, which is the middle class). There is also GT3 Cup (red, slowest) and Touring Car (Yellow, fastest) in the race as well.</response>
+			<response>PROLaps is driving the Porsche 718 Cayman GT4 Clubsport MR, in the GT4 class (blue in the UI, which is the middle class). There is also GT3 Cup (red, slowest) and Touring Car (Yellow, fastest) in the race as well.</response>
 		</responses>
 	</command>
 	<command>
@@ -363,10 +363,10 @@
 			</group>
 		</requiredwords>
 		<responses>
-			<response>Joshua "Joshimuz" Edwards, Karl "Vandango" Townsend, Evgeniy "ca7nip" Pimenov, Sven "Sventor" Boxberg, Some Tony</response>
+			<response>Joshua "Joshimuz" Edwards, Karl "Vandango" Townsend, Evgeniy "ca7nip" Pimenov, Sven "Sventor" Boxberg, Toni Fiebiger</response>
 		</responses>
 	</command>
-<!--	<command>
+	<command>
 		<cooldown>0</cooldown>
 		<name>Why hear twice</name>
 		<requiredwords>
@@ -385,7 +385,7 @@
 		<responses>
 			<response>If someone in the PROLaps discord talks AND uses the Voice Chat in game you will hear it twice. Nothing I can do (don't suggest things).</response>
 		</responses>
-	</command> -->
+	</command>
 	<command>
 		<name>iRating/SafetyRating</name>
 		<requiredwords>
