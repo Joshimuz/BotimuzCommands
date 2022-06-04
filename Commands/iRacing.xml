@@ -1,4 +1,4 @@
-﻿<commands version="1">
+<commands version="1">
 	<command>
 		<name>Is iRacing VR only</name>
 		<maxWords>15</maxWords>
@@ -307,7 +307,29 @@
 			<response>Josh is driving for PROLaps Motorsports, who aside from himself includes: Broughy, PhilipWithAnF (Filip), Razor1 (Kevin), Vandango (Karl) and ZagoWills (Zack). https://i.imgur.com/7dX1mbr.png</response>
 		</responses>
 	</command> -->
-<!-- 	<command>
+	<command>
+		<cooldown>0</cooldown>
+		<name>Endurance</name>
+		<requiredwords>
+			<group>
+				<word>what</word>
+				<word>why</word>
+				<word>when</word>
+				<word wholeword="true">bot</word>
+				<word>botimuz</word>
+			</group>
+			<group>
+				<word>rac</word>
+				<word>series</word>
+				<word>even</word>
+				<word>link</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response>iRacing CREVENTIC Endurance Race - iracing.com/iracing-creventic-endurance-series-returns-for-four-race-2022-season/</response>
+		</responses>
+	</command>
+ 	<command>
 		<cooldown>0</cooldown>
 		<name>What car</name>
 		<requiredwords>
@@ -323,7 +345,7 @@
 			</group>
 		</requiredwords>	
 		<responses>
-			<response>PROLaps is driving the Lamborghini Huracán GT3 EVO, in the GT3 class (red in the UI, which is the slowest class). There is also GTE (blue, 2nd fastest) and LMP2 (Yellow, fastest) in the race as well.</response>
+			<response>PROLaps is driving the Porsche 718 Cayman GT4, in the GT4 class (blue in the UI, which is the middle class). There is also GT3 Cup (red, slowest) and Touring Car (Yellow, fastest) in the race as well.</response>
 		</responses>
 	</command>
 	<command>
@@ -339,11 +361,11 @@
 			<group>
 				<word>driv</word>
 			</group>
-		</requiredwords>	
+		</requiredwords>
 		<responses>
-			<response>Joshua "Joshimuz" Edwards, Karl "Vandango" Townsend, Filip "PhillipWithAnF" Uroic-Toncina, Jon-Luc "Johners" Holmes, Christopher "MLSTRM" Wall, Kevin "Razor1" Manning https://i.imgur.com/ASOScjF.png</response>
+			<response>Joshua "Joshimuz" Edwards, Karl "Vandango" Townsend, Evgeniy "ca7nip" Pimenov, Sven "Sventor" Boxberg, Some Tony</response>
 		</responses>
-	</command> -->
+	</command>
 <!--	<command>
 		<cooldown>0</cooldown>
 		<name>Why hear twice</name>
