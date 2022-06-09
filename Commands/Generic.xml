@@ -261,6 +261,7 @@
 		<requiredwords>
 			<group>
 				<word>!followage</word>
+				<word>!followtime</word>
 				<word>!age</word>
 			</group>
 		</requiredwords>
