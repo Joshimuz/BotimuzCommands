@@ -123,6 +123,32 @@
     <speedruncategory>No Major Glitches</speedruncategory>
     <streamstatus>online</streamstatus>
   </commandcollection>
+  
+  <commandcollection>
+    <name>SA Misc Categories</name>
+    <channelname>Joshimuz</channelname>
+    <requiredtitlewords>
+      <group>
+        <word>69/70</word>
+        <word>USJ</word>
+      </group>
+    </requiredtitlewords>
+    <unwantedtitlewords>
+      <group>
+        <word>nmg</word>
+        <word>any%</word>
+      </group>
+    </unwantedtitlewords>
+    <gamename>Grand Theft Auto: San Andreas</gamename>
+    <commandlists>
+      <name>Generic</name>
+      <name>Online</name>
+      <name>GTA</name>
+      <name>SA</name>
+      <name>SAMisc</name>
+    </commandlists>
+    <streamstatus>online</streamstatus>
+  </commandcollection>
 
   <commandcollection>
     <name>SA Remastered Any%</name>
