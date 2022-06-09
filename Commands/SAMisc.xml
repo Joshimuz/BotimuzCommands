@@ -2,7 +2,6 @@
 <commands version="1">
   <command>
 		<name>Why 69</name>
-		<maxWords>15</maxWords>
 		<cooldown>5</cooldown>
 		<requiredwords>
 			<group>
