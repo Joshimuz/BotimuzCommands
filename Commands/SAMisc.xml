@@ -2,6 +2,7 @@
 <commands version="1">
   <command>
 		<name>Why 69</name>
+		<maxWords>15</maxWords>
 		<cooldown>5</cooldown>
 		<requiredwords>
 			<group>
@@ -10,7 +11,6 @@
 				<word>botimuz</word>
 				<word wholeword="true">bot</word>
 				<word>where</word>
-                <word>which</word>
 			</group>
 			<group>
 				<word>69</word>
@@ -18,8 +18,6 @@
 				<word>not all</word>
 				<word>missing</word>
 				<word>last</word>
-                <word>excluded</word>
-                <word>not done</word>
 			</group>
 			<group>
 				<word>jump</word>
@@ -28,7 +26,7 @@
 			</group>
 		</requiredwords>
 		<responses>
-			<response>The 70th jump is blocked by an invisible barrier because I haven't unlocked Las Venturas yet. Running all the way until LV just to do the 70th jump would suck, so people do 69/70 instead. There is A WAY to get past it, but no one runs that category yet: https://www.youtube.com/watch?v=0v_3ZBPA_Oo</response>
+			<response>The 70th jump is blocked by an invisible barrier because I haven't unlocked Las Venturas yet, so everyone runs 69/70. There is A WAY to get past it, but it's complicated: https://www.youtube.com/watch?v=0v_3ZBPA_Oo</response>
 		</responses>
 	</command>
 </commands>
