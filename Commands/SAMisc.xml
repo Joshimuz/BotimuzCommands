@@ -15,19 +15,20 @@
 				<word>how</word>
 			</group>
 			<group>
-				<word>69</word>
-				<word>70</word>
+				<word wholeword="true">69</word>
+				<word wholeword="true">70</word>
 				<word>not all</word>
 				<word>missing</word>
 				<word>last</word>
+				<word>final</word>
                 <word>excluded</word>
                 <word>not done</word>
 				<word>avoid</word>
 			</group>
 			<group>
 				<word>jump</word>
-				<word>69</word>
-				<word>70</word>
+				<word wholeword="true">69</word>
+				<word wholeword="true">70</word>
 			</group>
 		</requiredwords>
 		<responses>
