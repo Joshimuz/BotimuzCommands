@@ -35,6 +35,26 @@
 			<response>The 70th jump is blocked by an invisible barrier until Las Venturas gets unlocked, so everyone runs 69/70. There is A WAY to get past it, but it's complicated: https://www.youtube.com/watch?v=0v_3ZBPA_Oo</response>
 		</responses>
 	</command>
+
+	  <command>
+		<name>What USJ</name>
+		<cooldown>5</cooldown>
+		<requiredwords>
+			<group>
+				<word>why</word>
+				<word>what</word>
+				<word>botimuz</word>
+				<word wholeword="true">bot</word>
+			</group>
+			<group>
+				<word wholeword="true">usj</word>
+				<word wholeword="true">usjs</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response>USJ = Unique Stunt Jumps, which are jumps with slow motion and special landing requirements, as opposed to Insane Stunts.</response>
+		</responses>
+	</command>
 	
 	<command>
 		<name>Why No Police Bike</name>
