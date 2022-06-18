@@ -1121,7 +1121,7 @@
 			<group>
 				<word wholeword="true">restart</word>
 				<word wholeword="true">reset</word>
-				<word wholeword="true">run</word>
+				<word>run</word>
 			</group>
 		</requiredwords>
 		<unwantedWords>
