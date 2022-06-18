@@ -39,6 +39,31 @@
   </commandcollection>
 
   <commandcollection>
+    <name>Chaos Mod</name>
+    <channelname>Joshimuz</channelname>
+    <requiredtitlewords>
+      <group>
+        <word>chaos mod</word>
+      </group>
+    </requiredtitlewords>
+    <unwantedtitlewords>
+      <group>
+        <word>tomorrow</word>
+      </group>
+    </unwantedtitlewords>
+    <gamename>Grand Theft Auto: San Andreas</gamename>
+    <commandlists>
+      <name>Generic</name>
+      <name>Online</name>
+      <name>GTA</name>
+      <name>SA</name>
+      <name>ChaosMod</name>
+    </commandlists>
+    <speedruncategory>No Major Glitches</speedruncategory>
+    <streamstatus>online</streamstatus>
+  </commandcollection>
+
+  <commandcollection>
     <name>Winter Mod</name>
     <channelname>Joshimuz</channelname>
     <requiredtitlewords>
@@ -179,26 +204,6 @@
       <name>SA</name>
       <name>SANMG</name>
       <name>SADE</name>
-    </commandlists>
-    <speedruncategory>No Major Glitches</speedruncategory>
-    <streamstatus>online</streamstatus>
-  </commandcollection>
-
-  <commandcollection>
-    <name>Chaos Mod</name>
-    <channelname>Joshimuz</channelname>
-    <requiredtitlewords>
-      <group>
-        <word>chaos mod</word>
-      </group>
-    </requiredtitlewords>
-    <gamename>Grand Theft Auto: San Andreas</gamename>
-    <commandlists>
-      <name>Generic</name>
-      <name>Online</name>
-      <name>GTA</name>
-      <name>SA</name>
-      <name>ChaosMod</name>
     </commandlists>
     <speedruncategory>No Major Glitches</speedruncategory>
     <streamstatus>online</streamstatus>
