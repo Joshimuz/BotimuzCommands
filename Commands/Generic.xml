@@ -973,6 +973,25 @@
 			<response>Josh is using the MSI Katana GF66, specs are at https://www.amazon.co.uk/JoshLaptop/dp/B097R4XGF3</response>
 		</responses>
 	</command>
+	<command>
+		<name>What is demisexual?</name>
+		<requiredwords>
+			<group>
+				<word>why</word>
+				<word>what</word>
+				<word>mean</word>
+				<word wholeword="true">bot</word>
+				<word>botimuz</word>
+			</group>
+			<group>
+				<word wholeword="true">demi</word>
+				<word>demisexual</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response>https://lgbtqia.fandom.com/wiki/Demisexual</response>
+		</responses>
+	</command>
 
 	<!-- Keep this at the bottom. -->
 	<command>
