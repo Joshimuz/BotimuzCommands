@@ -1109,4 +1109,30 @@
 			<response usename="true">see you later alligator</response>
 		</responses>
 	</command>
+	<command>
+		<name>TO reset</name>
+		<maxWords>2</maxWords>
+		<requiredwords>
+			<group>
+				<word wholeword="true">restart</word>
+				<word wholeword="true">reset</word>
+				<word wholeword="true">dead</word>
+			</group>
+			<group>
+				<word wholeword="true">restart</word>
+				<word wholeword="true">reset</word>
+				<word wholeword="true">run</word>
+			</group>
+		</requiredwords>
+		<unwantedWords>
+			<group>
+				<word>bot</word>
+			</group>
+		</unwantedWords>
+		<responses data0="chattername" usename="false">
+			<response>/timeout [0] 5m</response>
+		</responses>
+		<cooldown>0</cooldown>
+		<allowRepeatUsers>true</allowRepeatUsers>
+	</command>
 </commands>
