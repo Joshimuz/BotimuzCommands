@@ -1127,6 +1127,7 @@
 		<unwantedWords>
 			<group>
 				<word>bot</word>
+				<word>mission</word>
 			</group>
 		</unwantedWords>
 		<responses data0="chattername" usename="false">
