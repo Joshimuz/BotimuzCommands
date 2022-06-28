@@ -139,15 +139,22 @@
 			<group>
 				<word>police bike</word>
 				<word>vigilante</word>
+				<word>going on</word>
 				<word>you doing</word>
 				<word>you trying</word>
 				<word>he doing</word>
 				<word>he trying</word>
 				<word>josh doing</word>
 				<word>josh trying</word>
-				<word wholeword="true">loading</word>
+				<word>restart</word>
+				<word>loading</word>
 			</group>
 		</requiredwords>
+		<unwantedwords>
+			<group>
+				<word wholeword="true">game</word>
+			</group>
+		</unwantedwords>
 		<responses>
 			<response>Josh is (probably) trying to get OM0 using Vigilante and a Phonecall. It's a frame perfect trick with a 1 in 3 chance to work before Badlands, then gets worse over time.</response>
 		</responses>
