@@ -370,6 +370,7 @@
 			<response>While you were getting food for 30 seconds Josh reset because he killed Ryder.</response>
 			<response>While you were getting a drink for 20 seconds Josh reset because he wanted to.</response>
 			<response>While you were checking social media for 3 seconds Josh reset because his parachute failed.</response>
+			<response>While you were texting a friend for a minute Josh reset because his he dropped an OM0 phonecall.</response>
 		</responses>
 	</command>
 	<!--<command>
