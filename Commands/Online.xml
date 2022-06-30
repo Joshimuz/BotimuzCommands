@@ -2,8 +2,13 @@
 	<command>
 		<name>Timed Emote Spam</name>
 		<responses usename="false">
-			<response weighting="2">joshDosh</response>
 			<response>botimu2Bot</response>
+			<response>botimu2Pet</response>
+			<response>botimu2Yellow</response>
+			<response>botimu2Red</response>
+			<response>botimu2Glod</response>
+			<response weighting="2">joshDosh</response>
+			<response>joshAngery</response>
 			<response>joshBarksAtKitty</response>
 			<response>joshChair</response>
 			<response>joshCJPlz</response>
@@ -20,6 +25,7 @@
 			<response>joshPaw</response>
 			<response>joshPrpl</response>
 			<response>joshRomek</response>
+			<response>joshRuleCheck</response>
 			<response>joshS</response>
 			<response>joshSA</response>
 			<response>joshSleeper</response>
