@@ -106,6 +106,7 @@
 			</group>
 			<group>
 				<word wholeword="true">replay</word>
+				<word wholeword="true">replays</word>
 			</group>
 		</requiredwords>
 		<responses>
