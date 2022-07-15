@@ -307,7 +307,7 @@
 			<response>Josh is driving for PROLaps Motorsports, who aside from himself includes: Broughy, PhilipWithAnF (Filip), Razor1 (Kevin), Vandango (Karl) and ZagoWills (Zack). https://i.imgur.com/7dX1mbr.png</response>
 		</responses>
 	</command> -->
-	<command>
+<!--	<command>
 		<cooldown>0</cooldown>
 		<name>Endurance</name>
 		<requiredwords>
@@ -370,7 +370,7 @@
 		<responses>
 			<response>Joshua "Joshimuz" Edwards, Karl "Vandango" Townsend, Evgeniy "ca7nip" Pimenov, Sven "Sventor" Boxberg, Toni Fiebiger</response>
 		</responses>
-	</command>
+	</command> -->
 	<command>
 		<cooldown>0</cooldown>
 		<name>Why hear twice</name>
