@@ -681,7 +681,7 @@
 			<response>Josh is using a new LiveSplit colour scheme. Green = Gained time on that mission, Red = Lost time on that mission.</response>
 		</responses>
 	</command>
-	<!--<command>
+	<command>
 		<name>WHEN JDQ</name>
 		<maxWords>15</maxWords>
 		<requiredwords>
@@ -714,7 +714,7 @@
 			</group>
 		</unwantedwords>
 		<responses>
-			<response>Josh Done Quick III schedule: https://horaro.org/jdq/21 Details: https://pastebin.com/eywfvCiT</response>
+			<response>Josh Done Quick 22 takes place from the 17th to the 21st of August. You can find the schedule here: https://horaro.org/jdq/22</response>
 		</responses>
 	</command>
 	<command>
@@ -744,9 +744,9 @@
 			</group>
 		</unwantedwords>
 		<responses>
-			<response>Josh Done Quick III schedule: https://horaro.org/jdq/21 Details: https://pastebin.com/eywfvCiT</response>
+			<response>Josh Done Quick 22 takes place from the 17th to the 21st of August. You can find the schedule here: https://horaro.org/jdq/22</response>
 		</responses>
-	</command>-->
+	</command>
 	<!--<command>
 		<name>JDQ III goals</name>
 		<maxWords>15</maxWords>
@@ -867,7 +867,7 @@
 			<response>You can watch Joshimuz ESA content here: post-ESA catchup: twitch.tv/videos/1306314141 | joshCoolStory of travel disasters: twitch.tv/videos/1306335184?t=1h15m0s | GTA:SA run: twitch.tv/videos/1300715392 | GTA:VC DE run (comment): twitch.tv/videos/1296861816 | GTA:TBoGT run (comment): twitch.tv/videos/1303124232 | Board games streams: twitch.tv/videos/1296887509 and twitch.tv/videos/1298665510 botimu2Bot</response>
 		</responses>
 	</command> -->
-	<command>
+	<!--<command>
 		<name>ESA when</name>
 		<maxWords>15</maxWords>
 		<requiredwords>
@@ -895,7 +895,7 @@
 		<responses>
 			<response>Josh is going to ESA Summer and he will participate in the GTA:SA Chaos relay race! ESA Summer is 23 to 30 July. esamarathon.com/ettevent/esa-summer-2022</response>
 		</responses>
-	</command>
+	</command>-->
 	<command>
 		<name>Buy viewers ban</name>
 		<requiredwords>
