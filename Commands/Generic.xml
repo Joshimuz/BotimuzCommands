@@ -950,7 +950,7 @@
 			<response>Josh is moving to Ireland on Saturday. He's moving because he wants to eventually get into the EU/Sweden, Ireland is easy to immigrate to from the UK, and @Wayno717 needed a housemate in Ireland. More info here: https://twitter.com/Joshimuz/status/1500168355168370689</response>
 		</responses>
 	</command> -->
-	<command>
+	<!--<command>
 		<name>What laptop?</name>
 		<requiredwords>
 			<group>
@@ -972,7 +972,7 @@
 		<responses>
 			<response>Josh is using the MSI Katana GF66, specs are at https://www.amazon.co.uk/JoshLaptop/dp/B097R4XGF3</response>
 		</responses>
-	</command>
+	</command>-->
 	<command>
 		<name>What is demisexual?</name>
 		<requiredwords>
