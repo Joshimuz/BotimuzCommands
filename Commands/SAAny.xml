@@ -112,9 +112,16 @@
 				<word wholeword="true">bot</word>
 			</group>
 			<group>
-				<word>0*</word>
-				<word>0star</word>
-				<word>0 star</word>
+				<word>0</word>
+				<word>zero</word>
+				<word>wanted level</word>
+				<word>aezakmi</word>
+				<word>idoasiplease</word>
+			</group>
+			<group>
+				<word>*</word>
+				<word>star</word>
+				<word>wanted level</word>
 				<word>aezakmi</word>
 				<word>idoasiplease</word>
 			</group>
