@@ -776,6 +776,7 @@
 				<word>botimuz</word>
 				<word>where</word>
 				<word>link</word>
+				<word wholeWord="true" startsWith="true">!donate</word>
 			</group>
 			<group>
 				<word>donate</word>
@@ -834,6 +835,7 @@
 				<word wholeword="true">bot</word>
 				<word wholeword="true">link</word>
 				<word wholeword="true">where</word>
+				<word wholeWord="true" startsWith="true">!merch</word>
 			</group>
 			<group>
 				<word>merch</word>
