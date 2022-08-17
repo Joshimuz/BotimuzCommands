@@ -741,6 +741,7 @@
 				<word wholeword="true">esa</word>
 			</group>
 		</unwantedwords>
+		<dataTrigger type="timer">450-900</dataTrigger>
 		<responses>
 			<response>Josh Done Quick is a five day solo marathon run by Josh. You can find the schedule here: https://horaro.org/jdq/22</response>
 		</responses>
@@ -759,7 +760,7 @@
 				<word>goal</word>
 			</group>
 		</requiredwords>
-		<dataTrigger type="timer">600-1200</dataTrigger>
+		<dataTrigger type="timer">450-900</dataTrigger>
 		<responses>
 			<response>The category for the final day's CHAOS run is determined by the donation total at the end of the 4th day. You can find the list of milestones here: https://horaro.org/jdq/22</response>
 		</responses>
@@ -783,47 +784,6 @@
 			<response>Should you want to donate to Josh: https://donate.joshimuz.com</response>
 		</responses>
 	</command>
-	<!--<command>
-		<name>GTA trilogy remaster/remake</name>
-		<maxWords>15</maxWords>
-		<requiredwords>
-			<group>
-				<word wholeword="true">bot</word>
-				<word>botimuz</word>
-				<word>you plan</word>
-				<word>will you</word>
-				<word>are you</word>
-				<word>you think</word>
-				<word>onion</word>
-				<word>opinion</word>
-				<word>rockstar</word>
-				<word>trilogy</word>
-				<word>rumor</word>
-				<word>rumour</word>
-			</group>
-			<group>
-				<word>remaster</word>
-				<word>remake</word>
-				<word>remade</word>
-				<word>re-master</word>
-				<word>re-make</word>
-				<word>re-made</word>
-			</group>
-		</requiredwords>
-		<unwantedwords>
-			<group>
-				<word>watch</word>
-				<word>prefer</word>
-				<word>wish</word>
-				<word>saw</word>
-				<word>wants</word>
-				<word>played</word>
-			</group>
-		</unwantedwords>
-		<responses>
-			<response>Josh's thoughts on GTA trilogy remaster/remake: https://faq.joshimuz.com/#what-are-your-thoughts-on-the-rumoured-gta-3d-trilogy-remasterremake</response>
-		</responses>
-	</command>-->
 	<command>
 		<name>Merch</name>
 		<maxWords>15</maxWords>
@@ -839,6 +799,7 @@
 				<word>shirt</word>
 			</group>
 		</requiredwords>
+		<dataTrigger type="timer">450-900</dataTrigger>
 		<responses>
 			<response>Show love for your favourite 6328th streamer with my first ever merch! Get your T-Shirt, Mug, Poster, Sticker etc, today! https://merch.joshimuz.com</response>
 		</responses>
