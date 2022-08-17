@@ -429,29 +429,6 @@
 		</responses>
 	</command> -->
 	<command>
-		<name>!</name>
-		<maxWords>1</maxWords>
-		<minCharacters>2</minCharacters>
-		<requiredwords>
-			<group>
-				<word startsWith="true">!</word>
-			</group>
-		</requiredwords>
-		<unwantedwords>
-			<group>
-				<word>highlight</word>
-				<word>bet</word>
-				<word>faq</word>
-				<word>!!</word>
-				<word>schedule</word>
-				<word>rules</word>
-			</group>
-		</unwantedwords>
-		<responses>
-			<response>There (normally) aren't any bots that respond to ! commands, try asking your question normally I should respond automatically</response>
-		</responses>
-	</command>
-	<command>
 		<name>Message Deleted</name>
 		<maxWords>2</maxWords>
 		<requiredwords>
@@ -1195,5 +1172,28 @@
 		</responses>
 		<cooldown>0</cooldown>
 		<allowRepeatUsers>true</allowRepeatUsers>
+	</command>
+	<command>
+		<name>!</name>
+		<maxWords>1</maxWords>
+		<minCharacters>2</minCharacters>
+		<requiredwords>
+			<group>
+				<word startsWith="true">!</word>
+			</group>
+		</requiredwords>
+		<unwantedwords>
+			<group>
+				<word>highlight</word>
+				<word>bet</word>
+				<word>faq</word>
+				<word>!!</word>
+				<word>schedule</word>
+				<word>rules</word>
+			</group>
+		</unwantedwords>
+		<responses>
+			<response>There (normally) aren't any bots that respond to ! commands, try asking your question normally I should respond automatically</response>
+		</responses>
 	</command>
 </commands>
