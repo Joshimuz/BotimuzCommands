@@ -714,7 +714,7 @@
 			</group>
 		</unwantedwords>
 		<responses>
-			<response>Josh Done Quick is a five day solo marathon ran by Josh. You can find the schedule here: https://horaro.org/jdq/22</response>
+			<response>Josh Done Quick is a five day solo marathon run by Josh. You can find the schedule here: https://horaro.org/jdq/22</response>
 		</responses>
 	</command>
 	<command>
@@ -745,7 +745,7 @@
 			</group>
 		</unwantedwords>
 		<responses>
-			<response>Josh Done Quick is a five day solo marathon ran by Josh. You can find the schedule here: https://horaro.org/jdq/22</response>
+			<response>Josh Done Quick is a five day solo marathon run by Josh. You can find the schedule here: https://horaro.org/jdq/22</response>
 		</responses>
 	</command>
 	<command>
@@ -764,7 +764,7 @@
 		</requiredwords>
 		<dataTrigger type="timer">600-1200</dataTrigger>
 		<responses>
-			<response>The category for the final days CHAOS run is determined by the donation total at the end of the 4th day. You can find the list of milestones here: https://horaro.org/jdq/22</response>
+			<response>The category for the final day's CHAOS run is determined by the donation total at the end of the 4th day. You can find the list of milestones here: https://horaro.org/jdq/22</response>
 		</responses>
 	</command>
 	<command>
