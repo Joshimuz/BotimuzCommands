@@ -714,7 +714,7 @@
 			</group>
 		</unwantedwords>
 		<responses>
-			<response>Josh Done Quick 22 takes place from the 17th to the 21st of August. You can find the schedule here: https://horaro.org/jdq/22</response>
+			<response>Josh Done Quick is a five day solo marathon ran by Josh. You can find the schedule here: https://horaro.org/jdq/22</response>
 		</responses>
 	</command>
 	<command>
@@ -722,6 +722,7 @@
 		<maxWords>15</maxWords>
 		<requiredwords>
 			<group>
+				<word wholeword="true" startsWith="true">!schedule</word>
 				<word wholeword="true">bot</word>
 				<word>botimuz</word>
 				<word>link</word>
@@ -744,11 +745,11 @@
 			</group>
 		</unwantedwords>
 		<responses>
-			<response>Josh Done Quick 22 takes place from the 17th to the 21st of August. You can find the schedule here: https://horaro.org/jdq/22</response>
+			<response>Josh Done Quick is a five day solo marathon ran by Josh. You can find the schedule here: https://horaro.org/jdq/22</response>
 		</responses>
 	</command>
-	<!--<command>
-		<name>JDQ III goals</name>
+	<command>
+		<name>JDQ 22 goals</name>
 		<maxWords>15</maxWords>
 		<requiredwords>
 			<group>
@@ -763,9 +764,27 @@
 		</requiredwords>
 		<dataTrigger type="timer">600-1200</dataTrigger>
 		<responses>
-			<response>Josh will be doing Chaos Mod on Sunday to finish JDQ III, but he'll do extra randomisers if we reach goals! £3000 = Experimental. joshOOO Details: https://pastebin.com/eywfvCiT</response>
+			<response>The category for the final days CHAOS run is determined by the donation total at the end of the 4th day. You can find the list of milestones here: https://horaro.org/jdq/22</response>
 		</responses>
-	</command>-->
+	</command>
+	<command>
+		<name>donate where</name>
+		<maxWords>14</maxWords>
+		<requiredwords>
+			<group>
+				<word wholeWord="true">bot</word>
+				<word>botimuz</word>
+				<word>where</word>
+				<word>link</word>
+			</group>
+			<group>
+				<word>donate</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response>Should you want to donate to Josh: https://donate.joshimuz.com</response>
+		</responses>
+	</command>
 	<!--<command>
 		<name>GTA trilogy remaster/remake</name>
 		<maxWords>15</maxWords>
