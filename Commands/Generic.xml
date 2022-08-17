@@ -1,4 +1,24 @@
 ﻿<commands version="1">
+	<command>
+		<name>What happened to Emma</name>
+		<maxWords>15</maxWords>
+		<requiredWords>
+			<group>
+				<word wholeword="true">bot</word>
+				<word>botimuz</word>
+				<word>where</word>
+				<word>what</word>
+			</group>
+			<group>
+				<word wholeWord="true">Emma</word>
+				<word>Kitt</word>
+				<word wholeWord="true">Coco</word>
+			</group>
+		</requiredWords>
+		<responses>
+			<response>https://http://faq.joshimuz.com/#where-is-emma</response>
+		</responses>
+	</command>
 <!-- 	<command>
 		<name>Where are you?</name>
 		<maxWords>10</maxWords>
