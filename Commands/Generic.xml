@@ -753,6 +753,12 @@
 			<group>
 				<word wholeword="true">bot</word>
 				<word>botimuz</word>
+				<word>where</word>
+				<word>what</word>
+				<word>are there</word>
+				<word>do you</word>
+			</group>
+			<group>
 				<word>donation</word>
 				<word>dono</word>
 			</group>
@@ -763,6 +769,26 @@
 		<dataTrigger type="timer">450-900</dataTrigger>
 		<responses>
 			<response>The category for the final day's CHAOS run is determined by the donation total at the end of the 4th day. You can find the list of milestones here: https://horaro.org/jdq/22</response>
+		</responses>
+	</command>
+	<command>
+		<name>JDQ 22 sub goals</name>
+		<maxWords>15</maxWords>
+		<requiredwords>
+			<group>
+				<word wholeword="true">bot</word>
+				<word>botimuz</word>
+			</group>
+			<group>
+				<word>sub</word>
+			</group>
+			<group>
+				<word>goal</word>
+			</group>
+		</requiredwords>
+		<dataTrigger type="timer">450-900</dataTrigger>
+		<responses>
+			<response>For every 250 subs over 500, Josh will do add an hour to a DYOM Randomiser with Chaos Mod run that will be done sometime after JDQ.</response>
 		</responses>
 	</command>
 	<command>
