@@ -745,7 +745,7 @@
 		<responses>
 			<response>Josh Done Quick is a five day solo marathon run by Josh. You can find the schedule here: https://horaro.org/jdq/22</response>
 		</responses>
-	</command>
+	</command><!--
 	<command>
 		<name>JDQ 22 goals</name>
 		<maxWords>15</maxWords>
@@ -770,7 +770,7 @@
 		<responses>
 			<response>The category for the final day's CHAOS run is determined by the donation total at the end of the 4th day. You can find the list of milestones here: https://horaro.org/jdq/22</response>
 		</responses>
-	</command>
+	</command>-->
 	<command>
 		<name>JDQ 22 sub goals</name>
 		<maxWords>15</maxWords>
@@ -778,8 +778,6 @@
 			<group>
 				<word wholeword="true">bot</word>
 				<word>botimuz</word>
-			</group>
-			<group>
 				<word>sub</word>
 			</group>
 			<group>
