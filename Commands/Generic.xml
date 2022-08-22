@@ -678,7 +678,7 @@
 			<response>Josh is using a new LiveSplit colour scheme. Green = Gained time on that mission, Red = Lost time on that mission.</response>
 		</responses>
 	</command>
-	<command>
+	<!--<command>
 		<name>WHEN JDQ</name>
 		<maxWords>15</maxWords>
 		<requiredwords>
@@ -745,7 +745,7 @@
 		<responses>
 			<response>Josh Done Quick is a five day solo marathon run by Josh. You can find the schedule here: https://horaro.org/jdq/22</response>
 		</responses>
-	</command><!--
+	</command>
 	<command>
 		<name>JDQ 22 goals</name>
 		<maxWords>15</maxWords>
@@ -770,7 +770,7 @@
 		<responses>
 			<response>The category for the final day's CHAOS run is determined by the donation total at the end of the 4th day. You can find the list of milestones here: https://horaro.org/jdq/22</response>
 		</responses>
-	</command>-->
+	</command>
 	<command>
 		<name>JDQ 22 sub goals</name>
 		<maxWords>15</maxWords>
@@ -807,7 +807,7 @@
 		<responses>
 			<response>Should you want to donate to Josh: https://donate.joshimuz.com</response>
 		</responses>
-	</command>
+	</command>-->
 	<command>
 		<name>Merch</name>
 		<maxWords>15</maxWords>
@@ -823,9 +823,9 @@
 				<word>shirt</word>
 			</group>
 		</requiredwords>
-		<dataTrigger type="timer">450-900</dataTrigger>
+		<dataTrigger type="timer">600-1200</dataTrigger>
 		<responses>
-			<response>Show love for your favourite 6328th streamer by getting some JDQ merch! Get a T-Shirt, Mug, Poster, Sticker etc, today! https://merch.joshimuz.com</response>
+			<response>Show love for your favourite 6328th streamer by getting some Joshimuz merch! Get a T-Shirt, Mug, Poster, Sticker etc, today! https://merch.joshimuz.com</response>
 		</responses>
 	</command>
 	<command>
