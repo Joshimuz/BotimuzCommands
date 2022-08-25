@@ -823,7 +823,7 @@
 				<word>shirt</word>
 			</group>
 		</requiredwords>
-		<dataTrigger type="timer">600-1200</dataTrigger>
+		<dataTrigger type="timer">2700-3600</dataTrigger>
 		<responses>
 			<response>Show love for your favourite 6328th streamer by getting some Joshimuz merch! Get a T-Shirt, Mug, Poster, Sticker etc, today! https://merch.joshimuz.com</response>
 		</responses>
