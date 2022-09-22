@@ -15,6 +15,11 @@
 				<word wholeWord="true">Coco</word>
 			</group>
 		</requiredWords>
+		<unwantedwords>
+			<group>
+				<word>joshBarksAtKitty</word>
+			</group>
+		</unwantedwords>
 		<responses>
 			<response>https://faq.joshimuz.com/#where-is-emma</response>
 		</responses>
