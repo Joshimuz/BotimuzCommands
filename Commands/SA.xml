@@ -443,6 +443,11 @@
 				<word>70</word>
 			</group>
 		</requiredwords>
+		<unwantedwords>
+			<group>
+				<word>ShoWel_69</word>
+			</group>
+		</unwantedwords>
 		<responses>
 			<response>The 70th jump is blocked by an invisible barrier until Las Venturas gets unlocked, so everyone runs 69/70. There is A WAY to get past it, but it's complicated: https://www.youtube.com/watch?v=0v_3ZBPA_Oo</response>
 		</responses>
