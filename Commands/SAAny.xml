@@ -169,4 +169,27 @@
 			<response>Josh is (probably) trying to get OM0 using Vigilante and a Phonecall. It's a frame perfect trick with a 1 in 3 chance to work before Badlands, then gets worse over time.</response>
 		</responses>
 	</command>
+	<command>
+		<name>Vigilante Zoom</name>
+		<maxWords>15</maxWords>
+		<cooldown>5</cooldown>
+		<requiredwords>
+			<group>
+				<word>why</word>
+				<word>what</word>
+				<word>wtf</word>
+				<word>botimuz</word>
+				<word wholeword="true">bot</word>
+			</group>
+			<group>
+				<word>zoom</word>
+			</group>
+			<group>
+				<word>camera</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response>Josh zooms in to better see CJ's animations. It helps when getting OM0 with Vigilante which is a frame perfect trick.</response>
+		</responses>
+	</command>
 </commands>
