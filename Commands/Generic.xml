@@ -711,6 +711,7 @@
 		<requiredwords>
 			<group>
 				<word wholeword="true">Buy</word>
+				<word wholeword="true">Get</word>
 			</group>
 			<group>
 				<word wholeword="true">followers</word>
@@ -721,6 +722,7 @@
 				<word>u.to</word>
 				<word>cutt.ly</word>
 				<word>t.ly</word>
+				<word>yourfollowz</word>
 			</group>
 		</requiredwords>
 		<unwantedWords>
