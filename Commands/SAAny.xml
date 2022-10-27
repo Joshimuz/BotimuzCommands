@@ -192,4 +192,32 @@
 			<response>Josh zooms in to better see CJ's animations. It helps when getting OM0 with Vigilante which is a frame perfect trick.</response>
 		</responses>
 	</command>
+	<command>
+		<name>Black Sky</name>
+		<maxWords>15</maxWords>
+		<cooldown>5</cooldown>
+		<requiredwords>
+			<group>
+				<word>why</word>
+				<word>what</word>
+				<word>wtf</word>
+				<word>botimuz</word>
+				<word wholeword="true">bot</word>
+			</group>
+			<group>
+				<word>sky</word>
+			</group>
+			<group>
+				<word>black</word>
+				<word>dark</word>
+				<word>weird</word>
+				<word>up with</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response weighting="57">CJ is in the interior world, because Josh duped a mission while in an interior cutscene.</response>
+			<response weighting="2">Because it's night Kappa</response>
+			<response>It's a solar eclipse! Very rare! Kappa</response>
+		</responses>
+	</command>
 </commands>
