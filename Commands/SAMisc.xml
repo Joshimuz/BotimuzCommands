@@ -23,4 +23,24 @@
 			<response>Josh knows about using Vigilante + Police Bike to cancel slow motion and the strat to use it for LV, but this makes the run much harder over using an NRG and he just wants to finish runs.</response>
 		</responses>
 	</command>
+
+  	<command>
+		<name>DYOM Mission URL</name>
+		<cooldown>5</cooldown>
+		<requiredwords>
+			<group>
+				<word>mission</word>
+			</group>
+			<group>
+				<word>botimuz</word>
+				<word wholeword="true">bot</word>
+				<word>download</word>
+				<word>url</word>
+				<word>detail</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response data0="textFile" string0="C:\Users\Joshimuz\Desktop\GTA SA DYOM\rainbomizer\dyom\mission\name.txt" data1="textFile" string1="C:\Users\Joshimuz\Desktop\GTA SA DYOM\rainbomizer\dyom\mission\url.txt">Name: [0] | Download: https://dyom.gtagames.nl/[1]</response>
+		</responses>
+	</command>
 </commands>
