@@ -159,8 +159,8 @@
 			</group>
 			<group>
 				<word>josh</word>
-				<word>ireland</word>
-				<word>dublin</word>
+				<word>england</word>
+				<word>portsmouth</word>
 				<word>for you</word>
 				<word>where you are</word>
 				<word>you live</word>
@@ -454,7 +454,7 @@
 			</group>
 		</requiredwords>
 		<responses>
-			<response usename="false" data0="weather" string0="Dublin, IE">[0]</response>
+			<response usename="false" data0="weather" string0="Portsmouth, GB">[0]</response>
 		</responses>
 		<cooldown>900</cooldown>
 	</command>
