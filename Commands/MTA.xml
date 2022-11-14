@@ -53,8 +53,8 @@
 				<word wholeword="true">ip</word>
 			</group>
 		</requiredwords>
-		<responses>
-			<response>Josh is playing on 123Robot's server, which is a revival of Joshimuz's old server. It's a Derby/Race/Minigame server using the Race gamemode. The address is: mtasa://mta.123robot.me</response>
+		<responses data0="twitchtitle">
+			<response>[0]</response>
 		</responses>
 		<cooldown>5</cooldown>
 	</command>
