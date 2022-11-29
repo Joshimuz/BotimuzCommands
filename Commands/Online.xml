@@ -37,6 +37,7 @@
 			<response>joshWithIt</response>
 			<response>joshWut</response>
 			<response>joshDoneQuick</response>
+			<response>joshWink</response>
 		</responses>
 		<dataTrigger type="timer">1800-3600</dataTrigger>
 	</command>
