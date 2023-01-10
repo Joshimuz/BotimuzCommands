@@ -676,7 +676,7 @@
 		</responses>
 	</command>
 
-	<!--<command>
+	<command>
 		<name>ESA when</name>
 		<maxWords>15</maxWords>
 		<requiredwords>
@@ -702,9 +702,9 @@
 			</group>
 		</unwantedwords>
 		<responses>
-			<response>Josh is going to ESA Summer and he will participate in the GTA:SA Chaos relay race! ESA Summer is 23 to 30 July. esamarathon.com/ettevent/esa-summer-2022</response>
+			<response>Josh is going to ESA Winter 18/2/23-25/2/23 to run GTA:SA Any% (and be Fundraising team leader). https://esamarathon.com/ettevent/esa-winter-2023/</response>
 		</responses>
-	</command>-->
+	</command>
 
 	<command>
 		<name>Buy viewers ban</name>
