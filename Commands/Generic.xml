@@ -1036,4 +1036,21 @@
 		</responses>
 		<modonly>true</modonly>
 	</command>
+
+	<command>
+		<name>Discord Link</name>
+		<requiredwords>
+			<group>
+				<word>what</word>
+				<word>link</word>
+				<word wholeword="true">bot</word>
+			</group>
+			<group>
+				<word wholeword="true">discord</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response>https://discord.gg/Joshimnuz</response>
+		</responses>
+	</command>
 </commands>
