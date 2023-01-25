@@ -56,10 +56,13 @@
                 <word wholeWord="true">did</word>
                 <word wholeWord="true">is</word>
                 <word>they</word>
+                <word wholeWord="true">bot</word>
             </group>
             <group>
                 <word>fix</word>
                 <word>patch</word>
+                <word>update</word>
+                <word>notes</word>
             </group>
             <group>
                 <word>this</word>
@@ -68,8 +71,8 @@
                 <word>edition</word>
             </group>
         </requiredWords>
-        <responses random="true">
-            <response>The last patch (1.0.3) fixed: Shitty rain, settings not saving and the Badlands Bridge that disappeared. Josh thinks DE is so fundamentally flawed in the way it's designed that it isn't really "fixable" with patches.</response>
+        <responses>
+            <response>Here are all the patch notes https://gta.fandom.com/wiki/Grand_Theft_Auto:_The_Trilogy_-_The_Definitive_Edition/Title_Update_Notes</response>
         </responses>
     </command>
 </commands>
