@@ -1,32 +1,4 @@
 <commands version="1">
-    <command>
-        <name>Why play DE</name>
-        <maxWords>15</maxWords>
-        <requiredWords>
-            <group>
-                <word wholeWord="true">why</word>
-                <word>reason</word>
-                <word>are you</word>
-                <word>how come</word>
-            </group>
-            <group>
-                <word wholeWord="true">DE</word>
-                <word>definitive</word>
-                <word>this version</word>
-                <word>shitty version</word>
-                <word>shit version</word>
-                <word>not og</word>
-                <word>not original</word>
-                <word>not the OG</word>
-                <word>not the original</word>
-                <word>back to</word>
-                <word>back to the</word>
-            </group>
-        </requiredWords>
-        <responses random="true">
-            <response>Josh is playing DE because it's possible that he has to run it for speedrun marathons.</response>
-        </responses>
-    </command>
     <!-- Unfinished needs work
     <command>
         <name>Does AJS work?</name>
