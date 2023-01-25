@@ -1053,4 +1053,26 @@
 			<response>https://discord.gg/Joshimuz</response>
 		</responses>
 	</command>
+
+	<command>
+		<name>Definitive Patch Notes</name>
+		<requiredwords>
+			<group>
+				<word>what</word>
+				<word>link</word>
+				<word wholeword="true">bot</word>
+			</group>
+			<group>
+				<word wholeword="true">definitive</word>
+				<word wholeword="true">de</word>
+			</group>
+			<group>
+				<word wholeword="true">patch</word>
+				<word wholeword="true">updates</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response>https://gta.fandom.com/wiki/Grand_Theft_Auto:_The_Trilogy_-_The_Definitive_Edition/Title_Update_Notes</response>
+		</responses>
+	</command>
 </commands>
