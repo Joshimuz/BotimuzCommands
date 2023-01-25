@@ -1081,4 +1081,29 @@
 			<response>Here are all the patch notes https://gta.fandom.com/wiki/Grand_Theft_Auto:_The_Trilogy_-_The_Definitive_Edition/Title_Update_Notes</response>
 		</responses>
 	</command>
+	<command>
+		<name>!Twitter</name>
+		<requiredwords>
+			<group>
+				<word wholeword="true">bot</word>
+                <word wholeWord="true">where</word>
+                <word wholeWord="true">what</word>
+				<word>link</word>
+				<word startsWith="true">!twitter</word>
+			</group>
+			<group>
+				<word>joshs</word>
+				<word>his</word>
+				<word>your</word>
+				<word startsWith="true">!twitter</word>
+			</group>
+			<group>
+				<word>twitter</word>
+				<word>social media</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response>https://twitter.com/joshimuz or if you want automated tweets when josh uploads a video/streams: https://twitter.com/botimuz</response>
+		</responses>
+	</command>
 </commands>
