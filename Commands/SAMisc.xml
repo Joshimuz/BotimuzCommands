@@ -24,6 +24,26 @@
 		</responses>
 	</command>
 
+	<command>
+		<name>DYOM Bingo</name>
+		<requiredwords>
+			<group>
+				<word>why</word>
+				<word>what</word>
+				<word>botimuz</word>
+				<word wholeword="true">bot</word>
+				<word>where</word>
+				<word>link</word>
+			</group>
+			<group>
+				<word>bingo</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response>Want to play DYOM run Bingo? Generate a sheet at https://toriality.github.io/DYOM-Bingo</response>
+		</responses>
+	</command>
+
   	<command>
 		<name>DYOM Mission URL</name>
 		<cooldown>5</cooldown>
