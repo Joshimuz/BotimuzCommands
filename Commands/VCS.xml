@@ -11,6 +11,7 @@
 				<word>is that</word>
 				<word>or the</word>
 				<word>why</word>
+				<word wholeword="true">y</word>
 				<word>botimuz</word>
 				<word wholeword="true">bot</word>
 				<word>using</word>
@@ -112,6 +113,7 @@
 			<group>
 				<word>what</word>
 				<word>why</word>
+				<word wholeword="true">y</word>
 				<word>botimuz</word>
 				<word wholeword="true">bot</word>
 			</group>
@@ -158,6 +160,7 @@
 			<group>
 				<word>what</word>
 				<word>why</word>
+				<word wholeword="true">y</word>
 				<word>botimuz</word>
 				<word wholeword="true">bot</word>
 			</group>
@@ -222,6 +225,7 @@
 				<word>botimuz</word>
 				<word wholeword="true">bot</word>
 				<word>why</word>
+				<word wholeword="true">y</word>
 				<word>what</word>
 			</group>
 			<group>
@@ -244,6 +248,7 @@
 				<word>botimuz</word>
 				<word wholeword="true">bot</word>
 				<word>why</word>
+				<word wholeword="true">y</word>
 			</group>
 			<group>
 				<word>out of bounds</word>

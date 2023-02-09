@@ -132,6 +132,7 @@
 		<requiredwords>
 			<group>
 				<word>why</word>
+				<word wholeword="true">y</word>
 				<word>what</word>
 				<word>where</word>
 				<word>?</word>

@@ -5,6 +5,7 @@
 		<requiredwords>
 			<group>
 				<word>why</word>
+				<word wholeword="true">y</word>
 				<word>where</word>
 				<word>botimuz</word>
 				<word wholeword="true">bot</word>

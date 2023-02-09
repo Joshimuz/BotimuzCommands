@@ -5,6 +5,7 @@
 		<requiredwords>
 			<group>
 				<word>why</word>
+				<word wholeword="true">y</word>
 				<word>what</word>
 				<word>botimuz</word>
 				<word wholeword="true">bot</word>
@@ -29,6 +30,7 @@
 		<requiredwords>
 			<group>
 				<word>why</word>
+				<word wholeword="true">y</word>
 				<word>what</word>
 				<word>botimuz</word>
 				<word wholeword="true">bot</word>

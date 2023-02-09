@@ -180,6 +180,7 @@
 			<group>
 				<word>what</word>
 				<word>why</word>
+				<word wholeword="true">y</word>
 				<word>when</word>
 				<word wholeword="true">bot</word>
 				<word>botimuz</word>
@@ -213,6 +214,7 @@
 				<word>what</word>
 				<word>which</word>
 				<word>why</word>
+				<word wholeword="true">y</word>
 				<word>when</word>
 				<word>how long</word>
 				<word wholeword="true">bot</word>
@@ -265,6 +267,7 @@
 			<group>
 				<word>what</word>
 				<word>why</word>
+				<word wholeword="true">y</word>
 				<word>when</word>
 				<word wholeword="true">bot</word>
 				<word>botimuz</word>
@@ -294,6 +297,7 @@
 			<group>
 				<word>what</word>
 				<word>why</word>
+				<word wholeword="true">y</word>
 				<word>when</word>
 				<word wholeword="true">bot</word>
 				<word>botimuz</word>
@@ -314,6 +318,7 @@
 			<group>
 				<word>what</word>
 				<word>why</word>
+				<word wholeword="true">y</word>
 				<word>when</word>
 				<word wholeword="true">bot</word>
 				<word>botimuz</word>
@@ -378,6 +383,7 @@
 			<group>
 				<word>what</word>
 				<word>why</word>
+				<word wholeword="true">y</word>
 				<word wholeword="true">bot</word>
 				<word>botimuz</word>
 			</group>
@@ -426,6 +432,7 @@
 			<group>
 				<word>what</word>
 				<word>why</word>
+				<word wholeword="true">y</word>
 				<word wholeword="true">bot</word>
 				<word>botimuz</word>
 				<word wholeword="true">y</word>

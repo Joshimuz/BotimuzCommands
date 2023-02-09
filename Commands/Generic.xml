@@ -31,6 +31,7 @@
 		<requiredWords>
 			<group>
 				<word>why</word>
+				<word wholeword="true">y</word>
 				<word wholeword="true">bot</word>
 				<word>botimuz</word>
 				<word>where</word>
@@ -500,6 +501,7 @@
 		<requiredwords>
 			<group>
 				<word>why</word>
+				<word wholeword="true">y</word>
 				<word wholeword="true">what</word>
 				<word wholeword="true">bot</word>
 			</group>
@@ -742,6 +744,7 @@
 		<requiredWords>
 			<group>
 				<word>why</word>
+				<word wholeword="true">y</word>
 				<word>bot</word>
 				<word>is josh</word>
 			</group>
@@ -793,6 +796,7 @@
 		<requiredwords>
 			<group>
 				<word>why</word>
+				<word wholeword="true">y</word>
 				<word>what</word>
 				<word>mean</word>
 				<word wholeword="true">bot</word>
@@ -813,6 +817,7 @@
 		<requiredwords>
 			<group>
 				<word>why</word>
+				<word wholeword="true">y</word>
 				<word>what</word>
 				<word wholeword="true">bot</word>
 				<word>botimuz</word>

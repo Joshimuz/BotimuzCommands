@@ -9,6 +9,7 @@
 				<word>playing</word>
 				<word>is this</word>
 				<word>why</word>
+				<word wholeword="true">y</word>
 			</group>
 			<group>
 				<word>version</word>
@@ -40,6 +41,7 @@
 			<group>
 				<word>what</word>
 				<word>why</word>
+				<word wholeword="true">y</word>
 				<word>wtf</word>
 			</group>
 			<group>
@@ -57,6 +59,7 @@
 		<requiredwords>
 			<group>
 				<word>why</word>
+				<word wholeword="true">y</word>
 				<word>what</word>
 				<word>wtf</word>
 			</group>

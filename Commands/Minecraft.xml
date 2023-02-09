@@ -4,6 +4,7 @@
 		<requiredwords>
 			<group>
 				<word>why</word>
+				<word wholeword="true">y</word>
 				<word>are you</word>
 				<word>are u</word>
 				<word>?</word>

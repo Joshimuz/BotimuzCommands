@@ -5,6 +5,7 @@
 		<requiredwords>
 			<group>
 				<word>why</word>
+				<word wholeword="true">y</word>
 				<word>what</word>
 				<word>wtf</word>
 				<word>botimuz</word>
@@ -46,6 +47,7 @@
 		<requiredwords>
 			<group>
 				<word>why</word>
+				<word wholeword="true">y</word>
 				<word>what</word>
 				<word>botimuz</word>
 				<word wholeword="true">bot</word>
@@ -70,6 +72,7 @@
 		<requiredwords>
 			<group>
 				<word>why</word>
+				<word wholeword="true">y</word>
 				<word>what</word>
 				<word>botimuz</word>
 				<word wholeword="true">bot</word>
@@ -100,6 +103,7 @@
 		<requiredwords>
 			<group>
 				<word>why</word>
+				<word wholeword="true">y</word>
 				<word>what</word>
 				<word wholeword="true">bot</word>
 				<word>botimuz</word>
@@ -120,6 +124,7 @@
 		<requiredwords>
 			<group>
 				<word>why</word>
+				<word wholeword="true">y</word>
 				<word>what</word>
 				<word wholeword="true">bot</word>
 				<word>botimuz</word>
@@ -142,6 +147,7 @@
 		<requiredwords>
 			<group>
 				<word>why</word>
+				<word wholeword="true">y</word>
 				<word>what</word>
 				<word wholeword="true">bot</word>
 				<word>botimuz</word>
@@ -206,6 +212,7 @@
 			<group>
 				<word>what</word>
 				<word>why</word>
+				<word wholeword="true">y</word>
 				<word wholeword="true">bot</word>
 				<word>wtf</word>
 				<word>botimuz</word>
@@ -343,6 +350,7 @@
 			</group>
 			<group>
 				<word>why</word>
+				<word wholeword="true">y</word>
 				<word>what</word>
 				<word>how</word>
 				<word wholeword="true">bot</word>
@@ -382,6 +390,7 @@
 		<requiredwords>
 			<group>
 				<word>why</word>
+				<word wholeword="true">y</word>
 				<word>what</word>
 				<word>botimuz</word>
 				<word wholeword="true">bot</word>
@@ -400,6 +409,7 @@
 		<requiredwords>
 			<group>
 				<word>why</word>
+				<word wholeword="true">y</word>
 				<word>what</word>
 				<word>botimuz</word>
 				<word wholeword="true">bot</word>
@@ -418,6 +428,7 @@
 		<requiredwords>
 			<group>
 				<word>why</word>
+				<word wholeword="true">y</word>
 				<word>what</word>
 				<word>botimuz</word>
 				<word wholeword="true">bot</word>
@@ -459,6 +470,7 @@
 	<requiredwords>
 		<group>
 			<word>why</word>
+				<word wholeword="true">y</word>
 			<word>what</word>
 			<word>botimuz</word>
 			<word wholeword="true">bot</word>
