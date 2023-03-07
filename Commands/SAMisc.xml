@@ -24,6 +24,49 @@
 			<response>Josh knows about using Vigilante + Police Bike to cancel slow motion and the strat to use it for LV, but this makes the run much harder over using an NRG and he just wants to finish runs.</response>
 		</responses>
 	</command>
+	<command>
+		<name>Why 69</name>
+		<cooldown>5</cooldown>
+		<requiredwords>
+			<group>
+				<word>why</word>
+				<word wholeword="true">y</word>
+				<word>what</word>
+				<word>botimuz</word>
+				<word wholeword="true">bot</word>
+				<word>where</word>
+                <word>which</word>
+				<word>reason</word>
+				<word>how</word>
+			</group>
+			<group>
+				<word>69</word>
+				<word>70</word>
+				<word>not all</word>
+				<word>missing</word>
+				<word>last</word>
+				<word>final</word>
+                <word>excluded</word>
+                <word>not done</word>
+				<word>avoid</word>
+				<word>left out</word>
+			</group>
+			<group>
+				<word>jump</word>
+				<word>69</word>
+				<word>70</word>
+			</group>
+		</requiredwords>
+		<unwantedwords>
+			<group>
+				<word>ShoWel_69</word>
+				<word>nadespammer69</word>
+			</group>
+		</unwantedwords>
+		<responses>
+			<response>The 70th jump is blocked by an invisible barrier until Las Venturas gets unlocked, so everyone runs 69/70. There is A WAY to get past it, but it's complicated: https://www.youtube.com/watch?v=0v_3ZBPA_Oo</response>
+		</responses>
+	</command>
 
 	<command>
 		<name>DYOM Bingo</name>
