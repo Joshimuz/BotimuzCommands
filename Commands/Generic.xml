@@ -274,20 +274,6 @@
 	</command>
 
 	<command>
-		<name>!nitro</name>
-		<maxWords>1</maxWords>
-		<requiredwords>
-			<group>
-				<word>!nitro</word>
-			</group>
-		</requiredwords>
-		<responses>
-			<response>Customize your kart loadout and stuff at https://playnitro.com</response>
-		</responses>
-		<cooldown>0</cooldown>
-	</command>
-
-	<command>
 		<name>beep boop</name>
 		<maxWords>1</maxWords>
 		<requiredwords>
