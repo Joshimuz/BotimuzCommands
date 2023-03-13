@@ -284,6 +284,7 @@
 		<responses>
 			<response>Customize your kart loadout and stuff at https://playnitro.com</response>
 		</responses>
+		<cooldown>0</cooldown>
 	</command>
 
 	<command>
