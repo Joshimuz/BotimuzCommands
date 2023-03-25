@@ -714,6 +714,7 @@
 			<group>
 				<word wholeword="true">Buy</word>
 				<word wholeword="true">Get</word>
+				<word wholeword="true">offer</word>
 			</group>
 			<group>
 				<word wholeword="true">followers</word>
@@ -725,6 +726,7 @@
 				<word>cutt.ly</word>
 				<word>t.ly</word>
 				<word>yourfollowz</word>
+				<word>dogehype dot com</word>
 			</group>
 		</requiredwords>
 		<unwantedWords>
