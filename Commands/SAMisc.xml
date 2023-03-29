@@ -85,12 +85,13 @@
 			</group>
 		</requiredwords>
 		<responses>
-			<response>Want to play DYOM run Bingo? Generate a sheet at https://toriality.github.io/DYOM-Bingo</response>
+			<response>Want to play DYOM run Bingo? Generate a sheet at https://dyombingo.com</response>
 		</responses>
 	</command>
 
   	<command>
 		<name>DYOM Mission URL</name>
+		<maxWords>10</maxWords>
 		<cooldown>5</cooldown>
 		<requiredwords>
 			<group>
