@@ -814,26 +814,6 @@
 		</responses>
 	</command>
 
-	<command>
-		<name>Ireland Move</name>
-		<requiredwords>
-			<group>
-				<word>why</word>
-				<word wholeword="true">y</word>
-				<word>what</word>
-				<word wholeword="true">bot</word>
-				<word>botimuz</word>
-			</group>
-			<group>
-				<word>ireland</word>
-				<word>moving</word>
-			</group>
-		</requiredwords>
-		<responses>
-			<response>https://twitter.com/Joshimuz/status/1586856626077696005</response>
-		</responses>
-	</command>
-
 	<!-- Keep this at the bottom. -->
 	<command>
 		<name>Good Bot</name>
