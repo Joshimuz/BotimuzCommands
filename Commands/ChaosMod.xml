@@ -57,10 +57,10 @@
 	</command>
 	<command>
 		<name>Coins reminders</name>
-		<dataTrigger type="timer">5-10</dataTrigger>
-		<responses>
-			<response useName="false" forward="false">/announce You can pool coins for the more expensive options; Don't just spend it all on the cheapest ones!</response>
-			<response useName="false" forward="false">/announce You get 69 free coins every 30 minutes! No need to save them for later. :)</response>
+		<dataTrigger type="timer">300-600</dataTrigger>
+		<responses useName="false">
+			<response>/announce You can pool coins for the more expensive options; Don't just spend it all on the cheapest ones!</response>
+			<response>/announce You get 69 free coins every 30 minutes! No need to save them for later. :)</response>
 		</responses>
 	</command>
 </commands>
