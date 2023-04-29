@@ -162,6 +162,7 @@
 				<word>josh</word>
 				<word>england</word>
 				<word>portsmouth</word>
+				<word>bournemouth</word>
 				<word>for you</word>
 				<word>where you are</word>
 				<word>you live</word>
@@ -177,7 +178,7 @@
 			</group>
 		</unwantedwords>
 		<responses>
-			<response data0="currenttime">It's currently [0] in Ireland</response>
+			<response data0="currenttime">It's currently [0] in England</response>
 		</responses>
 	</command>
 	
@@ -740,34 +741,6 @@
 		<cooldown>0</cooldown>
 		<allowRepeatUsers>true</allowRepeatUsers>
 	</command>
-
-<!-- 	<command>
-		<name>why ireland</name>
-		<requiredWords>
-			<group>
-				<word>why</word>
-				<word wholeword="true">y</word>
-				<word>bot</word>
-				<word>is josh</word>
-			</group>
-			<group>
-				<word>move</word>
-				<word>moving</word>
-				<word>leave</word>
-				<word>bot</word>
-			</group>
-			<group>
-				<word>ireland</word>
-				<word>uk</word>
-				<word>england</word>
-				<word>sweden</word>
-				<word>countr</word> spelt like that for country and countries
-			</group>
-		</requiredWords>
-		<responses>
-			<response>Josh is moving to Ireland on Saturday. He's moving because he wants to eventually get into the EU/Sweden, Ireland is easy to immigrate to from the UK, and @Wayno717 needed a housemate in Ireland. More info here: https://twitter.com/Joshimuz/status/1500168355168370689</response>
-		</responses>
-	</command> -->
 
 	<!--<command>
 		<name>What laptop?</name>
