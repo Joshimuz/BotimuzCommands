@@ -1014,34 +1014,6 @@
 		</responses>
 	</command>
 	<command>
-		<name>Definitive Patch Notes</name>
-		<requiredwords>
-			<group>
-				<word wholeword="true">bot</word>
-                <word wholeWord="true">did</word>
-                <word wholeWord="true">is</word>
-				<word>what</word>
-				<word>link</word>
-                <word>they</word>
-			</group>
-			<group>
-                <word>this</word>
-                <word wholeWord="true">de</word>
-                <word>definitive</word>
-                <word>edition</word>
-			</group>
-			<group>
-                <word>fix</word>
-                <word>patch</word>
-                <word>update</word>
-                <word>notes</word>
-			</group>
-		</requiredwords>
-		<responses>
-			<response>Here are all the patch notes https://gta.fandom.com/wiki/Grand_Theft_Auto:_The_Trilogy_-_The_Definitive_Edition/Title_Update_Notes</response>
-		</responses>
-	</command>
-	<command>
 		<name>!Twitter</name>
 		<requiredwords>
 			<group>
