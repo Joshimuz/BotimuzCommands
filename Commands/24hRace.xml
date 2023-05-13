@@ -75,7 +75,7 @@
 			</group>
 		</unwantedwords>
 		<responses>
-			<response>From fastest to slowest the classes are: :yellow_circle: GT3 | :large_blue_circle: PCup | :red_circle: GT4 | :purple_circle: TCR | :green_circle: GR86</response>
+			<response>From fastest to slowest the classes are: 🟡 GT3 | 🔵 PCup | 🔴 GT4 | 🟣 TCR | 🟢 GR86</response>
 		</responses>
 	</command>
 
