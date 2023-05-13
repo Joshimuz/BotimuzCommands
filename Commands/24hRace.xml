@@ -12,7 +12,7 @@
 			</group>
 		</requiredwords>
 		<responses>
-			<response>PROLaps is driving a Toyota GR86</response>
+			<response>PROLaps is driving a Toyota GR86 (the slowest class)</response>
 		</responses>
 	</command>
 
@@ -52,10 +52,10 @@
 			</group>
 		</requiredwords>
 		<responses>
-			<response>TIMES ARE IN UTC/GMT AND ARE PROBABLY WRONG OK? https://cdn.discordapp.com/attachments/755316609903493161/1104746999179386911/image.png</response>
+			<response>TIMES ARE IN UTC/GMT AND ARE PROBABLY WRONG OK? http://nurb.haez.ee</response>
 		</responses>
 	</command>
-<!--
+
 	<command>
 		<name>What classes</name>
 		<requiredwords>
@@ -75,10 +75,10 @@
 			</group>
 		</unwantedwords>
 		<responses>
-			<response>From Fastest to Slowest the classes are: Mustard - LMP2, Dodger Blue - GT3/GTD</response>
+			<response>From fastest to slowest the classes are: :yellow_circle: GT3 | :large_blue_circle: PCup | :red_circle: GT4 | :purple_circle: TCR | :green_circle: GR86</response>
 		</responses>
 	</command>
--->
+
  	<!--command>
 		<name>When race</name>
 		<maxWords>15</maxWords>
