@@ -12,7 +12,7 @@
 			</group>
 		</requiredwords>
 		<responses>
-			<response>PROLaps is the Lamborghini Huracán GT3 EVO car</response>
+			<response>PROLaps is driving a Toyota GR86</response>
 		</responses>
 	</command>
 
@@ -29,6 +29,12 @@
 			</group>
 			<group>
 				<word>josh</word>
+				<word>brough</word>
+				<word>karl</word>
+				<word>filip</word>
+				<word>pavel</word>
+				<word>dominik</word>
+				<word>domo</word>
 				<word wholeword="true">he</word>
 				<word>stint</word>
 				<word>plan</word>
@@ -46,10 +52,10 @@
 			</group>
 		</requiredwords>
 		<responses>
-			<response>TIMES ARE IN UTC/GMT AND ARE PROBABLY WRONG OK? http://daytona.joshimuz.com</response>
+			<response>TIMES ARE IN UTC/GMT AND ARE PROBABLY WRONG OK? https://cdn.discordapp.com/attachments/755316609903493161/1104746999179386911/image.png</response>
 		</responses>
 	</command>
-
+<!--
 	<command>
 		<name>What classes</name>
 		<requiredwords>
@@ -72,7 +78,7 @@
 			<response>From Fastest to Slowest the classes are: Mustard - LMP2, Dodger Blue - GT3/GTD</response>
 		</responses>
 	</command>
-
+-->
  	<!--command>
 		<name>When race</name>
 		<maxWords>15</maxWords>
