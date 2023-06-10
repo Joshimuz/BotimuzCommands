@@ -1038,4 +1038,23 @@
 			<response>https://twitter.com/joshimuz or if you want automated tweets when josh uploads a video/streams: https://twitter.com/botimuz</response>
 		</responses>
 	</command>
+	<command>
+		<name>race</name>
+		<requiredwords>
+			<group>
+				<word wholeword="true">bot</word>
+                <word wholeWord="true">where</word>
+                <word wholeWord="true">what</word>
+				<word>link</word>
+				<word startsWith="true">!race</word>
+			</group>
+			<group>
+				<word>race</word>
+				<word>community</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response>https://race.joshimuz.com</response>
+		</responses>
+	</command>
 </commands>
