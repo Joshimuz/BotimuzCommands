@@ -1045,16 +1045,13 @@
 				<word wholeword="true">bot</word>
                 <word wholeWord="true">where</word>
                 <word wholeWord="true">what</word>
-				<word>link</word>
-				<word startsWith="true">!race</word>
 			</group>
 			<group>
-				<word>race</word>
-				<word>community</word>
+				<word>josh</word>
 			</group>
 		</requiredwords>
 		<responses>
-			<response>https://race.joshimuz.com</response>
+			<response>Josh is on Holiday in Canada with his family, he'll be back next month, check his Twitter for updates. For now Faye is streaming on Josh's account.</response>
 		</responses>
 	</command>
 </commands>
