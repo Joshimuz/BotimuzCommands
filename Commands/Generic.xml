@@ -1018,7 +1018,7 @@
 		<requiredwords>
 			<group>
 				<word wholeword="true">bot</word>
-                <word wholeWord="true">where</word>
+                <word>where</word>
                 <word wholeWord="true">what</word>
 				<word>link</word>
 				<word startsWith="true">!twitter</word>
@@ -1043,7 +1043,7 @@
 		<requiredwords>
 			<group>
 				<word wholeword="true">bot</word>
-                <word wholeWord="true">where</word>
+                <word>where</word>
                 <word wholeWord="true">what</word>
 			</group>
 			<group>
