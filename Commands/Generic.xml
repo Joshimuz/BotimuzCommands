@@ -1038,20 +1038,4 @@
 			<response>https://twitter.com/joshimuz or if you want automated tweets when josh uploads a video/streams: https://twitter.com/botimuz</response>
 		</responses>
 	</command>
-	<command>
-		<name>race</name>
-		<requiredwords>
-			<group>
-				<word wholeword="true">bot</word>
-                <word>where</word>
-                <word wholeWord="true">what</word>
-			</group>
-			<group>
-				<word>josh</word>
-			</group>
-		</requiredwords>
-		<responses>
-			<response>Josh is on Holiday in Canada with his family, he'll be back at the start of June, check his Twitter for updates. For now Faye is streaming on Josh's account.</response>
-		</responses>
-	</command>
 </commands>
