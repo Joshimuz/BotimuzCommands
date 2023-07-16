@@ -1104,11 +1104,10 @@
 				<word>hours</word>
 				<word>time</word>
 				<word>take</word>
-				<word></word>
 			</group>
 		</requiredwords>
 		<responses>
-			<response>Collecting the 212 vehicles will take about 7 hours or so. His pb is 7:14:26</response>
+			<response>Collecting the 212 vehicles will take about 7 hours or so. Joshs pb is 7:14:26</response>
 		</responses>
 		<cooldown>5</cooldown>
 	</command>
