@@ -1038,4 +1038,29 @@
 			<response>https://twitter.com/joshimuz or if you want automated tweets when josh uploads a video/streams: https://twitter.com/botimuz</response>
 		</responses>
 	</command>
+
+	<command>
+		<name>MTA All Vehicles Order</name>
+		<requiredwords>
+			<group>
+				<word wholeword="true">bot</word>
+                <word wholeWord="true">what</word>
+				<word startsWith="true">why</word>
+			</group>
+			<group>
+				<word>random</word>
+				<word>shuffled</word>
+				<word>arbitrary</word>
+				<word>order</word>
+			</group>
+			<group>
+				<word>vehicle</word>
+				<word>car</word>
+				<word>bike</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response>The order of vehicles is random, as per how the MTA map works, however the splits are from the previous run of this and therefore are not in a random order. This comparison doesn't make much sense since order will be important for pace midway through the run, however this is just fun to track so Josh is still doing it.</response>
+		</responses>
+	</command>
 </commands>
