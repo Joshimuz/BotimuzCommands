@@ -1,29 +1,5 @@
 <commandCollections version="1">
   <commandcollection>
-    <name>MEMES</name>
-    <channelname>Joshimuz</channelname>
-    <requiredtitlewords>
-      <group>
-        <word>meme</word>
-      </group>
-      <group>
-        <word>run</word>
-      </group>
-    </requiredtitlewords>
-    <commandlists>
-      <name>Generic</name>
-      <name>Online</name>
-      <name>MemeRun</name>
-      <name>SANMG</name>
-      <name>GTA</name>
-      <name>SA</name>
-    </commandlists>
-    <streamstatus>online</streamstatus>
-    <gamename>Grand Theft Auto: San Andreas</gamename>
-    <speedruncategory>No Major Glitches</speedruncategory>
-  </commandcollection>
-
-  <commandcollection>
     <name>Rerun</name>
     <channelname>Joshimuz</channelname>
     <requiredtitlewords>
@@ -60,26 +36,6 @@
       <name>GTA</name>
       <name>SA</name>
       <name>ChaosMod</name>
-    </commandlists>
-    <speedruncategory>No Major Glitches</speedruncategory>
-    <streamstatus>online</streamstatus>
-  </commandcollection>
-
-  <commandcollection>
-    <name>Winter Mod</name>
-    <channelname>Joshimuz</channelname>
-    <requiredtitlewords>
-      <group>
-        <word>winter mod</word>
-      </group>
-    </requiredtitlewords>
-    <gamename>Grand Theft Auto: San Andreas</gamename>
-    <commandlists>
-      <name>Generic</name>
-      <name>Online</name>
-      <name>GTA</name>
-      <name>SA</name>
-      <name>WinterMod</name>
     </commandlists>
     <speedruncategory>No Major Glitches</speedruncategory>
     <streamstatus>online</streamstatus>
@@ -283,39 +239,6 @@
   </commandcollection>
 
   <commandcollection>
-    <name>RDR2</name>
-    <channelname>Joshimuz</channelname>
-    <gamename>Red Dead Redemption 2</gamename>
-    <commandlists>
-      <name>Generic</name>
-      <name>Online</name>
-      <name>RDR2</name>
-    </commandlists>
-    <streamstatus>online</streamstatus>
-  </commandcollection>
-
-  <commandcollection>
-    <name>SSA</name>
-    <channelname>Joshimuz</channelname>
-    <requiredtitlewords>
-      <group>
-        <word>ssa</word>
-        <word>sunshine auto</word>
-      </group>
-      <group>
-        <word>race</word>
-      </group>
-    </requiredtitlewords>
-    <gamename>iRacing</gamename>
-    <commandlists>
-      <name>Generic</name>
-      <name>Online</name>
-      <name>SSA</name>
-    </commandlists>
-    <streamstatus>online</streamstatus>
-  </commandcollection>
-
-  <commandcollection>
     <name>24h iRacing</name>
     <channelname>Joshimuz</channelname>
     <gamename>iRacing</gamename>
@@ -424,14 +347,5 @@
       <name>Test</name>
     </commandlists>
     <streamstatus>offline</streamstatus>
-  </commandcollection>
-
-  <commandcollection>
-    <name>EmmaOnline</name>
-    <channelname>Kitteamuz</channelname>
-    <commandlists>
-      <name>Emma</name>
-    </commandlists>
-    <streamstatus>any</streamstatus>
   </commandcollection>
 </commandCollections>

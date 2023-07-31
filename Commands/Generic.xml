@@ -25,61 +25,6 @@
 		</responses>
 	</command>
 
-<!-- 	<command>
-		<name>Where are you?</name>
-		<maxWords>10</maxWords>
-		<requiredWords>
-			<group>
-				<word>why</word>
-				<word wholeword="true">y</word>
-				<word wholeword="true">bot</word>
-				<word>botimuz</word>
-				<word>where</word>
-				<word>is this</word>
-				<word>new</word>
-				<word wholeword="true">have</word>
-			</group>
-			<group>
-				<word wholeword="true">move</word>
-				<word wholeword="true">moved</word>
-				<word wholeword="true">flat</word>
-				<word wholeword="true">house</word>
-				<word wholeword="true">room</word>
-				<word wholeword="true">spot</word>
-				<word>apartment</word>
-				<word>background</word>
-			</group>
-		</requiredWords>
-		<unwantedwords>
-			<group>
-				<word>old</word>
-				<word>chatroom</word>
-				<word>stuff</word>
-				<word>remove</word>
-			</group>
-		</unwantedwords>
-		<responses>
-			<response>Josh had to move out of his flat on short notice, so for now he is at his parents house. The room is echoey, the internet is crap and there will be many loud noises. This is not ideal and he did not want this, but this is hopefully only temporary, please don't leave :)</response>
-		</responses>
-		<cooldown>60</cooldown>
-	</command>
-
-	<command>
-		<name>!room</name>
-		<maxWords>3</maxWords>
-		<requiredWords>
-			<group>
-				<word>where are you</word>
-				<word>!room</word>
-				<word>where r u</word>
-			</group>
-		</requiredWords>
-		<responses>
-			<response>Josh had to move out of his flat on short notice, so for now he is at his parents house. The room is echoey, the internet is crap and there will be many loud noises. This is not ideal and he did not want this, but this is hopefully only temporary, please don't leave :)</response>
-		</responses>
-		<cooldown>60</cooldown>
-	</command> -->
-
 	<!-- DISABLED because speedrun.com api issues
 	<command>
 		<name>What is WR</name>
@@ -178,7 +123,7 @@
 			</group>
 		</unwantedwords>
 		<responses>
-			<response data0="currenttime">It's currently [0] in England</response>
+			<response data0="currenttime">It's currently [0] for Joshimuz</response>
 		</responses>
 	</command>
 	
@@ -233,7 +178,7 @@
 			</group>
 		</unwantedWords>
 		<responses>
-			<response data0="randomNumber" range0="100-400">You did not include the +. True 100%+ has been delayed by [0] days.</response>
+			<response data0="randomNumber" range0="2-1001">You did not include the +. True 100%+ has been delayed by an additional [0] days.</response>
 		</responses>
 	</command>
 
@@ -248,6 +193,7 @@
 				<word>link</word>
 				<word wholeword="true">bot</word>
 				<word>botimuz</word>
+				<word>!title</word>
 			</group>
 			<group>
 				<word wholeword="true">title</word>
@@ -264,13 +210,23 @@
 		<maxWords>1</maxWords>
 		<requiredwords>
 			<group>
+				<word wholeword="true">bot</word>
+				<word>botimuz</word>
+				<word>when</word>
+				<word>how long</word>
+				<word>!followage</word>
+				<word>!followtime</word>
+				<word>!age</word>
+			</group>
+			<group>
+				<word>follow</word>
 				<word>!followage</word>
 				<word>!followtime</word>
 				<word>!age</word>
 			</group>
 		</requiredwords>
-		<responses>
-			<response>just click your name lol</response>
+		<responses data0="followage">
+			<response>you have been following for [0]</response>
 		</responses>
 	</command>
 
@@ -295,6 +251,7 @@
 				<word>what</word>
 				<word>where</word>
 				<word>link</word>
+				<word>post</word>
 				<word wholeword="true">bot</word>
 				<word>botimuz</word>
 				<word startsWith="true">!faq</word>
@@ -330,6 +287,7 @@
 				<word wholeword="true">bot</word>
 				<word>botimuz</word>
 				<word>when</word>
+				<word>has a</word>
 			</group>
 			<group>
 				<word wholeword="true">choking hazard</word>
@@ -343,7 +301,7 @@
 			</group>
 		</unwantedwords>
 		<responses>
-			<response>Josh is a co-host of The Choking Hazard Podcast which is live every 4th Saturday at 5pm UK time at: https://www.twitch.tv/broughy1322 RSS feed: https://thechokinghazardpodcast.simplecast.com/</response>
+			<response>Josh is a co-host of The Choking Hazard Podcast which is live every 4th-ish Saturday at 5pm-ish UK time at: https://www.twitch.tv/broughy1322 RSS feed: https://thechokinghazardpodcast.simplecast.com/</response>
 		</responses>
 	</command>
 
@@ -461,18 +419,8 @@
 		<cooldown>900</cooldown>
 	</command>
 
-	<!-- <command>
-		<name>Sub 4 Joke</name>
-		<responses forward="false" data0="joke">
-			<response>[0]</response>
-		</responses>
-		<dataTrigger type="OnSubOrResub"></dataTrigger>
-	</command>
--->
-
 	<command>
 		<name>Bot Dead</name>
-		<maxWords>4</maxWords>
 		<requiredwords>
 			<group>
 				<word wholeword="true">bot</word>
@@ -679,7 +627,7 @@
 		</responses>
 	</command>
 
-	<command>
+	<!-- <command>
 		<name>ESA when</name>
 		<maxWords>15</maxWords>
 		<requiredwords>
@@ -707,7 +655,7 @@
 		<responses>
 			<response>Josh is going to ESA Summer 21st July to 30th July to be Fundraising team leader. https://esamarathon.com/schedule He's not running anything this time around, but will be donation reading and maybe some commentary!</response>
 		</responses>
-	</command>
+	</command> -->
 
 	<command>
 		<name>Buy viewers ban</name>
@@ -742,7 +690,7 @@
 		<allowRepeatUsers>true</allowRepeatUsers>
 	</command>
 
-	<!--<command>
+	<command>
 		<name>What laptop?</name>
 		<requiredwords>
 			<group>
@@ -764,7 +712,7 @@
 		<responses>
 			<response>Josh is using the MSI Katana GF66, specs are at https://www.amazon.co.uk/JoshLaptop/dp/B097R4XGF3</response>
 		</responses>
-	</command>-->
+	</command>
 
 	<command>
 		<name>What is demisexual?</name>
@@ -926,60 +874,6 @@
 		</responses>
 	</command>
 
-	<!--
-	<command>
-		<name>TO reset</name>
-		<maxWords>2</maxWords>
-		<requiredwords>
-			<group>
-				<word wholeword="true">restart</word>
-				<word wholeword="true">reset</word>
-				<word wholeword="true">dead</word>
-			</group>
-			<group>
-				<word wholeword="true">restart</word>
-				<word wholeword="true">reset</word>
-				<word>run</word>
-			</group>
-		</requiredwords>
-		<unwantedWords>
-			<group>
-				<word>bot</word>
-				<word>mission</word>
-			</group>
-		</unwantedWords>
-		<responses data0="chattername" usename="false">
-			<response>/timeout [0] 5m</response>
-		</responses>
-		<cooldown>0</cooldown>
-		<allowRepeatUsers>true</allowRepeatUsers>
-	</command>
--->
-
-	<command>
-		<name>!</name>
-		<maxWords>1</maxWords>
-		<minCharacters>2</minCharacters>
-		<requiredwords>
-			<group>
-				<word startsWith="true">!</word>
-			</group>
-		</requiredwords>
-		<unwantedwords>
-			<group>
-				<word>highlight</word>
-				<word>bet</word>
-				<word>faq</word>
-				<word>!!</word>
-				<word>schedule</word>
-				<word>rules</word>
-			</group>
-		</unwantedwords>
-		<responses>
-			<response>There (normally) aren't any bots that respond to ! commands, try asking your question normally I should respond automatically</response>
-		</responses>
-	</command>
-
 	<!-- This is so I can test overlays and stuff -Josh -->
 	<command>
 		<name>lorem ipsum</name>
@@ -1013,6 +907,7 @@
 			<response>https://discord.gg/Joshimuz</response>
 		</responses>
 	</command>
+	
 	<command>
 		<name>!Twitter</name>
 		<requiredwords>

@@ -7,20 +7,20 @@
 			</group>
 		</requiredwords>
 		<responses usename="false">
-			<response data0="textFile" string0="C:\Users\Joshimuz\Desktop\TEXT.txt">[0]</response>
+			<response data0="RandomTextFileLine" string0="C:\Users\Joshimuz\Desktop\TEXT.txt">[0]</response>
 		</responses>
 	</command>
 	<command>
 		<name>on load test</name>
 		<responses forward="false" usename="false">
-			<response>TESTING ON LOAD HI</response>
+			<response>Loaded Command Collection successfully</response>
 		</responses>
 		<dataTrigger type="onLoad"></dataTrigger>
 	</command>
 	<command>
 		<name>on load test</name>
 		<responses forward="false" usename="false">
-			<response>TESTING ON UNLOAD BYE</response>
+			<response>Command Collection files changed, reloading</response>
 		</responses>
 		<dataTrigger type="onUnload"></dataTrigger>
 	</command>

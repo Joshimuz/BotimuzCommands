@@ -371,18 +371,8 @@
 				<word>leftover</word>
 			</group>
 		</unwantedwords>
-		<responses>
-			<response>While you were eating for 2 minutes Josh reset because a plane crashed.</response>
-			<response>While you were walking your dog for 10 minutes Josh reset because he got busted.</response>
-			<response>While you were on the toilet for 3 minutes Josh reset because he failed a mission.</response>
-			<response>While you were looking away for 2 seconds Josh reset because the game crashed.</response>
-			<response>While you weren't enjoying Josh's content for too long Josh reset because he needed the clip for highlights.</response>
-			<response>While you were petting a cat for 4 minutes Josh reset because he fell into water.</response>
-			<response>While you were answering your door for 5 seconds Josh reset because Sweet died.</response>
-			<response>While you were getting food for 30 seconds Josh reset because he killed Ryder.</response>
-			<response>While you were getting a drink for 20 seconds Josh reset because he wanted to.</response>
-			<response>While you were checking social media for 3 seconds Josh reset because his parachute failed.</response>
-			<response>While you were texting a friend for a minute Josh reset because he dropped an OM0 phonecall.</response>
+		<responses data0="RandomTextFileLine" string0="C:\Users\Joshimuz\Documents\GitHub\BotimuzCommands\SA Left Reasons.txt" data1="RandomTextFileLine" string1="C:\Users\Joshimuz\Documents\GitHub\BotimuzCommands\SA Reset Reasons.txt">
+			<response>While you [0] Josh reset because [1].</response>
 		</responses>
 	</command>
 	<!--<command>
