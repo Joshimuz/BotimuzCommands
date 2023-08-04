@@ -169,6 +169,31 @@
   </commandcollection>
 
   <commandcollection>
+    <name>VC</name>
+    <channelname>Joshimuz</channelname>
+    <requiredtitlewords>
+      <group>
+        <word>no ssu</word>
+        <word>international</word>
+      </group>
+    </requiredtitlewords>
+    <unwantedtitlewords>
+      <group>
+        <word>any%</word>
+      </group>
+    </unwantedtitlewords>
+    <gamename>Grand Theft Auto: Vice City</gamename>
+    <commandlists>
+      <name>Generic</name>
+      <name>Online</name>
+      <name>GTA</name>
+      <name>VC</name>
+    </commandlists>
+    <speedruncategory>Any%</speedruncategory>
+    <streamstatus>online</streamstatus>
+  </commandcollection>
+
+  <commandcollection>
     <name>VCS Any%</name>
     <channelname>Joshimuz</channelname>
     <requiredtitlewords>

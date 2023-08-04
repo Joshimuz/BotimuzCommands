@@ -1,0 +1,76 @@
+<commands version="1">
+	<command>
+		<name>No SSU</name>
+		<maxWords>15</maxWords>
+		<requiredwords>
+			<group>
+				<word>why</word>
+				<word wholeword="true">y</word>
+				<word>what</word>
+				<word>wtf</word>
+				<word>botimuz</word>
+				<word wholeword="true">bot</word>
+			</group>
+			<group>
+				<word>ssu</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response>SSU stands for Script Stack Underflow. Basically it's a glitch that lets you skip the whole game (like AJS in SA). It has it's own speedrun category (Any%) that no one runs</response>
+		</responses>
+	</command>
+
+	<command>
+		<name>International</name>
+		<maxWords>15</maxWords>
+		<requiredwords>
+			<group>
+				<word>why</word>
+				<word wholeword="true">y</word>
+				<word>what</word>
+				<word>wtf</word>
+				<word>botimuz</word>
+				<word wholeword="true">bot</word>
+			</group>
+			<group>
+				<word>international</word>
+				<word>not</word>
+			</group>
+			<group>
+				<word>international</word>
+				<word>japanese</word>
+				<word>jpn</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response>Josh is running the "International" version of the game (the version you could buy and play in the west). Speedruns normally use the Japanese version of the game because it has some exclusive glitches in it, but the upcoming tournament will be in International version. (plus having a different route and playing in english is more fun imo)</response>
+		</responses>
+	</command>
+
+	<command>
+		<name>Why VC</name>
+		<maxWords>15</maxWords>
+		<requiredwords>
+			<group>
+				<word>why</word>
+				<word wholeword="true">y</word>
+				<word>what</word>
+				<word>wtf</word>
+				<word>botimuz</word>
+				<word wholeword="true">bot</word>
+			</group>
+			<group>
+				<word>playing</word>
+				<word>running</word>
+				<word>speedrun</word>
+			</group>
+			<group>
+				<word>vc</word>
+				<word>vice city</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response>Josh has only been speedrunning SA for the past 3 years, when he used to run lots of games. He's making an effort to learn a bunch of other runs (for shorter marathons, JDQ, variety and fun). He'll still keep running SA don't worry.</response>
+		</responses>
+	</command>
+</commands>
