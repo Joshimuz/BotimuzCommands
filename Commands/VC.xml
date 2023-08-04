@@ -60,9 +60,9 @@
 				<word wholeword="true">bot</word>
 			</group>
 			<group>
-				<word>playing</word>
-				<word>running</word>
-				<word>speedrun</word>
+				<word>play</word>
+				<word>run</word>
+				<word>stream</word>
 			</group>
 			<group>
 				<word>vc</word>
