@@ -29,6 +29,7 @@
 				<word wholeword="true">y</word>
 				<word>what</word>
 				<word>wtf</word>
+				<word>fast</word>
 				<word>botimuz</word>
 				<word wholeword="true">bot</word>
 			</group>
@@ -40,6 +41,7 @@
 				<word>international</word>
 				<word>japanese</word>
 				<word>jpn</word>
+				<word>chin</word>
 			</group>
 		</requiredwords>
 		<responses>
