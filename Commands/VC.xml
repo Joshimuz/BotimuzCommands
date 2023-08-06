@@ -75,4 +75,28 @@
 			<response>Josh has exclusively speedrun SA for the past 3 years, when he used to run lots of games. He's making an effort to learn a bunch of other runs (for shorter marathons, JDQ, variety and fun). He'll still keep running SA don't worry.</response>
 		</responses>
 	</command>
+
+	<command>
+		<name>Tournament</name>
+		<maxWords>15</maxWords>
+		<requiredwords>
+			<group>
+				<word>why</word>
+				<word wholeword="true">y</word>
+				<word>what</word>
+				<word>wtf</word>
+				<word>when</word>
+				<word>botimuz</word>
+				<word wholeword="true">bot</word>
+			</group>
+			<group>
+				<word>tournament</word>
+				<word>tourny</word>
+				<word>tournie</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response>https://docs.google.com/document/d/1-Budln82b2NoEamFp6LZxGSdckDRf58Obqyyd4CUCpc/edit</response>
+		</responses>
+	</command>
 </commands>
