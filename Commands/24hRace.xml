@@ -12,7 +12,7 @@
 			</group>
 		</requiredwords>
 		<responses>
-			<response>PROLaps is driving a Toyota GR86 (the slowest class)</response>
+			<response>PROLaps is driving a GTP, the fastest class (specifically a Cadillac V-Series.R)</response>
 		</responses>
 	</command>
 
@@ -52,7 +52,7 @@
 			</group>
 		</requiredwords>
 		<responses>
-			<response>TIMES ARE IN UTC/GMT AND ARE PROBABLY WRONG OK? http://nurb.haez.ee</response>
+			<response>TIMES ARE IN UTC/GMT (WHICH IS DIFFERENT TO BST) AND ARE PROBABLY WRONG OK? https://i.imgur.com/XNOXXNM.png</response>
 		</responses>
 	</command>
 
@@ -75,7 +75,7 @@
 			</group>
 		</unwantedwords>
 		<responses>
-			<response>From fastest to slowest the classes are: 🟡 GT3 | 🔵 PCup | 🔴 GT4 | 🟣 TCR | 🟢 GR86</response>
+			<response>From fastest to slowest the classes are: 🟡 GTP/LMDH/LMP1 | 🔵 LMP2| 🔴 GTE</response>
 		</responses>
 	</command>
 
