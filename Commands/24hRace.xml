@@ -52,7 +52,7 @@
 			</group>
 		</requiredwords>
 		<responses>
-			<response>TIMES ARE IN UTC/GMT (WHICH IS DIFFERENT TO BST) AND ARE PROBABLY WRONG OK? https://i.imgur.com/XNOXXNM.png</response>
+			<response>Autoupdating schedule link: http://lm24.haez.ee</response>
 		</responses>
 	</command>
 
