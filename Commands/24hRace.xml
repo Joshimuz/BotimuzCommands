@@ -18,6 +18,7 @@
 
 	<command>
 		<name>When Josh Drive?</name>
+		<maxWords>10</maxWords>
 		<requiredwords>
 			<group>
 				<word wholeword="true">bot</word>
