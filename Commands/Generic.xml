@@ -933,4 +933,20 @@
 			<response>https://twitter.com/joshimuz or if you want automated tweets when josh uploads a video/streams: https://twitter.com/botimuz</response>
 		</responses>
 	</command>
+
+	<command>
+		<name>YES SCROLL JUMP</name>
+		<requiredwords>
+			<group>
+				<word>scroll</word>
+				<word>wheel</word>
+			</group>
+			<group>
+				<word>jump</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response>YES JOSH HAS BOUND JUMP TO SCROLL WHEEL</response>
+		</responses>
+	</command>
 </commands>
