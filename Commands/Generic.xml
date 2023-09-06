@@ -509,6 +509,8 @@
 		</responses>
 	</command>
 
+-->
+
 	<command>
 		<name>JDQ schedule</name>
 		<maxWords>15</maxWords>
@@ -538,9 +540,11 @@
 		</unwantedwords>
 		<dataTrigger type="timer">450-900</dataTrigger>
 		<responses>
-			<response>Josh Done Quick is a five day solo marathon run by Josh. You can find the schedule here: https://horaro.org/jdq/22</response>
+			<response>Josh Done Quick is a five day solo marathon run by Josh starting on the 14th! If you're a sub you can access the draft schedule here: https://horaro.org/jdq/23?key=subsonly If you're not you better not click that link 😠 It says "subsonly" right in the URL!</response>
 		</responses>
 	</command>
+
+	<!--
 
 	<command>
 		<name>JDQ 22 goals</name>
