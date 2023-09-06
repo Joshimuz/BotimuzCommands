@@ -541,7 +541,7 @@
 				<word wholeword="true">esa</word>
 			</group>
 		</unwantedwords>
-		<dataTrigger type="timer">450-900</dataTrigger>
+		<dataTrigger type="timer">1000-3000</dataTrigger>
 		<responses>
 			<response>Josh Done Quick is a five day solo marathon run by Josh starting on the 14th! If you're a sub you can access the draft schedule here: https://horaro.org/jdq/23?key=subsonly If you're not you better not click that link 😠 It says "subsonly" right in the URL!</response>
 		</responses>
