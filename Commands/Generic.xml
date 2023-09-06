@@ -525,6 +525,9 @@
 			<group>
 				<word>schedule</word>
 				<word>pastebin</word>
+				<word>joshdonequick</word>
+				<word>josh done quick</word>
+				<word wholeword="true">jdq</word>
 			</group>
 		</requiredwords>
 		<unwantedwords>
