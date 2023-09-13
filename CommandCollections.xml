@@ -177,11 +177,6 @@
         <word>international</word>
       </group>
     </requiredtitlewords>
-    <unwantedtitlewords>
-      <group>
-        <word>any%</word>
-      </group>
-    </unwantedtitlewords>
     <gamename>Grand Theft Auto: Vice City</gamename>
     <commandlists>
       <name>Generic</name>
