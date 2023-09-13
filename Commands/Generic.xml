@@ -544,7 +544,7 @@
 		</unwantedwords>
 		<dataTrigger type="timer">1000-3000</dataTrigger>
 		<responses>
-			<response>Josh Done Quick is a five day solo marathon run by Josh starting on the 13th! You can view the schedule here: https://horaro.org/jdq/23</response>
+			<response>Josh Done Quick is a five day solo marathon run by Josh! You can view the schedule and more details here: https://horaro.org/jdq/23</response>
 		</responses>
 	</command>
 
