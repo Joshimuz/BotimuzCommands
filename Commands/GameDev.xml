@@ -16,7 +16,7 @@
 			</group>
 		</requiredwords>
 		<responses>
-			<response>Josh is using Godot 4.2 (Dev 5) for various reasons. He wanted to use Godot BEFORE Unity shat itself (because open source is cool, and he hated Unity before it was cool). https://godotengine.org/article/dev-snapshot-godot-4-2-dev-5/</response>
+			<response>Josh is using Godot 4.2 (Dev 5) with C# for various reasons. He wanted to use Godot BEFORE Unity shat itself (because open source is cool, and he hated Unity before it was cool). https://godotengine.org/article/dev-snapshot-godot-4-2-dev-5/</response>
 		</responses>
 	</command>
 </commands>
