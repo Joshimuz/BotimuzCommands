@@ -511,7 +511,7 @@
 
 -->
 
-	<command>
+	<!--<command>
 		<name>JDQ schedule</name>
 		<maxWords>15</maxWords>
 		<requiredwords>
@@ -546,7 +546,7 @@
 		<responses>
 			<response>Josh Done Quick is a five day solo marathon run by Josh! You can view the schedule and more details here: https://horaro.org/jdq/23</response>
 		</responses>
-	</command>
+	</command>-->
 
 	<!--
 
