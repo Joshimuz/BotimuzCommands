@@ -283,6 +283,18 @@
   <commandcollection>
     <name>iRacing</name>
     <channelname>Joshimuz</channelname>
+    <gamename>software and game development</gamename>
+    <commandlists>
+      <name>Generic</name>
+      <name>Online</name>
+      <name>GameDev</name>
+    </commandlists>
+    <streamstatus>online</streamstatus>
+  </commandcollection>
+
+  <commandcollection>
+    <name>Game Dev</name>
+    <channelname>Joshimuz</channelname>
     <gamename>iRacing</gamename>
     <commandlists>
       <name>Generic</name>
