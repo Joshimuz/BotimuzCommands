@@ -12,7 +12,7 @@
 			</group>
 		</requiredwords>
 		<responses>
-			<response>PROLaps is driving a GTP, the fastest class (specifically a Cadillac V-Series.R)</response>
+			<response>PROLaps are driving an LMP2 - the middle class, faster than GT3, slower than LMDh</response>
 		</responses>
 	</command>
 
@@ -30,12 +30,8 @@
 			</group>
 			<group>
 				<word>josh</word>
-				<word>brough</word>
 				<word>karl</word>
-				<word>filip</word>
-				<word>pavel</word>
-				<word>dominik</word>
-				<word>domo</word>
+				<word>Eugene</word>
 				<word wholeword="true">he</word>
 				<word>stint</word>
 				<word>plan</word>
@@ -53,7 +49,7 @@
 			</group>
 		</requiredwords>
 		<responses>
-			<response>Autoupdating schedule link: http://petitlemans.haez.ee</response>
+			<response>TIMES ARE IN UTC/GMT (WHICH IS DIFFERENT TO BST) AND ARE PROBABLY WRONG OK? http://petitlemans.haez.ee</response>
 		</responses>
 	</command>
 
@@ -76,7 +72,7 @@
 			</group>
 		</unwantedwords>
 		<responses>
-			<response>From fastest to slowest the classes are: 🟡 GTP/LMDH/LMP1 | 🔵 LMP2| 🔴 GTE</response>
+			<response>From fastest to slowest the classes are: 🟡 GTP/LMDH/LMP1 | 🔵 LMP2| 🔴 GT3</response>
 		</responses>
 	</command>
 
