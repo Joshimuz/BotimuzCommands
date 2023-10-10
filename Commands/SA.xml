@@ -444,10 +444,10 @@
 				<word wholeword="true">bot</word>
 			</group>
 			<group>
-				<word wholeword="true">strat</word>
+				<word>strat</word>
 			</group>
 			<group>
-				<word wholeword="true">new</word>
+				<word>new</word>
 			</group>
 		</requiredwords>
 		<responses>
