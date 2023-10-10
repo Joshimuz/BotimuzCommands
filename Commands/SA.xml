@@ -414,23 +414,44 @@
 		</responses>
 	</command>
 	<command>
-	<name>What USJ</name>
-	<cooldown>5</cooldown>
-	<requiredwords>
-		<group>
-			<word>why</word>
-				<word wholeword="true">y</word>
-			<word>what</word>
-			<word>botimuz</word>
-			<word wholeword="true">bot</word>
-		</group>
-		<group>
-			<word wholeword="true">usj</word>
-			<word wholeword="true">usjs</word>
-		</group>
-	</requiredwords>
-	<responses>
-		<response>USJ = Unique Stunt Jumps, which are jumps with slow motion and special landing requirements, as opposed to Insane Stunts.</response>
-	</responses>
-</command>
+		<name>What USJ</name>
+		<cooldown>5</cooldown>
+		<requiredwords>
+			<group>
+				<word>why</word>
+					<word wholeword="true">y</word>
+				<word>what</word>
+				<word>botimuz</word>
+				<word wholeword="true">bot</word>
+			</group>
+			<group>
+				<word wholeword="true">usj</word>
+				<word wholeword="true">usjs</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response>USJ = Unique Stunt Jumps, which are jumps with slow motion and special landing requirements, as opposed to Insane Stunts.</response>
+		</responses>
+	</command>
+	<command>
+		<name>new strats</name>
+		<cooldown>0</cooldown>
+		<requiredwords>
+			<group>
+				<word>why</word>
+				<word>what</word>
+				<word>botimuz</word>
+				<word wholeword="true">bot</word>
+			</group>
+			<group>
+				<word wholeword="true">strat</word>
+			</group>
+			<group>
+				<word wholeword="true">new</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response>The 4 new strats josh is testing are: Photo Op Police Car Jump, Vehicle Entry Animation Skip, T-Bone Mendez x2 om0 call, Casino Call Save Point Pause Buffering</response>
+		</responses>
+	</command>
 </commands>
