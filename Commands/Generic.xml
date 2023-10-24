@@ -198,6 +198,7 @@
 			<group>
 				<word wholeword="true">title</word>
 				<word>sitrep</word>
+				<word>strat</word>
 			</group>
 		</requiredwords>
 		<responses data0="twitchtitle" usename="false">
