@@ -7,16 +7,17 @@
 			<response>botimu2Yellow</response>
 			<response>botimu2Red</response>
 			<response>botimu2Glod</response>
-			<response weighting="2">joshDosh</response>
 			<response>joshAngery</response>
 			<response>joshBarksAtKitty</response>
 			<response>joshChair</response>
 			<response>joshCJPlz</response>
 			<response>joshCoolStory</response>
+			<response weighting="2">joshDosh</response>
 			<response>joshFanks</response>
 			<response>joshFinking</response>
 			<response>joshGlod</response>
 			<response>joshGloder</response>
+			<response>joshGlodmek</response>
 			<response>joshIsFine</response>
 			<response>joshLuL</response>
 			<response>joshO</response>
@@ -24,20 +25,24 @@
 			<response>joshOOO</response>
 			<response>joshPaw</response>
 			<response>joshPrpl</response>
+			<response>johsRing</response>
+			<response>johsRingRing</response>
 			<response>joshRomek</response>
 			<response>joshRuleCheck</response>
 			<response>joshS</response>
 			<response>joshSA</response>
 			<response>joshSleeper</response>
 			<response>joshSss</response>
+			<response>johsTechIssue</response>
 			<response>joshTyrePop</response>
 			<response>joshVegetation</response>
-			<response>joshWalkies</response>
+			<!--response>joshWalkies</response-->
 			<response>joshWave</response>
+			<response>joshWICKED</response>
+			<response>joshWink</response>
 			<response>joshWithIt</response>
 			<response>joshWut</response>
 			<response>joshDoneQuick</response>
-			<response>joshWink</response>
 		</responses>
 		<dataTrigger type="timer">1800-3600</dataTrigger>
 	</command>
