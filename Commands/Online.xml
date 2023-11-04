@@ -1,4 +1,4 @@
-﻿<commands version="1">
+<commands version="1">
 	<command>
 		<name>Timed Emote Spam</name>
 		<responses usename="false">
@@ -25,15 +25,15 @@
 			<response>joshOOO</response>
 			<response>joshPaw</response>
 			<response>joshPrpl</response>
-			<response>johsRing</response>
-			<response>johsRingRing</response>
+			<response>joshRing</response>
+			<response>joshRingRing</response>
 			<response>joshRomek</response>
 			<response>joshRuleCheck</response>
 			<response>joshS</response>
 			<response>joshSA</response>
 			<response>joshSleeper</response>
 			<response>joshSss</response>
-			<response>johsTechIssue</response>
+			<response>joshTechIssue</response>
 			<response>joshTyrePop</response>
 			<response>joshVegetation</response>
 			<!--response>joshWalkies</response-->
