@@ -179,7 +179,7 @@
 		</unwantedWords>
 		<responses>
 			<response data0="randomNumber" range0="2-1001">You did not include the +. True 100%+ has been delayed by an additional [0] days.</response>
-		</responses>
+		</responses<name />
 	</command>
 
 	<command>
@@ -198,7 +198,6 @@
 			<group>
 				<word wholeword="true">title</word>
 				<word>sitrep</word>
-				<word>strat</word>
 			</group>
 		</requiredwords>
 		<responses data0="twitchtitle" usename="false">
