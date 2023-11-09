@@ -179,7 +179,7 @@
 		</unwantedWords>
 		<responses>
 			<response data0="randomNumber" range0="2-1001">You did not include the +. True 100%+ has been delayed by an additional [0] days.</response>
-		</responses<name />
+		</responses>
 	</command>
 
 	<command>
