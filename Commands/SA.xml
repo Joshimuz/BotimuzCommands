@@ -433,4 +433,25 @@
 			<response>USJ = Unique Stunt Jumps, which are jumps with slow motion and special landing requirements, as opposed to Insane Stunts.</response>
 		</responses>
 	</command>
+	<command>
+		<name>new strats</name>
+		<cooldown>0</cooldown>
+		<requiredwords>
+			<group>
+				<word>why</word>
+				<word>what</word>
+				<word>botimuz</word>
+				<word wholeword="true">bot</word>
+			</group>
+			<group>
+				<word>strat</word>
+			</group>
+			<group>
+				<word>new</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response>(Probably outdated coz Josh isn't sure either) There's a Deconstruction dupe, which leads into TBone X4. There's a way to keep Valet after Missaproriation, which leads into Riot X3 but has complications. No we don't know how much time it saves, I haven't even done it yet.</response>
+		</responses>
+	</command>
 </commands>
