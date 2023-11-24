@@ -20,7 +20,7 @@
 			</group>
 		</requiredwords>
 		<responses>
-			<response>Info on if and how you can join can be found in the announcements channel of Joshs' discord. Needless to say if you don't know how to access the discord, it is unlikely you qualify. :)</response>
+			<response>Info on if and how you can join can be found in the announcements channel of Josh's discord.</response>
 		</responses>
 	</command>
 	<command>
@@ -41,7 +41,7 @@
 			</group>
 		</requiredwords>
 		<responses>
-			<response>Josh is playing Vanilla 1.19 on his server. He is however using his datapack (Vanilla with Flake) to make Vanilla a little less dumb.</response>
+			<response>Josh is playing Vanilla 1.20 on his server. He is however using his datapack (Vanilla with Flake) to make Vanilla a little less dumb.</response>
 		</responses>
 	</command>
 </commands>
