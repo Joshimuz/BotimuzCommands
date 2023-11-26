@@ -415,24 +415,6 @@
 		</responses>
 	</command>
 	<command>
-		<name>DYOM Healing With Food</name>
-		<maxWords>15</maxWords>
-		<requiredwords>
-			<group>
-				<word>vending machine</word>
-				<word>food</word>
-				<word>heal</word>
-				<word>why</word>
-				<word wholeword="true">y</word>
-				<word>botimuz</word>
-				<word wholeword="true">bot</word>
-			</group>
-		</requiredwords>
-		<responses>
-			<response>Restaurants and vending machines do not work in DYOM because the game's main mission script isn't loaded.</response>
-		</responses>
-	</command>
-	<command>
 		<name>What USJ</name>
 		<cooldown>5</cooldown>
 		<requiredwords>
