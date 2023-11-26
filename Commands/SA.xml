@@ -158,6 +158,7 @@
 			<group>
 				<word>emmet</word>
 				<word>emet</word>
+				<word>emmett</word>
 				<word>smoke</word>
 				<word wholeword="true">nines</word>
 			</group>
@@ -410,7 +411,7 @@
 			</group>
 		</requiredwords>
 		<responses>
-			<response>DYOM stands for 'Design your own mission'. You can find more information here: http://faq.joshimuz.com/#dyom-speedruns-faq</response>
+			<response>DYOM stands for 'Design Your Own Mission'. You can find more information here: https://faq.joshimuz.com/#dyom-speedruns-faq</response>
 		</responses>
 	</command>
 	<command>
