@@ -1,0 +1,69 @@
+<commands version="1">
+	<command>
+		<name>DYOM Bingo</name>
+		<requiredwords>
+			<group>
+				<word>why</word>
+				<word wholeword="true">y</word>
+				<word>what</word>
+				<word>botimuz</word>
+				<word wholeword="true">bot</word>
+				<word>where</word>
+				<word>link</word>
+			</group>
+			<group>
+				<word>bingo</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response>Want to play DYOM run Bingo? Generate a sheet at https://dyombingo.com</response>
+		</responses>
+	</command>
+
+	<command>
+		<name>DYOM Healing With Food</name>
+		<maxWords>15</maxWords>
+		<requiredwords>
+			<group>
+				<word>why</word>
+				<word wholeword="true">y</word>
+				<word>botimuz</word>
+				<word wholeword="true">bot</word>
+			</group>
+			<group>
+				<word>heal</word>
+				<word>eat</word>
+			</group>
+			<group>
+				<word>vending machine</word>
+				<word>food</word>
+				<word>pizza</word>
+				<word>burger</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response>Restaurants and vending machines do not work in DYOM because the game's main mission script isn't loaded.</response>
+		</responses>
+	</command>
+
+  	<command>
+		<name>DYOM Mission URL</name>
+		<maxWords>10</maxWords>
+		<cooldown>5</cooldown>
+		<requiredwords>
+			<group>
+				<word>mission</word>
+			</group>
+			<group>
+				<word>botimuz</word>
+				<word wholeword="true">bot</word>
+				<word>download</word>
+				<word>url</word>
+				<word>detail</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response data0="textFile" string0="C:\Users\Joshimuz\Desktop\GTA SA DYOM\rainbomizer\dyom\mission\name.txt" data1="textFile" string1="C:\Users\Joshimuz\Desktop\GTA SA DYOM\rainbomizer\dyom\mission\url.txt">Name: [0] | Download: https://dyom.gtagames.nl/[1]</response>
+		</responses>
+	</command>
+</commands>
