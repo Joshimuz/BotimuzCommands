@@ -158,6 +158,7 @@
 			<group>
 				<word>emmet</word>
 				<word>emet</word>
+				<word>emmett</word>
 				<word>smoke</word>
 				<word wholeword="true">nines</word>
 			</group>
@@ -410,7 +411,25 @@
 			</group>
 		</requiredwords>
 		<responses>
-			<response>DYOM stands for 'Design your own mission'. You can find more information here: http://faq.joshimuz.com/#dyom-speedruns-faq</response>
+			<response>DYOM stands for 'Design Your Own Mission'. You can find more information here: https://faq.joshimuz.com/#dyom-speedruns-faq</response>
+		</responses>
+	</command>
+	<command>
+		<name>DYOM Healing With Food</name>
+		<maxWords>15</maxWords>
+		<requiredwords>
+			<group>
+				<word>vending machine</word>
+				<word>food</word>
+				<word>heal</word>
+				<word>why</word>
+				<word wholeword="true">y</word>
+				<word>botimuz</word>
+				<word wholeword="true">bot</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response>Restaurants and vending machines do not work in DYOM because the game's main mission script isn't loaded.</response>
 		</responses>
 	</command>
 	<command>
