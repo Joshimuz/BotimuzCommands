@@ -63,7 +63,7 @@
 			</group>
 		</requiredwords>
 		<responses>
-			<response data0="textFile" string0="C:\Users\Joshimuz\Desktop\GTA SA DYOM\rainbomizer\dyom\mission\name.txt" data1="textFile" string1="C:\Users\Joshimuz\Desktop\GTA SA DYOM\rainbomizer\dyom\mission\url.txt">Name: [0] | Download: https://dyom.gtagames.nl/[1]</response>
+			<response data0="textFile" string0="\\4000D\Raid ShSD\GTA SA DYOMgsdjkfhjnsdijf\rainbomizer\dyom\mission\name.txt" data1="textFile" string1="\\4000D\Raid ShSD\GTA SA DYOMgsdjkfhjnsdijf\rainbomizer\dyom\mission\url.txt">Name: [0] | Download: https://dyom.gtagames.nl/[1]</response>
 		</responses>
 	</command>
 </commands>
