@@ -115,6 +115,34 @@
   </commandcollection>
 
   <commandcollection>
+    <name>Tightened'Reas</name>
+    <channelname>Joshimuz</channelname>
+    <requiredtitlewords>
+      <group>
+        <word>Tightened</word>
+        <word>'Reas</word>
+      </group>
+    </requiredtitlewords>
+    <unwantedtitlewords>
+      <group>
+        <word>nmg</word>
+        <word>any%</word>
+        <word>69/70</word>
+        <word>USJ</word>
+      </group>
+    </unwantedtitlewords>
+    <gamename>Grand Theft Auto: San Andreas</gamename>
+    <commandlists>
+      <name>Generic</name>
+      <name>Online</name>
+      <name>GTA</name>
+      <name>SA</name>
+      <name>Tightened</name>
+    </commandlists>
+    <streamstatus>online</streamstatus>
+  </commandcollection>
+
+  <commandcollection>
     <name>DYOM</name>
     <channelname>Joshimuz</channelname>
     <requiredtitlewords>

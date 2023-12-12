@@ -1,0 +1,52 @@
+<commands version="1">
+	<command>
+		<name>What Tightened</name>
+		<requiredwords>
+			<group>
+				<word>why</word>
+				<word wholeword="true">y</word>
+				<word>what</word>
+				<word>botimuz</word>
+				<word wholeword="true">bot</word>
+				<word>where</word>
+			</group>
+			<group>
+				<word>tightened</word>
+				<word>'reas</word>
+				<word>mod</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response>Josh is playing DinosaurByte's "Tightened'Reas" hard mode mod designed for speedrunners. He's running Los Santos% at ESA Winter 24. It's not publically avalible yet.</response>
+		</responses>
+	</command>
+
+	<command>
+		<name>Tightened Download</name>
+		<requiredwords>
+			<group>
+				<word>why</word>
+				<word wholeword="true">y</word>
+				<word>what</word>
+				<word>how</word>
+				<word>botimuz</word>
+				<word wholeword="true">bot</word>
+				<word>where</word>
+				<word>mod</word>
+			</group>
+			<group>
+				<word>link</word>
+				<word>download</word>
+				<word>get</word>
+				<word>available</word>
+				<word>public</word>
+				<word>play</word>
+				<word>acquire</word>
+				<word>install</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response>The mod is currently in closed beta, no download yet.</response>
+		</responses>
+	</command>
+</commands>
