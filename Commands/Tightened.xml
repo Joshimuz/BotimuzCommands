@@ -17,7 +17,7 @@
 			</group>
 		</requiredwords>
 		<responses>
-			<response>Josh is playing DinosaurBytes' "Tightened'Reas" hard mode mod designed for speedrunners. He's running Los Santos% at ESA Winter 24. It's not publically avalible yet.</response>
+			<response>Josh is playing DinosaurBytes' "Tightened'Reas" hard mode mod designed for speedrunners. He's running Los Santos% at ESA Winter 24. It's not publicly available yet.</response>
 		</responses>
 	</command>
 
@@ -47,7 +47,7 @@
 			</group>
 		</requiredwords>
 		<responses>
-			<response>The mod is currently in closed beta, it'll be released "when it's finished". DinosaurBytes' is only working on it in his free time.</response>
+			<response>The mod is currently in closed beta, it'll be released "when it's finished". DinosaurBytes is only working on it in his free time.</response>
 		</responses>
 	</command>
 </commands>

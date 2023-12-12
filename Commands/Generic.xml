@@ -635,7 +635,7 @@
 		</responses>
 	</command>
 
-	<!-- <command>
+	<command>
 		<name>ESA when</name>
 		<maxWords>15</maxWords>
 		<requiredwords>
@@ -661,9 +661,9 @@
 			</group>
 		</unwantedwords>
 		<responses>
-			<response>Josh is going to ESA Summer 21st July to 30th July to be Fundraising team leader. https://esamarathon.com/schedule He's not running anything this time around, but will be donation reading and maybe some commentary!</response>
+			<response>ESA Winter 24 runs from February 17th to February 24th. Josh will be running SA Tightened'Reas Los Santos%. Visit https://esamarathon.com/schedule to see when exactly the run will be in your time-zone.</response>
 		</responses>
-	</command> -->
+	</command>
 
 	<command>
 		<name>Buy viewers ban</name>
