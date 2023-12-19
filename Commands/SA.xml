@@ -447,7 +447,7 @@
 				<word>Welcome, sir, welcome</word>
 			</group>
 			<group>
-				<word>joshRomek</word>
+				<word startsWith="true">joshRomek</word>
 			</group>
 		</requiredwords>
 		<responses>
