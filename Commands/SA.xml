@@ -451,14 +451,14 @@
 			</group>
 		</requiredwords>
 		<responses>
-				<response>Come in, come in</response>
-				<response>Hey there</response>
-				<response>Hey, hi, welcome</response>
-				<response>How exhilarating to have you visit, sir</response>
-				<response>Ooh, a customer</response>
-				<response>Welcome to my humble shop</response>
-				<response>Welcome, sir, welcome</response>
-				<response>Hello!</response>
+				<response>joshRomek Come in, come in joshRomek</response>
+				<response>joshRomek Hey there joshRomek</response>
+				<response>joshRomek Hey, hi, welcome joshRomek</response>
+				<response>joshRomek How exhilarating to have you visit, sir joshRomek</response>
+				<response>joshRomek Ooh, a customer joshRomek</response>
+				<response>joshRomek Welcome to my humble shop joshRomek</response>
+				<response>joshRomek Welcome, sir, welcome joshRomek</response>
+				<response>joshRomek Hello! joshRomek</response>
 		</responses>
 	</command>
 </commands>
