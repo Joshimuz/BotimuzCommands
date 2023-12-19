@@ -943,18 +943,22 @@
 	</command>
 
 	<command>
-		<name>YES SCROLL JUMP</name>
+		<name>!Commands</name>
 		<requiredwords>
 			<group>
-				<word>scroll</word>
-				<word>wheel</word>
+				<word wholeword="true">bot</word>
+                <word>where</word>
+                <word wholeWord="true">what</word>
+				<word>link</word>
+				<word startsWith="true">!commands</word>
 			</group>
 			<group>
-				<word>jump</word>
+				<word>commands</word>
 			</group>
 		</requiredwords>
 		<responses>
-			<response>YES JOSH HAS BOUND JUMP TO SCROLL WHEEL</response>
+			<response>Commands can be found on Github: https://github.com/Joshimuz/BotimuzCommands</response>
 		</responses>
 	</command>
+
 </commands>
