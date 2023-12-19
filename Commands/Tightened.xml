@@ -3,17 +3,21 @@
 		<name>What Tightened</name>
 		<requiredwords>
 			<group>
-				<word>why</word>
+				<word wholeword="true">why</word>
 				<word wholeword="true">y</word>
-				<word>what</word>
-				<word>botimuz</word>
+				<word wholeword="true">what</word>
+				<word wholeword="true">botimuz</word>
 				<word wholeword="true">bot</word>
-				<word>where</word>
+				<word wholeword="true">where</word>
+			</group>
+			<group>
+				<word wholeword="true">is</word>
+				<word wholeword="true">bot</word>
 			</group>
 			<group>
 				<word>tightened</word>
 				<word>'reas</word>
-				<word>mod</word>
+				<word wholeword="true">mod</word>
 			</group>
 		</requiredwords>
 		<responses>
@@ -25,15 +29,14 @@
 		<name>Tightened Download</name>
 		<requiredwords>
 			<group>
-				<word>why</word>
+				<word wholeword="true">why</word>
 				<word wholeword="true">y</word>
-				<word>what</word>
-				<word>how</word>
-				<word>botimuz</word>
+				<word wholeword="true">what</word>
+				<word wholeword="true">how</word>
+				<word wholeword="true">botimuz</word>
 				<word wholeword="true">bot</word>
-				<word>where</word>
-				<word>mod</word>
-				<word>when</word>
+				<word wholeword="true">where</word>
+				<word wholeword="true">when</word>
 			</group>
 			<group>
 				<word>link</word>
@@ -44,6 +47,10 @@
 				<word>play</word>
 				<word>acquire</word>
 				<word>install</word>
+			</group>
+			<group>
+				<word wholeword="true">this</word>
+				<word wholeword="true">mod</word>
 			</group>
 		</requiredwords>
 		<responses>
