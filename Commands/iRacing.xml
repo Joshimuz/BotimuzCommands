@@ -455,13 +455,14 @@
 		</responses>
 	</command>
 	<command>
-		<name>Bet</name>
+		<name>Bet Bot</name>
 		<maxWords>15</maxWords>
 		<requiredwords>
 			<group>
 				<word>how</word>
 				<word wholeword="true">bot</word>
 				<word>botimuz</word>
+				<word>what</word>
 			</group>
 			<group>
 				<word wholeword="true">bet</word>
