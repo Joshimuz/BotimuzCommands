@@ -450,7 +450,7 @@
 				<word startsWith="true">joshRomek</word>
 			</group>
 		</requiredwords>
-		<responses>
+		<responses useName="false" forward="false">
 				<response>joshRomek Come in, come in joshRomek</response>
 				<response>joshRomek Hey there joshRomek</response>
 				<response>joshRomek Hey, hi, welcome joshRomek</response>
