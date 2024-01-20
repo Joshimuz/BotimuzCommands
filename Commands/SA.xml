@@ -410,6 +410,11 @@
 				<word>dyom</word>
 			</group>
 		</requiredwords>
+		<unwantedWords>
+			<group>
+				<word>new cc</word>
+			</group>
+		</unwantedWords>
 		<responses>
 			<response>DYOM stands for 'Design Your Own Mission'. You can find more information here: https://faq.joshimuz.com/#dyom-speedruns-faq</response>
 		</responses>
