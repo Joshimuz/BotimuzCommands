@@ -666,6 +666,37 @@
 	</command>
 
 	<command>
+		<name>NSG when</name>
+		<maxWords>15</maxWords>
+		<requiredwords>
+			<group>
+				<word>what</word>
+				<word>where</word>
+				<word>link</word>
+				<word wholeword="true">bot</word>
+				<word>botimuz</word>
+				<word>when</word>
+				<word>how soon</word>
+				<word>how long</word>
+			</group>
+			<group>
+				<word wholeword="true">nsg</word>
+				<word wholeword="true">norway</word>
+			</group>
+		</requiredwords>
+		<unwantedwords>
+			<group>
+				<word>watch</word>
+				<word>saw</word>
+				<word>run</word>
+			</group>
+		</unwantedwords>
+		<responses>
+			<response>The first ever Norway Speedrun Gathering marathon is taking place in Ask, Norway from 16-17th March. Josh is doing the final run. https://nsgmarathon.com/</response>
+		</responses>
+	</command>
+
+	<command>
 		<name>Buy viewers ban</name>
 		<requiredwords>
 			<group>
