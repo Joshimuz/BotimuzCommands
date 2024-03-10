@@ -100,12 +100,14 @@
 				<word wholeword="true">bot</word>
 			</group>
 			<group>
+				<word>heal</word>
+				<word>eat</word>
+			</group>
+			<group>
 				<word>vending machine</word>
 				<word>food</word>
 				<word>pizza</word>
 				<word>burger</word>
-				<word>heal</word>
-				<word>eat</word>
 			</group>
 		</requiredwords>
 		<responses>
