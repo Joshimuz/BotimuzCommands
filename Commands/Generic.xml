@@ -635,7 +635,7 @@
 		</responses>
 	</command>
 
-	<!-- <command>
+<!-- 	<command>
 		<name>ESA when</name>
 		<maxWords>15</maxWords>
 		<requiredwords>
@@ -661,9 +661,42 @@
 			</group>
 		</unwantedwords>
 		<responses>
-			<response>Josh is going to ESA Summer 21st July to 30th July to be Fundraising team leader. https://esamarathon.com/schedule He's not running anything this time around, but will be donation reading and maybe some commentary!</response>
+			<response>ESA Winter 24 runs from February 17th to February 24th. Josh will be running SA Tightened'Reas Los Santos%. Visit https://esamarathon.com/schedule to see when exactly the run will be in your time-zone.</response>
 		</responses>
 	</command> -->
+
+	<command>
+		<name>NSG when</name>
+		<maxWords>15</maxWords>
+		<requiredwords>
+			<group>
+				<word>what</word>
+				<word>where</word>
+				<word>link</word>
+				<word wholeword="true">bot</word>
+				<word>botimuz</word>
+				<word>when</word>
+				<word>how soon</word>
+				<word>how long</word>
+				<word startsWith="true">!nsg</word>
+			</group>
+			<group>
+				<word wholeword="true">nsg</word>
+				<word wholeword="true">norway</word>
+				<word startsWith="true">!nsg</word>
+			</group>
+		</requiredwords>
+		<unwantedwords>
+			<group>
+				<word>watch</word>
+				<word>saw</word>
+				<word>run</word>
+			</group>
+		</unwantedwords>
+		<responses>
+			<response>The first ever Norway Speedrunner Gathering marathon is taking place in Ask (Near Oslo) from 16-17th March. Josh is doing the final run. https://nsgmarathon.com/</response>
+		</responses>
+	</command>
 
 	<command>
 		<name>Buy viewers ban</name>
@@ -943,18 +976,22 @@
 	</command>
 
 	<command>
-		<name>YES SCROLL JUMP</name>
+		<name>!Commands</name>
 		<requiredwords>
 			<group>
-				<word>scroll</word>
-				<word>wheel</word>
+				<word wholeword="true">bot</word>
+                <word>where</word>
+                <word wholeWord="true">what</word>
+				<word>link</word>
+				<word startsWith="true">!commands</word>
 			</group>
 			<group>
-				<word>jump</word>
+				<word>commands</word>
 			</group>
 		</requiredwords>
 		<responses>
-			<response>YES JOSH HAS BOUND JUMP TO SCROLL WHEEL</response>
+			<response>Commands can be found on Github: https://github.com/Joshimuz/BotimuzCommands</response>
 		</responses>
 	</command>
+
 </commands>

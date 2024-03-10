@@ -41,7 +41,7 @@
 			</group>
 		</requiredwords>
 		<responses>
-			<response>Josh is playing Vanilla 1.20 on his server. He is however using his datapack (Vanilla with Flake) to make Vanilla a little less dumb.</response>
+			<response>Josh is playing Vanilla 1.20.3 with 1.21 experimental features on his server. He is however using his datapack (Vanilla with Flake) to make Vanilla a little less dumb.</response>
 		</responses>
 	</command>
 </commands>

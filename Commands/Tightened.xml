@@ -1,0 +1,85 @@
+<commands version="1">
+	<command>
+		<name>What Tightened</name>
+		<requiredwords>
+			<group>
+				<word wholeword="true">why</word>
+				<word wholeword="true">y</word>
+				<word wholeword="true">what</word>
+				<word wholeword="true">botimuz</word>
+				<word wholeword="true">bot</word>
+				<word wholeword="true">where</word>
+			</group>
+			<group>
+				<word wholeword="true">is</word>
+				<word wholeword="true">bot</word>
+			</group>
+			<group>
+				<word>tightened</word>
+				<word>'reas</word>
+				<word wholeword="true">mod</word>
+				<word>version</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response>Josh is playing DinosaurBytes' "Tightened'Reas" hard mode mod designed for speedrunners. He's running Los Santos% at ESA Winter 24. It's not publicly available yet.</response>
+		</responses>
+	</command>
+
+	<command>
+		<name>Tightened Download</name>
+		<requiredwords>
+			<group>
+				<word wholeword="true">why</word>
+				<word wholeword="true">y</word>
+				<word wholeword="true">what</word>
+				<word wholeword="true">how</word>
+				<word wholeword="true">botimuz</word>
+				<word wholeword="true">bot</word>
+				<word wholeword="true">where</word>
+				<word wholeword="true">when</word>
+			</group>
+			<group>
+				<word>link</word>
+				<word>download</word>
+				<word>get</word>
+				<word>available</word>
+				<word>public</word>
+				<word>play</word>
+				<word>acquire</word>
+				<word>install</word>
+			</group>
+			<group>
+				<word wholeword="true">this</word>
+				<word wholeword="true">mod</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response>The mod is currently in closed beta, it'll be released "when it's finished". DinosaurBytes is only working on it in his free time.</response>
+		</responses>
+	</command>
+
+	<command>
+		<name>Easter Egg Incentive</name>
+		<requiredwords>
+			<group>
+				<word wholeword="true">don't</word>
+				<word wholeword="true">dont</word>
+				<word wholeword="true">didnt</word>
+				<word wholeword="true">didn't</word>
+			</group>
+			<group>
+				<word wholeword="true">blow</word>
+			</group>
+			<group>
+				<word>ryder</word>
+			</group>
+			<group>
+				<word wholeword="true">car</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response>Josh's ESA route that he is practising intentionally misses some tricks and skips in order to show them off for an Easter Egg incentive.</response>
+		</responses>
+	</command>
+</commands>
