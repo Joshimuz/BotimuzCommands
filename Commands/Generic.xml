@@ -665,7 +665,7 @@
 		</responses>
 	</command> -->
 
-	<command>
+	<!-- <command>
 		<name>NSG when</name>
 		<maxWords>15</maxWords>
 		<requiredwords>
@@ -696,7 +696,7 @@
 		<responses>
 			<response>The first ever Norway Speedrunner Gathering marathon is taking place in Ask (Near Oslo) from 16-17th March. Josh is doing the final run. https://nsgmarathon.com/</response>
 		</responses>
-	</command>
+	</command> -->
 
 	<command>
 		<name>Buy viewers ban</name>

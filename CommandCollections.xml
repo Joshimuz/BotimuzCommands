@@ -17,6 +17,29 @@
   </commandcollection>
 
   <commandcollection>
+    <name>PS2 SA Any% NMG</name>
+    <channelname>Joshimuz</channelname>
+    <requiredtitlewords>
+      <group>
+        <word>any% nmg</word>
+        <word>no major glitches</word>
+        <word>ps2</word>
+      </group>
+    </requiredtitlewords>
+    <gamename>Grand Theft Auto: San Andreas</gamename>
+    <commandlists>
+      <name>Generic</name>
+      <name>Online</name>
+      <name>GTA</name>
+      <name>SA</name>
+      <name>SANMG</name>
+      <name>PS2</name>
+    </commandlists>
+    <speedruncategory>No Major Glitches</speedruncategory>
+    <streamstatus>online</streamstatus>
+  </commandcollection>
+
+  <commandcollection>
     <name>Chaos Mod</name>
     <channelname>Joshimuz</channelname>
     <requiredtitlewords>

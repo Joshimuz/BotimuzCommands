@@ -1,0 +1,134 @@
+<commands version="1">
+	<command>
+		<name>Console</name>
+		<maxWords>10</maxWords>
+		<requiredwords>
+			<group>
+				<word>what</word>
+				<word>which</word>
+				<word>how</word>
+				<word>is this</word>
+				<word>is that</word>
+				<word>or the</word>
+				<word>why</word>
+				<word wholeword="true">y</word>
+				<word>botimuz</word>
+				<word wholeword="true">bot</word>
+				<word>using</word>
+				<word>playing</word>
+				<word wholeword="true">use</word>
+				<word>only on</word>
+				<word>you on</word>
+				<word>u on</word>
+				<word>capture</word>
+				<word>ps2 or emu</word>
+				<word>play on</word>
+				<word>play this on</word>
+				<word>play it on</word>
+				<word>played on</word>
+				<word>or original</word>
+			</group>
+			<group>
+				<word>console</word>
+				<word>platform</word>
+				<word wholeword="true">version</word>
+				<word>system</word>
+				<word>emulator</word>
+				<word>emulated</word>
+				<word>device</word>
+				<word wholeword="true">mobile</word>
+				<word wholeword="true">psp</word>
+				<word wholeword="true">ps2</word>
+				<word wholeword="true">ps3</word>
+				<word wholeword="true">ps4</word>
+				<word wholeword="true">ps5</word>
+				<word wholeword="true">pstv</word>
+				<word wholeword="true">ppsspp</word>
+				<word wholeword="true">pc</word>
+				<word wholeword="true">hw</word>
+				<word>real hardware</word>
+				<word>playing this on</word>
+				<word>playing it on</word>
+				<word>controller</word>
+				<word>gamepad</word>
+				<word>joystick</word>
+				<word>keyboard</word>
+				<word>mouse</word>
+			</group>
+		</requiredwords>
+		<unwantedwords>
+			<group>
+				<word>faq.joshimuz</word>
+				<word wholeword="true">im</word>
+				<word>i'm</word>
+				<word>to stream</word>
+				<word>setting</word>
+			</group>
+		</unwantedwords>
+		<responses>
+			<response>Josh is playing on a real PS2 using a PS4 controller (with PS2 Bluetooth Adapter). Video capture is via a GBS-C and an OSSC. Emulators are fine for casual but not speedruns.</response>
+		</responses>
+	</command>
+	<command>
+		<name>Console2</name>
+		<requiredwords>
+			<group>
+				<word>console?</word>
+				<word>version?</word>
+				<word>system?</word>
+				<word>emulator?</word>
+				<word>emulated?</word>
+				<word>device?</word>
+				<word>mobile?</word>
+				<word>psp?</word>
+				<word>ps2?</word>
+				<word>ps3?</word>
+				<word>ps4?</word>
+				<word>ps5?</word>
+				<word>pstv?</word>
+				<word>ppsspp?</word>
+				<word>real hw?</word>
+				<word>real hardware?</word>
+				<word>controller?</word>
+				<word>gamepad?</word>
+				<word>joystick?</word>
+				<word>keyboard?</word>
+				<word>mouse?</word>
+			</group>
+		</requiredwords>
+		<unwantedwords>
+			<group>
+				<word>PAL</word>
+				<word>NTSC</word>
+			</group>
+		</unwantedwords>
+		<responses>
+			<response>Josh is playing on a real PS2 using a PS4 controller (with PS2 Bluetooth Adapter). Video capture is via a GBS-C and an OSSC. Emulators are fine for casual but not speedruns.</response>
+		</responses>
+		<maxWords>1</maxWords>
+	</command>
+	<command>
+		<name>Controller display</name>
+		<requiredwords>
+			<group>
+				<word>what</word>
+				<word>how</word>
+				<word>botimuz</word>
+				<word wholeword="true">bot</word>
+			</group>
+			<group>
+				<word>controller</word>
+				<word>graphics</word>
+				<word>pixels</word>
+			</group>
+			<group>
+				<word>display</word>
+				<word>input</word>
+				<word>visual</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response>The PS4 controller can output via Bluetooth and USB at the same time to two different devices, so Josh has it plugged into his PC for the input visualiser, and Bluetooth to the PS2  (with PS2 Bluetooth Adapter).</response>
+		</responses>
+	</command>
+</commands>
