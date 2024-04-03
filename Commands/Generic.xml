@@ -230,10 +230,13 @@
 				<word>botimuz</word>
 				<word startsWith="true">!faq</word>
 				<word startsWith="true">!rule</word>
+				<word startsWith="true">!pc</word>
+				<word startsWith="true">!specs</word>
 			</group>
 			<group>
 				<word wholeword="true">faq</word>
 				<word>rule</word>
+				<word>specs</word>
 			</group>
 		</requiredwords>
 		<unwantedwords>
@@ -276,6 +279,36 @@
 		</unwantedwords>
 		<responses>
 			<response>Josh is a co-host of The Choking Hazard Podcast which is live every 4th-ish Saturday at 5pm-ish UK time at: https://www.twitch.tv/broughy1322 RSS feed: https://thechokinghazardpodcast.simplecast.com/</response>
+		</responses>
+	</command>
+
+	<command>
+		<name>New Youtube Channels</name>
+		<maxWords>15</maxWords>
+		<requiredwords>
+			<group>
+				<word>what</word>
+				<word>where</word>
+				<word>link</word>
+				<word wholeword="true">bot</word>
+				<word>botimuz</word>
+			</group>
+			<group>
+				<word wholeword="true">new</word>
+			</group>
+			<group>
+				<word>channel</word>
+				<word>youtube</word>
+			</group>
+		</requiredwords>
+		<unwantedwords>
+			<group>
+				<word>watch</word>
+				<word>saw</word>
+			</group>
+		</unwantedwords>
+		<responses>
+			<response>Josh has TWO new Youtube Channels! https://www.youtube.com/@JoshimuzUNCUT for loooonnng unedited videos, and https://www.youtube.com/@JoshimuzMotorsport for all the vroom vrooms!</response>
 		</responses>
 	</command>
 
@@ -705,7 +738,7 @@
 		<cooldown>0</cooldown>
 		<allowRepeatUsers>true</allowRepeatUsers>
 	</command> -->
-	
+
 	<command>
 		<name>What is demisexual?</name>
 		<requiredwords>
