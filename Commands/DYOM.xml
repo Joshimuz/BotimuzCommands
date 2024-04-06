@@ -36,7 +36,7 @@
 				<word>pizza</word>
 				<word>burger</word>
 				<word>heal</word>
-				<word>eat</word>
+				<word wholeword="true">eat</word>
 			</group>
 		</requiredwords>
 		<responses>
