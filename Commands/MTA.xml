@@ -32,7 +32,7 @@
 			</group>
 		</unwantedwords>
 		<responses>
-			<response>You need v1 in order to install MTA. You can downgrade any version to v1 though (insert helpful link here)</response>
+			<response>You need any version of original SA in order to install MTA. Its installer will downgrade the game for you.</response>
 		</responses>
 	</command>
 	<command>
