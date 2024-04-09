@@ -56,6 +56,7 @@
 				<word>joystick</word>
 				<word>keyboard</word>
 				<word>mouse</word>
+				<word>retrotink</word>
 			</group>
 		</requiredwords>
 		<unwantedwords>
@@ -68,7 +69,7 @@
 			</group>
 		</unwantedwords>
 		<responses>
-			<response>Josh is playing on a real PS2 using a PS4 controller (with PS2 Bluetooth Adapter). Video capture is via a RetroTink 5X. Emulators are fine for casual but not speedruns.</response>
+			<response>Josh is playing on a real PS2 using a PS4 controller (with PS2 Bluetooth Adapter). Video capture is via a RetroTink 5X (an analogue console upscaler). Emulators are fine for casual but not speedruns.</response>
 		</responses>
 	</command>
 	<command>
@@ -105,7 +106,7 @@
 			</group>
 		</unwantedwords>
 		<responses>
-			<response>Josh is playing on a real PS2 using a PS4 controller (with PS2 Bluetooth Adapter). Video capture is via a RetroTink 5X. Emulators are fine for casual but not speedruns.</response>
+			<response>Josh is playing on a real PS2 using a PS4 controller (with PS2 Bluetooth Adapter). Video capture is via a RetroTink 5X (an analogue console upscaler). Emulators are fine for casual but not speedruns.</response>
 		</responses>
 		<maxWords>1</maxWords>
 	</command>
