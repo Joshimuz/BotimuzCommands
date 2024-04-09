@@ -27,6 +27,8 @@
 				<word>play it on</word>
 				<word>played on</word>
 				<word>or original</word>
+				<word>ps2 emulator</word>
+				<word>real ps2</word>
 			</group>
 			<group>
 				<word>console</word>
@@ -66,7 +68,7 @@
 			</group>
 		</unwantedwords>
 		<responses>
-			<response>Josh is playing on a real PS2 using a PS4 controller (with PS2 Bluetooth Adapter). Video capture is via a GBS-C and an OSSC. Emulators are fine for casual but not speedruns.</response>
+			<response>Josh is playing on a real PS2 using a PS4 controller (with PS2 Bluetooth Adapter). Video capture is via a RetroTink 5X. Emulators are fine for casual but not speedruns.</response>
 		</responses>
 	</command>
 	<command>
@@ -103,7 +105,7 @@
 			</group>
 		</unwantedwords>
 		<responses>
-			<response>Josh is playing on a real PS2 using a PS4 controller (with PS2 Bluetooth Adapter). Video capture is via a GBS-C and an OSSC. Emulators are fine for casual but not speedruns.</response>
+			<response>Josh is playing on a real PS2 using a PS4 controller (with PS2 Bluetooth Adapter). Video capture is via a RetroTink 5X. Emulators are fine for casual but not speedruns.</response>
 		</responses>
 		<maxWords>1</maxWords>
 	</command>
