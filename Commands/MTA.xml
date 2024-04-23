@@ -32,7 +32,7 @@
 			</group>
 		</unwantedwords>
 		<responses>
-			<response>You need v1 in order to install MTA. You can downgrade any version to v1 though (insert helpful link here)</response>
+			<response>MTA works with any version of SA other than Definitive Edition and Windows Store. Get MTA at https://mtasa.com</response>
 		</responses>
 	</command>
 	<command>
@@ -77,7 +77,7 @@
 			</group>
 		</requiredwords>
 		<responses>
-			<response>MTA stands for Multi Theft Auto. It's a Multiplayer mod for San Andreas.</response>
+			<response>MTA stands for Multi Theft Auto. It's a Multiplayer mod for San Andreas. Website: https://mtasa.com</response>
 		</responses>
 		<cooldown>5</cooldown>
 	</command>

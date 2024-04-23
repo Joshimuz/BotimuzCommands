@@ -1,30 +1,4 @@
 ﻿<commands version="1">
-	<command>
-		<name>What happened to Emma</name>
-		<maxWords>15</maxWords>
-		<requiredWords>
-			<group>
-				<word wholeword="true">bot</word>
-				<word>botimuz</word>
-				<word>where</word>
-				<word>what</word>
-			</group>
-			<group>
-				<word wholeWord="true">Emma</word>
-				<word>Kitt</word>
-				<word wholeWord="true">Coco</word>
-			</group>
-		</requiredWords>
-		<unwantedwords>
-			<group>
-				<word>joshBarksAtKitty</word>
-			</group>
-		</unwantedwords>
-		<responses>
-			<response>https://faq.joshimuz.com/#where-is-emma</response>
-		</responses>
-	</command>
-
 	<!-- DISABLED because speedrun.com api issues
 	<command>
 		<name>What is WR</name>
@@ -256,10 +230,13 @@
 				<word>botimuz</word>
 				<word startsWith="true">!faq</word>
 				<word startsWith="true">!rule</word>
+				<word startsWith="true">!pc</word>
+				<word startsWith="true">!specs</word>
 			</group>
 			<group>
 				<word wholeword="true">faq</word>
 				<word>rule</word>
+				<word>specs</word>
 			</group>
 		</requiredwords>
 		<unwantedwords>
@@ -306,6 +283,36 @@
 	</command>
 
 	<command>
+		<name>New Youtube Channels</name>
+		<maxWords>15</maxWords>
+		<requiredwords>
+			<group>
+				<word>what</word>
+				<word>where</word>
+				<word>link</word>
+				<word wholeword="true">bot</word>
+				<word>botimuz</word>
+			</group>
+			<group>
+				<word wholeword="true">new</word>
+			</group>
+			<group>
+				<word>channel</word>
+				<word>youtube</word>
+			</group>
+		</requiredwords>
+		<unwantedwords>
+			<group>
+				<word>watch</word>
+				<word>saw</word>
+			</group>
+		</unwantedwords>
+		<responses>
+			<response>Josh has TWO new Youtube Channels! https://www.youtube.com/@JoshimuzUNCUT for loooonnng unedited videos, and https://www.youtube.com/@JoshimuzMotorsport for all the vroom vrooms!</response>
+		</responses>
+	</command>
+
+<!-- 	<command>
 		<name>Message Deleted</name>
 		<maxWords>2</maxWords>
 		<requiredwords>
@@ -338,7 +345,7 @@
 			<response>/ban [0] Posting Ascii</response>
 		</responses>
 		<cooldown>0</cooldown>
-	</command>
+	</command> -->
 
 	<command>
 		<name>bot refresh</name>
@@ -435,10 +442,11 @@
 	    <unwantedwords>
       		<group>
         		<word>run</word>
+				<word>?</word>
       		</group>
     	</unwantedwords>
-		<responses data0="messageid" usename="false">
-			<response>/delete [0]</response>
+		<responses>
+			<response>wrong</response>
 		</responses>
 		<cooldown>0</cooldown>
 		<allowRepeatUsers>true</allowRepeatUsers>
@@ -635,7 +643,7 @@
 		</responses>
 	</command>
 
-	<command>
+<!-- 	<command>
 		<name>ESA when</name>
 		<maxWords>15</maxWords>
 		<requiredwords>
@@ -663,9 +671,42 @@
 		<responses>
 			<response>ESA Winter 24 runs from February 17th to February 24th. Josh will be running SA Tightened'Reas Los Santos%. Visit https://esamarathon.com/schedule to see when exactly the run will be in your time-zone.</response>
 		</responses>
-	</command>
+	</command> -->
 
-	<command>
+	<!-- <command>
+		<name>NSG when</name>
+		<maxWords>15</maxWords>
+		<requiredwords>
+			<group>
+				<word>what</word>
+				<word>where</word>
+				<word>link</word>
+				<word wholeword="true">bot</word>
+				<word>botimuz</word>
+				<word>when</word>
+				<word>how soon</word>
+				<word>how long</word>
+				<word startsWith="true">!nsg</word>
+			</group>
+			<group>
+				<word wholeword="true">nsg</word>
+				<word wholeword="true">norway</word>
+				<word startsWith="true">!nsg</word>
+			</group>
+		</requiredwords>
+		<unwantedwords>
+			<group>
+				<word>watch</word>
+				<word>saw</word>
+				<word>run</word>
+			</group>
+		</unwantedwords>
+		<responses>
+			<response>The first ever Norway Speedrunner Gathering marathon is taking place in Ask (Near Oslo) from 16-17th March. Josh is doing the final run. https://nsgmarathon.com/</response>
+		</responses>
+	</command> -->
+
+<!-- 	<command>
 		<name>Buy viewers ban</name>
 		<requiredwords>
 			<group>
@@ -696,31 +737,7 @@
 		</responses>
 		<cooldown>0</cooldown>
 		<allowRepeatUsers>true</allowRepeatUsers>
-	</command>
-
-	<command>
-		<name>What laptop?</name>
-		<requiredwords>
-			<group>
-				<word>what</word>
-				<word>link</word>
-				<word wholeword="true">bot</word>
-				<word>botimuz</word>
-			</group>
-			<group>
-				<word>laptop</word>
-				<word>specs</word>
-			</group>
-		</requiredwords>
-		<unwantedWords>
-			<group>
-				<word wholeword="true">my</word>
-			</group>
-		</unwantedWords>
-		<responses>
-			<response>Josh is using the MSI Katana GF66, specs are at https://www.amazon.co.uk/JoshLaptop/dp/B097R4XGF3</response>
-		</responses>
-	</command>
+	</command> -->
 
 	<command>
 		<name>What is demisexual?</name>
@@ -786,6 +803,7 @@
 			<response>ayyy lmao</response>
 			<response>botimuz yay 1</response>
 			<response>I'm the man for the job joshWithIt</response>
+			<response>I got 17s on the hang</response>
 		</responses>
 	</command>
 
