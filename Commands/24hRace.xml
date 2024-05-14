@@ -12,7 +12,7 @@
 			</group>
 		</requiredwords>
 		<responses>
-			<response>PROLaps are driving an LMP2 - the middle class, faster than GT3, slower than LMDh</response>
+			<response>PROLaps are driving the Aston Martin GT4.</response>
 		</responses>
 	</command>
 
@@ -72,7 +72,8 @@
 			</group>
 		</unwantedwords>
 		<responses>
-			<response>From fastest to slowest the classes are: 🟡 GTP/LMDH/LMP1 | 🔵 LMP2| 🔴 GT3</response>
+			<!-- <response>From fastest to slowest the classes are: 🟡 GTP/LMDH/LMP1 | 🔵 LMP2| 🔴 GT3</response> -->
+			<response>From fastest to slowest the classes are: 🟡 GT3 | 🔵 Porsche Cup | 🔴 GT4 | 🟢 Touring Car</response>
 		</responses>
 	</command>
 
