@@ -17,7 +17,7 @@
 	</command>
 
 	<command>
-		<name>When Josh Drive?</name>
+		<name>24h Schedule Link</name>
 		<maxWords>10</maxWords>
 		<requiredwords>
 			<group>
@@ -49,7 +49,7 @@
 			</group>
 		</requiredwords>
 		<responses>
-			<response>TIMES ARE IN UTC/GMT (WHICH IS DIFFERENT TO BST) AND ARE PROBABLY WRONG OK? http://petitlemans.haez.ee</response>
+			<response>Times are in UTC/GMT (which is different to BST) and are probably wrong: prolaps.joshimuz.com</response>
 		</responses>
 	</command>
 
@@ -73,7 +73,7 @@
 		</unwantedwords>
 		<responses>
 			<!-- <response>From fastest to slowest the classes are: 🟡 GTP/LMDH/LMP1 | 🔵 LMP2| 🔴 GT3</response> -->
-			<response>From fastest to slowest the classes are: 🟡 GT3 | 🔵 Porsche Cup | 🔴 GT4 | 🟢 Touring Car</response>
+			<response>From fastest to slowest the classes are: 🟡 GT3 | 🔵 Porsche Cup | 🔴 GT4 | 🟣 TCR | 🟢 GR86</response>
 		</responses>
 	</command>
 
