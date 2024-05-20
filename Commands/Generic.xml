@@ -1,4 +1,4 @@
-﻿<commands version="1">
+<commands version="1">
 	<!-- DISABLED because speedrun.com api issues
 	<command>
 		<name>What is WR</name>
@@ -643,7 +643,7 @@
 		</responses>
 	</command>
 
-<!-- 	<command>
+	<!-- <command>
 		<name>ESA when</name>
 		<maxWords>15</maxWords>
 		<requiredwords>
@@ -659,6 +659,7 @@
 			</group>
 			<group>
 				<word wholeword="true">esa</word>
+				<word startsWith="true">!esa</word>
 			</group>
 		</requiredwords>
 		<unwantedwords>
@@ -669,7 +670,7 @@
 			</group>
 		</unwantedwords>
 		<responses>
-			<response>ESA Winter 24 runs from February 17th to February 24th. Josh will be running SA Tightened'Reas Los Santos%. Visit https://esamarathon.com/schedule to see when exactly the run will be in your time-zone.</response>
+			<response>ESA (European Speedrunner Assembly) Winter 24 takes place February 17th-24th. Josh will be running SA Tightened'reas Los Santos%. See the schedule at https://esamarathon.com/schedule and watch at https://www.twitch.tv/ESAMarathon</response>
 		</responses>
 	</command> -->
 
@@ -702,9 +703,72 @@
 			</group>
 		</unwantedwords>
 		<responses>
-			<response>The first ever Norway Speedrunner Gathering marathon is taking place in Ask (Near Oslo) from 16-17th March. Josh is doing the final run. https://nsgmarathon.com/</response>
+			<response>The first ever NSG (Norway Speedrunner Gathering) marathon is taking place March 16-17th in Ask (Near Oslo). Josh will be running SA 69/70 USJs, the final run. See the schedule at https://oengus.io/marathon/NSGSpr24/schedule and watch at https://www.twitch.tv/NSGMarathon</response>
 		</responses>
 	</command> -->
+
+	<command>
+		<name>UKSG when</name>
+		<maxWords>15</maxWords>
+		<requiredwords>
+			<group>
+				<word>what</word>
+				<word>where</word>
+				<word>link</word>
+				<word wholeword="true">bot</word>
+				<word>botimuz</word>
+				<word>when</word>
+				<word>how soon</word>
+				<word>how long</word>
+			</group>
+			<group>
+				<word wholeword="true">uksg</word>
+				<word startsWith="true">!uksg</word>
+			</group>
+		</requiredwords>
+		<unwantedwords>
+			<group>
+				<word>watch</word>
+				<word>saw</word>
+				<word>run</word>
+			</group>
+		</unwantedwords>
+		<responses>
+			<response>UKSG (United Kingdom Speedrunner Gathering) takes place May 25th-26th in Glasgow, Scotland. Josh will be running SA NMG on PS2 and possibly Tightened'reas Badlands + SF. See the schedule at https://oengus.io/marathon/uksggre24/schedule and watch at https://www.twitch.tv/UKSG_Marathon</response>
+		</responses>
+	</command>
+
+	<command>
+		<name>GTAM when</name>
+		<maxWords>15</maxWords>
+		<requiredwords>
+			<group>
+				<word>what</word>
+				<word>where</word>
+				<word>link</word>
+				<word wholeword="true">bot</word>
+				<word>botimuz</word>
+				<word>when</word>
+				<word>how soon</word>
+				<word>how long</word>
+			</group>
+			<group>
+				<word wholeword="true">gtam</word>
+				<word wholeword="true">gtamarathon</word>
+				<word startsWith="true">!gtam</word>
+			</group>
+		</requiredwords>
+		<unwantedwords>
+			<group>
+				<word>watch</word>
+				<word>saw</word>
+				<word>run</word>
+			</group>
+		</unwantedwords>
+		<responses>
+			<response>GTAMarathon is the GTA speedrunning community's yearly speedrun marathon, which Josh will be in doing runs and tech. It takes place June 1st-9th. See the schedule at https://oengus.io/marathon/gtam2024/schedule and watch at https://www.twitch.tv/GTAMarathon</response>
+		</responses>
+	</command>
 
 <!-- 	<command>
 		<name>Buy viewers ban</name>
