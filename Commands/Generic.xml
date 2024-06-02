@@ -751,11 +751,14 @@
 				<word>when</word>
 				<word>how soon</word>
 				<word>how long</word>
+				<word startsWith="true">!gtam</word>
+				<word startsWith="true">!gta marathon</word>
 			</group>
 			<group>
 				<word wholeword="true">gtam</word>
-				<word wholeword="true">gtamarathon</word>
 				<word startsWith="true">!gtam</word>
+				<word startsWith="true">!gta marathon</word>
+				<word>gta m</word>
 			</group>
 		</requiredwords>
 		<unwantedwords>
@@ -766,7 +769,7 @@
 			</group>
 		</unwantedwords>
 		<responses>
-			<response>GTAMarathon is the GTA speedrunning community's yearly speedrun marathon, which Josh will be in doing runs and tech. It takes place June 1st-9th. See the schedule at https://oengus.io/marathon/gtam2024/schedule and watch at https://www.twitch.tv/GTAMarathon</response>
+			<response>GTAMarathon is the GTA speedrunning community's yearly speedrun marathon happening RIGHT NOW which Josh will be in doing runs and tech. Schedule: https://oengus.io/marathon/gtam2024/schedule Watch: https://www.twitch.tv/GTAMarathon</response>
 		</responses>
 	</command>
 
