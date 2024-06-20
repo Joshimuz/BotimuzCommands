@@ -828,7 +828,7 @@
 	</command>
 
 	<command>
-		<name>Random Tech Issue</name>
+		<name>Random Tech Issue Mods</name>
 		<maxWords>20</maxWords>
 		<requiredWords>
 			<group>
@@ -842,13 +842,27 @@
 				<word>which</word>
 			</group>
 			<group>
-				<word wholeword="true">tech issue</word>
+				<word>tech issue</word>
 			</group>
 		</requiredWords>
 		<responses data0="RandomTextFileLine" string0="C:\Users\Joshimuz\Documents\GitHub\BotimuzCommands\Tech Issues.txt">
-			<response>:joshTechIssue: Please wait for the stream to start/continue. We're currently experiencing tech issues because [0] :joshTechIssue:</response>
+			<response>joshTechIssue Please wait for the stream to start/continue. We're currently experiencing tech issues because [0] joshTechIssue</response>
 		</responses>
 		<modonly>true</modonly>
+	</command>
+
+	<command>
+		<name>Random Tech Issue Repeated</name>
+		<maxWords>3</maxWords>
+		<requiredWords>
+			<group>
+				<word>joshTechIssue</word>
+			</group>
+		</requiredWords>
+		<responses data0="RandomTextFileLine" string0="C:\Users\Joshimuz\Documents\GitHub\BotimuzCommands\Tech Issues.txt" usename="false">
+			<response>joshTechIssue Please wait for the stream to start/continue. We're currently experiencing tech issues because [0] joshTechIssue</response>
+		</responses>
+		<requiredRepeatAmount>3</requiredRepeatAmount>
 	</command>
 	
 	<!-- Keep this at the bottom. -->
