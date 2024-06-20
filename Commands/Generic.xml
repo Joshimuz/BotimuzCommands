@@ -833,22 +833,19 @@
 		<requiredWords>
 			<group>
 				<word wholeword="true">bot</word>
-				<word>i was</word>
-				<word>been out</word>
 				<word>botimuz</word>
 			</group>
 			<group>
 				<word>why</word>
 				<word>what</word>
 				<word>how</word>
-				<word>out</word>
-				<word>left</word>
+				<word>which</word>
 			</group>
 			<group>
 				<word wholeword="true">tech issue</word>
 			</group>
 		</requiredWords>
-		<responses data0="RandomTextFileLine" string0="C:\Users\Joshimuz\Documents\GitHub\BotimuzCommands\Tech Issues.txt" data1="RandomTextFileLine"
+		<responses data0="RandomTextFileLine" string0="C:\Users\Joshimuz\Documents\GitHub\BotimuzCommands\Tech Issues.txt">
 			<response>:joshTechIssue: Please wait for the stream to start/continue. We're currently experiencing tech issues because [0] :joshTechIssue:</response>
 		</responses>
 		<modonly>true</modonly>
