@@ -350,6 +350,7 @@
 				<word>head out</word>
 				<word>i was</word>
 				<word>been out</word>
+				<word>came back</word>
 			</group>
 			<group>
 				<word>why</word>
@@ -372,6 +373,7 @@
 		<unwantedwords>
 			<group>
 				<word>leftover</word>
+				<word>have time</word>
 			</group>
 		</unwantedwords>
 		<responses data0="RandomTextFileLine" string0="C:\Users\Joshimuz\Documents\GitHub\BotimuzCommands\Left Reasons.txt" data1="RandomTextFileLine" string1="C:\Users\Joshimuz\Documents\GitHub\BotimuzCommands\SA Reset Reasons.txt">
