@@ -827,6 +827,30 @@
 		</responses>
 	</command>
 
+	<command>
+		<name>Random Tech Issue</name>
+		<maxWords>20</maxWords>
+		<requiredWords>
+			<group>
+				<word wholeword="true">bot</word>
+				<word>botimuz</word>
+			</group>
+			<group>
+				<word>why</word>
+				<word>what</word>
+				<word>how</word>
+				<word>which</word>
+			</group>
+			<group>
+				<word wholeword="true">tech issue</word>
+			</group>
+		</requiredWords>
+		<responses data0="RandomTextFileLine" string0="C:\Users\Joshimuz\Documents\GitHub\BotimuzCommands\Tech Issues.txt">
+			<response>:joshTechIssue: Please wait for the stream to start/continue. We're currently experiencing tech issues because [0] :joshTechIssue:</response>
+		</responses>
+		<modonly>true</modonly>
+	</command>
+	
 	<!-- Keep this at the bottom. -->
 	<command>
 		<name>Good Bot</name>
