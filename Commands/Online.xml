@@ -8,6 +8,7 @@
 			<response>botimu2Red</response>
 			<response>botimu2Glod</response>
 			<response>joshAngery</response>
+			<response>joshApproves</response>
 			<response>joshBarksAtKitty</response>
 			<response>joshChair</response>
 			<response>joshCJPlz</response>
@@ -20,10 +21,12 @@
 			<response>joshGlodmek</response>
 			<response>joshIsFine</response>
 			<response>joshLuL</response>
+			<response>joshMuhTyre</response>
 			<response>joshO</response>
 			<response>joshOMG</response>
 			<response>joshOOO</response>
 			<response>joshPaw</response>
+			<response>joshPls</response>
 			<response>joshPrpl</response>
 			<response>joshRing</response>
 			<response>joshRingRing</response>
@@ -34,15 +37,16 @@
 			<response>joshSleeper</response>
 			<response>joshSss</response>
 			<response>joshTechIssue</response>
-			<response>joshTyrePop</response>
 			<response>joshVegetation</response>
 			<!--response>joshWalkies</response-->
 			<response>joshWave</response>
 			<response>joshWICKED</response>
 			<response>joshWink</response>
 			<response>joshWithIt</response>
+			<response>joshWrap</response>
 			<response>joshWut</response>
 			<response>joshDoneQuick</response>
+			<response>joshYay</response>
 		</responses>
 		<dataTrigger type="timer">1800-3600</dataTrigger>
 	</command>
