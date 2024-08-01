@@ -643,7 +643,7 @@
 		</responses>
 	</command>
 
-	<command>
+	<!--<command>
 		<name>ESA when</name>
 		<maxWords>15</maxWords>
 		<requiredwords>
@@ -672,7 +672,7 @@
 		<responses>
 			<response>ESA (European Speedrunner Assembly) Summer 24 takes place July 20th-27th. Josh will be running SA NMG on PS2 and possibly Tightened'reas Badlands + SF. See the schedule at https://esamarathon.com/schedule and watch at https://www.twitch.tv/ESAMarathon</response>
 		</responses>
-	</command>
+	</command>-->
 
 	<!-- <command>
 		<name>NSG when</name>
@@ -707,7 +707,7 @@
 		</responses>
 	</command> -->
 
-	<command>
+	<!--<command>
 		<name>UKSG when</name>
 		<maxWords>15</maxWords>
 		<requiredwords>
@@ -736,9 +736,9 @@
 		<responses>
 			<response>UKSG (United Kingdom Speedrunner Gathering) takes place May 25th-26th in Glasgow, Scotland. Josh will be running SA Tightened'reas Los Santos. See the schedule at https://oengus.io/marathon/uksggre24/schedule and watch at https://www.twitch.tv/UKSG_Marathon</response>
 		</responses>
-	</command>
+	</command>-->
 
-	<command>
+	<!--<command>
 		<name>GTAM when</name>
 		<maxWords>15</maxWords>
 		<requiredwords>
@@ -771,7 +771,7 @@
 		<responses>
 			<response>GTAMarathon is the GTA speedrunning community's yearly speedrun marathon happening RIGHT NOW which Josh will be in doing runs and tech. Schedule: https://oengus.io/marathon/gtam2024/schedule Watch: https://www.twitch.tv/GTAMarathon</response>
 		</responses>
-	</command>
+	</command>-->
 
 	<!-- <command>
 		<name>Buy viewers ban</name>
