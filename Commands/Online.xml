@@ -1,12 +1,5 @@
 <commands version="1">
 	<command>
-		<name>Timed Coins Link Temp</name>
-		<responses usename="false">
-			<response>If you want to buy coins, do so directly through Crowd Control. https://interact.crowdcontrol.live/#/twitch/22680841 That way you don't pay extra for Twitch's cut.</response>
-		</responses>
-		<dataTrigger type="timer">600-900</dataTrigger>
-	</command>
-	<command>
 		<name>Timed Emote Spam</name>
 		<responses usename="false">
 			<response>botimu2Bot</response>
