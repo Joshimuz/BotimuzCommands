@@ -480,7 +480,7 @@
 		</responses>
 	</command>
 
-	<!--<command>
+	<command>
 		<name>WHEN JDQ</name>
 		<maxWords>15</maxWords>
 		<requiredwords>
@@ -513,11 +513,9 @@
 			</group>
 		</unwantedwords>
 		<responses>
-			<response>Josh Done Quick is a five day solo marathon run by Josh. You can find the schedule here: https://horaro.org/jdq/22</response>
+			<response>Josh Done Quick is a five day solo marathon run by Josh! Schedule to be released soon, but it'll take place in September!</response>
 		</responses>
 	</command>
-
--->
 
 	<!--<command>
 		<name>JDQ schedule</name>
