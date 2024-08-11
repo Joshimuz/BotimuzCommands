@@ -12,8 +12,7 @@
 			</group>
 			<group>
 				<word wholeword="true">no</word>
-				<word>don't</word>
-				<word>dont</word>
+				<word>don</word> <!-- This looks silly but makes it work with don't and dont, and sometimes people use the wrong ' in don't -->
 				<word wholeword="true">is</word>
 				<word>isn't</word>
 				<word>isnt</word>
