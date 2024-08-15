@@ -21,7 +21,7 @@
 			<response>iRacing is not VR-only. You can play/race with monitors and either mouse + keyboard, gamepad or wheel (but you should probably use a wheel).</response>
 		</responses>
 	</command>
-<!-- 	<command>
+ 	<command>
 		<name>referral link</name>
 		<maxWords>15</maxWords>
 		<requiredwords>
@@ -38,9 +38,16 @@
 			</group>
 		</requiredwords>
 		<responses>
-			<response>Want to give iRacing a try? Join with Josh's referral code: https://members.iracing.com/membersite/SubscriptionChoices.do?refid=278582 (also find an active discount code on the iRacing subreddit)</response>
+			<response>Want to give iRacing a try? Join with Josh's referral code: https://members.iracing.com/membersite/SubscriptionChoices.do?refid=278582</response>
 		</responses>
-	</command> -->
+	</command>
+	<command>
+		<name>timed referral</name>
+		<responses>
+			<response>Want to give iRacing a try? Join with Josh's referral code: https://members.iracing.com/membersite/SubscriptionChoices.do?refid=278582</response>
+		</responses>
+		<dataTrigger type="timer">1800-3600</dataTrigger>
+	</command>
 	<command>
 		<name>AI or person</name>
 		<maxWords>15</maxWords>
