@@ -6,12 +6,17 @@
 			<group>
 				<word wholeword="true">bot</word>
 				<word>botimuz</word>
+				<word>what</word>
+				<word>where</word>
+				<word>give</word>
+				<word>!schedule</word>
 			</group>
 			<group>
 				<word>schedule</word>
 				<word>link</word>
 				<word>pastebin</word>
-				<word>what</word>
+				<word>horaro</word>
+				<word>!schedule</word>
 			</group>
 		</requiredwords>
 		<unwantedwords>
