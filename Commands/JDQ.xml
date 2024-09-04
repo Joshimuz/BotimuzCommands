@@ -4,21 +4,14 @@
 		<maxWords>15</maxWords>
 		<requiredwords>
 			<group>
-				<word>plan</word>
-				<word wholeword="true">when</word>
-				<word wholeword="true">will</word>
-				<word>are you</word>
 				<word wholeword="true">bot</word>
 				<word>botimuz</word>
+			</group>
+			<group>
 				<word>schedule</word>
 				<word>link</word>
 				<word>pastebin</word>
 				<word>what</word>
-			</group>
-			<group>
-				<word>joshdonequick</word>
-				<word>josh done quick</word>
-				<word wholeword="true">jdq</word>
 			</group>
 		</requiredwords>
 		<unwantedwords>
