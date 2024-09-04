@@ -17,6 +17,22 @@
   </commandcollection>
 
   <commandcollection>
+    <name>Josh Done Quick</name>
+    <channelname>Joshimuz</channelname>
+    <requiredtitlewords>
+      <group>
+        <word>Josh Done Quick Six</word>
+      </group>
+    </requiredtitlewords>
+    <commandlists>
+      <name>Generic</name>
+      <name>Online</name>
+      <name>JDQ</name>
+    </commandlists>
+    <streamstatus>online</streamstatus>
+  </commandcollection>
+
+  <commandcollection>
     <name>PS2 SA Any% NMG</name>
     <channelname>Joshimuz</channelname>
     <requiredtitlewords>

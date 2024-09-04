@@ -1,0 +1,83 @@
+<commands version="1">
+	<command>
+		<name>Schedule</name>
+		<maxWords>15</maxWords>
+		<requiredwords>
+			<group>
+				<word>plan</word>
+				<word wholeword="true">when</word>
+				<word wholeword="true">will</word>
+				<word>are you</word>
+				<word wholeword="true">bot</word>
+				<word>botimuz</word>
+				<word>schedule</word>
+				<word>link</word>
+				<word>pastebin</word>
+				<word>what</word>
+			</group>
+			<group>
+				<word>joshdonequick</word>
+				<word>josh done quick</word>
+				<word wholeword="true">jdq</word>
+			</group>
+		</requiredwords>
+		<unwantedwords>
+			<group>
+				<word>watch</word>
+				<word>saw</word>
+				<word>version</word>
+				<word>wants</word>
+				<word>played</word>
+				<word>playing</word>
+				<word wholeword="true">esa</word>
+			</group>
+		</unwantedwords>
+		<responses>
+			<response>joshDoneQuick Josh Done Quick is a five day solo marathon run by Josh! Schedule and details: https://horaro.org/jdq/six joshDoneQuick</response>
+		</responses>
+		<dataTrigger type="timer">600-720</dataTrigger>
+	</command>
+
+	<command>
+		<name>Stickers</name>
+		<maxWords>15</maxWords>
+		<requiredwords>
+			<group>
+				<word wholeword="true">bot</word>
+				<word>botimuz</word>
+				<word>what</word>
+				<word>how</word>
+			</group>
+			<group>
+				<word>prize</word>
+				<word>sticker</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response>Donate at least £10 in one go to be entered to win a pack of Joshimuz stickers! Details: https://horaro.org/jdq/six</response>
+		</responses>
+		<dataTrigger type="timer">1200-1440</dataTrigger>
+	</command>
+
+	<command>
+		<name>Bidwar</name>
+		<maxWords>15</maxWords>
+		<requiredwords>
+			<group>
+				<word wholeword="true">bot</word>
+				<word>botimuz</word>
+				<word>what</word>
+				<word>how</word>
+			</group>
+			<group>
+				<word>bidwar</word>
+				<word>chaos mod</word>
+				<word>chat voted</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response>Donate with either #Random or #ChatVoted in your message to put your money towards the final run bidwar! Details: https://horaro.org/jdq/six</response>
+		</responses>
+		<dataTrigger type="timer">1200-1440</dataTrigger>
+	</command>
+</commands>
