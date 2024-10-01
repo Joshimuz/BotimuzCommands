@@ -228,4 +228,27 @@
 			<response>It's a solar eclipse! Very rare! Kappa</response>
 		</responses>
 	</command>
+	<command>
+		<name>Running Dog X3</name>
+		<maxWords>15</maxWords>
+		<cooldown>5</cooldown>
+		<requiredwords>
+			<group>
+				<word>why</word>
+				<word wholeword="true">y</word>
+				<word>what</word>
+				<word>wtf</word>
+				<word>botimuz</word>
+				<word wholeword="true">bot</word>
+			</group>
+			<group>
+				<word>running dog</word>
+				<word>early bloodbowl</word>
+				<word>early katie</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response>Josh is currently testing a new strat by 3G2J, using Bloodbowl to 3X Instapass Running Dog. This skips every Big Smoke mission and allows you to date katie early, it's unclear yet if this is faster.</response>
+		</responses>
+	</command>
 </commands>
