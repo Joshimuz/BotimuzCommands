@@ -1084,4 +1084,24 @@
 		</responses>
 	</command>
 
+	<command>
+		<name>Why tilt</name>
+		<requiredwords>
+			<group>
+				<word wholeword="true">bot</word>
+				<word>why</word>
+				<word wholeWord="true">is the</word>
+				<word>are the</word>
+			</group>
+			<group>
+				<word>tilt</word>
+				<word>slant</word>
+				<word>crooked</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response>✫彡 Aesthetics ミ✫</response>
+		</responses>
+	</command>
+
 </commands>
