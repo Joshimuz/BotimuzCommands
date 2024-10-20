@@ -92,6 +92,33 @@
   </commandcollection>
 
   <commandcollection>
+    <name>SA RetroAchievements</name>
+    <channelname>Joshimuz</channelname>
+    <requiredtitlewords>
+      <group>
+        <word>Achievement</word>
+      </group>
+    </requiredtitlewords>
+    <unwantedtitlewords>
+      <group>
+        <word>nmg</word>
+        <word>any%</word>
+        <word>69/70</word>
+        <word>USJ</word>
+      </group>
+    </unwantedtitlewords>
+    <gamename>Grand Theft Auto: San Andreas</gamename>
+    <commandlists>
+      <name>Generic</name>
+      <name>Online</name>
+      <name>GTA</name>
+      <name>PS2Emu</name>
+      <name>RetroAchievements</name>
+    </commandlists>
+    <streamstatus>online</streamstatus>
+  </commandcollection>
+
+  <commandcollection>
     <name>Chaos Mod</name>
     <channelname>Joshimuz</channelname>
     <requiredtitlewords>

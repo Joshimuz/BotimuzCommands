@@ -1,0 +1,105 @@
+<commands version="1">
+	<command>
+		<name>What RetroAchievements</name>
+		<requiredwords>
+			<group>
+				<word>what</word>
+				<word>botimuz</word>
+				<word wholeword="true">bot</word>
+				<word>how</word>
+			</group>
+			<group>
+				<word>retro</word>
+				<word>have</word>
+				<word>is</word>
+			</group>
+			<group>
+				<word>achievement</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response>RetroAchievements is a community run achievement tracking tool for retro games: https://retroachievements.org/ You can see what achievements Josh has unlocked here: https://retroachievements.org/user/Joshimuz</response>
+		</responses>
+	</command>
+	<command>
+		<name>SA Achievements</name>
+		<requiredwords>
+			<group>
+				<word>what</word>
+				<word>botimuz</word>
+				<word wholeword="true">bot</word>
+				<word>list</word>
+			</group>
+			<group>
+				<word>SA</word>
+				<word>Andreas</word>
+			</group>
+			<group>
+				<word>achievement</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response>Here's the list of Achievements for GTA:SA https://retroachievements.org/game/2772 and all the ones Josh has unlocked here: https://retroachievements.org/user/Joshimuz</response>
+		</responses>
+	</command>
+	<command>
+		<name>Missable Achievements</name>
+		<requiredwords>
+			<group>
+				<word>what</word>
+				<word>botimuz</word>
+				<word wholeword="true">bot</word>
+				<word>list</word>
+			</group>
+			<group>
+				<word>missable</word>
+			</group>
+			<group>
+				<word>achievement</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response>There are 32 missable achievements for SA. Josh is keeping track of them but even if he misses one he can just speedrun the game up to that point again if he has to</response>
+		</responses>
+	</command>
+	<command>
+		<name>How long will this take?</name>
+		<requiredwords>
+			<group>
+				<word>how</word>
+				<word>botimuz</word>
+				<word wholeword="true">bot</word>
+			</group>
+			<group>
+				<word>long</word>
+				<word>time</word>
+			</group>
+			<group>
+				<word>take</word>
+				<word>finish</word>
+				<word>complete</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response>There are 32 missable achievements for SA. Josh is keeping track of them but even if he misses one he can just speedrun the game up to that point again if he has to</response>
+		</responses>
+	</command>
+	<command>
+		<name>Why PS2?</name>
+		<requiredwords>
+			<group>
+				<word>why</word>
+				<word>botimuz</word>
+				<word wholeword="true">bot</word>
+			</group>
+			<group>
+				<word>ps2</word>
+				<word>emu</word>
+				<word>not pc</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response>The RetroAchievements for GTA:SA only work on PCS2X (The PS2 emulator) and for the PS2 version of the game. There are no RetroAchievements for the PC version.</response>
+		</responses>
+	</command>
+</commands>
