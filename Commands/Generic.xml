@@ -1026,12 +1026,20 @@
 		<name>Discord Link</name>
 		<requiredwords>
 			<group>
-				<word>what</word>
-				<word>link</word>
 				<word wholeword="true">bot</word>
+                <word>where</word>
+                <word wholeWord="true">what</word>
+				<word>link</word>
+				<word startsWith="true">!discord</word>
 			</group>
 			<group>
-				<word wholeword="true">discord</word>
+				<word>josh</word>
+				<word>his</word>
+				<word>your</word>
+				<word startsWith="true">!discord</word>
+			</group>
+			<group>
+				<word>discord</word>
 			</group>
 		</requiredwords>
 		<responses>
@@ -1050,18 +1058,42 @@
 				<word startsWith="true">!twitter</word>
 			</group>
 			<group>
-				<word>joshs</word>
+				<word>josh</word>
 				<word>his</word>
 				<word>your</word>
 				<word startsWith="true">!twitter</word>
 			</group>
 			<group>
 				<word>twitter</word>
-				<word>social media</word>
 			</group>
 		</requiredwords>
 		<responses>
-			<response>https://twitter.com/joshimuz or if you want automated tweets when josh uploads a video/streams: https://twitter.com/botimuz</response>
+			<response>https://twitter.com/joshimuz</response>
+		</responses>
+	</command>
+
+	<command>
+		<name>!Bluesky</name>
+		<requiredwords>
+			<group>
+				<word wholeword="true">bot</word>
+                <word>where</word>
+                <word wholeWord="true">what</word>
+				<word>link</word>
+				<word startsWith="true">!bluesky</word>
+			</group>
+			<group>
+				<word>josh</word>
+				<word>his</word>
+				<word>your</word>
+				<word startsWith="true">!bluesky</word>
+			</group>
+			<group>
+				<word>bluesky</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response>https://bsky.app/profile/joshimuz.com</response>
 		</responses>
 	</command>
 
