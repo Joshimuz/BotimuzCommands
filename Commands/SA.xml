@@ -116,7 +116,7 @@
 			</group>
 		</requiredwords>
 		<responses>
-			<response>Josh uses the replays for two reasons, for making fade out shorter (only saves time with short replays) and for loading the vehicles in the replay (PCJ in Los Santos, Sultan/ZR/Elegy after Badlands)</response>
+			<response>Josh uses the replays for three reasons: to shorten fade-outs (only effective with short replays), to advance the time of day (necessary for certain missions and phone calls), and to load vehicles in the replay (PCJ in Los Santos, Sultan/ZR/Elegy after Badlands).</response>
 		</responses>
 	</command>
 	<command>
