@@ -113,6 +113,7 @@
 			<group>
 				<word wholeword="true">replay</word>
 				<word wholeword="true">replays</word>
+				<word>f3</word>
 			</group>
 		</requiredwords>
 		<responses>
