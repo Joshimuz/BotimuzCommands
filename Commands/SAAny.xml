@@ -269,7 +269,7 @@
 			</group>
 		</requiredwords>
 		<responses>
-			<response>Monster 8X leaves behind 7 copies of it's highscore boxes on the screen for the remainder of the run.</response>
+			<response>Monster 8X leaves behind 7 copies of its highscore boxes on the screen on top of each other for the remainder of the run.</response>
 		</responses>
 	</command>
 </commands>
