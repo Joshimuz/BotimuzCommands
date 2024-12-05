@@ -707,7 +707,7 @@
 		</responses>
 	</command> -->
 
-	<command>
+<!-- 	<command>
 		<name>UKSG when</name>
 		<maxWords>15</maxWords>
 		<requiredwords>
@@ -735,6 +735,38 @@
 		</unwantedwords>
 		<responses>
 			<response>UKSG (United Kingdom Speedrunner Gathering) takes place Oct 12th-13th in Glasgow, Scotland. Josh will be running SA Tightened'reas Badlands + San Fierro. See the schedule at https://oengus.io/marathon/uksgblue24/schedule/schedule and watch at https://www.twitch.tv/UKSG_Marathon</response>
+		</responses>
+	</command> -->
+
+	<command>
+		<name>GTU when</name>
+		<maxWords>15</maxWords>
+		<requiredwords>
+			<group>
+				<word>what</word>
+				<word>where</word>
+				<word>link</word>
+				<word wholeword="true">bot</word>
+				<word>botimuz</word>
+				<word>when</word>
+				<word>how soon</word>
+				<word>how long</word>
+				<word startsWith="true">!gtu</word>
+			</group>
+			<group>
+				<word wholeword="true">gtu</word>
+				<word startsWith="true">!gtuu</word>
+			</group>
+		</requiredwords>
+		<unwantedwords>
+			<group>
+				<word>watch</word>
+				<word>saw</word>
+				<word>run</word>
+			</group>
+		</unwantedwords>
+		<responses>
+			<response>Gaming Tuesday United is a weird name for some mini GTA Marathon that English Ben runs sometimes. Schedule: https://oengus.io/marathon/gtu2024/schedule/main Watch: https://www.twitch.tv/English_ben</response>
 		</responses>
 	</command>
 
