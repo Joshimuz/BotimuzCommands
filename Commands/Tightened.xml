@@ -9,12 +9,12 @@
 				<word wholeword="true">botimuz</word>
 				<word wholeword="true">bot</word>
 				<word wholeword="true">where</word>
-				<word wholeword="true">!tightened</word>
+				<word>!tightened</word>
 			</group>
 			<group>
 				<word wholeword="true">is</word>
 				<word wholeword="true">bot</word>
-				<word wholeword="true">!tightened</word>
+				<word>!tightened</word>
 			</group>
 			<group>
 				<word>tightened</word>
@@ -40,7 +40,7 @@
 				<word wholeword="true">bot</word>
 				<word wholeword="true">where</word>
 				<word wholeword="true">when</word>
-				<word wholeword="true">!download</word>
+				<word>!download</word>
 			</group>
 			<group>
 				<word>link</word>
@@ -55,7 +55,7 @@
 			<group>
 				<word wholeword="true">this</word>
 				<word wholeword="true">mod</word>
-				<word wholeword="true">!download</word>
+				<word>!download</word>
 			</group>
 		</requiredwords>
 		<responses>
