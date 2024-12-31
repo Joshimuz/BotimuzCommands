@@ -81,6 +81,31 @@
 		</responses>
 		<cooldown>5</cooldown>
 	</command>
+	<command>
+		<name>How to Join</name>
+		<maxWords>15</maxWords>
+		<requiredwords>
+			<group>
+				<word>how</word>
+				<word>do i</word>
+				<word>can i</word>
+				<word wholeword="true">bot</word>
+			</group>
+			<group>
+				<word wholeword="true">join</word>
+			</group>
+			<group>
+				<word wholeword="true">mta</word>
+				<word wholeword="true">mod</word>
+				<word wholeword="true">server</word>
+				<word>multi theft auto</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response>Use the MTA server address: mta.joshimuz.com</response>
+		</responses>
+		<cooldown>5</cooldown>
+	</command>
 	<!-- 	<command>
 		<name>What working on</name>
 		<maxWords>20</maxWords>
