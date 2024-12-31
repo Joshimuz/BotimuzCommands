@@ -1168,4 +1168,49 @@
 		</responses>
 	</command>
 
+	<command>
+		<name>Channel Points</name>
+		<requiredwords>
+			<group>
+				<word wholeword="true">bot</word>
+				<word>why</word>
+				<word>what</word>
+				<word>how</word>
+			</group>
+			<group>
+				<word>channel points</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response>Josh is testing out Channel Points! You can earn joshDosh by watching the channel, cheering or gifting a sub. Rewards are subject to change and will likely be more expensive in the future.</response>
+		</responses>
+	</command>
+
+	<command>
+		<name>Predicting</name>
+		<requiredwords>
+			<group>
+				<word wholeword="true">bot</word>
+				<word>why</word>
+				<word>can't</word>
+				<word>cannot</word>
+				<word>couldn't</word>
+			</group>
+			<group>
+				<word>can't</word>
+				<word>cannot</word>
+				<word>couldn't</word>
+			</group>
+			<group>
+				<word>predict</word>
+				<word>channel points</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response>Unfortunately, viewers from certain countries won't be able to Predict using joshDosh – although you can still participate in Spectator Mode. Or use a VPN joshWink</response>
+		</responses>
+	</command>
+
+	
+
 </commands>
