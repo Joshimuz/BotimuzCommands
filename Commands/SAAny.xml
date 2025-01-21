@@ -262,6 +262,7 @@
 				<word>what</word>
 				<word>wtf</word>
 				<word>botimuz</word>
+				<word>why</word>
 				<word wholeword="true">bot</word>
 			</group>
 			<group>
@@ -269,7 +270,7 @@
 			</group>
 		</requiredwords>
 		<responses>
-			<response>Monster 8X leaves behind 7 copies of its highscore boxes on the screen on top of each other for the remainder of the run.</response>
+			<response>Monster 8× used to leave 7 stacked copies of its highscore boxes behind we called Boxxy. Josh has implmented new strats which remove the boxes and therefore make the game not crash after the setup.</response>
 		</responses>
 	</command>
 </commands>
