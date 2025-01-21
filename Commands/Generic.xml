@@ -641,6 +641,37 @@
 			<response>life: noun, plural: lives. the condition that distinguishes organisms from inorganic objects and dead organisms, being manifested by growth through metabolism, reproduction, and the power of adaptation to environment through changes originating internally.</response>
 		</responses>
 	</command>
+	
+	<command>
+		<name>BSG when</name>
+		<maxWords>15</maxWords>
+		<requiredwords>
+			<group>
+				<word>what</word>
+				<word>where</word>
+				<word>link</word>
+				<word wholeword="true">bot</word>
+				<word>botimuz</word>
+				<word>when</word>
+				<word>how soon</word>
+				<word>how long</word>
+			</group>
+			<group>
+				<word wholeword="true">bsg</word>
+				<word startsWith="true">!bsg</word>
+			</group>
+		</requiredwords>
+		<unwantedwords>
+			<group>
+				<word>watch</word>
+				<word>saw</word>
+				<word>run</word>
+			</group>
+		</unwantedwords>
+		<responses>
+			<response>BSG (Benelux Speedrunner Gathering) Plus takes place 22nd Feb – 1st March. There will be two San Andreas runs, one by THE Joshimuz (PC Any%) and one by Halogen (Switch DE Any%). Josh will also play some Super Secret Game… See the schedule at https://bsgmarathon.com/schedule and watch at https://twitch.tv/bsg_marathon</response>
+		</responses>
+	</command>
 
 	<command>
 		<name>ESA when</name>
