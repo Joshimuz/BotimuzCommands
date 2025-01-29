@@ -801,7 +801,7 @@
 		</responses>
 	</command>
 
-	<!--<command>
+	<command>
 		<name>GTAM when</name>
 		<maxWords>15</maxWords>
 		<requiredwords>
@@ -832,9 +832,9 @@
 			</group>
 		</unwantedwords>
 		<responses>
-			<response>GTAMarathon is the GTA speedrunning community's yearly speedrun marathon happening RIGHT NOW which Josh will be in doing runs and tech. Schedule: https://oengus.io/marathon/gtam2024/schedule Watch: https://www.twitch.tv/GTAMarathon</response>
+			<response>GTAMarathon is the GTA speedrunning community's yearly speedrun marathon taking place April 7th-11th. Josh will be in doing runs and tech. More details here: https://gtamarathon.com/</response>
 		</responses>
-	</command>-->
+	</command>
 
 	<!-- <command>
 		<name>Buy viewers ban</name>
