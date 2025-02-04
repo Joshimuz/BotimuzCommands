@@ -448,13 +448,13 @@
 		<requiredwords>
 			<group>
 				<word>Come in, come in</word>
-				<word>Hey there</word>
+				<word>Hi there</word>
 				<word>Hey, hi, welcome</word>
 				<word>How exhilarating to have you visit, sir</word>
 				<word>Ooh, a customer</word>
 				<word>Welcome to my humble shop</word>
 				<word>Welcome, sir, welcome</word>
-				<word>Hello!</word>
+				<word>Hello</word>
 			</group>
 			<group>
 				<word startsWith="true">joshRomek</word>
@@ -462,13 +462,13 @@
 		</requiredwords>
 		<responses useName="false" forward="false">
 				<response>joshRomek Come in, come in joshRomek</response>
-				<response>joshRomek Hey there joshRomek</response>
+				<response>joshRomek Hi there joshRomek</response>
 				<response>joshRomek Hey, hi, welcome joshRomek</response>
 				<response>joshRomek How exhilarating to have you visit, sir joshRomek</response>
 				<response>joshRomek Ooh, a customer joshRomek</response>
 				<response>joshRomek Welcome to my humble shop joshRomek</response>
 				<response>joshRomek Welcome, sir, welcome joshRomek</response>
-				<response>joshRomek Hello~! joshRomek</response>
+				<response>joshRomek Hello~ joshRomek</response>
 		</responses>
 	</command>
 </commands>
