@@ -454,6 +454,7 @@
 				<word>Ooh, a customer</word>
 				<word>Welcome to my humble shop</word>
 				<word>Welcome, sir, welcome</word>
+				<word>Hello!</word>
 			</group>
 			<group>
 				<word startsWith="true">joshRomek</word>
@@ -467,7 +468,7 @@
 				<response>joshRomek Ooh, a customer joshRomek</response>
 				<response>joshRomek Welcome to my humble shop joshRomek</response>
 				<response>joshRomek Welcome, sir, welcome joshRomek</response>
-				<response>joshRomek Hello! joshRomek</response>
+				<response>joshRomek Hello~! joshRomek</response>
 		</responses>
 	</command>
 </commands>
