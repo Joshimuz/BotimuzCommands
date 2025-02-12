@@ -349,7 +349,7 @@
 				<word>looking</word>
 				<word>went to</word>
 				<word>i was</word>
-				<word>out</word>
+				<word wholeword="true">out</word>
 				<word wholeword="true">ad</word>
 				<word wholeword="true">ads</word>
 				<word>came back</word>
