@@ -477,7 +477,7 @@
 			</group>
 		</requiredwords>
 		<responses>
-			<response>Please use "!bet faq" to see the betting commands.</response>
+			<response>All race betting is done via Twitch's Predictions system.</response>
 		</responses>
 	</command>
 </commands>
