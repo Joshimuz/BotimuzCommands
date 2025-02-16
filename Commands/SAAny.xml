@@ -262,6 +262,7 @@
 				<word>what</word>
 				<word>wtf</word>
 				<word>botimuz</word>
+				<word>why</word>
 				<word wholeword="true">bot</word>
 			</group>
 			<group>
@@ -269,7 +270,7 @@
 			</group>
 		</requiredwords>
 		<responses>
-			<response>Monster 8X leaves behind 7 copies of its highscore boxes on the screen on top of each other for the remainder of the run.</response>
+			<response>Monster 8× leaves behind 7 copies of its highscore boxes on the screen on top of each other for the remainder of the run. Josh can remove the box and prevent the crash it can cause, but the strat for it is slow.</response>
 		</responses>
 	</command>
 </commands>

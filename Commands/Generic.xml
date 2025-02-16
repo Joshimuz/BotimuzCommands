@@ -641,6 +641,37 @@
 			<response>life: noun, plural: lives. the condition that distinguishes organisms from inorganic objects and dead organisms, being manifested by growth through metabolism, reproduction, and the power of adaptation to environment through changes originating internally.</response>
 		</responses>
 	</command>
+	
+	<command>
+		<name>BSG when</name>
+		<maxWords>15</maxWords>
+		<requiredwords>
+			<group>
+				<word>what</word>
+				<word>where</word>
+				<word>link</word>
+				<word wholeword="true">bot</word>
+				<word>botimuz</word>
+				<word>when</word>
+				<word>how soon</word>
+				<word>how long</word>
+			</group>
+			<group>
+				<word wholeword="true">bsg</word>
+				<word startsWith="true">!bsg</word>
+			</group>
+		</requiredwords>
+		<unwantedwords>
+			<group>
+				<word>watch</word>
+				<word>saw</word>
+				<word>run</word>
+			</group>
+		</unwantedwords>
+		<responses>
+			<response>BSG (Benelux Speedrunner Gathering) Plus takes place 22nd Feb – 1st March. There will be two San Andreas runs, one by THE Joshimuz (PC Any%) and one by Halogen (Switch DE Any%). Josh will also play some Super Secret Game… See the schedule at https://bsgmarathon.com/schedule and watch at https://twitch.tv/bsg_marathon</response>
+		</responses>
+	</command>
 
 	<command>
 		<name>ESA when</name>
@@ -770,7 +801,7 @@
 		</responses>
 	</command>
 
-	<!--<command>
+	<command>
 		<name>GTAM when</name>
 		<maxWords>15</maxWords>
 		<requiredwords>
@@ -801,9 +832,9 @@
 			</group>
 		</unwantedwords>
 		<responses>
-			<response>GTAMarathon is the GTA speedrunning community's yearly speedrun marathon happening RIGHT NOW which Josh will be in doing runs and tech. Schedule: https://oengus.io/marathon/gtam2024/schedule Watch: https://www.twitch.tv/GTAMarathon</response>
+			<response>GTAMarathon is the GTA speedrunning community's yearly speedrun marathon taking place April 7th-11th. Josh will be in doing runs and tech. More details here: https://gtamarathon.com/</response>
 		</responses>
-	</command>-->
+	</command>
 
 	<!-- <command>
 		<name>Buy viewers ban</name>
@@ -1167,5 +1198,50 @@
 			<response>✫彡 Aesthetics ミ✫</response>
 		</responses>
 	</command>
+
+	<command>
+		<name>Channel Points</name>
+		<requiredwords>
+			<group>
+				<word wholeword="true">bot</word>
+				<word>why</word>
+				<word>what</word>
+				<word>how</word>
+			</group>
+			<group>
+				<word>channel points</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response>Josh is testing out Channel Points! You can earn joshDosh by watching the channel, cheering or gifting a sub. Rewards are subject to change and will likely be more expensive in the future.</response>
+		</responses>
+	</command>
+
+	<command>
+		<name>Predicting</name>
+		<requiredwords>
+			<group>
+				<word wholeword="true">bot</word>
+				<word>why</word>
+				<word>can't</word>
+				<word>cannot</word>
+				<word>couldn't</word>
+			</group>
+			<group>
+				<word>can't</word>
+				<word>cannot</word>
+				<word>couldn't</word>
+			</group>
+			<group>
+				<word>predict</word>
+				<word>channel points</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response>Unfortunately, viewers from certain countries won't be able to Predict using joshDosh – although you can still participate in Spectator Mode. Or use a VPN joshWink</response>
+		</responses>
+	</command>
+
+	
 
 </commands>

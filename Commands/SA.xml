@@ -349,7 +349,9 @@
 				<word>looking</word>
 				<word>went to</word>
 				<word>i was</word>
-				<word>out</word>
+				<word wholeword="true">out</word>
+				<word wholeword="true">ad</word>
+				<word wholeword="true">ads</word>
 				<word>came back</word>
 			</group>
 			<group>
@@ -377,7 +379,7 @@
 			</group>
 		</unwantedwords>
 		<responses data0="RandomTextFileLine" string0="C:\Users\Joshimuz\Documents\GitHub\BotimuzCommands\Left Reasons.txt" data1="RandomTextFileLine" string1="C:\Users\Joshimuz\Documents\GitHub\BotimuzCommands\SA Reset Reasons.txt">
-			<response>While you [0] Josh reset because [1].</response>
+			<response>While you [0], Josh reset because [1].</response>
 		</responses>
 	</command>
 	<!--<command>
@@ -448,12 +450,13 @@
 		<requiredwords>
 			<group>
 				<word>Come in, come in</word>
-				<word>Hey there</word>
+				<word>Hi there</word>
 				<word>Hey, hi, welcome</word>
 				<word>How exhilarating to have you visit, sir</word>
 				<word>Ooh, a customer</word>
 				<word>Welcome to my humble shop</word>
 				<word>Welcome, sir, welcome</word>
+				<word>Hello</word>
 			</group>
 			<group>
 				<word startsWith="true">joshRomek</word>
@@ -461,13 +464,13 @@
 		</requiredwords>
 		<responses useName="false" forward="false">
 				<response>joshRomek Come in, come in joshRomek</response>
-				<response>joshRomek Hey there joshRomek</response>
+				<response>joshRomek Hi there joshRomek</response>
 				<response>joshRomek Hey, hi, welcome joshRomek</response>
 				<response>joshRomek How exhilarating to have you visit, sir joshRomek</response>
 				<response>joshRomek Ooh, a customer joshRomek</response>
 				<response>joshRomek Welcome to my humble shop joshRomek</response>
 				<response>joshRomek Welcome, sir, welcome joshRomek</response>
-				<response>joshRomek Hello! joshRomek</response>
+				<response>joshRomek Hello~ joshRomek</response>
 		</responses>
 	</command>
 </commands>
