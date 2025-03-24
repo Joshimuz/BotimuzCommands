@@ -738,7 +738,7 @@
 		</responses>
 	</command> -->
 
-` 	<command>
+ 	<command>
 		<name>UKSG when</name>
 		<maxWords>15</maxWords>
 		<requiredwords>
