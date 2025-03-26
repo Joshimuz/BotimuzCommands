@@ -111,9 +111,9 @@
 				<word>away</word>
 				<word>looking</word>
 				<word>went to</word>
-				<word>head out</word>
 				<word>i was</word>
-				<word>been out</word>
+				<word>out</word>
+				<word>came back</word>
 			</group>
 			<group>
 				<word>why</word>
@@ -122,6 +122,7 @@
 				<word>how</word>
 				<word wholeword="true">bot</word>
 				<word>botimuz</word>
+				<word>run</word>
 			</group>
 			<group>
 				<word>reset</word>

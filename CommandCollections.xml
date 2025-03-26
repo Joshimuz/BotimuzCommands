@@ -17,15 +17,67 @@
   </commandcollection>
 
   <commandcollection>
+    <name>Josh Done Quick</name>
+    <channelname>Joshimuz</channelname>
+    <requiredtitlewords>
+      <group>
+        <word>Josh Done Quick Six</word>
+      </group>
+    </requiredtitlewords>
+    <commandlists>
+      <name>Generic</name>
+      <name>Online</name>
+      <name>JDQ</name>
+    </commandlists>
+    <streamstatus>online</streamstatus>
+  </commandcollection>
+
+  <commandcollection>
+    <name>Tightened'Reas</name>
+    <channelname>Joshimuz</channelname>
+    <requiredtitlewords>
+      <group>
+        <word>Tightened</word>
+      </group>
+      <group>
+        <word>'Reas</word>
+      </group>    
+    </requiredtitlewords>
+    <unwantedtitlewords>
+      <group>
+        <word>69/70</word>
+        <word>USJ</word>
+      </group>
+    </unwantedtitlewords>
+    <gamename>Grand Theft Auto: San Andreas</gamename>
+    <commandlists>
+      <name>Generic</name>
+      <name>Online</name>
+      <name>GTA</name>
+      <name>SA</name>
+      <name>Tightened</name>
+    </commandlists>
+    <streamstatus>online</streamstatus>
+  </commandcollection>
+
+  <commandcollection>
     <name>PS2 SA Any% NMG</name>
     <channelname>Joshimuz</channelname>
     <requiredtitlewords>
       <group>
         <word>any% nmg</word>
         <word>no major glitches</word>
+      </group>
+      <group>
         <word>ps2</word>
       </group>
     </requiredtitlewords>
+    <unwantedtitlewords>
+      <group>
+        <word>69/70</word>
+        <word>USJ</word>
+      </group>
+    </unwantedtitlewords>
     <gamename>Grand Theft Auto: San Andreas</gamename>
     <commandlists>
       <name>Generic</name>
@@ -36,6 +88,63 @@
       <name>PS2</name>
     </commandlists>
     <speedruncategory>No Major Glitches</speedruncategory>
+    <streamstatus>online</streamstatus>
+  </commandcollection>
+  
+  <commandcollection>
+    <name>SA PS2 Misc Categories</name>
+    <channelname>Joshimuz</channelname>
+    <requiredtitlewords>
+      <group>
+        <word>69/70</word>
+        <word>USJ</word>
+      </group>
+      <group>
+        <word>ps2</word>
+      </group>
+    </requiredtitlewords>
+    <unwantedtitlewords>
+      <group>
+        <word>nmg</word>
+        <word>any%</word>
+      </group>
+    </unwantedtitlewords>
+    <gamename>Grand Theft Auto: San Andreas</gamename>
+    <commandlists>
+      <name>Generic</name>
+      <name>Online</name>
+      <name>GTA</name>
+      <name>SA</name>
+      <name>SAMisc</name>
+      <name>PS2</name>
+    </commandlists>
+    <streamstatus>online</streamstatus>
+  </commandcollection>
+
+  <commandcollection>
+    <name>SA RetroAchievements</name>
+    <channelname>Joshimuz</channelname>
+    <requiredtitlewords>
+      <group>
+        <word>Achievement</word>
+      </group>
+    </requiredtitlewords>
+    <unwantedtitlewords>
+      <group>
+        <word>nmg</word>
+        <word>any%</word>
+        <word>69/70</word>
+        <word>USJ</word>
+      </group>
+    </unwantedtitlewords>
+    <gamename>Grand Theft Auto: San Andreas</gamename>
+    <commandlists>
+      <name>Generic</name>
+      <name>Online</name>
+      <name>GTA</name>
+      <name>PS2Emu</name>
+      <name>RetroAchievements</name>
+    </commandlists>
     <streamstatus>online</streamstatus>
   </commandcollection>
 
@@ -133,34 +242,6 @@
       <name>GTA</name>
       <name>SA</name>
       <name>SAMisc</name>
-    </commandlists>
-    <streamstatus>online</streamstatus>
-  </commandcollection>
-
-  <commandcollection>
-    <name>Tightened'Reas</name>
-    <channelname>Joshimuz</channelname>
-    <requiredtitlewords>
-      <group>
-        <word>Tightened</word>
-        <word>'Reas</word>
-      </group>
-    </requiredtitlewords>
-    <unwantedtitlewords>
-      <group>
-        <word>nmg</word>
-        <word>any%</word>
-        <word>69/70</word>
-        <word>USJ</word>
-      </group>
-    </unwantedtitlewords>
-    <gamename>Grand Theft Auto: San Andreas</gamename>
-    <commandlists>
-      <name>Generic</name>
-      <name>Online</name>
-      <name>GTA</name>
-      <name>SA</name>
-      <name>Tightened</name>
     </commandlists>
     <streamstatus>online</streamstatus>
   </commandcollection>

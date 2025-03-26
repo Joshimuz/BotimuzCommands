@@ -69,7 +69,7 @@
 			</group>
 		</unwantedwords>
 		<responses>
-			<response>Josh is playing on a real PS2 using a PS4 controller (with PS2 Bluetooth Adapter). Video capture is via a RetroTink 5X (an analogue console upscaler). Emulators are fine for casual but not speedruns.</response>
+			<response>Josh is playing on an emulated PS2 (PCSX2) using a PS4 controller. Currently RetroAchievements only works on Emulators for PS2.</response>
 		</responses>
 	</command>
 	<command>
@@ -106,7 +106,7 @@
 			</group>
 		</unwantedwords>
 		<responses>
-			<response>Josh is playing on a real PS2 using a PS4 controller (with PS2 Bluetooth Adapter). Video capture is via a RetroTink 5X (an analogue console upscaler). Emulators are fine for casual but not speedruns.</response>
+			<response>Josh is playing on an emulated PS2 (PCSX2) using a PS4 controller. Currently RetroAchievements only works on Emulators for PS2.</response>
 		</responses>
 		<maxWords>1</maxWords>
 	</command>
@@ -131,7 +131,7 @@
 			</group>
 		</requiredwords>
 		<responses>
-			<response>The PS4 controller can output via Bluetooth and USB at the same time to two different devices, so Josh has it plugged into his PC for the input visualiser, and Bluetooth to the PS2  (with PS2 Bluetooth Adapter).</response>
+			<response>Normally Josh does fancy stuff for the controller input, but with an Emulator he can just take the input from the PC lol.</response>
 		</responses>
 	</command>
 </commands>

@@ -21,7 +21,7 @@
 			<response>iRacing is not VR-only. You can play/race with monitors and either mouse + keyboard, gamepad or wheel (but you should probably use a wheel).</response>
 		</responses>
 	</command>
-<!-- 	<command>
+ 	<command>
 		<name>referral link</name>
 		<maxWords>15</maxWords>
 		<requiredwords>
@@ -38,9 +38,16 @@
 			</group>
 		</requiredwords>
 		<responses>
-			<response>Want to give iRacing a try? Join with Josh's referral code: https://members.iracing.com/membersite/SubscriptionChoices.do?refid=278582 (also find an active discount code on the iRacing subreddit)</response>
+			<response>Want to give iRacing a try? Join with Josh's referral code: https://members.iracing.com/membersite/SubscriptionChoices.do?refid=278582</response>
 		</responses>
-	</command> -->
+	</command>
+	<command>
+		<name>timed referral</name>
+		<responses>
+			<response>Want to give iRacing a try? Join with Josh's referral code: https://members.iracing.com/membersite/SubscriptionChoices.do?refid=278582</response>
+		</responses>
+		<dataTrigger type="timer">1800-3600</dataTrigger>
+	</command>
 	<command>
 		<name>AI or person</name>
 		<maxWords>15</maxWords>
@@ -425,7 +432,7 @@
 			<response>iRating measures how fast you are compared to other drivers. You are matched up with drivers of similar iR. Safety Rating measures how safe you drive. Having good SR is prerequisite for getting higher class licenses.</response>
 		</responses>
 	</command>
-<!--<command>
+	<command>
 		<name>y bad mic</name>
 		<maxWords>15</maxWords>
 		<requiredwords>
@@ -453,5 +460,24 @@
 		<responses>
 			<response>Because of Josh's scuffed setup the only option for a microphone is the inbuilt HTC VIVE VR Headset one, which isn't the best. But it's either that or nothing.</response>
 		</responses>
-	</command> -->
+	</command>
+	<command>
+		<name>Bet Bot</name>
+		<maxWords>15</maxWords>
+		<requiredwords>
+			<group>
+				<word>how</word>
+				<word wholeword="true">bot</word>
+				<word>botimuz</word>
+				<word>what</word>
+			</group>
+			<group>
+				<word wholeword="true">bet</word>
+				<word wholeword="true">betting</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response>All race betting is done via Twitch's Predictions system.</response>
+		</responses>
+	</command>
 </commands>

@@ -1,4 +1,4 @@
-﻿<commands version="1">
+<commands version="1">
 	<!-- DISABLED because speedrun.com api issues
 	<command>
 		<name>What is WR</name>
@@ -278,7 +278,7 @@
 			</group>
 		</unwantedwords>
 		<responses>
-			<response>Josh is a co-host of The Choking Hazard Podcast which is live every 4th-ish Saturday at 5pm-ish UK time at: https://www.twitch.tv/broughy1322 RSS feed: https://thechokinghazardpodcast.simplecast.com/</response>
+			<response>Josh is a co-host of The Choking Hazard Podcast which is live every 4th-ish Saturday at 3pm-ish UK time at: https://www.twitch.tv/broughy1322 RSS feed: https://thechokinghazardpodcast.simplecast.com/</response>
 		</responses>
 	</command>
 
@@ -480,7 +480,7 @@
 		</responses>
 	</command>
 
-	<!--<command>
+<!-- 	<command>
 		<name>WHEN JDQ</name>
 		<maxWords>15</maxWords>
 		<requiredwords>
@@ -494,6 +494,7 @@
 				<word>schedule</word>
 				<word>link</word>
 				<word>pastebin</word>
+				<word>what</word>
 			</group>
 			<group>
 				<word>joshdonequick</word>
@@ -513,11 +514,9 @@
 			</group>
 		</unwantedwords>
 		<responses>
-			<response>Josh Done Quick is a five day solo marathon run by Josh. You can find the schedule here: https://horaro.org/jdq/22</response>
+			<response>Josh Done Quick is a five day solo marathon run by Josh! Starting 4th September! Full schedule https://horaro.org/jdq/six</response>
 		</responses>
-	</command>
-
--->
+	</command> -->
 
 	<!--<command>
 		<name>JDQ schedule</name>
@@ -642,8 +641,39 @@
 			<response>life: noun, plural: lives. the condition that distinguishes organisms from inorganic objects and dead organisms, being manifested by growth through metabolism, reproduction, and the power of adaptation to environment through changes originating internally.</response>
 		</responses>
 	</command>
+	
+	<command>
+		<name>BSG when</name>
+		<maxWords>15</maxWords>
+		<requiredwords>
+			<group>
+				<word>what</word>
+				<word>where</word>
+				<word>link</word>
+				<word wholeword="true">bot</word>
+				<word>botimuz</word>
+				<word>when</word>
+				<word>how soon</word>
+				<word>how long</word>
+			</group>
+			<group>
+				<word wholeword="true">bsg</word>
+				<word startsWith="true">!bsg</word>
+			</group>
+		</requiredwords>
+		<unwantedwords>
+			<group>
+				<word>watch</word>
+				<word>saw</word>
+				<word>run</word>
+			</group>
+		</unwantedwords>
+		<responses>
+			<response>BSG (Benelux Speedrunner Gathering) Plus takes place 22nd Feb – 1st March. There will be two San Andreas runs, one by THE Joshimuz (PC Any%) and one by Halogen (Switch DE Any%). Josh will also play some Super Secret Game… See the schedule at https://bsgmarathon.com/schedule and watch at https://twitch.tv/bsg_marathon</response>
+		</responses>
+	</command>
 
-<!-- 	<command>
+	<command>
 		<name>ESA when</name>
 		<maxWords>15</maxWords>
 		<requiredwords>
@@ -659,6 +689,7 @@
 			</group>
 			<group>
 				<word wholeword="true">esa</word>
+				<word startsWith="true">!esa</word>
 			</group>
 		</requiredwords>
 		<unwantedwords>
@@ -669,9 +700,10 @@
 			</group>
 		</unwantedwords>
 		<responses>
-			<response>ESA Winter 24 runs from February 17th to February 24th. Josh will be running SA Tightened'Reas Los Santos%. Visit https://esamarathon.com/schedule to see when exactly the run will be in your time-zone.</response>
+			<response>💀</response>
+			<!--<response>ESA (European Speedrunner Assembly) Summer 24 takes place July 20th-27th. Josh will be running SA NMG on PS2 and possibly Tightened'reas Badlands + SF. See the schedule at https://esamarathon.com/schedule and watch at https://www.twitch.tv/ESAMarathon</response>-->
 		</responses>
-	</command> -->
+	</command>
 
 	<!-- <command>
 		<name>NSG when</name>
@@ -702,11 +734,109 @@
 			</group>
 		</unwantedwords>
 		<responses>
-			<response>The first ever Norway Speedrunner Gathering marathon is taking place in Ask (Near Oslo) from 16-17th March. Josh is doing the final run. https://nsgmarathon.com/</response>
+			<response>The first ever NSG (Norway Speedrunner Gathering) marathon takes place March 16-17th in Ask (Near Oslo). Josh will be running SA 69/70 USJs, the final run. See the schedule at https://oengus.io/marathon/NSGSpr24/schedule and watch at https://www.twitch.tv/NSGMarathon</response>
 		</responses>
 	</command> -->
 
-<!-- 	<command>
+ 	<command>
+		<name>UKSG when</name>
+		<maxWords>15</maxWords>
+		<requiredwords>
+			<group>
+				<word>what</word>
+				<word>where</word>
+				<word>link</word>
+				<word wholeword="true">bot</word>
+				<word>botimuz</word>
+				<word>when</word>
+				<word>how soon</word>
+				<word>how long</word>
+			</group>
+			<group>
+				<word wholeword="true">uksg</word>
+				<word startsWith="true">!uksg</word>
+			</group>
+		</requiredwords>
+		<unwantedwords>
+			<group>
+				<word>watch</word>
+				<word>saw</word>
+				<word>run</word>
+			</group>
+		</unwantedwords>
+		<responses>
+			<response>UKSG (United Kingdom Speedrunner Gathering) takes place May 22nd-25th in Glasgow, Scotland. Josh will be running SA Tightened'Reas Las Venturas. See the schedule at https://oengus.io/marathon/uksggrn25/schedule/stream and watch at https://www.twitch.tv/UKSG_Marathon</response>
+		</responses>
+	</command>
+
+	<command>
+		<name>GTU when</name>
+		<maxWords>15</maxWords>
+		<requiredwords>
+			<group>
+				<word>what</word>
+				<word>where</word>
+				<word>link</word>
+				<word wholeword="true">bot</word>
+				<word>botimuz</word>
+				<word>when</word>
+				<word>how soon</word>
+				<word>how long</word>
+				<word startsWith="true">!gtu</word>
+			</group>
+			<group>
+				<word wholeword="true">gtu</word>
+				<word startsWith="true">!gtuu</word>
+			</group>
+		</requiredwords>
+		<unwantedwords>
+			<group>
+				<word>watch</word>
+				<word>saw</word>
+				<word>run</word>
+			</group>
+		</unwantedwords>
+		<responses>
+			<response>Gaming Tuesday United is a weird name for some mini GTA Marathon that English Ben runs sometimes. Schedule: https://oengus.io/marathon/gtu2024/schedule/main Watch: https://www.twitch.tv/English_ben</response>
+		</responses>
+	</command>
+
+	<command>
+		<name>GTAM when</name>
+		<maxWords>15</maxWords>
+		<requiredwords>
+			<group>
+				<word>what</word>
+				<word>where</word>
+				<word>link</word>
+				<word wholeword="true">bot</word>
+				<word>botimuz</word>
+				<word>when</word>
+				<word>how soon</word>
+				<word>how long</word>
+				<word startsWith="true">!gtam</word>
+				<word startsWith="true">!gta marathon</word>
+			</group>
+			<group>
+				<word wholeword="true">gtam</word>
+				<word startsWith="true">!gtam</word>
+				<word startsWith="true">!gta marathon</word>
+				<word>gta m</word>
+			</group>
+		</requiredwords>
+		<unwantedwords>
+			<group>
+				<word>watch</word>
+				<word>saw</word>
+				<word>run</word>
+			</group>
+		</unwantedwords>
+		<responses>
+			<response>GTAMarathon is the GTA speedrunning community's yearly speedrun marathon taking place April 7th-11th. Josh will be in doing runs and tech. More details here: https://gtamarathon.com/</response>
+		</responses>
+	</command>
+
+	<!-- <command>
 		<name>Buy viewers ban</name>
 		<requiredwords>
 			<group>
@@ -760,6 +890,44 @@
 		</responses>
 	</command>
 
+	<command>
+		<name>Random Tech Issue Mods</name>
+		<maxWords>20</maxWords>
+		<requiredWords>
+			<group>
+				<word wholeword="true">bot</word>
+				<word>botimuz</word>
+			</group>
+			<group>
+				<word>why</word>
+				<word>what</word>
+				<word>how</word>
+				<word>which</word>
+			</group>
+			<group>
+				<word>tech issue</word>
+			</group>
+		</requiredWords>
+		<responses data0="RandomTextFileLine" string0="C:\Users\Joshimuz\Documents\GitHub\BotimuzCommands\Tech Issues.txt">
+			<response>joshTechIssue Please wait for the stream to start/continue. We're currently experiencing tech issues because [0] joshTechIssue</response>
+		</responses>
+		<modonly>true</modonly>
+	</command>
+
+	<command>
+		<name>Random Tech Issue Repeated</name>
+		<maxWords>3</maxWords>
+		<requiredWords>
+			<group>
+				<word>joshTechIssue</word>
+			</group>
+		</requiredWords>
+		<responses data0="RandomTextFileLine" string0="C:\Users\Joshimuz\Documents\GitHub\BotimuzCommands\Tech Issues.txt" usename="false">
+			<response>joshTechIssue Please wait for the stream to start/continue. We're currently experiencing tech issues because [0] joshTechIssue</response>
+		</responses>
+		<requiredRepeatAmount>3</requiredRepeatAmount>
+	</command>
+	
 	<!-- Keep this at the bottom. -->
 	<command>
 		<name>Good Bot</name>
@@ -921,12 +1089,20 @@
 		<name>Discord Link</name>
 		<requiredwords>
 			<group>
-				<word>what</word>
-				<word>link</word>
 				<word wholeword="true">bot</word>
+                <word>where</word>
+                <word wholeWord="true">what</word>
+				<word>link</word>
+				<word startsWith="true">!discord</word>
 			</group>
 			<group>
-				<word wholeword="true">discord</word>
+				<word>josh</word>
+				<word>his</word>
+				<word>your</word>
+				<word startsWith="true">!discord</word>
+			</group>
+			<group>
+				<word>discord</word>
 			</group>
 		</requiredwords>
 		<responses>
@@ -945,18 +1121,42 @@
 				<word startsWith="true">!twitter</word>
 			</group>
 			<group>
-				<word>joshs</word>
+				<word>josh</word>
 				<word>his</word>
 				<word>your</word>
 				<word startsWith="true">!twitter</word>
 			</group>
 			<group>
 				<word>twitter</word>
-				<word>social media</word>
 			</group>
 		</requiredwords>
 		<responses>
-			<response>https://twitter.com/joshimuz or if you want automated tweets when josh uploads a video/streams: https://twitter.com/botimuz</response>
+			<response>https://twitter.com/joshimuz</response>
+		</responses>
+	</command>
+
+	<command>
+		<name>!Bluesky</name>
+		<requiredwords>
+			<group>
+				<word wholeword="true">bot</word>
+                <word>where</word>
+                <word wholeWord="true">what</word>
+				<word>link</word>
+				<word startsWith="true">!bluesky</word>
+			</group>
+			<group>
+				<word>josh</word>
+				<word>his</word>
+				<word>your</word>
+				<word startsWith="true">!bluesky</word>
+			</group>
+			<group>
+				<word>bluesky</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response>https://bsky.app/profile/joshimuz.com</response>
 		</responses>
 	</command>
 
@@ -978,5 +1178,70 @@
 			<response>Commands can be found on Github: https://github.com/Joshimuz/BotimuzCommands</response>
 		</responses>
 	</command>
+
+	<command>
+		<name>Why tilt</name>
+		<requiredwords>
+			<group>
+				<word wholeword="true">bot</word>
+				<word>why</word>
+				<word wholeWord="true">is the</word>
+				<word>are the</word>
+			</group>
+			<group>
+				<word>tilt</word>
+				<word>slant</word>
+				<word>crooked</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response>✫彡 Aesthetics ミ✫</response>
+		</responses>
+	</command>
+
+	<command>
+		<name>Channel Points</name>
+		<requiredwords>
+			<group>
+				<word wholeword="true">bot</word>
+				<word>why</word>
+				<word>what</word>
+				<word>how</word>
+			</group>
+			<group>
+				<word>channel points</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response>Josh is testing out Channel Points! You can earn joshDosh by watching the channel, cheering or gifting a sub. Rewards are subject to change and will likely be more expensive in the future.</response>
+		</responses>
+	</command>
+
+	<command>
+		<name>Predicting</name>
+		<requiredwords>
+			<group>
+				<word wholeword="true">bot</word>
+				<word>why</word>
+				<word>can't</word>
+				<word>cannot</word>
+				<word>couldn't</word>
+			</group>
+			<group>
+				<word>can't</word>
+				<word>cannot</word>
+				<word>couldn't</word>
+			</group>
+			<group>
+				<word>predict</word>
+				<word>channel points</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response>Unfortunately, viewers from certain countries won't be able to Predict using joshDosh – although you can still participate in Spectator Mode. Or use a VPN joshWink</response>
+		</responses>
+	</command>
+
+	
 
 </commands>

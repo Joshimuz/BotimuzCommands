@@ -12,12 +12,12 @@
 			</group>
 		</requiredwords>
 		<responses>
-			<response>PROLaps are driving an LMP2 - the middle class, faster than GT3, slower than LMDh</response>
+			<response>PROLaps Motorsport are driving the Dallara P217 LMP2. They are the middle class car.</response>
 		</responses>
 	</command>
 
 	<command>
-		<name>When Josh Drive?</name>
+		<name>24h Schedule Link</name>
 		<maxWords>10</maxWords>
 		<requiredwords>
 			<group>
@@ -49,7 +49,7 @@
 			</group>
 		</requiredwords>
 		<responses>
-			<response>TIMES ARE IN UTC/GMT (WHICH IS DIFFERENT TO BST) AND ARE PROBABLY WRONG OK? http://petitlemans.haez.ee</response>
+			<response>Times are in UTC/GMT (which is different to BST) and might be wrong: http://lemans.haez.ee</response>
 		</responses>
 	</command>
 
@@ -72,7 +72,8 @@
 			</group>
 		</unwantedwords>
 		<responses>
-			<response>From fastest to slowest the classes are: 🟡 GTP/LMDH/LMP1 | 🔵 LMP2| 🔴 GT3</response>
+			<response>From fastest to slowest the classes are: 🟡 GTP/"LMP1" | 🔵 LMP2| 🔴 GT3</response>
+			<!--<response>From fastest to slowest the classes are: 🟡 GT3 | 🔵 Porsche Cup | 🔴 GT4 | 🟣 TCR | 🟢 GR86</response>-->
 		</responses>
 	</command>
 

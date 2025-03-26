@@ -9,10 +9,12 @@
 				<word wholeword="true">botimuz</word>
 				<word wholeword="true">bot</word>
 				<word wholeword="true">where</word>
+				<word>!tightened</word>
 			</group>
 			<group>
 				<word wholeword="true">is</word>
 				<word wholeword="true">bot</word>
+				<word>!tightened</word>
 			</group>
 			<group>
 				<word>tightened</word>
@@ -22,7 +24,7 @@
 			</group>
 		</requiredwords>
 		<responses>
-			<response>Josh is playing DinosaurBytes' "Tightened'Reas" hard mode mod designed for speedrunners. He's running Los Santos% at ESA Winter 24. It's not publicly available yet.</response>
+			<response>Josh is playing DinosaurBytes' "Tightened'Reas" hard mode mod designed for speedrunners. It's not publicly available yet.</response>
 		</responses>
 	</command>
 
@@ -38,6 +40,7 @@
 				<word wholeword="true">bot</word>
 				<word wholeword="true">where</word>
 				<word wholeword="true">when</word>
+				<word>!download</word>
 			</group>
 			<group>
 				<word>link</word>
@@ -52,34 +55,11 @@
 			<group>
 				<word wholeword="true">this</word>
 				<word wholeword="true">mod</word>
+				<word>!download</word>
 			</group>
 		</requiredwords>
 		<responses>
 			<response>The mod is currently in closed beta, it'll be released "when it's finished". DinosaurBytes is only working on it in his free time.</response>
-		</responses>
-	</command>
-
-	<command>
-		<name>Easter Egg Incentive</name>
-		<requiredwords>
-			<group>
-				<word wholeword="true">don't</word>
-				<word wholeword="true">dont</word>
-				<word wholeword="true">didnt</word>
-				<word wholeword="true">didn't</word>
-			</group>
-			<group>
-				<word wholeword="true">blow</word>
-			</group>
-			<group>
-				<word>ryder</word>
-			</group>
-			<group>
-				<word wholeword="true">car</word>
-			</group>
-		</requiredwords>
-		<responses>
-			<response>Josh's ESA route that he is practising intentionally misses some tricks and skips in order to show them off for an Easter Egg incentive.</response>
 		</responses>
 	</command>
 </commands>

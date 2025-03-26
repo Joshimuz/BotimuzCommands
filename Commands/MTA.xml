@@ -43,6 +43,7 @@
 				<word>what</word>
 				<word>which</word>
 				<word>where</word>
+				<word>join</word>
 				<word>name</word>
 				<word>botimuz</word>
 				<word wholeword="true">bot</word>
@@ -53,8 +54,8 @@
 				<word wholeword="true">ip</word>
 			</group>
 		</requiredwords>
-		<responses data0="twitchtitle">
-			<response>[0]</response>
+		<responses>
+			<response>Use the MTA server address: mta.joshimuz.com</response>
 		</responses>
 		<cooldown>5</cooldown>
 	</command>

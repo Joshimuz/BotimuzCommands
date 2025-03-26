@@ -228,4 +228,49 @@
 			<response>It's a solar eclipse! Very rare! Kappa</response>
 		</responses>
 	</command>
+	<command>
+		<name>Running Dog X3</name>
+		<maxWords>15</maxWords>
+		<cooldown>5</cooldown>
+		<requiredwords>
+			<group>
+				<word>why</word>
+				<word wholeword="true">y</word>
+				<word>what</word>
+				<word>wtf</word>
+				<word>botimuz</word>
+				<word wholeword="true">bot</word>
+			</group>
+			<group>
+				<word>running dog</word>
+				<word>early bloodbowl</word>
+				<word>early katie</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response>Josh is currently testing a new strat by 3G2J, using Bloodbowl to 3X Instapass Running Dog. This skips every Big Smoke mission and allows you to date katie early, it's unclear yet if this is faster.</response>
+		</responses>
+	</command>
+	<command>
+		<name>Boxxy</name>
+		<maxWords>15</maxWords>
+		<cooldown>5</cooldown>
+		<requiredwords>
+			<group>
+				<word>why</word>
+				<word wholeword="true">y</word>
+				<word>what</word>
+				<word>wtf</word>
+				<word>botimuz</word>
+				<word>why</word>
+				<word wholeword="true">bot</word>
+			</group>
+			<group>
+				<word>box</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response>Monster 8× leaves behind 7 copies of its highscore boxes on the screen on top of each other for the remainder of the run. Josh can remove the box and prevent the crash it can cause, but the strat for it is slow.</response>
+		</responses>
+	</command>
 </commands>
