@@ -738,7 +738,7 @@
 		</responses>
 	</command> -->
 
-<!-- 	<command>
+ 	<command>
 		<name>UKSG when</name>
 		<maxWords>15</maxWords>
 		<requiredwords>
@@ -765,9 +765,9 @@
 			</group>
 		</unwantedwords>
 		<responses>
-			<response>UKSG (United Kingdom Speedrunner Gathering) takes place Oct 12th-13th in Glasgow, Scotland. Josh will be running SA Tightened'reas Badlands + San Fierro. See the schedule at https://oengus.io/marathon/uksgblue24/schedule/schedule and watch at https://www.twitch.tv/UKSG_Marathon</response>
+			<response>UKSG (United Kingdom Speedrunner Gathering) takes place May 22nd-25th in Glasgow, Scotland. Josh will be running SA Tightened'Reas Las Venturas. See the schedule at https://oengus.io/marathon/uksggrn25/schedule/stream and watch at https://www.twitch.tv/UKSG_Marathon</response>
 		</responses>
-	</command> -->
+	</command>
 
 	<command>
 		<name>GTU when</name>
