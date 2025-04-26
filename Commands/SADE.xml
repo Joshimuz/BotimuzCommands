@@ -48,4 +48,40 @@
 			<response>Here are all the patch notes https://gta.fandom.com/wiki/Grand_Theft_Auto:_The_Trilogy_-_The_Definitive_Edition/Title_Update_Notes</response>
 		</responses>
 	</command>
+    <command>
+		<name>AJS + Vending Machine</name>
+		<requiredwords>
+			<group>
+				<word>what</word>
+				<word wholeword="true">bot</word>
+				<word>where</word>
+                <word>how</word>
+                <word>why</word>
+				<word>mean</word>
+				<word>botimuz</word>
+				<word>translate</word>
+			</group>
+			<group>
+				<word>ajs</word>
+				<word>asj</word>
+				<word>jump in script</word>
+				<word>any%</word>
+                <word>vending</word>
+                <word>machine</word>
+			</group>
+		</requiredwords>
+		<unwantedwords>
+			<group>
+				<word>like</word>
+				<word>prefer</word>
+				<word wholeword="true">wr</word>
+				<word>world</word>
+				<word>record</word>
+				<word>cc</word>
+			</group>
+		</unwantedwords>
+		<responses>
+			<response>AJS means Arbitrary Jump in Script. Josh will get to the end of the game after Ryder by cancelling Vigilante at a specific time and has to avoid Vending Machine to not reset this value. For a full overview of the strat, watch the VOD where Josh learned the route: https://www.twitch.tv/videos/2443011358?t=00h41m29s</response>
+		</responses>
+	</command>
 </commands>
