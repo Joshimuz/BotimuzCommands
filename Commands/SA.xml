@@ -282,6 +282,9 @@
 				<word>jump in script</word>
 				<word>any%</word>
 			</group>
+			<group>
+				<word>no</word>
+			</group>
 		</requiredwords>
 		<unwantedwords>
 			<group>
