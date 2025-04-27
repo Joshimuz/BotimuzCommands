@@ -81,7 +81,7 @@
 			</group>
 		</unwantedwords>
 		<responses>
-			<response>AJS means Arbitrary Jump in Script. Josh will get to the end of the game after Ryder by cancelling Vigilante at a specific time and has to avoid Vending Machine to not reset this value. For a full overview of the strat, watch the VOD where Josh learned the route: https://www.twitch.tv/videos/2443011358?t=00h41m29s</response>
+			<response>AJS means "Arbitrary Jump in Script". Josh will jump to the end of the game after mission Ryder by cancelling Vigilante at a specific time (in milliseconds) to set a value and has to avoid Vending Machines to not reset it. For a full overview of the strat, watch this VOD: twitch.tv/videos/2443011358?t=00h41m29s</response>
 		</responses>
 	</command>
 </commands>
