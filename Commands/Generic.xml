@@ -421,7 +421,7 @@
 			</group>
 		</requiredwords>
 		<responses>
-			<response usename="false" data0="weather" string0="Bournemouth, GB">[0]</response>
+			<response usename="false" data0="weather" string0="New Forest, GB">[0]</response>
 		</responses>
 		<cooldown>900</cooldown>
 	</command>
