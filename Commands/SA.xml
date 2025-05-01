@@ -265,13 +265,16 @@
 			<response>NMG (No Major Glitches) is a version of Any% that forbids OnMission flag manipulation (Duping, 0 Star) and any other "big" glitches that get found in the future</response>
 		</responses>
 	</command>
-	<command>
-		<name>No AJS</name>
+    <command>
+		<name>AJS + Vending Machine</name>
+		<maxWords>15</maxWords>
 		<requiredwords>
 			<group>
 				<word>what</word>
 				<word wholeword="true">bot</word>
 				<word>where</word>
+                <word>how</word>
+                <word>why</word>
 				<word>mean</word>
 				<word>botimuz</word>
 				<word>translate</word>
@@ -281,9 +284,8 @@
 				<word>asj</word>
 				<word>jump in script</word>
 				<word>any%</word>
-			</group>
-			<group>
-				<word>no</word>
+                <word>vending</word>
+                <word>machine</word>
 			</group>
 		</requiredwords>
 		<unwantedwords>
@@ -297,7 +299,7 @@
 			</group>
 		</unwantedwords>
 		<responses>
-			<response>No AJS (No Arbitrary Jump in Script) is the old name for the new Any% category. It changed name back because the Remastered versions and Original versions of the 3D Era GTA games got split on the speedrun leaderboards, so we don't need the name anymore.</response>
+			<response>AJS means "Arbitrary Jump in Script". Josh can jump to the end of the game after the mission Ryder by cancelling Vigilante at a specific time (in milliseconds) to set a value and has to avoid Vending Machines to not reset it. For a full overview of the strat, watch this VOD: twitch.tv/videos/2443011358?t=00h41m29s</response>
 		</responses>
 	</command>
 	<command>
