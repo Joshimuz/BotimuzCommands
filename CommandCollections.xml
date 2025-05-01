@@ -302,16 +302,11 @@
   </commandcollection>
 
   <commandcollection>
-    <name>SA DE Any%</name>
+    <name>SA DE AJS</name>
     <channelname>Joshimuz</channelname>
     <requiredtitlewords>
       <group>
-        <word>DE</word>
-        <word>definitive</word>
-      </group>
-      <group>
         <word>any%</word>
-        <word>no major glitches</word>
         <word>AJS</word>
       </group>
     </requiredtitlewords>
@@ -320,8 +315,29 @@
       <name>Generic</name>
       <name>Online</name>
       <name>GTA</name>
-      <name>SADE</name>
       <name>SA</name>
+      <name>SADE</name>
+    </commandlists>
+    <speedruncategory>Any%</speedruncategory>
+    <streamstatus>online</streamstatus>
+  </commandcollection>
+
+  <commandcollection>
+    <name>SA DE NMG</name>
+    <channelname>Joshimuz</channelname>
+    <requiredtitlewords>
+      <group>
+        <word>nmg%</word>
+        <word>No Major Glitches</word>
+      </group>
+    </requiredtitlewords>
+    <gamename>Grand Theft Auto: San Andreas - The Definitive Edition</gamename>
+    <commandlists>
+      <name>Generic</name>
+      <name>Online</name>
+      <name>GTA</name>
+      <name>SA</name>
+      <name>SADE</name>
       <name>SANMG</name>
     </commandlists>
     <speedruncategory>Any%</speedruncategory>
