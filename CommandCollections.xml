@@ -194,6 +194,7 @@
       <name>GTA</name>
       <name>SA</name>
       <name>SAAny</name>
+      <name>SAOM0</name>
     </commandlists>
     <speedruncategory>Any%</speedruncategory>
     <streamstatus>online</streamstatus>
@@ -317,6 +318,8 @@
       <name>GTA</name>
       <name>SA</name>
       <name>SADE</name>
+      <name>SADEAJS</name>
+      <name>SAOM0</name>
     </commandlists>
     <speedruncategory>Any%</speedruncategory>
     <streamstatus>online</streamstatus>

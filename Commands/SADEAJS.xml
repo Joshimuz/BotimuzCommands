@@ -1,0 +1,34 @@
+<commands version="1">
+    <command>
+		<name>Black Sky</name>
+		<maxWords>15</maxWords>
+		<cooldown>5</cooldown>
+		<requiredwords>
+			<group>
+				<word>why</word>
+				<word wholeword="true">y</word>
+				<word>what</word>
+				<word>wtf</word>
+				<word>botimuz</word>
+				<word wholeword="true">bot</word>
+			</group>
+			<group>
+				<word>sky</word>
+				<word>skies</word>
+                <word>world</word>
+                <word>game</word>
+			</group>
+			<group>
+				<word>black</word>
+				<word>dark</word>
+				<word>weird</word>
+				<word>up with</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response weighting="57">CJ is in the interior world because Josh glitched out of the atrium. This despawns an unavoidable vending machine near the Barber Shop, which would reset the value Josh set up for AJS.</response>
+			<response weighting="2">Because it's night Kappa</response>
+			<response>It's a solar eclipse! Very rare! Kappa</response>
+		</responses>
+	</command>
+</commands>
