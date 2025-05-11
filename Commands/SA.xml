@@ -275,9 +275,11 @@
 				<word>where</word>
                 <word>how</word>
                 <word>why</word>
+				<word>tf is</word>
 				<word>mean</word>
 				<word>botimuz</word>
 				<word>translate</word>
+				<word>!ajs</word>
 			</group>
 			<group>
 				<word>ajs</word>
@@ -299,7 +301,7 @@
 			</group>
 		</unwantedwords>
 		<responses>
-			<response>AJS means "Arbitrary Jump in Script". Josh can jump to the end of the game after the mission Ryder by cancelling Vigilante at a specific time (in milliseconds) to set a value and has to avoid Vending Machines to not reset it. For a full overview of the strat, watch this VOD: twitch.tv/videos/2443011358?t=00h41m29s</response>
+			<response>AJS means "Arbitrary Jump in Script". Josh can jump to the end of the game after the mission Ryder by cancelling Vigilante at a specific time (in milliseconds) to set a value and has to avoid Vending Machines to not reset it. For a full overview of the strat, watch this video: youtu.be/lImDRu_BtaI</response>
 		</responses>
 	</command>
 	<command>
