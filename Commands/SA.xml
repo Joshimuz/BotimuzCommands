@@ -298,6 +298,7 @@
 				<word>world</word>
 				<word>record</word>
 				<word>cc</word>
+				<word wholeword="true">see</word>
 			</group>
 		</unwantedwords>
 		<responses>
