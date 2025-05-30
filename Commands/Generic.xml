@@ -119,6 +119,10 @@
 				<word>quit</word>
 				<word wholeword="true">bot</word>
 				<word>botimuz</word>
+				<word>discontinue</word>
+				<word>stop</word>
+				<word>what</word>
+				<word>why</word>
 			</group>
 		</requiredwords>
 		<responses>
@@ -144,6 +148,10 @@
 				<word>quit</word>
 				<word wholeword="true">bot</word>
 				<word>botimuz</word>
+				<word>discontinue</word>
+				<word>stop</word>
+				<word>what</word>
+				<word>why</word>
 			</group>
 		</requiredwords>
 		<unwantedWords>
