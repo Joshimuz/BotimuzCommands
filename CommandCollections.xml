@@ -438,6 +438,25 @@
   </commandcollection>
 
   <commandcollection>
+    <name>GTA IV</name>
+    <channelname>Joshimuz</channelname>
+    <requiredtitlewords>
+      <group>
+        <word>most wanted</word>
+      </group>
+    </requiredtitlewords>
+    <gamename>Grand Theft Auto IV</gamename>
+    <commandlists>
+      <name>Generic</name>
+      <name>Online</name>
+      <name>GTA</name>
+      <name>GTA IV</name>
+    </commandlists>
+    <speedruncategory>Most Wanted</speedruncategory>
+    <streamstatus>online</streamstatus>
+  </commandcollection>
+
+  <commandcollection>
     <name>24h iRacing</name>
     <channelname>Joshimuz</channelname>
     <gamename>iRacing</gamename>
