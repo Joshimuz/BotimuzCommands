@@ -84,4 +84,49 @@
 			<response>After the 10th Wanted target, Josh has to go onto islands he hasn't unlocked yet, which gives him a permanent 6 stars.</response>
 		</responses>
 	</command>
+	<command>
+		<name>What mods</name>
+		<maxWords>15</maxWords>
+		<requiredwords>
+			<group>
+				<word>why</word>
+				<word>what</word>
+				<word>do you</word>
+				<word>you use</word>
+				<word>he use</word>
+				<word>he have</word>
+				<word>he use</word>
+				<word>botimuz</word>
+				<word wholeword="true">bot</word>
+			</group>
+			<group>
+				<word>mods</word>
+				<word>fusion</word>
+				<word>dxvk</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response>Josh is playing unmodded GTA IV, as is required for speedruns.</response>
+		</responses>
+	</command>
+	<command>
+		<name>What Most Wanted</name>
+		<maxWords>15</maxWords>
+		<requiredwords>
+			<group>
+				<word>why</word>
+				<word>what</word>
+				<word>botimuz</word>
+				<word wholeword="true">bot</word>
+			</group>
+			<group>
+				<word>this run</word>
+				<word>most wanted</word>
+				<word>category</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response>Josh is doing GTA IV Most Wanted speedruns, which means killing 30 targets around Liberty City, including the parts he hasn't unlocked yet. He's practicing for a Tournament which you can join! https://www.speedrun.com/gtaiv/news</response>
+		</responses>
+	</command>
 </commands>
