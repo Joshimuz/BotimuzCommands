@@ -111,11 +111,12 @@
 	</command>
 	<command>
 		<name>What Most Wanted</name>
-		<maxWords>15</maxWords>
+		<maxWords>20</maxWords>
 		<requiredwords>
 			<group>
 				<word>why</word>
 				<word>what</word>
+				<word>explain</word>
 				<word>botimuz</word>
 				<word wholeword="true">bot</word>
 			</group>
@@ -123,10 +124,39 @@
 				<word>this run</word>
 				<word>most wanted</word>
 				<word>category</word>
+				<word>goal</word>
 			</group>
 		</requiredwords>
 		<responses>
 			<response>Josh is doing GTA IV Most Wanted speedruns, which means killing 30 targets around Liberty City, including the parts he hasn't unlocked yet. He's practicing for a Tournament which you can join! https://www.speedrun.com/gtaiv/news</response>
+		</responses>
+	</command>
+	<command>
+		<name>How Find Targets</name>
+		<maxWords>20</maxWords>
+		<requiredwords>
+			<group>
+				<word>why</word>
+				<word>what</word>
+				<word>how</word>
+				<word>did</word>
+				<word>botimuz</word>
+				<word wholeword="true">bot</word>
+			</group>
+			<group>
+				<word>find</word>
+				<word>know</word>
+				<word>get</word>
+				<word>learn</word>
+			</group>
+			<group>
+				<word>name</word>
+				<word>target</word>
+				<word>criminal</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response>The way you're supposed to find the targets is through the "Most Wanted" sub menu in the police computer, however you need to do missions to unlock that so speedruns just type the names of the targets in instead.</response>
 		</responses>
 	</command>
 </commands>
