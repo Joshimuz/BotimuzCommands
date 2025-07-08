@@ -22,7 +22,7 @@
 			</group>
 		</requiredwords>
 		<responses forward="false" usename="false" data0="chattername">
-			<response>Hey @[0]! Josh is offline, check out his Schedule on Discord to find out when the next stream is: https://www.discord.gg/Joshimuz</response>
+			<response>Hey @[0]! Josh is offline, check out his Schedule to find out when the next stream is: https://joshimuz.com/schedule</response>
 		</responses>
 		<cooldown>1800</cooldown>
 		<nonmodonly>true</nonmodonly>
