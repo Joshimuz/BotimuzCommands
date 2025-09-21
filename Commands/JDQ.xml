@@ -31,7 +31,7 @@
 			</group>
 		</unwantedwords>
 		<responses>
-			<response>joshDoneQuick Josh Done Quick is a five day solo marathon run by Josh! Schedule and details: https://horaro.org/jdq/six joshDoneQuick</response>
+			<response>joshDoneQuick Josh Done Quick is a six day solo marathon run by Josh! Schedule and details: https://horaro.org/jdq/xxv joshDoneQuick</response>
 		</responses>
 	</command>
 
@@ -51,7 +51,7 @@
 			</group>
 		</requiredwords>
 		<responses>
-			<response>Donate at least £10 in one go to be entered to win a pack of Joshimuz stickers! Details: https://horaro.org/jdq/six</response>
+			<response>Donate at least £10 in one go to be entered to win a pack of Joshimuz stickers! Details: https://horaro.org/jdq/xxv</response>
 		</responses>
 	</command>
 
@@ -72,16 +72,16 @@
 			</group>
 		</requiredwords>
 		<responses>
-			<response>Donate with either #Random or #ChatVoted in your message to put your money towards the final run bidwar! Details: https://horaro.org/jdq/six</response>
+			<response>Donate with either #Random or #Chat in your message to put your money towards the final run bidwar! Details: https://horaro.org/jdq/xxv</response>
 		</responses>
 	</command>
 
 	<command>
 		<name>Timed JDQ Spam</name>
 		<responses usename="false">
-			<response weighting="2">joshDoneQuick Josh Done Quick is a five day solo marathon run by Josh! Schedule and details: https://horaro.org/jdq/six joshDoneQuick</response>
-			<response>Donate at least £10 in one go to be entered to win a pack of Joshimuz stickers! Details: https://horaro.org/jdq/six</response>
-			<response>Donate with either #Random or #ChatVoted in your message to put your money towards the final run bidwar! Details: https://horaro.org/jdq/six</response>
+			<response weighting="2">joshDoneQuick Josh Done Quick is a six day solo marathon run by Josh! Schedule and details: https://horaro.org/jdq/xxv joshDoneQuick</response>
+			<response>Donate at least £10 in one go to be entered to win a pack of Joshimuz stickers! Details: https://horaro.org/jdq/xxv</response>
+			<response>Donate with either #Random or #Chat in your message to put your money towards the final run bidwar! Details: https://horaro.org/jdq/xxv</response>
 		</responses>
 		<dataTrigger type="timer">600-720</dataTrigger>
 	</command>
