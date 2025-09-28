@@ -77,6 +77,42 @@
 	</command>
 
 	<command>
+		<name>Donate</name>
+		<maxWords>15</maxWords>
+		<requiredwords>
+			<group>
+				<word wholeword="true">bot</word>
+				<word>botimuz</word>
+				<word>what</word>
+				<word>where</word>
+				<word>how</word>
+				<word>link</word>
+				<word>give</word>
+				<word>!donate</word>
+			</group>
+			<group>
+				<word>donate</word>
+				<word>donation</word>
+				<word>!donate</word>
+			</group>
+		</requiredwords>
+		<unwantedwords>
+			<group>
+				<word>watch</word>
+				<word>saw</word>
+				<word>version</word>
+				<word>wants</word>
+				<word>played</word>
+				<word>playing</word>
+				<word wholeword="true">esa</word>
+			</group>
+		</unwantedwords>
+		<responses>
+			<response>joshDoneQuick You can donate at https://donate.joshimuz.com to win many different prizes! You can also include #Random or #Chat to influence the Chaos Mod Bidwar. joshDoneQuick</response>
+		</responses>
+	</command>
+
+	<command>
 		<name>Timed JDQ Spam</name>
 		<responses usename="false">
 			<response weighting="2">joshDoneQuick Josh Done Quick is a six day solo marathon run by Josh! Schedule and details: https://horaro.org/jdq/xxv joshDoneQuick</response>
