@@ -526,110 +526,6 @@
 		</responses>
 	</command> -->
 
-	<!--<command>
-		<name>JDQ schedule</name>
-		<maxWords>15</maxWords>
-		<requiredwords>
-			<group>
-				<word wholeword="true" startsWith="true">!schedule</word>
-				<word wholeword="true" startsWith="true">!jdq</word>
-				<word wholeword="true">bot</word>
-				<word>botimuz</word>
-				<word>link</word>
-				<word>URL</word>
-			</group>
-			<group>
-				<word>schedule</word>
-				<word>pastebin</word>
-				<word>joshdonequick</word>
-				<word>josh done quick</word>
-				<word wholeword="true">jdq</word>
-			</group>
-		</requiredwords>
-		<unwantedwords>
-			<group>
-				<word>watch</word>
-				<word>saw</word>
-				<word>version</word>
-				<word>wants</word>
-				<word>played</word>
-				<word>playing</word>
-				<word wholeword="true">esa</word>
-			</group>
-		</unwantedwords>
-		<dataTrigger type="timer">1000-3000</dataTrigger>
-		<responses>
-			<response>Josh Done Quick is a five day solo marathon run by Josh! You can view the schedule and more details here: https://horaro.org/jdq/23</response>
-		</responses>
-	</command>-->
-
-	<!--
-
-	<command>
-		<name>JDQ 22 goals</name>
-		<maxWords>15</maxWords>
-		<requiredwords>
-			<group>
-				<word wholeword="true">bot</word>
-				<word>botimuz</word>
-				<word>where</word>
-				<word>what</word>
-				<word>are there</word>
-				<word>do you</word>
-			</group>
-			<group>
-				<word>donation</word>
-				<word>dono</word>
-			</group>
-			<group>
-				<word>goal</word>
-			</group>
-		</requiredwords>
-		<dataTrigger type="timer">450-900</dataTrigger>
-		<responses>
-			<response>The category for the final day's CHAOS run is determined by the donation total at the end of the 4th day. You can find the list of milestones here: https://horaro.org/jdq/22</response>
-		</responses>
-	</command>
-
-	<command>
-		<name>JDQ 22 sub goals</name>
-		<maxWords>15</maxWords>
-		<requiredwords>
-			<group>
-				<word wholeword="true">bot</word>
-				<word>botimuz</word>
-				<word>sub</word>
-			</group>
-			<group>
-				<word>goal</word>
-			</group>
-		</requiredwords>
-		<dataTrigger type="timer">450-900</dataTrigger>
-		<responses>
-			<response>For every 250 subs over 500, Josh will do add an hour to a DYOM Randomiser with Chaos Mod run that will be done sometime after JDQ.</response>
-		</responses>
-	</command>
-
-	<command>
-		<name>donate where</name>
-		<maxWords>14</maxWords>
-		<requiredwords>
-			<group>
-				<word wholeWord="true">bot</word>
-				<word>botimuz</word>
-				<word>where</word>
-				<word>link</word>
-				<word wholeWord="true" startsWith="true">!donate</word>
-			</group>
-			<group>
-				<word>donate</word>
-			</group>
-		</requiredwords>
-		<responses>
-			<response>Should you want to donate to Josh: https://donate.joshimuz.com</response>
-		</responses>
-	</command>-->
-
 	<command>
 		<name>Meaning of life</name>
 		<maxWords>10</maxWords>
@@ -650,7 +546,7 @@
 		</responses>
 	</command>
 	
-	<command>
+<!-- 	<command>
 		<name>BSG when</name>
 		<maxWords>15</maxWords>
 		<requiredwords>
@@ -679,9 +575,9 @@
 		<responses>
 			<response>BSG (Benelux Speedrunner Gathering) Plus takes place 22nd Feb – 1st March. There will be two San Andreas runs, one by THE Joshimuz (PC Any%) and one by Halogen (Switch DE Any%). Josh will also play some Super Secret Game… See the schedule at https://bsgmarathon.com/schedule and watch at https://twitch.tv/bsg_marathon</response>
 		</responses>
-	</command>
+	</command> -->
 
-	<command>
+<!-- 	<command>
 		<name>ESA when</name>
 		<maxWords>15</maxWords>
 		<requiredwords>
@@ -711,7 +607,7 @@
 			<response>💀</response>
 			<!--<response>ESA (European Speedrunner Assembly) Summer 24 takes place July 20th-27th. Josh will be running SA NMG on PS2 and possibly Tightened'reas Badlands + SF. See the schedule at https://esamarathon.com/schedule and watch at https://www.twitch.tv/ESAMarathon</response>-->
 		</responses>
-	</command>
+	</command> -->
 
 	<!-- <command>
 		<name>NSG when</name>
@@ -746,7 +642,7 @@
 		</responses>
 	</command> -->
 
- 	<command>
+<!--  	<command>
 		<name>UKSG when</name>
 		<maxWords>15</maxWords>
 		<requiredwords>
@@ -775,9 +671,9 @@
 		<responses>
 			<response>UKSG (United Kingdom Speedrunner Gathering) takes place May 22nd-25th in Glasgow, Scotland. Josh will be running SA Tightened'Reas Las Venturas. See the schedule at https://oengus.io/marathon/uksggrn25/schedule/stream and watch at https://www.twitch.tv/UKSG_Marathon</response>
 		</responses>
-	</command>
+	</command> -->
 
-	<command>
+<!-- 	<command>
 		<name>GTU when</name>
 		<maxWords>15</maxWords>
 		<requiredwords>
@@ -807,7 +703,7 @@
 		<responses>
 			<response>Gaming Tuesday United is a weird name for some mini GTA Marathon that English Ben runs sometimes. Schedule: https://oengus.io/marathon/gtu2024/schedule/main Watch: https://www.twitch.tv/English_ben</response>
 		</responses>
-	</command>
+	</command> -->
 
 	<command>
 		<name>GTAM when</name>
@@ -840,7 +736,8 @@
 			</group>
 		</unwantedwords>
 		<responses>
-			<response>GTAMarathon is the GTA speedrunning community's yearly speedrun marathon taking place April 7th-11th. Josh will be in doing runs and tech. More details here: https://gtamarathon.com/</response>
+			<!-- <response>GTAMarathon is the GTA speedrunning community's yearly speedrun marathon taking place April 7th-11th. Josh will be in doing runs and tech. More details here: https://gtamarathon.com/</response> -->
+			<response>GTAMarathon is the GTA speedrunning community's yearly speedrun marathon which takes place April every year. https://gtamarathon.com/</response>
 		</responses>
 	</command>
 
@@ -1208,24 +1105,6 @@
 	</command>
 
 	<command>
-		<name>Channel Points</name>
-		<requiredwords>
-			<group>
-				<word wholeword="true">bot</word>
-				<word>why</word>
-				<word>what</word>
-				<word>how</word>
-			</group>
-			<group>
-				<word>channel points</word>
-			</group>
-		</requiredwords>
-		<responses>
-			<response>Josh is testing out Channel Points! You can earn joshDosh by watching the channel, cheering or gifting a sub. Rewards are subject to change and will likely be more expensive in the future.</response>
-		</responses>
-	</command>
-
-	<command>
 		<name>Predicting</name>
 		<requiredwords>
 			<group>
@@ -1250,6 +1129,24 @@
 		</responses>
 	</command>
 
-	
-
+	<command>
+		<name>Win 7 PC</name>
+		<requiredwords>
+			<group>
+				<word wholeword="true">bot</word>
+				<word>why</word>
+				<word>what</word>
+			</group>
+			<group>
+				<word>win</word>
+			</group>
+			<group>
+				<word>7</word>
+				<word>seven</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response>Josh has a purpose built Win7 mini-ITX PC for speedrunning GTA:SA. SA is starting to break on Win11, Win7 runs SA the best. Mini-ITX so he can take it to events. Full specs here: https://uk.pcpartpicker.com/list/ZznWHW</response>
+		</responses>
+	</command>
 </commands>
