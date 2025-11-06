@@ -327,7 +327,7 @@
 				<word>sleep</word>
 			</group>
 		</unwantedWords>
-		<responses data0="randomNumber" range0="5000-19999">
+		<responses data0="randomNumber" range0="9999-19999">
 			<response>Josh has played GTA:SA for [0] hours.</response>
 		</responses>
 	</command>
@@ -479,6 +479,32 @@
 				<response>joshRomek Welcome to my humble shop joshRomek</response>
 				<response>joshRomek Welcome, sir, welcome joshRomek</response>
 				<response>joshRomek Hello~ joshRomek</response>
+		</responses>
+	</command>
+	<command>
+		<name>Grove Teleport</name>
+		<maxWords>15</maxWords>
+		<requiredwords>
+			<group>
+				<word>what</word>
+				<word>why</word>
+				<word wholeword="true">y</word>
+				<word wholeword="true">bot</word>
+				<word>wtf</word>
+				<word>botimuz</word>
+			</group>
+			<group>
+				<word>teleport</word>
+				<word>start</word>
+			</group>
+			<group>
+				<word>grove</word>
+				<word>home</word>
+				<word>elephant</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response>Josh is doing new-ish strat to teleport to Grove Street at the beginning of the game: https://www.youtube.com/watch?v=Q98EfGz1ulo</response>
 		</responses>
 	</command>
 </commands>
