@@ -1169,7 +1169,7 @@
 			</group>
 		</requiredwords>
 		<responses>
-			<response>Yesterday after a registry edit the game ran perfectly until Monster 8X when eating food (from shop/vending machine) would crash the game??? After a restart this stopped happening, so more testing required.</response>
+			<response>Yesterday after a registry edit the game ran perfectly until Monster 8X when eating food (from shop/vending machine) would crash the game??? After a PC restart this stopped happening, so more testing required.</response>
 		</responses>
 	</command>
 </commands>
