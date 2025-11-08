@@ -1131,6 +1131,7 @@
 
 	<command>
 		<name>Win 7 PC</name>
+		<cooldown>0</cooldown>
 		<requiredwords>
 			<group>
 				<word wholeword="true">bot</word>
@@ -1152,6 +1153,7 @@
 
 	<command>
 		<name>How Win 7 Going</name>
+		<cooldown>0</cooldown>
 		<requiredwords>
 			<group>
 				<word wholeword="true">bot</word>
