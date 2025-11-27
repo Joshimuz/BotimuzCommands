@@ -1151,27 +1151,4 @@
 		</responses>
 	</command>
 
-	<command>
-		<name>How Win 7 Going</name>
-		<cooldown>0</cooldown>
-		<requiredwords>
-			<group>
-				<word wholeword="true">bot</word>
-				<word>how</word>
-				<word>work</word>
-				<word>problem</word>
-				<word>so far</word>
-			</group>
-			<group>
-				<word>win</word>
-			</group>
-			<group>
-				<word>7</word>
-				<word>seven</word>
-			</group>
-		</requiredwords>
-		<responses>
-			<response>Yesterday after a registry edit the game ran perfectly until Monster 8X when eating food (from shop/vending machine) would crash the game??? After a PC restart this stopped happening, so more testing required.</response>
-		</responses>
-	</command>
 </commands>
