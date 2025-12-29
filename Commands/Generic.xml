@@ -928,6 +928,26 @@
 	</command>
 
 	<command>
+		<name>!Donate</name>
+		<requiredwords>
+			<group>
+				<word wholeword="true">bot</word>
+                <word>where</word>
+                <word wholeWord="true">what</word>
+				<word>link</word>
+				<word startsWith="true">!donate</word>
+			</group>
+			<group>
+				<word>donate</word>
+				<word>donation</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response>joshDosh You can donate to Josh through https://donate.joshimuz.com (minimum of £2.3 for TTS) joshDosh</response>
+		</responses>
+	</command>
+
+	<command>
 		<name>Why tilt</name>
 		<requiredwords>
 			<group>
