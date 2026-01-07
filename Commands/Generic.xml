@@ -417,6 +417,34 @@
 	</command>
 
 	<command>
+		<name>Vertical size</name>
+		<requiredwords>
+			<group>
+				<word wholeword="true">how</word>
+				<word wholeword="true">bot</word>
+			</group>
+			<group>
+				<word wholeword="true">tall</word>
+			</group>
+			<group>
+				<word>you</word>
+				<word>is josh</word>
+			</group>
+		</requiredwords>
+		<unwantedwords>
+			<group>
+				<word>building</word>
+				<word>house</word>
+				<word>door</word>
+				<word>window</word>
+			</group>
+		</unwantedwords>
+		<responses>
+			<response>Josh is 1.95 meters tall (6′5″ in imperial units).</response>
+		</responses>
+	</command>
+
+	<command>
 		<name>How's the weather</name>
 		<requiredwords>
 			<group>
