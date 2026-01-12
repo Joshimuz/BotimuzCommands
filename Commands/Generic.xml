@@ -577,7 +577,7 @@
 		</responses>
 	</command>
 	
-<!-- 	<command>
+ 	<command>
 		<name>BSG when</name>
 		<maxWords>15</maxWords>
 		<requiredwords>
@@ -604,9 +604,9 @@
 			</group>
 		</unwantedwords>
 		<responses>
-			<response>BSG (Benelux Speedrunner Gathering) Plus takes place 22nd Feb – 1st March. There will be two San Andreas runs, one by THE Joshimuz (PC Any%) and one by Halogen (Switch DE Any%). Josh will also play some Super Secret Game… See the schedule at https://bsgmarathon.com/schedule and watch at https://twitch.tv/bsg_marathon</response>
+			<response>BSG (Benelux Speedrunner Gathering) Plus takes place 18 - 24 January. Josh will be running GTA:SA 69/70 Stunt Jumps. See the schedule at https://bsgmarathon.com/schedule and watch at https://twitch.tv/bsg_marathon</response>
 		</responses>
-	</command> -->
+	</command>
 
 <!-- 	<command>
 		<name>ESA when</name>
