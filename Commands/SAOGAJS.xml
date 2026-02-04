@@ -1,0 +1,150 @@
+<commands version="1">
+    <command>
+		<name>AJS + Vending Machine</name>
+		<maxWords>15</maxWords>
+		<requiredwords>
+			<group>
+				<word wholeword="true">bot</word>
+				<word>botimuz</word>
+				<word>what</word>
+				<word>where</word>
+                <word>how</word>
+                <word>why</word>
+				<word>tf is</word>
+				<word>mean</word>
+				<word>translate</word>
+				<word>!ajs</word>
+			</group>
+			<group>
+				<word>ajs</word>
+				<word>asj</word>
+				<word>jump in script</word>
+				<word>any%</word>
+			</group>
+		</requiredwords>
+		<unwantedwords>
+			<group>
+				<word>like</word>
+				<word>prefer</word>
+				<word wholeword="true">wr</word>
+				<word>world</word>
+				<word>record</word>
+				<word>cc</word>
+				<word wholeword="true">see</word>
+			</group>
+		</unwantedwords>
+		<responses>
+			<response>AJS means "Arbitrary Jump in Script". This glitch allows you to skip the entire game by jumping straight to End of The Line 3. The glitch has existed for a long time in Remastered and DE, and is now finally possible in the original game! You can watch the full explanation with Josh learning it here: https://youtu.be/qHMY6SSHsUE</response>
+		</responses>
+	</command>
+    <command>
+		<name>Why does CJ stumble?</name>
+		<maxWords>15</maxWords>
+		<requiredwords>
+			<group>
+				<word wholeword="true">bot</word>
+				<word>botimuz</word>
+				<word>what</word>
+				<word>where</word>
+                <word>how</word>
+                <word>wtf</word>
+                <word>why</word>
+				<word>tf is</word>
+				<word>mean</word>
+			</group>
+			<group>
+				<word>cj</word>
+				<word>carl</word>
+				<word>character</word>
+			</group>
+			<group>
+				<word>stumble</word>
+				<word>fall</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response>CJ stumbles occasionally because Josh has perfomed "GOTO 0", which means he restarted the entire game within the game, cloning CJ and many other side effects. When the other CJ is in an unloaded part of the world, he will fall, causing the controlled CJ to stumble.</response>
+		</responses>
+	</command>
+    <command>
+		<name>What if clone CJ dies?</name>
+		<maxWords>15</maxWords>
+		<requiredwords>
+			<group>
+				<word wholeword="true">bot</word>
+				<word>botimuz</word>
+				<word>what</word>
+				<word>where</word>
+                <word>how</word>
+                <word>why</word>
+				<word>tf is</word>
+				<word>mean</word>
+			</group>
+			<group>
+				<word>cj</word>
+				<word>carl</word>
+				<word>character</word>
+                <word>clone</word>
+                <word>original</word>
+			</group>
+			<group>
+				<word>die</word>
+				<word>kill</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response>If the original/clone CJ dies, our current CJ will lose the ability to aim.</response>
+		</responses>
+	</command>
+    <command>
+		<name>Wtf how negative money</name>
+		<maxWords>15</maxWords>
+		<requiredwords>
+			<group>
+				<word wholeword="true">bot</word>
+				<word>botimuz</word>
+				<word>what</word>
+				<word>where</word>
+                <word>how</word>
+                <word>why</word>
+                <word>wtf</word>
+				<word>tf is</word>
+				<word>mean</word>
+			</group>
+			<group>
+				<word>cj</word>
+				<word>carl</word>
+				<word>character</word>
+			</group>
+			<group>
+				<word>stumble</word>
+				<word>fall</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response>Josh has negative money because he needs it for infinite wheel betting to set the necessary values. He achieves this by doing INSANE STUNT JUMPs after performing GOTO 0, which causes the calculation to give negative money.</response>
+		</responses>
+	</command>
+    <command>
+		<name>STOP HORSE BETTING</name>
+		<maxWords>15</maxWords>
+		<requiredwords>
+			<group>
+				<word wholeword="true">bot</word>
+				<word>botimuz</word>
+				<word>what</word>
+                <word>tried</word>
+                <word>idea</word>
+                <word>why</word>
+			</group>
+			<group>
+				<word>horse</word>
+				<word>bet</word>
+				<word>dealer</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response>Josh is horse betting to get $10k in order to buy a safehouse later. This is probably the fastest method to obtain that amount of money, killing multiple drug dealers is slow.</response>
+		</responses>
+	</command>
+</commands>

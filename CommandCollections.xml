@@ -174,6 +174,32 @@
   </commandcollection>
 
   <commandcollection>
+    <name>SA Any% AJS</name>
+    <channelname>Joshimuz</channelname>
+    <requiredtitlewords>
+      <group>
+        <word>ajs</word>
+      </group>
+    </requiredtitlewords>
+    <unwantedtitlewords>
+      <group>
+        <word>nmg</word>
+        <word>no major glitches</word>
+      </group>
+    </unwantedtitlewords>
+    <gamename>Grand Theft Auto: San Andreas</gamename>
+    <commandlists>
+      <name>Generic</name>
+      <name>Online</name>
+      <name>GTA</name>
+      <name>SA</name>
+      <name>SAOGAJS</name>
+    </commandlists>
+    <speedruncategory>Any%</speedruncategory>
+    <streamstatus>online</streamstatus>
+  </commandcollection>
+
+  <commandcollection>
     <name>SA Any%</name>
     <channelname>Joshimuz</channelname>
     <requiredtitlewords>
@@ -196,7 +222,7 @@
       <name>SAAny</name>
       <name>SAOM0</name>
     </commandlists>
-    <speedruncategory>Any%</speedruncategory>
+    <speedruncategory>Any% No AJS</speedruncategory>
     <streamstatus>online</streamstatus>
   </commandcollection>
 
