@@ -147,6 +147,11 @@
 				<word>dealer</word>
 			</group>
 		</requiredwords>
+		<unwantedwords>
+			<group>
+				<word>joshHorse</word>
+			</group>
+		</unwantedwords>
 		<responses>
 			<response>Josh is horse betting to get $10k in order to buy a safehouse later. This is probably the fastest method to obtain that amount of money, killing multiple drug dealers is slow.</response>
 		</responses>
