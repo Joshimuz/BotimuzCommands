@@ -577,6 +577,7 @@
 		</responses>
 	</command>
 	
+<!--
  	<command>
 		<name>BSG when</name>
 		<maxWords>15</maxWords>
@@ -607,6 +608,7 @@
 			<response>BSG (Benelux Speedrunner Gathering) Plus takes place 17th–24th January. Josh will be running GTA:SA 69/70 Stunt Jumps and commentating the Minecraft Bingo race. See the schedule at https://bsgmarathon.com/schedule and watch at https://twitch.tv/bsgmarathon</response>
 		</responses>
 	</command>
+-->
 
 <!-- 	<command>
 		<name>ESA when</name>
