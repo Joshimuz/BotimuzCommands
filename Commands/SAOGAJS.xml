@@ -129,6 +129,7 @@
 			<response>Josh has negative money because he needs it for infinite wheel betting to set the necessary values. He achieves this by doing INSANE STUNT JUMPs after performing GOTO 0, which causes the calculation to give negative money.</response>
 		</responses>
 	</command>
+<!--
     <command>
 		<name>STOP HORSE BETTING</name>
 		<maxWords>15</maxWords>
@@ -143,7 +144,8 @@
 			</group>
 			<group>
 				<word>horse</word>
-				<word>bet</word>
+				<word wholeword="true">bet</word>
+				<word>betting</word>
 				<word>dealer</word>
 			</group>
 		</requiredwords>
@@ -156,4 +158,5 @@
 			<response>Josh is horse betting to get $10k in order to buy a safehouse later. This is probably the fastest method to obtain that amount of money, killing multiple drug dealers is slow.</response>
 		</responses>
 	</command>
+-->
 </commands>
