@@ -65,6 +65,25 @@
 	</command> -->
 
 	<command>
+		<name>WoW Promo</name>
+		<maxWords>5</maxWords>
+		<requiredwords>
+			<group>
+				<word wholeword="true">bot</word>
+				<word>botimuz</word>
+				<word startsWith="true">!wow</word>
+			</group>
+			<group>
+				<word wholeword="true">wow</word>
+			</group>
+		</requiredwords>
+		<responses>
+			<response>!wow - Midnight Early Access is now live. Return today! https://gsght.com/c/4bcpg0 #ad</response>
+		</responses>
+		<cooldown>10</cooldown>
+	</command>
+
+	<command>
 		<name>What time</name>
 		<requiredwords>
 			<group>
