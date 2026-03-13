@@ -185,6 +185,7 @@
       <group>
         <word>nmg</word>
         <word>no major glitches</word>
+        <word>no ajs</word>
       </group>
     </unwantedtitlewords>
     <gamename>Grand Theft Auto: San Andreas</gamename>
@@ -200,7 +201,7 @@
   </commandcollection>
 
   <commandcollection>
-    <name>SA Any%</name>
+    <name>SA Any% No AJS</name>
     <channelname>Joshimuz</channelname>
     <requiredtitlewords>
       <group>
