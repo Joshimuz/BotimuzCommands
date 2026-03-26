@@ -386,7 +386,7 @@
 				<word>have time</word>
 			</group>
 		</unwantedwords>
-		<responses data0="RandomTextFileLine" string0="https://raw.githubusercontent.com/Joshimuz/BotimuzCommands/refs/heads/master/Left%20Reasons.txt" data1="RandomTextFileLine" string1="https://raw.githubusercontent.com/Joshimuz/BotimuzCommands/refs/heads/master/SA%20Reset%20Reasons.txt">
+		<responses data0="RandomTextFileLine" string0="https://raw.githubusercontent.com/Joshimuz/BotimuzCommands/refs/heads/master/Left Reasons.txt" data1="RandomTextFileLine" string1="https://raw.githubusercontent.com/Joshimuz/BotimuzCommands/refs/heads/master/SA Reset Reasons.txt">
 			<response>While you [0], Josh reset because [1].</response>
 		</responses>
 	</command>
