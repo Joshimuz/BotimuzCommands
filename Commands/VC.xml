@@ -100,7 +100,7 @@
 		</responses>
 	</command>
 
-	<command>
+	<!--[TEXTFILE_BUG]<command>
 		<name>I left why reset</name>
 		<maxWords>20</maxWords>
 		<requiredWords>
@@ -141,5 +141,5 @@
 		<responses data0="RandomTextFileLine" string0="C:\Users\Joshimuz\Documents\GitHub\BotimuzCommands\Left Reasons.txt" data1="RandomTextFileLine" string1="C:\Users\Joshimuz\Documents\GitHub\BotimuzCommands\VC Reset Reasons.txt">
 			<response>While you [0] Josh reset because [1].</response>
 		</responses>
-	</command>
+	</command>-->
 </commands>
