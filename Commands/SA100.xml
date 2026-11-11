@@ -1,0 +1,34 @@
+<commands version="1">
+	<command>
+        <name>How does export glitch work</name>
+        <cooldown>5</cooldown>
+        <requiredwords>
+            <group>
+                <word>why</word>
+                <word wholeword="true">y</word>
+                <word>what</word>
+                <word>botimuz</word>
+                <word wholeword="true">bot</word>
+                <word>how</word>
+            </group>
+            <group>
+                <word>export</word>
+                <word>import</word>
+                <word>lidl</word>
+
+            </group>
+            <group>
+                <word>work</word>
+                <word>function</word>
+                <word>accomplish</word>
+                <word>glitch</word>
+                <word>botimuz</word>
+                <word wholeword="true">bot</word>
+                <word>done</word>
+            </group>
+        </requiredwords>
+        <responses>
+            <response>When two cars fulfil the export conditions, the one CJ is in is exported, even if not needed. So you can complete all exports by exporting the same car repeatedly. For the full explanation see: https://faq.joshimuz.com/#what-are-lidl-exports</response>
+        </responses>
+    </command>
+</commands>
